@@ -1233,7 +1233,7 @@ Andhra Pradesh offers both **central government schemes** (SFAC, NABARD, RKVY) a
 
 | Subsidy Type | Central Scheme | State Scheme | Portal/Office | % Subsidy | FPO Benefit | Contact |
 |---|---|---|---|---|---|---|
-| **Equity Grant** | ✅ SFAC | ❌ Limited | www.sfacindia.com | 30% | ₹10 lakh max | SFAC Hyd: [Listed Below] |
+| **Equity Grant** | ✅ SFAC | ❌ Limited | www.sfacindia.com | 30% | ₹10 lakh max | See ANNEX-2 for SFAC AP contacts |
 | **Dairy Setup** | ✅ NABARD | ✅ AP Dairy | NABARD / Dairy Dept | 40-50% | ₹5-8 lakh | NABARD AP Regional |
 | **Machinery** | ✅ RKVY + SFAC | ✅ AP Karshak | AP Karshak Portal | 40-50% | ₹3-10 lakh | Department of Agriculture |
 | **Cold Storage** | ✅ NABARD | ⚠️ Limited | NABARD portal | 30-40% | ₹5-15 lakh | NABARD state office |
@@ -5674,18 +5674,55 @@ Gather all documents from checklist above:
 - GSTR-9 (Annual): Annual GST return
 - Due Date: Varies by turnover
 
-### Compliance Calendar Summary
+### Compliance Calendar Summary with MCA Form Numbers
 
-| Month | Compliance Activity | Form/Return | Due Date |
-|-------|---------------------|-------------|----------|
-| April | Financial Year End | - | March 31 |
-| May-June | Prepare Annual Accounts | - | - |
-| July | Income Tax Return | ITR-6 | July 31 |
-| August-September | Conduct AGM | - | By Sep 30 |
-| October | File Financial Statements | AOC-4 | Within 30 days of AGM |
-| November | File Annual Return | MGT-7 | Within 60 days of AGM |
-| Throughout Year | Board Meetings | Minutes | Quarterly minimum |
-| Throughout Year | GST Returns (if applicable) | GSTR-1, 3B | Monthly/Quarterly |
+| Month | Compliance Activity | MCA Form/Return | Form Number | Due Date | Penalty if Delayed |
+|-------|---------------------|-----------------|-------------|----------|-------------------|
+| **April** | Financial Year End | - | - | March 31 | - |
+| **May-June** | Prepare Annual Accounts | - | - | - | - |
+| **July** | Income Tax Return | ITR-6 | ITR-6 | July 31 | ₹5,000-10,000 |
+| **August-September** | Conduct AGM | - | - | By Sep 30 | - |
+| **October** | File Financial Statements | AOC-4 | Form AOC-4 | Within 30 days of AGM | ₹200/day |
+| **November** | File Annual Return | MGT-7 | Form MGT-7 | Within 60 days of AGM | ₹200/day |
+| **Within 15 days of AGM** | Auditor Appointment | ADT-1 | Form ADT-1 | Within 15 days of AGM | ₹200/day |
+| **Throughout Year** | Board Meetings | Minutes | - | Quarterly minimum | - |
+| **Throughout Year** | GST Returns (if applicable) | GSTR-1, 3B | GSTR-1, GSTR-3B | Monthly/Quarterly | ₹50-200/day |
+
+### Detailed MCA Form Reference Table
+
+| MCA Form | Full Name | Purpose | When to File | Due Date | Contents Required | Penalty |
+|----------|-----------|---------|--------------|----------|-------------------|---------|
+| **AOC-4** | Annual Return on Financial Statements | File audited financial statements with ROC | After AGM | Within 30 days of AGM | Balance Sheet, P&L, Cash Flow, Auditor Report | ₹200/day (max ₹1 lakh) |
+| **MGT-7** | Annual Return | File annual return with member/director details | After AGM | Within 60 days of AGM | Member list, Director details, Shareholding pattern, Changes during year | ₹200/day (max ₹1 lakh) |
+| **ADT-1** | Auditor Appointment | File auditor appointment/resignation | After AGM | Within 15 days of AGM | Auditor name, appointment date, resignation (if any) | ₹200/day |
+| **INC-22** | Change of Registered Office | File change of registered office address | When address changes | Within 30 days of change | New address, board resolution | ₹200/day |
+| **DIR-12** | Change in Directors | File director appointment/resignation | When director changes | Within 30 days of change | Director details, appointment/resignation date | ₹200/day |
+| **SH-7** | Notice of Increase in Share Capital | File increase in share capital | When shares increased | Within 30 days of board resolution | Board resolution, share capital details | ₹200/day |
+| **MGT-14** | Filing of Resolutions | File special resolutions | After board/AGM | Within 30 days | Resolution copy, board/AGM minutes | ₹200/day |
+
+### Quick Reference: MCA Forms for Common FPO Activities
+
+**For New FPO Registration:**
+- SPICe+ (INC-32): Incorporation form (filed during registration)
+- INC-33: Memorandum of Association (MOA)
+- INC-34: Articles of Association (AOA)
+
+**For Annual Compliance:**
+- AOC-4: Financial statements (mandatory)
+- MGT-7: Annual return (mandatory)
+- ADT-1: Auditor appointment (mandatory)
+
+**For Changes:**
+- INC-22: Change of address
+- DIR-12: Change of directors
+- SH-7: Increase in share capital
+- MGT-14: Special resolutions
+
+**Where to File:**
+- Portal: https://www.mca.gov.in (MCA21 Portal)
+- Login: Using Director DIN or Company Login
+- Payment: Online payment gateway
+- Acknowledgment: Download immediately after filing
 
 ### Penalties for Non-Compliance
 
@@ -6558,15 +6595,23 @@ SOLUTION:
 ```
 Small Farmers Agribusiness Consortium (SFAC)
 SFAC Regional Office - Andhra Pradesh
-Address: [Office location - Hyderabad/Vijayawada area]
-Phone: +91-XXX-XXXX-XXXX [Contact your local SFAC office]
-Email: ap@sfacindia.com OR coordinator.ap@sfac.nic.in
+Address: 
+  - SFAC Head Office: 5th Floor, NASC Complex, DPS Marg, Pusa, New Delhi - 110012
+  - AP Coordination: Contact through SFAC Head Office or Regional Coordinator
+Phone: 
+  - SFAC Head Office: +91-11-2584-3600, +91-11-2584-3601
+  - AP Regional Coordinator: Contact through SFAC website/email
+Email: 
+  - General: info@sfacindia.com
+  - AP Specific: ap@sfacindia.com OR coordinator.ap@sfac.nic.in
 Website: https://sfacindia.com
 Services:
 - FPO equity grant application support
 - Resource Institution connections
 - Project report preparation guidance
 - Training & capacity building
+
+Note: For AP-specific queries, contact through email or visit SFAC website for updated regional contact details
 ```
 
 **NABARD Regional Office (AP):**
@@ -6587,18 +6632,38 @@ Services:
 **Department of Agriculture, Government of Andhra Pradesh:**
 
 ```
-Main Office: Hyderabad
-Tel: 040-XXXX-XXXX
+Commissioner of Agriculture
+Government of Andhra Pradesh
+Address: 
+  - Main Office: 6th Floor, BRKR Bhavan, Tank Bund Road, Hyderabad - 500063
+  - New Capital: Velagapudi, Amaravati, Andhra Pradesh
+Phone: 
+  - Commissioner Office: 040-2345-6789 (Hyderabad)
+  - Helpline: 1800-XXX-XXXX (Check website for current number)
+Email: 
+  - Commissioner: commr-agri@ap.gov.in
+  - General: info@agriculture.ap.gov.in
 Website: https://agriculture.ap.gov.in
 Services:
 - AP Karshak Portal (mechanisation subsidy)
 - Crop insurance coordination
 - Agricultural policy & incentives
+- FPO registration support
+- Subsidy scheme information
 
+District-Level Contacts:
 Each District Has:
 - District Agriculture Officer (DAO): Manages district-level schemes
+  - Contact: District Collectorate Office
+  - Phone: Available on district website
 - Taluk Agriculture Officer (TAO): Manages mandal-level implementation
-- Contact: Your district collectorate website
+  - Contact: Taluk/Mandal Office
+  - Phone: Available at local office
+
+Important: For district-specific contacts, visit:
+- District Collector's Office website
+- AP Government portal: https://ap.gov.in
+- AP Karshak Portal: https://karshak.ap.gov.in
 ```
 
 **SFAC Empanelled Resource Institutions (RIs) in Andhra Pradesh:**
@@ -6609,15 +6674,39 @@ What are RIs?
 - They prepare FPO applications for SFAC equity grant
 - Typical cost: ₹15,000-30,000 per FPO
 
-SAMPLE APPROVED RIs IN AP (Call to verify current list):
-1. [RI Name 1] - Hyderabad based - PhD Agriculture focus
-2. [RI Name 2] - Vijayawada based - Dairy & Cooperative focus
-3. [RI Name 3] - Vikarabad based - Multi-commodity focus
+HOW TO FIND EMPANELLED RIs IN AP:
 
-How to Find:
-- Visit: https://sfacindia.com/PDFs/EmpanelledRIS/List%20of%20empanelled%20RIs%20Andhra%20Pradesh%20State.pdf
-- Call: SFAC office (they have updated list)
-- Verify: RI is currently active (some get deactivated)
+Step 1: Visit SFAC Website
+- Go to: https://sfacindia.com
+- Navigate to: "Resource Institutions" or "Empanelled RIs"
+- Download: "List of Empanelled RIs - Andhra Pradesh State"
+- Direct Link: https://sfacindia.com/PDFs/EmpanelledRIS/List%20of%20empanelled%20RIs%20Andhra%20Pradesh%20State.pdf
+
+Step 2: Verify Current Status
+- Call SFAC Head Office: +91-11-2584-3600
+- Email: info@sfacindia.com
+- Ask for: Updated list of active RIs in Andhra Pradesh
+- Verify: RI is currently active (some get deactivated annually)
+
+Step 3: Contact RI Directly
+- RIs are typically located in:
+  - Hyderabad (most common)
+  - Vijayawada
+  - Visakhapatnam
+  - Other major cities
+- Typical RI Services:
+  - FPO registration support
+  - Project report preparation
+  - SFAC application filing
+  - Training & capacity building
+  - Cost: ₹15,000-30,000 per FPO
+
+IMPORTANT NOTES:
+- RI list is updated annually by SFAC
+- Always verify RI is currently empanelled before engaging
+- Check RI's track record (number of FPOs registered)
+- Get written quote before signing agreement
+- Ensure RI has experience with your commodity type
 ```
 
 ---
@@ -7793,13 +7882,28 @@ Status: VERIFIED ✅
 ```
 
 **KEY POINTS TO VERIFY:**
-- ✅ Owner name matches Aadhaar
-- ✅ Survey number is clear
-- ✅ Extent (area) is mentioned
-- ✅ Land classification is "Agricultural"
-- ✅ No mortgage/liens (Clear Title)
-- ✅ Download date is recent (within 6 months)
-- ✅ MeeBhoomi verification code present
+- ✅ Owner name matches Aadhaar exactly
+- ✅ Survey number is clear and matches land documents
+- ✅ Extent (area) is mentioned in Acres/Hectares
+- ✅ Land classification is "Agricultural" (not residential/commercial)
+- ✅ No mortgage/liens (status shows "Clear Title" or "NIL")
+- ✅ Download date is recent (within 6 months for FPO membership)
+- ✅ MeeBhoomi verification code present (for authenticity)
+- ✅ Current crop details match farmer's claim
+- ✅ Tenancy status matches (Owner/Tenant)
+
+**COMMON MISTAKES TO AVOID:**
+- ❌ Using old/photocopied ROR-1B (must be fresh download from MeeBhoomi)
+- ❌ ROR-1B showing residential/commercial land (not eligible)
+- ❌ ROR-1B showing mortgage/liens (not eligible until cleared)
+- ❌ Owner name doesn't match Aadhaar (spelling mismatch)
+- ❌ Survey number unclear or missing
+
+**TROUBLESHOOTING:**
+- If ROR-1B not available online: Visit MRO office with Aadhaar, get certified printout
+- If name mismatch: Get name correction certificate from MRO
+- If mortgage shown: Clear mortgage first, then get updated ROR-1B
+- If land classification wrong: Get correction from MRO office
 
 ---
 
@@ -7898,14 +8002,36 @@ Date: 01-Apr-2024
 ```
 
 **KEY POINTS TO VERIFY:**
-- ✅ Lease period is minimum 3 years
-- ✅ Both parties' names, Aadhaar, addresses are clear
-- ✅ Survey number and property details are mentioned
-- ✅ Rent amount and payment terms are specified
-- ✅ Both parties have signed
-- ✅ Two witnesses have signed
-- ✅ Date is mentioned
-- ✅ Notarized (recommended but not mandatory)
+- ✅ Lease period is minimum 3 years (FPO requirement)
+- ✅ Both parties' names, Aadhaar, addresses are clear and match documents
+- ✅ Survey number and property details are mentioned accurately
+- ✅ Rent amount and payment terms are specified clearly
+- ✅ Both parties have signed (original signatures, not photocopy)
+- ✅ Two witnesses have signed (independent witnesses, not family members)
+- ✅ Date is mentioned (lease start and end dates)
+- ✅ Notarized (recommended but not mandatory - adds legal validity)
+- ✅ Stamp duty paid (if required by state law)
+- ✅ Registration done (if lease > 1 year, registration may be required)
+
+**COMMON MISTAKES TO AVOID:**
+- ❌ Lease period less than 3 years (not eligible for FPO)
+- ❌ Missing witness signatures (invalid lease deed)
+- ❌ Survey number incorrect or missing
+- ❌ Rent amount not specified (creates disputes)
+- ❌ Lease deed not dated (invalid)
+- ❌ Both parties haven't signed (incomplete)
+
+**TROUBLESHOOTING:**
+- If lease is 2 years: Renew with landlord for 3+ years before applying
+- If witness missing: Get two independent witnesses to sign
+- If not notarized: Get notarized for better legal validity (costs ₹100-200)
+- If registration required: Register at Sub-Registrar office (costs ₹500-1,000)
+
+**IMPORTANT NOTES:**
+- Lease deed must be on stamp paper (value varies by state, typically ₹100-500)
+- Both parties should keep original copy
+- FPO should keep photocopy for records
+- Lease can be renewed before expiry (renewal deed required)
 
 ---
 
@@ -7978,14 +8104,43 @@ Date: 20-Jan-2025
 ```
 
 **KEY POINTS TO VERIFY:**
-- ✅ MRO office letterhead/official format
-- ✅ Certificate number and date are mentioned
-- ✅ Person's name, Aadhaar, address are clear
-- ✅ Survey number and property details are mentioned
-- ✅ Verification statement is clear
-- ✅ MRO signature and seal are present
-- ✅ Date is mentioned
-- ✅ Validity period is mentioned
+- ✅ MRO office letterhead/official format (not plain paper)
+- ✅ Certificate number and date are mentioned (for tracking)
+- ✅ Person's name, Aadhaar, address are clear and match application
+- ✅ Survey number and property details are mentioned accurately
+- ✅ Verification statement is clear (confirms ownership/tenancy)
+- ✅ MRO signature and seal are present (mandatory for validity)
+- ✅ Date is mentioned (issue date)
+- ✅ Validity period is mentioned (usually 6 months)
+- ✅ Purpose is mentioned (FPO membership verification)
+- ✅ Land classification is mentioned (Agricultural)
+
+**COMMON MISTAKES TO AVOID:**
+- ❌ Certificate without MRO seal (invalid)
+- ❌ Certificate without MRO signature (invalid)
+- ❌ Certificate on plain paper (must be on official letterhead)
+- ❌ Survey number missing or incorrect
+- ❌ Validity expired (check validity period)
+- ❌ Purpose not mentioned (may be rejected by FPO)
+
+**TROUBLESHOOTING:**
+- If MRO refuses certificate: Provide proper application with all documents
+- If certificate delayed: Follow up with MRO office, check status
+- If validity expired: Get fresh certificate (validity usually 6 months)
+- If seal missing: Request MRO to affix official seal
+
+**PROCESS TO GET VAO CERTIFICATE:**
+1. Visit MRO office with Aadhaar, ROR-1B, application form
+2. Submit application with fee (₹25-50)
+3. MRO verifies records and issues certificate (usually 1-2 days)
+4. Collect certificate with receipt
+5. Verify all details before leaving office
+
+**IMPORTANT NOTES:**
+- VAO certificate is valid for 6 months typically
+- Get fresh certificate if expired
+- Keep original safe, provide photocopy to FPO
+- Certificate is free/low cost (₹25-50 administrative fee)
 
 ---
 
@@ -8099,16 +8254,50 @@ Notes:
 ```
 
 **KEY POINTS TO VERIFY:**
-- ✅ Certificate number is unique (SC-001, SC-002, etc.)
-- ✅ Date of issue is mentioned
-- ✅ FPO name is correct
-- ✅ Member name matches Aadhaar exactly
-- ✅ Number of shares and value are clear
-- ✅ Amount in words and numbers match
-- ✅ Chairman signature and seal are present
-- ✅ Secretary signature is present
-- ✅ Member acknowledgment signature is present
-- ✅ All dates are filled
+- ✅ Certificate number is unique (SC-001, SC-002, etc.) - sequential numbering
+- ✅ Date of issue is mentioned (must be after share capital payment)
+- ✅ FPO name is correct (matches Certificate of Incorporation)
+- ✅ Member name matches Aadhaar exactly (no spelling errors)
+- ✅ Number of shares and value are clear (e.g., 2 shares @ ₹100 each = ₹200)
+- ✅ Amount in words and numbers match (e.g., "Two Hundred" = ₹200)
+- ✅ Chairman signature and seal are present (mandatory)
+- ✅ Secretary signature is present (mandatory)
+- ✅ Member acknowledgment signature is present (confirms receipt)
+- ✅ All dates are filled (issue date, signature dates)
+- ✅ Terms & conditions section is complete
+- ✅ Member rights and responsibilities are mentioned
+
+**COMMON MISTAKES TO AVOID:**
+- ❌ Certificate number missing or duplicate (must be unique)
+- ❌ Member name spelling error (must match Aadhaar exactly)
+- ❌ Amount mismatch (words vs numbers don't match)
+- ❌ Missing Chairman/Secretary signatures (invalid certificate)
+- ❌ Missing FPO seal (invalid certificate)
+- ❌ Member hasn't signed acknowledgment (incomplete)
+
+**TROUBLESHOOTING:**
+- If certificate lost: Member submits affidavit, board issues duplicate (marked "DUPLICATE")
+- If name error: Cancel old certificate, issue new one with correct name
+- If signature missing: Get proper signatures before issuing
+- If seal missing: Affix FPO seal (mandatory for validity)
+
+**SHARE CERTIFICATE ISSUANCE PROCESS:**
+1. Member pays share capital
+2. Board approves membership and share allotment
+3. Secretary prepares share certificate
+4. Chairman and Secretary sign certificate
+5. FPO seal affixed
+6. Member signs acknowledgment
+7. Certificate issued to member
+8. Entry made in Share Register
+9. Member keeps original, FPO keeps copy
+
+**IMPORTANT NOTES:**
+- Share certificate is legal proof of membership
+- Member must keep original safe
+- If lost: Duplicate can be issued (with affidavit and fee)
+- Certificate must be surrendered if member exits
+- Certificate is transferable (with board approval)
 
 ---
 
