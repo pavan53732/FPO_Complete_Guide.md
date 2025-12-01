@@ -314,6 +314,59 @@ Last Updated: 01-Dec-2025
 ACCEPTED AS PROOF FOR: Landowner membership, bank loans, SFAC subsidy, NABARD projects
 ```
 
+---
+
+### **📌 SAMPLE MEEBHOOMI EXTRACT (Text Version)**
+
+*(Use this text-only sample until you add an image)*
+
+```
+-----------------------------------------------
+
+GOVERNMENT OF ANDHRA PRADESH
+
+MEEBHOOMI PORTAL – ROR 1B EXTRACT
+
+-----------------------------------------------
+
+District: Visakhapatnam
+
+Mandal: K. Kotapadu
+
+Village: Chowduwada
+
+Survey No: 112/2B
+
+Owner Name: P. Ramana
+
+Father Name: P. Appala Raju
+
+Total Area: 1.27 Acres
+
+Soil Type: Black Cotton Soil
+
+Crop: Paddy (Seasonal)
+
+Liabilities: NIL
+
+Last Updated: 12-Nov-2025
+
+-----------------------------------------------
+
+```
+
+**📌 CRITICAL VERIFICATION CHECKLIST:**
+
+If ANY of these 5 things are mismatched, AP officers will reject the document:
+
+1. **Name does NOT match Aadhaar spelling exactly**  
+2. **Survey number written wrong**  
+3. **Land is mortgaged to bank**  
+4. **Old owner name still showing**  
+5. **Last updated date older than 2 years**  
+
+---
+
 **Use in FPO Enrollment:**
 
 ```
@@ -458,6 +511,64 @@ WHEN ACCEPTING TENANT MEMBER:
 ✅ Record in member database: "Tenant, Lease ends [date]"
 ✅ For subsidy: Attach notarized lease copy (banks prefer)
 ```
+
+---
+
+### **📌 FINAL TENANT APPROVAL CHECKLIST**
+
+**CRITICAL: Before accepting a tenant farmer as FPO member, verify ALL items below:**
+
+```
+□ Lease deed signed by landlord + tenant  
+   - Both signatures present and legible
+   - Dates filled correctly
+   - Witness signatures present
+
+□ Notary stamp (recommended)  
+   - Notary public stamp visible
+   - Notary signature present
+   - Date of notarization within 6 months
+
+□ Landlord Aadhaar attached  
+   - Photocopy of landlord's Aadhaar
+   - Name matches lease deed
+   - Address matches property location
+
+□ Ration card of tenant  
+   - Photocopy of tenant's ration card
+   - Name matches Aadhaar
+   - Address matches tenant's residence
+
+□ Tenant name written in lease clearly  
+   - Full name (as per Aadhaar)
+   - No abbreviations or nicknames
+   - Father's name mentioned (if applicable)
+
+□ Survey number mentioned correctly  
+   - Survey number matches MeeBhoomi records
+   - Plot area mentioned
+   - Village and mandal names correct
+
+□ Lease period minimum 3 years  
+   - Start date and end date clearly mentioned
+   - Total period is 3+ years
+   - End date is at least 2 years from FPO application date
+
+□ Cross-verified with MeeBhoomi ownership  
+   - Landlord name matches MeeBhoomi owner name
+   - Survey number matches
+   - No mortgage/lien shown on land
+
+□ Optional: VAO signature or stamp  
+   - VAO verification adds credibility
+   - Not mandatory but recommended
+   - Cost: FREE or ₹10-20
+```
+
+**VERIFICATION RESULT:**
+- ✅ **ALL ITEMS CHECKED** → Tenant eligible for FPO membership
+- ⚠️ **1-2 ITEMS MISSING** → Conditional approval (7 days to provide)
+- ❌ **3+ ITEMS MISSING** → Reject application (incomplete documentation)
 
 ---
 
@@ -668,6 +779,54 @@ CEO/Secretary to countersign: _________________________ Date: ______
 
 ---
 
+### 📌 **AP Escalation Flow When MRO/VAO Delays Certification**
+
+**CRITICAL: If MRO or VAO delays document certification, follow this escalation pathway:**
+
+```
+Step 1 → VAO (Village Administrative Officer)
+   - First point of contact for local verification
+   - Time: Same day (usually)
+   - Cost: FREE or ₹10-20
+   - Action: Request local verification certificate
+
+Step 2 → MRO (Mandal Revenue Officer)
+   - If VAO unable to help or delays
+   - Time: 1-2 days (should be)
+   - Cost: ₹25-100
+   - Action: Request certified ROR-1B or lease certificate
+
+Step 3 → RDO (Revenue Divisional Officer)
+   - If MRO delays beyond 3-5 days
+   - Time: 3-7 days
+   - Cost: Same as MRO
+   - Action: File complaint with RDO office
+
+Step 4 → District Collector Office
+   - If RDO also delays
+   - Time: 7-15 days
+   - Action: Submit written complaint to District Collector
+
+Step 5 → MeeSeva | Spandana Portal complaint
+   - Online complaint portal
+   - URL: https://ap.meeseva.gov.in OR Spandana portal
+   - Action: File online complaint with tracking number
+   - Response: Usually within 7-15 days
+```
+
+**IMPORTANT NOTE:**
+
+> "Most document issues are resolved at VAO/MRO level if you carry Aadhaar + RC + survey number."
+
+**TIPS FOR FASTER RESOLUTION:**
+- Always carry original Aadhaar, Ration Card, and survey number
+- Be polite and explain FPO membership requirement
+- Mention SFAC/bank deadline (creates urgency)
+- Follow up politely after 2-3 days if no response
+- Keep complaint reference number if filing online
+
+---
+
 ### SAMPLE FIELD CHECKLIST: ANDHRA PRADESH MEMBER VERIFICATION
 
 ```
@@ -763,6 +922,56 @@ NOTES FOR FPO STAFF:
 
 ═══════════════════════════════════════════════════════════════════════
 ```
+
+---
+
+### 🚫 **Top 10 Document Rejection Reasons in Andhra Pradesh**
+
+**CRITICAL: These are the most common reasons FPO member documents get rejected by banks, SFAC, and NABARD. Check each member's documents against this list before submission.**
+
+```
+1. Survey number mismatch between Aadhaar & 1B
+   - Problem: Survey number on ROR-1B doesn't match Aadhaar address
+   - Solution: Get corrected ROR-1B from MRO or update Aadhaar address
+
+2. Ration card address showing different village
+   - Problem: Ration card shows different village than FPO location
+   - Solution: Get new ration card with correct address OR get address change certificate
+
+3. Old landowner name still appearing on 1B
+   - Problem: Land transferred but ROR-1B not updated (mutation pending)
+   - Solution: Complete mutation process at MRO office, get updated ROR-1B
+
+4. Multiple owners but only one signature in lease deed
+   - Problem: Joint ownership but lease deed signed by only one owner
+   - Solution: All owners must sign lease deed OR get NOC from other owners
+
+5. Lease deed not notarized
+   - Problem: Lease deed without notary stamp (banks/SFAC prefer notarized)
+   - Solution: Get lease deed notarized (₹100-200 cost, worth it)
+
+6. Dairy proof less than 1-month old (needs 3+ months history)
+   - Problem: Milk receipts or dairy agreement too recent
+   - Solution: Wait until 3+ months of milk supply history OR get older receipts
+
+7. Milk receipts not in member's name
+   - Problem: Milk receipts show different name (father's name, nickname)
+   - Solution: Get dairy to issue receipts in correct name matching Aadhaar
+
+8. Tenant name not entered in ROR (no tenancy record)
+   - Problem: Tenant farmer but ROR-1B doesn't show tenant name
+   - Solution: Get MRO certificate confirming tenancy OR register tenancy
+
+9. Veterinary certificate older than 6 months
+   - Problem: Livestock registration certificate too old
+   - Solution: Get fresh veterinary certificate (valid for 6 months)
+
+10. Land mortgaged to bank without NOC
+    - Problem: ROR-1B shows mortgage but no NOC from bank
+    - Solution: Get No Objection Certificate (NOC) from bank allowing FPO membership
+```
+
+**PREVENTION TIP:** Always verify documents against this checklist before submitting to banks/SFAC/NABARD. This prevents 80% of rejections.
 
 ---
 
@@ -1209,6 +1418,63 @@ Year 8+: Federation (500+ members)
 | **Year 5** | 350-500 | 3-5 Cr | 1-1.5 Cr | • Federation formation<br>• Technology adoption<br>• Market leadership | • Modern facilities<br>• Technology integration<br>• Expansion | 15-20 | • 350+ members<br>• Market leader<br>• Federation ready<br>• Sustainable growth |
 
 ═══════════════════════════════════════════════════════════════════════
+
+---
+
+### **📌 EMI Table for ₹10 Lakh Machinery Loan @ 9%**
+
+**CRITICAL: FPO must generate sufficient revenue to cover EMI payments. Use this table to plan loan repayment.**
+
+```
+═══════════════════════════════════════════════════════════════════════
+MACHINERY LOAN EMI CALCULATION
+═══════════════════════════════════════════════════════════════════════
+
+LOAN DETAILS:
+├─ Loan Amount: ₹10,00,000 (₹10 lakh)
+├─ Interest Rate: 9% per annum
+├─ Loan Tenure: 5 Years (60 months)
+└─ Loan Purpose: Farm machinery (Tractor, Thresher, etc.)
+
+EMI CALCULATION:
+├─ Monthly EMI: ₹20,758
+├─ Annual EMI Outflow: ₹2,49,096 (₹20,758 × 12)
+└─ Total Repayment: ₹12,45,480 (₹20,758 × 60)
+
+YEAR-WISE BREAKDOWN:
+┌─────────┬──────────────┬──────────────┬──────────────┬──────────────┐
+│  Year   │  Principal   │   Interest   │   Total EMI  │  Outstanding│
+├─────────┼──────────────┼──────────────┼──────────────┼──────────────┤
+│ Year 1  │  ₹1,66,000   │  ₹83,096     │  ₹2,49,096   │  ₹8,34,000   │
+│ Year 2  │  ₹1,81,000   │  ₹68,096     │  ₹2,49,096   │  ₹6,53,000   │
+│ Year 3  │  ₹1,97,000   │  ₹52,096     │  ₹2,49,096   │  ₹4,56,000   │
+│ Year 4  │  ₹2,15,000   │  ₹34,096     │  ₹2,49,096   │  ₹2,41,000   │
+│ Year 5  │  ₹2,35,000   │  ₹14,096     │  ₹2,49,096   │  ₹0          │
+└─────────┴──────────────┴──────────────┴──────────────┴──────────────┘
+
+CRITICAL REQUIREMENT:
+⚠️ FPO must generate minimum ₹25,000 monthly to safely repay EMI
+   (₹20,758 EMI + ₹4,242 buffer for contingencies)
+
+REVENUE TARGETS:
+├─ Minimum Monthly Revenue: ₹2,50,000
+├─ Minimum Annual Revenue: ₹30,00,000 (₹30 lakh)
+└─ This ensures EMI payment without financial stress
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**BENEFIT STATEMENT:**
+
+> "FPO must generate minimum ₹25,000 monthly to safely repay EMI."
+
+**USE THIS FOR:**
+- Bank loan applications (shows repayment capacity)
+- Machinery purchase planning (affordability check)
+- Financial projections (cash flow planning)
+- Subsidy applications (demonstrates financial viability)
+
+---
 
 DETAILED YEAR-WISE BREAKDOWN:
 
@@ -1702,6 +1968,62 @@ REVENUE GENERATION:
 - Profit after costs: ₹8-12 lakh
 ```
 
+---
+
+### **📌 SAMPLE EARNINGS: Milk 600 Liters/Day**
+
+**Realistic Financial Projection for FPO Milk Business:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+MILK COLLECTION BUSINESS - EARNINGS SIMULATION
+═══════════════════════════════════════════════════════════════════════
+
+DAILY OPERATIONS:
+├─ Milk Collected: 600 liters/day
+├─ Purchase Price (from farmers): ₹34 per liter
+├─ Selling Price (to dairy): ₹36 per liter
+└─ Margin per liter: ₹2
+
+DAILY PROFIT CALCULATION:
+├─ Daily Collection: 600 liters
+├─ Daily Revenue: 600 × ₹36 = ₹21,600
+├─ Daily Cost: 600 × ₹34 = ₹20,400
+└─ Daily Profit: ₹21,600 - ₹20,400 = ₹1,200
+
+MONTHLY PROFIT (30 days):
+├─ Monthly Collection: 600 × 30 = 18,000 liters
+├─ Monthly Revenue: 18,000 × ₹36 = ₹6,48,000
+├─ Monthly Cost: 18,000 × ₹34 = ₹6,12,000
+└─ Monthly Profit: ₹6,48,000 - ₹6,12,000 = ₹36,000
+
+YEARLY PROFIT (365 days):
+├─ Yearly Collection: 600 × 365 = 2,19,000 liters
+├─ Yearly Revenue: 2,19,000 × ₹36 = ₹78,84,000
+├─ Yearly Cost: 2,19,000 × ₹34 = ₹74,46,000
+└─ Yearly Profit: ₹78,84,000 - ₹74,46,000 = ₹4,38,000
+
+═══════════════════════════════════════════════════════════════════════
+
+KEY ASSUMPTIONS:
+├─ Operating days: 365 days/year (year-round supply)
+├─ Average daily collection: 600 liters (stable supply)
+├─ Purchase margin: ₹2 per liter (standard FPO margin)
+└─ No major price fluctuations (stable market)
+
+USE IN BANK LOAN PROPOSAL:
+✅ Shows realistic revenue projection
+✅ Demonstrates break-even capability
+✅ Proves FPO can repay loan
+✅ Supports subsidy application
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**This is useful for bank loan proposals and SFAC grant applications.**
+
+---
+
 ### Core Activity 2: PADDY AGGREGATION & MARKETING
 
 ```
@@ -2108,6 +2430,169 @@ Witness 2: _________________ Signature: __________
 
 ═══════════════════════════════════════════════════════════════════════
 ```
+
+---
+
+### **📌 FILLED MoU EXAMPLE (Realistic Sample)**
+
+**Use this as a reference when filling out your MoU template:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+MEMORANDUM OF UNDERSTANDING (MoU)
+FOR PRODUCE PROCUREMENT
+═══════════════════════════════════════════════════════════════════════
+
+This Memorandum of Understanding (MoU) is entered into on this
+15th day of December, 2025, between:
+
+PARTY 1 (BUYER):
+────────────────
+Company Name: Vijaya Dairy (Anakapalli Unit)
+Address: Industrial Area, Anakapalli, Visakhapatnam District, AP - 531001
+Contact Person: Mr. R. Venkatesh (Manager)
+Phone: 0891-2345678
+Email: anakapalli@vijayadairy.com
+GST No.: 37AABCU1234A1Z5
+
+AND
+
+PARTY 2 (FPO):
+──────────────
+FPO Name: Chowduwada Farmer Producer Company Limited
+Registration No.: U01400AP2025PTC012345
+Address: Chowduwada Village, K Kotapadu Mandal, Anakapalli District, AP - 531001
+Contact Person: Mr. P. Ramana (Chairman)
+Phone: 9000012345
+Email: chowduwadafpo@gmail.com
+GST No.: 37AABCC1234A1Z6
+
+WHEREAS:
+────────
+- FPO is engaged in production/aggregation of Raw Milk
+- Buyer is engaged in processing/marketing of Milk and Dairy Products
+- Both parties wish to enter into a procurement arrangement
+
+NOW IT IS AGREED AS FOLLOWS:
+
+1. COMMODITY DETAILS:
+   ───────────────────
+   Commodity: Raw Milk
+   Quality Standards: FAT 3.5% minimum, SNF 8.5% minimum
+   Quantity: Minimum 18,000 liters per month
+   Daily Supply: 600 liters/day (average)
+   Season: Year-round
+
+2. PRICING:
+   ────────
+   Base Price: ₹36 per liter
+   Quality Premium: +₹1 per liter for FAT above 4.0%
+   Price Review: Monthly (based on market rates)
+   Price Adjustment: Based on market rates (linked to AP Dairy rates)
+
+3. DELIVERY TERMS:
+   ───────────────
+   Delivery Location: Vijaya Dairy Collection Center, Anakapalli
+   Delivery Schedule: Daily (Monday to Sunday)
+   Transportation: Buyer will arrange vehicle (pickup from FPO center)
+   Delivery Time: Morning (6:00 AM - 8:00 AM)
+
+4. QUALITY STANDARDS:
+   ───────────────────
+   Quality Parameters: 
+   - FAT: Minimum 3.5%
+   - SNF: Minimum 8.5%
+   - Temperature: Below 4°C
+   - Adulteration: Zero tolerance
+   Testing: At buyer's facility (daily quality check)
+   Rejection Criteria: If quality below standard, buyer can reject with notice
+   Quality Dispute: Resolved through third-party testing (AP Dairy Development Board)
+
+5. PAYMENT TERMS:
+   ──────────────
+   Payment Method: Bank transfer (NEFT/RTGS)
+   Payment Timeline: Within 7 days of delivery
+   Payment Schedule: Weekly (every Tuesday for previous week's supply)
+   Advance Payment: No advance payment
+
+6. CONTRACT DURATION:
+   ──────────────────
+   Start Date: 01-Jan-2026
+   End Date: 31-Dec-2026 (1 year)
+   Renewal: Automatic renewal with 30 days notice (if both parties agree)
+   Termination: 30 days written notice by either party
+
+7. OBLIGATIONS:
+
+   FPO OBLIGATIONS:
+   ───────────────
+   ☑ Supply agreed quantity regularly (600 liters/day average)
+   ☑ Maintain quality standards (FAT 3.5%, SNF 8.5%)
+   ☑ Deliver on time (6:00 AM - 8:00 AM daily)
+   ☑ Provide quality certificates (daily milk testing report)
+   ☑ Maintain records (member-wise milk collection register)
+
+   BUYER OBLIGATIONS:
+   ──────────────────
+   ☑ Accept produce meeting quality standards
+   ☑ Pay on time as per payment terms (weekly, within 7 days)
+   ☑ Provide quality feedback (daily quality report)
+   ☑ Support FPO capacity building (training on quality management)
+
+8. DISPUTE RESOLUTION:
+   ───────────────────
+   - Disputes resolved through mutual discussion
+   - If unresolved: Referred to District Agriculture Officer (Anakapalli)
+   - Arbitration: District level (Anakapalli)
+   - Applicable law: Indian Contract Act
+
+9. FORCE MAJEURE:
+   ──────────────
+   - Natural calamities (cyclones, floods), government orders, etc.
+   - Performance excused during force majeure
+   - Notice to be given within 7 days
+
+10. GENERAL TERMS:
+    ──────────────
+    - This MoU is binding on both parties
+    - Amendments only in writing
+    - Not transferable without consent
+    - Confidentiality maintained
+
+SIGNATURES:
+───────────
+
+BUYER:
+Company Name: Vijaya Dairy (Anakapalli Unit)
+Authorized Signatory: R. Venkatesh
+Designation: Manager
+Signature: [R. Venkatesh] Date: 15-Dec-2025
+[Company Seal]
+
+FPO:
+FPO Name: Chowduwada Farmer Producer Company Limited
+Authorized Signatory: P. Ramana
+Designation: Chairman
+Signature: [P. Ramana] Date: 15-Dec-2025
+[FPO Seal]
+
+WITNESSES:
+──────────
+Witness 1: S. Manga Raju (VRO Chowduwada) Signature: [S. Manga Raju]
+Witness 2: A A Sambasiva Rao (MPDO K Kotapadu) Signature: [A A Sambasiva Rao]
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**KEY POINTS FROM THIS EXAMPLE:**
+- ✅ Specific buyer name and contact details
+- ✅ Exact quantity (18,000 liters/month, 600 liters/day)
+- ✅ Quality standards clearly defined (FAT 3.5%, SNF 8.5%)
+- ✅ Pricing structure with premium (₹36 base + ₹1 premium)
+- ✅ Payment terms (weekly, within 7 days)
+- ✅ Contract duration (1 year with renewal clause)
+- ✅ Both parties' obligations clearly listed
+- ✅ Witnesses from local authorities (VRO, MPDO)
 
 ---
 
@@ -4513,6 +4998,101 @@ Maintains administrative records, meeting minutes, and official communications.
    - Clarify bylaws to members
    - Process membership applications
    - Maintain member contact database
+
+---
+
+### **📌 Sample ID Card Template**
+
+**CRITICAL: Every FPO member should have a membership ID card. Use this template to create member cards.**
+
+```
+═══════════════════════════════════════════════════════════════════════
+[FPO NAME] – MEMBER CARD
+═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│                    [FPO LOGO/SEAL]                                  │
+│                                                                     │
+│              [FPO NAME] FARMER PRODUCER COMPANY LIMITED            │
+│                                                                     │
+│                    MEMBER IDENTIFICATION CARD                       │
+│                                                                     │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  Member Name: _________________________________                     │
+│                                                                     │
+│  Aadhaar: _________________________________                         │
+│                                                                     │
+│  Ration Card: _________________________________                     │
+│                                                                     │
+│  Commodity: ☐ Milk  ☐ Paddy  ☐ Sugarcane  ☐ Other: ___________    │
+│                                                                     │
+│  Village: _________________________________                         │
+│                                                                     │
+│  Membership No: _________________________________                   │
+│                                                                     │
+│  Join Date: _________________________________                       │
+│                                                                     │
+│  ┌─────────────┐                                                    │
+│  │             │                                                    │
+│  │   [PHOTO]   │                                                    │
+│  │             │                                                    │
+│  └─────────────┘                                                    │
+│                                                                     │
+│  Signature: _________________________                               │
+│                                                                     │
+│  Chairman Signature: _________________________                      │
+│                                                                     │
+│  FPO Seal: [SEAL]                                                   │
+│                                                                     │
+│  Valid Until: [Date] (or "Lifetime")                                │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+
+BACK SIDE OF CARD:
+
+═══════════════════════════════════════════════════════════════════════
+MEMBER BENEFITS:
+═══════════════════════════════════════════════════════════════════════
+
+✅ Access to FPO services (milk collection, paddy aggregation, etc.)
+✅ Better prices for produce
+✅ Input supply at discounted rates
+✅ Custom hiring services
+✅ Training & capacity building
+✅ Subsidy support
+✅ Bank loan facilitation
+✅ Insurance coverage (if applicable)
+
+═══════════════════════════════════════════════════════════════════════
+CONTACT INFORMATION:
+═══════════════════════════════════════════════════════════════════════
+
+FPO Office: [Address]
+Phone: [Phone Number]
+Email: [Email]
+Website: [Website]
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**CARD SPECIFICATIONS:**
+- Size: Standard ID card size (8.5 cm × 5.4 cm)
+- Material: PVC or laminated paper
+- Photo: Passport-size (4×6 cm), colored
+- Validity: Lifetime (or renewable annually)
+- Cost: ₹20-50 per card (laminated) or ₹100-200 (PVC)
+
+**USE THIS CARD FOR:**
+- Member identification at FPO office
+- Access to FPO services
+- Proof of membership for subsidies
+- Bank loan applications
+- Training programs
+- Member meetings and AGM
 
 **Powers & Authorities:**
 - Authenticate documents
@@ -7070,6 +7650,73 @@ Chairman: _________________ Date: __________
 **CRITICAL: Protect FPO Assets and Members from Risks**
 
 FPOs face various risks: crop failure, livestock death, natural disasters, equipment damage, liability claims. Insurance and contingency planning protect FPO and members from financial losses.
+
+---
+
+### 🌪️ **AP Disaster Plan (Cyclone/Flood Focus)**
+
+**CRITICAL: Andhra Pradesh faces frequent cyclones, heavy rains, and floods. FPOs must have a disaster preparedness plan.**
+
+#### **1. Cyclone Preparedness**
+
+```
+PRE-CYCLONE ACTIONS (When cyclone warning issued):
+• Move cattle to high ground (elevated area, safe shelter)
+• Cover fodder with tarpaulin (waterproof covering)
+• Disconnect electricity in sheds (prevent short circuits)
+• Shift grains to elevated platforms (above flood level)
+• Secure loose equipment (tie down machinery, tools)
+• Stock emergency supplies (feed, medicines, first aid)
+• Inform all members about cyclone warning
+• Prepare evacuation plan for livestock
+```
+
+#### **2. Rain/Flood Preparedness**
+
+```
+PRE-MONSOON ACTIONS:
+• Use moisture meters before paddy sale (check moisture content)
+• Keep sandbags ready (for flood protection)
+• Store seeds/fertilizers in waterproof bins (prevent spoilage)
+• Elevate storage areas (above expected flood level)
+• Check drainage systems (clear blocked drains)
+• Prepare backup power source (generator for cold storage)
+• Stock emergency feed for livestock
+• Prepare member communication plan
+```
+
+#### **3. Insurance Checklist**
+
+```
+CRITICAL INSURANCE COVERAGE FOR FPOs:
+
+□ PMFBY Crop Insurance
+   - All member crops covered
+   - Premium: 2% (Kharif), 1.5% (Rabi)
+   - Coverage: Natural calamities, pests, diseases
+
+□ Livestock Insurance (AP AHD)
+   - All dairy animals covered
+   - Premium: 4-6% of animal value
+   - Coverage: Death, accident, disease
+
+□ Warehouse Fire/Flood Insurance
+   - Storage facility covered
+   - Premium: 0.1-0.3% of coverage
+   - Coverage: Fire, flood, theft
+
+□ Tractor/Machinery Insurance
+   - All FPO equipment covered
+   - Premium: 1-2% of equipment value
+   - Coverage: Damage, theft, breakdown
+
+□ Group Health Insurance for staff
+   - All FPO employees covered
+   - Premium: ₹500-1,000 per person/year
+   - Coverage: Medical expenses, hospitalization
+```
+
+**ACTION REQUIRED:** Review insurance coverage annually before monsoon season (May-June).
 
 ---
 
@@ -13349,6 +13996,30 @@ Important: For district-specific contacts, visit:
 
 Note: Contact numbers may change. Always verify current numbers from official websites before important applications.
 ```
+
+---
+
+### **📌 AP Officials Contact Table (District-Wise)**
+
+**Quick Reference: Key Officials for FPO Support in Andhra Pradesh**
+
+| Dept                        | Role                | Contact Person               | Location      | Services |
+| --------------------------- | ------------------- | ---------------------------- | ------------- | -------- |
+| District Agriculture Office | FPO Assistance      | DAO – Anakapalli             | Collectorate  | FPO registration support, subsidy applications, crop insurance |
+| NABARD DDM                  | Subsidy approvals   | District Development Manager | Visakhapatnam | Dairy subsidy, machinery subsidy, cold storage funding |
+| AP Dairy Development Board  | Dairy schemes       | Assistant Director           | Anakapalli    | Dairy development schemes, milk procurement support |
+| AP AGROS                    | Machinery subsidies | Depot Manager                | Sabbavaram    | Custom hiring center subsidies, farm machinery |
+| Horticulture Dept           | Subsidy             | HDO                          | Pendurthi     | Horticulture crop subsidies, value addition support |
+
+**Note:** Contact phone numbers can be obtained from:
+- District Collectorate Office
+- AP Government portal: https://ap.gov.in
+- AP Karshak Portal: https://karshak.ap.gov.in
+- State Call Centre: 1902 (mention your district and department)
+
+**For K Kotapadu/Chowduwada specific contacts, see Quick Reference Card (after ANNEX-2).**
+
+---
 
 **SFAC Empanelled Resource Institutions (RIs) in Andhra Pradesh:**
 
