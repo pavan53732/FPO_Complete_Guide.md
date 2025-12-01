@@ -26,11 +26,12 @@
 16. Risk Management & Fraud Prevention
 17. Internal Policies Framework
 
-### ENHANCED SECTIONS (18-21)
+### ENHANCED SECTIONS (18-22)
 18. Farmer Enrollment Policy
 19. Bank Loan Application Checklist
 20. Annual Compliance Calendar with MCA Form Numbers
 21. Digital Tools & MIS System
+22. FAQ & Troubleshooting Guide
 
 ### AP-SPECIFIC ANNEXURES
 **ANNEX-1:** Andhra Pradesh Land Records & MeeBhoomi Portal Guide
@@ -40,6 +41,7 @@
 **ANNEX-5:** SFAC Application Bundle (AP-Ready)
 **ANNEX-6:** Telugu Language Farmer Handouts
 **ANNEX-7:** AP Local Verification Workflow & VAO Certificate
+**ANNEX-8:** Sample Completed Documents (ROR-1B, Lease Deed, VAO Certificate, Share Certificate)
 
 ---
 
@@ -3266,6 +3268,82 @@ Director 2: _____________________ Date: __________
 
 ---
 
+### Notes for Directors: How to Fill Board Meeting Minutes
+
+**IMPORTANT GUIDELINES:**
+
+1. **Meeting Details:**
+   - Fill date, time, venue accurately
+   - Chairman and Secretary must be present
+   - Record exact start and end time
+
+2. **Directors Present:**
+   - List all directors who attended
+   - Each director must sign against their name
+   - If director arrives late: Note time of arrival
+   - If director leaves early: Note time of departure
+
+3. **Resolutions:**
+   - Every major decision must be a formal resolution
+   - Resolution must start with "RESOLVED that..."
+   - Record voting: FOR, AGAINST, ABSTAIN
+   - Unanimous = All directors voted FOR
+   - Majority = More than 50% voted FOR
+
+4. **Voting Record:**
+   - Must record exact numbers: "FOR 5, AGAINST 0, ABSTAIN 0"
+   - If not unanimous, record who voted against
+   - Abstentions must be recorded
+
+5. **Signature Block:**
+   - Chairman MUST sign (mandatory)
+   - Secretary MUST sign (mandatory)
+   - All directors present should sign
+   - Date must match meeting date
+   - FPO seal should be affixed
+
+6. **Language:**
+   - Use formal business language
+   - Be specific and clear
+   - Avoid vague statements
+   - Use "RESOLVED that..." format for resolutions
+
+7. **Attachments:**
+   - List all documents attached (bank forms, applications, etc.)
+   - Number attachments: "Attachment 1: Bank Mandate Form"
+   - Keep originals safe
+
+8. **Common Mistakes to Avoid:**
+   - ❌ Don't leave voting blank
+   - ❌ Don't forget signatures
+   - ❌ Don't use informal language
+   - ❌ Don't skip resolution format
+   - ❌ Don't forget to record absent directors
+
+**EXAMPLE OF PROPER RESOLUTION LANGUAGE:**
+
+✅ CORRECT:
+"RESOLVED that Shri Ram Kumar, member of the FPO, be and is hereby appointed as Chairman for a period of 3 years from the date of this resolution."
+
+❌ WRONG:
+"Ram Kumar will be Chairman for 3 years."
+
+**SPECIFIC LANGUAGE FOR COMMON RESOLUTIONS:**
+
+**For Bank Account Opening:**
+"RESOLVED that a Current Account be opened with [Bank Name], [Branch], in the name of [FPO Name] with the following authorized signatories: [List names]."
+
+**For Share Allotment:**
+"RESOLVED that share certificates be issued to the following members as per the list attached, representing their paid-up capital contribution to the FPO."
+
+**For CEO Appointment:**
+"RESOLVED that a CEO shall be appointed with the following terms: [List terms] and the Chairman is authorized to finalize the appointment."
+
+**For Subsidy Application:**
+"RESOLVED that the Chairman and Treasurer be authorized to sign and submit subsidy applications on behalf of the FPO."
+
+---
+
 ## 15. SHARE CERTIFICATE & REGISTER FORMAT
 
 ### Share Certificate Template
@@ -3425,6 +3503,325 @@ NOTES:
 - Record forfeiture/cancellation
 - Furnish copy to auditor annually
 - Display in office (confidential member info can be redacted)
+```
+
+---
+
+### Share Transfer Procedure
+
+**When Can Shares Be Transferred?**
+
+Shares can be transferred between members OR to new members (subject to board approval) in the following cases:
+
+1. **Member to Member Transfer:**
+   - Existing member wants to transfer shares to another existing member
+   - Requires written application from both parties
+   - Board approval required (simple majority)
+   - Transfer fee: ₹50-100 (to cover administrative costs)
+
+2. **Member to New Member (Exit & Entry):**
+   - Existing member resigns, shares transferred to new member
+   - New member must meet eligibility criteria
+   - Board approval required
+   - Transfer at book value (not market value)
+
+**Share Transfer Process:**
+
+```
+STEP 1: APPLICATION
+- Transferor (current member) submits transfer application
+- Transferee (new member) submits membership application
+- Both sign transfer deed
+- Transfer fee paid
+
+STEP 2: BOARD APPROVAL
+- Board reviews at next board meeting
+- Verifies transferee eligibility
+- Approves or rejects transfer
+- If approved: Transfer deed executed
+
+STEP 3: SHARE CERTIFICATE CANCELLATION
+- Old share certificate cancelled
+- Entry made in Share Register (transferor marked as "Transferred")
+- New share certificate issued to transferee
+- Transferor's name removed from member register
+
+STEP 4: REGISTRATION
+- Transfer recorded in Share Register
+- New member added to member register
+- Share Register updated with new certificate number
+- Both parties notified in writing
+```
+
+**Share Transfer Deed Format:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+SHARE TRANSFER DEED
+[FPO NAME] FARMER PRODUCER COMPANY LIMITED
+═══════════════════════════════════════════════════════════════════════
+
+I, ___________________________ (Transferor Name)
+S/O ___________________________ (Father's Name)
+R/O ___________________________ (Address)
+Aadhaar No.: ___________________
+Member No.: ___________________
+Share Certificate No.: __________
+No. of Shares: ________ (at ₹100 each = ₹________)
+
+HEREBY TRANSFER to
+
+___________________________ (Transferee Name)
+S/O ___________________________ (Father's Name)
+R/O ___________________________ (Address)
+Aadhaar No.: ___________________
+
+the above-mentioned shares in the FPO.
+
+Transfer Value: ₹________ (Book Value)
+Transfer Fee: ₹________ (Paid)
+
+REASON FOR TRANSFER: _______________________________
+
+I confirm that:
+- I am the registered owner of these shares
+- I have no outstanding dues to the FPO
+- I am transferring voluntarily
+- I understand that upon transfer, I cease to be a member
+
+Transferor Signature: _________________ Date: __________
+Transferee Signature: _________________ Date: __________
+
+WITNESS 1: _________________ Signature: __________
+WITNESS 2: _________________ Signature: __________
+
+BOARD APPROVAL:
+Approved by Board Resolution No. _____ dated __________
+Chairman Signature: _________________ Date: __________
+Secretary Signature: _________________ Date: __________
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+---
+
+### Dividend Distribution Formula & Timeline
+
+**What is Dividend?**
+
+Dividend is the share of profit distributed to members based on their shareholding and/or patronage (participation in FPO activities).
+
+**Dividend Distribution Policy:**
+
+```
+DIVIDEND DISTRIBUTION FORMULA:
+
+Total Profit Available for Distribution = Net Profit - Reserve Fund (20%) - Contingency Fund (10%)
+
+Example:
+Net Profit: ₹1,00,000
+Reserve Fund (20%): ₹20,000
+Contingency Fund (10%): ₹10,000
+Available for Dividend: ₹70,000
+
+DISTRIBUTION METHOD (Choose One):
+
+Method 1: EQUAL DISTRIBUTION (By Shareholding)
+- Dividend per share = Available Dividend ÷ Total Shares
+- Member dividend = No. of shares × Dividend per share
+- Example: ₹70,000 ÷ 20 shares = ₹3,500 per share
+- Member with 2 shares gets: ₹7,000
+
+Method 2: PATRONAGE-BASED (By Participation)
+- 50% distributed equally (by shares)
+- 50% distributed by patronage (milk/produce supplied)
+- Example: ₹35,000 equal + ₹35,000 by patronage
+- Member who supplied more gets higher dividend
+
+Method 3: HYBRID (Recommended)
+- 30% distributed equally (by shares)
+- 70% distributed by patronage
+- Rewards active members more
+- Encourages participation
+```
+
+**Dividend Distribution Timeline:**
+
+```
+TIMELINE FOR DIVIDEND PAYMENT:
+
+Month 1-3: Financial Year Ends
+- Financial year ends (usually March 31)
+- Accounts finalized
+
+Month 4-5: Audit & AGM
+- Annual audit completed
+- AGM held (within 6 months of year-end)
+- Members approve dividend distribution
+- Board resolution passed
+
+Month 6: Dividend Declaration
+- Board declares dividend
+- Dividend rate announced
+- Member-wise calculation done
+
+Month 7: Dividend Payment
+- Dividend paid to members
+- Payment via bank transfer (preferred)
+- Dividend vouchers issued
+- TDS deducted (if applicable, above ₹5,000)
+
+TOTAL TIME: 6-7 months from year-end to payment
+```
+
+**Dividend Payment Voucher:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+DIVIDEND PAYMENT VOUCHER
+[FPO NAME] FARMER PRODUCER COMPANY LIMITED
+═══════════════════════════════════════════════════════════════════════
+
+Financial Year: _______________
+Dividend Declaration Date: _______________
+Payment Date: _______________
+
+MEMBER DETAILS:
+Name: ___________________________
+Member No.: _____________________
+Aadhaar No.: _____________________
+Bank Account: _____________________
+IFSC: ___________________________
+
+DIVIDEND CALCULATION:
+No. of Shares: ________
+Dividend per Share: ₹________
+Total Dividend: ₹________
+Less: TDS (if applicable): ₹________
+Net Dividend Payable: ₹________
+
+PAYMENT DETAILS:
+Payment Method: Bank Transfer / Cash
+Transaction ID: _____________________
+Payment Date: _______________
+
+Acknowledged by Member:
+Signature: _________________ Date: __________
+
+Authorized by:
+Treasurer: _________________ Date: __________
+Chairman: _________________ Date: __________
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+---
+
+### Share Redemption Policy (When Member Exits)
+
+**When Can Shares Be Redeemed?**
+
+Shares are redeemed (bought back by FPO) when:
+1. Member resigns voluntarily
+2. Member dies (succession not possible)
+3. Member is expelled (serious violation)
+4. Member becomes ineligible (no longer farming)
+
+**Share Redemption Process:**
+
+```
+STEP 1: MEMBER RESIGNATION NOTICE
+- Member submits written resignation (30-90 days notice)
+- Reason for resignation stated
+- Outstanding dues (if any) to be cleared
+
+STEP 2: BOARD APPROVAL
+- Board reviews resignation at next meeting
+- Verifies no outstanding dues
+- Approves redemption
+- Calculates redemption value
+
+STEP 3: REDEMPTION VALUE CALCULATION
+- Book Value = (Total Net Assets ÷ Total Shares) × Member's Shares
+- Example: (₹50,000 ÷ 20 shares) × 2 shares = ₹5,000
+- OR: Face Value (if FPO is new/not profitable)
+- Example: ₹100 × 2 shares = ₹200
+
+STEP 4: PAYMENT
+- Redemption amount paid within 30 days of approval
+- Share certificate cancelled
+- Member removed from register
+- Exit certificate issued
+
+STEP 5: REGISTRATION
+- Redemption recorded in Share Register
+- Member register updated
+- Share capital reduced (if applicable)
+```
+
+**Share Redemption Formula:**
+
+```
+REDEMPTION VALUE = BOOK VALUE (Recommended)
+
+Book Value Calculation:
+- Total Net Assets = Total Assets - Total Liabilities
+- Book Value per Share = Total Net Assets ÷ Total Outstanding Shares
+- Member Redemption = Book Value per Share × Member's Shares
+
+Example:
+Total Assets: ₹2,00,000
+Total Liabilities: ₹50,000
+Net Assets: ₹1,50,000
+Total Shares: 20
+Book Value per Share: ₹1,50,000 ÷ 20 = ₹7,500 per share
+Member with 2 shares: ₹15,000
+
+ALTERNATIVE: FACE VALUE (If FPO is New/Loss-Making)
+- Face Value = Original Share Price (₹100)
+- Member with 2 shares: ₹200
+```
+
+**Member Exit Certificate:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+MEMBER EXIT CERTIFICATE
+[FPO NAME] FARMER PRODUCER COMPANY LIMITED
+═══════════════════════════════════════════════════════════════════════
+
+This is to certify that
+
+___________________________ (Member Name)
+S/O ___________________________ (Father's Name)
+Aadhaar No.: ___________________
+Member No.: ___________________
+
+was a member of this FPO from _______________ to _______________.
+
+EXIT DETAILS:
+Exit Date: _______________
+Reason: Resignation / Death / Expulsion / Ineligibility
+Share Certificate No.: __________
+No. of Shares: ________
+Redemption Value: ₹________
+Payment Date: _______________
+Payment Method: Bank Transfer / Cash
+Transaction ID: _____________________
+
+OUTSTANDING DUES:
+- Share Capital: ₹________ (Redeemed)
+- Other Dues: ₹________ (Cleared)
+- Final Balance: ₹0
+
+This member has no further claims on the FPO.
+
+Issued by:
+Secretary: _________________ Date: __________
+Chairman: _________________ Date: __________
+[FPO Seal]
+
+═══════════════════════════════════════════════════════════════════════
 ```
 
 ---
@@ -3820,6 +4217,211 @@ Approved by Chairman: _____________ Date: __________
 
 ---
 
+### Red Flag Indicators (Warning Signs of Fraud)
+
+**IMMEDIATE RED FLAGS - INVESTIGATE IMMEDIATELY:**
+
+```
+✅ FINANCIAL RED FLAGS:
+- Cash deposits without vouchers/receipts
+- Unexplained cash withdrawals
+- Cheques signed by single person (violates dual signature rule)
+- Payments to vendors without invoices
+- Round number expenses (₹10,000, ₹50,000) frequently
+- Bank reconciliation not matching for 2+ months
+- CEO/Treasurer frequently approving own expenses
+- Member payments delayed but staff advances cleared quickly
+- Inventory shrinkage beyond 5% (normal is 2-3%)
+- Stock records don't match physical count
+
+✅ MEMBER-RELATED RED FLAGS:
+- Members not available during verification visits
+- Member names on register but never seen at FPO
+- Same Aadhaar/ration card used by multiple "members"
+- Milk quantity suddenly increases (without new members)
+- Member complaints about not receiving payments
+- Members saying "I never joined" but name on register
+- Family members (same ration card) both listed as members
+
+✅ OPERATIONAL RED FLAGS:
+- CEO/Treasurer working alone (no oversight)
+- Board meetings not held regularly
+- Minutes not shared with all directors
+- Financial statements not shown to board
+- CEO refuses to share bank statements
+- Documents "lost" or "not available"
+- Staff member has access to all systems (no separation)
+- No audit trail (who did what, when)
+
+✅ BEHAVIORAL RED FLAGS:
+- CEO/Treasurer defensive when asked questions
+- Staff member living beyond means (new car, house)
+- Frequent "emergency" expenses
+- CEO/Treasurer reluctant to take leave
+- Staff member works late alone frequently
+- Unusual closeness between CEO and specific vendors
+- Board members not allowed to inspect records
+```
+
+**ACTION REQUIRED FOR EACH RED FLAG:**
+
+- **Single Red Flag:** Monitor closely, document, review at next board meeting
+- **Multiple Red Flags:** Immediate investigation required
+- **Serious Red Flag (financial):** Suspend access, conduct audit immediately
+
+---
+
+### Action Plan if Fraud Detected
+
+**STEP-BY-STEP FRAUD RESPONSE PROCEDURE:**
+
+```
+PHASE 1: IMMEDIATE CONTAINMENT (Day 1)
+
+1. SUSPEND ACCESS
+   - Suspend CEO/Treasurer/staff member's access to bank accounts
+   - Change all passwords (bank, accounting software)
+   - Secure all documents and records
+   - Lock office/safe if necessary
+   - Notify bank to freeze suspicious transactions
+
+2. PRESERVE EVIDENCE
+   - Secure all financial records
+   - Take screenshots of suspicious transactions
+   - Preserve emails, messages, documents
+   - Document timeline of events
+   - Do NOT delete any records
+
+3. NOTIFY BOARD
+   - Chairman calls emergency board meeting
+   - All directors informed immediately
+   - Board resolution to investigate
+   - Investigation committee formed (3 unbiased directors)
+
+PHASE 2: INVESTIGATION (Day 2-7)
+
+4. INVESTIGATION COMMITTEE ACTIONS
+   - Review all financial records
+   - Interview staff members
+   - Interview affected members
+   - Check bank statements
+   - Verify transactions
+   - Document all findings
+   - Prepare investigation report
+
+5. QUANTIFY LOSS
+   - Calculate exact amount of fraud
+   - Identify all affected parties
+   - Document timeline of fraud
+   - Identify how fraud occurred (weakness in system)
+
+PHASE 3: CORRECTIVE ACTION (Day 8-15)
+
+6. BOARD DECISION
+   - Board reviews investigation report
+   - Decides on action:
+     a) Warning (if minor, first offense)
+     b) Recovery of amount + termination
+     c) Police complaint (if major fraud)
+   - Board resolution passed
+
+7. RECOVERY (If Applicable)
+   - Demand letter to fraudster
+   - Recovery of misappropriated funds
+   - Legal action if needed
+   - Insurance claim (if fraud insurance exists)
+
+8. SYSTEM IMPROVEMENTS
+   - Fix weaknesses identified
+   - Implement stronger controls
+   - Train staff on fraud prevention
+   - Regular audits scheduled
+
+PHASE 4: COMMUNICATION (Day 16-30)
+
+9. MEMBER NOTIFICATION
+   - AGM called (if major fraud)
+   - Members informed of fraud
+   - Amount lost disclosed
+   - Recovery actions explained
+   - Preventive measures shared
+
+10. REGULATORY NOTIFICATION
+    - ROC/MCA notified (if required)
+    - Bank informed
+    - Auditor informed
+    - Police complaint filed (if criminal)
+
+11. DOCUMENTATION
+    - All actions documented
+    - Investigation report filed
+    - Board resolutions recorded
+    - Lessons learned documented
+```
+
+**FRAUD INVESTIGATION REPORT TEMPLATE:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+FRAUD INVESTIGATION REPORT
+[FPO NAME] FARMER PRODUCER COMPANY LIMITED
+═══════════════════════════════════════════════════════════════════════
+
+INVESTIGATION DETAILS:
+Date of Detection: _______________
+Date Investigation Started: _______________
+Date Report Completed: _______________
+Investigation Committee: 
+1. _________________ (Director)
+2. _________________ (Director)
+3. _________________ (Director)
+
+FRAUD SUMMARY:
+Type of Fraud: Embezzlement / Theft / Fake Members / Other
+Person(s) Involved: ___________________________
+Amount Involved: ₹________
+Period of Fraud: From _______________ to _______________
+
+FINDINGS:
+1. How Fraud Occurred: ________________________________
+2. Weaknesses Identified: ______________________________
+3. Evidence Collected: ________________________________
+4. Witness Statements: ________________________________
+
+RECOMMENDATIONS:
+1. Immediate Actions: ________________________________
+2. Recovery Actions: ________________________________
+3. System Improvements: ______________________________
+4. Preventive Measures: ______________________________
+
+BOARD DECISION:
+Action Taken: Warning / Termination / Police Complaint / Other
+Recovery Amount: ₹________
+Recovery Status: Pending / Recovered / Legal Action
+
+Investigation Committee Signatures:
+1. _________________ Date: __________
+2. _________________ Date: __________
+3. _________________ Date: __________
+
+Board Approval:
+Chairman: _________________ Date: __________
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**PREVENTION AFTER FRAUD:**
+
+- Strengthen internal controls
+- Implement dual approval for all payments
+- Regular surprise audits
+- Staff rotation (no one in same position >3 years)
+- Whistleblower policy activated
+- Regular board oversight
+- Member education on fraud prevention
+
+---
+
 ## 17. INTERNAL POLICIES FRAMEWORK
 
 ### Policy 1: PROCUREMENT POLICY
@@ -4126,6 +4728,552 @@ Display:
 
 ---
 
+### Policy 4: MEMBER ELIGIBILITY & ADMISSION
+
+```
+═══════════════════════════════════════════════════════════════════════
+FPO MEMBER ELIGIBILITY & ADMISSION POLICY
+[FPO NAME]
+═══════════════════════════════════════════════════════════════════════
+
+1. ELIGIBILITY CRITERIA
+
+Who Can Join:
+- Active farmers (landowners, tenants, or dairy farmers)
+- Age: 18 years or above
+- Valid farmer proof documents (ROR-1B, Adangal, or dairy agreement)
+- Different ration card from existing members (one member per family rule)
+- Willing to pay share capital (₹100-200)
+- Residing in or near the FPO operational area
+
+Who Cannot Join:
+- Non-farmers or traders
+- Members of another FPO (unless transferring with proper documentation)
+- Same family members already enrolled (same ration card)
+- Individuals with serious criminal records (fraud, financial crimes)
+- Fake or invalid land records
+- Minors (below 18 years)
+
+2. VERIFICATION PROCESS
+
+Step 1: Document Verification
+- Aadhaar card (original + copy)
+- Ration card (original + copy) - must be different from existing members
+- Land proof (ROR-1B/Adangal from MeeBhoomi for AP) OR Dairy agreement
+- Bank passbook (for payment purposes)
+- Passport size photo (2 copies)
+
+Step 2: Ration Card Cross-Check
+- Secretary checks ration card number against existing member database
+- Ensures "one member per family" rule is followed
+- If duplicate found: Application rejected
+
+Step 3: Land Record Verification
+- For landowners: Verify ROR-1B/Adangal through MeeBhoomi portal
+- For tenants: Verify lease deed (minimum 3 years)
+- For dairy farmers: Verify dairy agreement/animal ownership
+
+Step 4: Field Verification (Optional but Recommended)
+- Visit applicant's farm/home
+- Verify farming activity
+- Confirm applicant is genuine farmer
+
+3. REJECTION CRITERIA
+
+Application will be rejected if:
+- Duplicate ration card (family member already member)
+- Invalid/fake land records
+- Non-farmer (trader, middleman)
+- Criminal record (financial fraud)
+- Incomplete documents
+- Not willing to pay share capital
+- Outside operational area
+
+4. APPEAL PROCESS
+
+If Application Rejected:
+- Applicant can appeal to board within 30 days
+- Appeal must be in writing with reasons
+- Board reviews appeal at next meeting
+- Board decision is final
+- If appeal accepted: Application reconsidered
+- If appeal rejected: Applicant can reapply after 6 months
+
+5. ADMISSION PROCESS
+
+Step 1: Application Submission
+- Applicant submits application form with all documents
+- Application fee: None (only share capital required)
+
+Step 2: Board Review
+- Application reviewed at next board meeting
+- Board votes on membership approval (simple majority required)
+- If approved: Member number assigned
+
+Step 3: Share Capital Collection
+- Share capital collected (₹100-200)
+- Receipt issued
+- Share certificate prepared
+
+Step 4: Share Certificate Issuance
+- Share certificate issued within 15 days of approval
+- Member details recorded in member register
+- Welcome letter sent to new member
+- Member added to WhatsApp group (if applicable)
+```
+
+---
+
+### Policy 5: SHARE TRANSFER & SUCCESSION
+
+```
+═══════════════════════════════════════════════════════════════════════
+FPO SHARE TRANSFER & SUCCESSION POLICY
+[FPO NAME]
+═══════════════════════════════════════════════════════════════════════
+
+1. SHARE TRANSFER BETWEEN MEMBERS
+
+Conditions for Transfer:
+- Both parties must be existing members OR
+- Transferee must meet eligibility criteria (if new member)
+- Transferor must have no outstanding dues
+- Board approval required (simple majority)
+
+Transfer Process:
+- Written application from both parties
+- Transfer deed executed
+- Transfer fee: ₹50-100 (administrative cost)
+- Board approval at next meeting
+- Share certificate cancelled and new one issued
+- Share Register updated
+
+2. SUCCESSION (When Member Dies)
+
+Succession Process:
+- Legal heir submits death certificate
+- Legal heir submits succession certificate (from court) OR
+- Legal heir submits family settlement deed (if no dispute)
+- Legal heir must meet eligibility criteria (must be farmer)
+- Board approves succession
+- Shares transferred to legal heir
+- If legal heir not eligible: Shares redeemed at book value
+
+Nominee Process:
+- Member can nominate successor (at time of joining)
+- Nominee details recorded in member register
+- Upon member death: Nominee gets priority (if eligible)
+- If nominee not eligible: Shares go to legal heir OR redeemed
+
+3. TRANSFER RESTRICTIONS
+
+Shares Cannot Be Transferred:
+- To non-farmers
+- To members of competing FPOs (without board approval)
+- If member has outstanding dues
+- If FPO is in financial distress (board can restrict)
+- Without board approval
+
+4. TRANSFER FEES & COSTS
+
+Transfer Fee: ₹50-100 (covers administrative costs)
+Legal Costs: Borne by transferee (if succession certificate needed)
+Stamp Duty: As per state law (if applicable)
+
+5. DISPUTE RESOLUTION
+
+If Dispute Over Transfer:
+- Board mediates
+- If unresolved: Referred to arbitration
+- Final decision by board (majority vote)
+```
+
+---
+
+### Policy 6: MEMBER RESIGNATION & EXIT
+
+```
+═══════════════════════════════════════════════════════════════════════
+FPO MEMBER RESIGNATION & EXIT POLICY
+[FPO NAME]
+═══════════════════════════════════════════════════════════════════════
+
+1. RESIGNATION NOTICE
+
+Notice Period:
+- Minimum 30 days written notice required
+- Notice submitted to Secretary/CEO
+- Reason for resignation (optional but recommended)
+
+2. EXIT PROCESS
+
+Step 1: Notice Submission
+- Member submits written resignation
+- Secretary acknowledges receipt
+
+Step 2: Outstanding Dues Settlement
+- Member must clear all outstanding dues:
+  - Share capital (if not fully paid)
+  - Any loans/advances from FPO
+  - Any penalties/fines
+  - Any other dues
+- Member cannot exit with outstanding dues
+
+Step 3: Share Redemption
+- Board calculates redemption value (book value)
+- Redemption value = (Net Assets ÷ Total Shares) × Member's Shares
+- OR: Face value (if FPO is new/not profitable)
+
+Step 4: Payment
+- Redemption amount paid within 30 days of board approval
+- Payment via bank transfer (preferred)
+- Exit certificate issued
+
+Step 5: Share Certificate Cancellation
+- Share certificate cancelled
+- Member removed from member register
+- Share Register updated
+
+3. EXIT CERTIFICATE
+
+Exit certificate issued confirming:
+- Member name and details
+- Membership period
+- Shares redeemed
+- Amount paid
+- No further claims
+
+4. REJOINING
+
+If Member Wants to Rejoin:
+- Must wait 6 months after exit
+- Must meet eligibility criteria again
+- Must pay share capital again
+- Board approval required
+
+5. EXPULSION (Involuntary Exit)
+
+Member Can Be Expelled If:
+- Serious violation of bylaws
+- Fraud or misappropriation
+- Non-payment of dues despite reminders
+- Criminal activity
+- Harming FPO reputation
+
+Expulsion Process:
+- Board resolution (2/3 majority required)
+- Member given opportunity to explain
+- Expulsion notice served
+- Shares redeemed at book value
+- Exit certificate issued
+```
+
+---
+
+### Policy 7: DISPUTE RESOLUTION
+
+```
+═══════════════════════════════════════════════════════════════════════
+FPO DISPUTE RESOLUTION POLICY
+[FPO NAME]
+═══════════════════════════════════════════════════════════════════════
+
+1. TYPES OF DISPUTES
+
+Member vs FPO:
+- Payment disputes
+- Service quality issues
+- Share transfer disputes
+- Dividend disputes
+
+Member vs Member:
+- Business conflicts
+- Personal disputes affecting FPO
+
+FPO vs Vendors/Partners:
+- Contract disputes
+- Payment disputes
+
+2. DISPUTE RESOLUTION PROCESS
+
+Level 1: INFORMAL RESOLUTION
+- Member raises complaint with CEO/Secretary
+- CEO/Secretary attempts to resolve informally
+- Resolution within 7 days
+- If resolved: Matter closed
+
+Level 2: BOARD MEDIATION
+- If Level 1 fails: Complaint to board
+- Board appoints mediation committee (3 directors)
+- Mediation committee hears both parties
+- Attempts to find mutually acceptable solution
+- Resolution within 30 days
+
+Level 3: ARBITRATION
+- If Level 2 fails: Referred to arbitration
+- Arbitrator appointed (mutually agreed or by board)
+- Arbitration proceedings conducted
+- Arbitrator's decision is binding
+- Cost shared by parties
+
+Level 4: LEGAL ACTION
+- Last resort: Court of law
+- Only for serious disputes
+- Legal costs borne by parties
+
+3. APPEALS MECHANISM
+
+If Member Unhappy with Board Decision:
+- Can appeal to AGM (Annual General Meeting)
+- AGM can overturn board decision (2/3 majority)
+- AGM decision is final
+
+4. TIMELINES
+
+- Informal resolution: 7 days
+- Board mediation: 30 days
+- Arbitration: 60 days
+- Total maximum: 90 days (unless extended)
+
+5. CONFIDENTIALITY
+
+- All disputes kept confidential
+- Only board and parties involved know details
+- Resolution documented but not publicized
+```
+
+---
+
+### Policy 8: CODE OF CONDUCT
+
+```
+═══════════════════════════════════════════════════════════════════════
+FPO CODE OF CONDUCT
+[FPO NAME]
+═══════════════════════════════════════════════════════════════════════
+
+1. CODE OF CONDUCT FOR MEMBERS
+
+Members Must:
+- Follow FPO bylaws and policies
+- Participate in FPO activities actively
+- Pay dues on time
+- Maintain confidentiality of FPO information
+- Treat other members with respect
+- Report fraud/wrongdoing (whistleblower)
+- Attend AGM and important meetings
+
+Members Must Not:
+- Engage in fraud or misappropriation
+- Spread false information about FPO
+- Compete with FPO unfairly
+- Use FPO resources for personal gain
+- Harass other members or staff
+- Violate "one member per family" rule
+- Sell shares to non-eligible persons
+
+2. CODE OF CONDUCT FOR DIRECTORS
+
+Directors Must:
+- Act in best interest of FPO and members
+- Attend board meetings regularly
+- Disclose conflicts of interest
+- Maintain confidentiality
+- Exercise due diligence
+- Follow Companies Act requirements
+
+Directors Must Not:
+- Use position for personal gain
+- Approve transactions benefiting themselves
+- Share confidential information
+- Miss board meetings without valid reason
+- Accept bribes or kickbacks
+
+3. CODE OF CONDUCT FOR STAFF (CEO/Accountant)
+
+Staff Must:
+- Perform duties honestly and diligently
+- Maintain confidentiality
+- Follow FPO policies
+- Report to board regularly
+- Maintain proper records
+
+Staff Must Not:
+- Engage in fraud or theft
+- Accept bribes or kickbacks
+- Use FPO funds for personal use
+- Share confidential information
+- Approve own expenses
+
+4. PENALTIES FOR VIOLATION
+
+Minor Violation:
+- Warning letter
+- Fine (₹500-1,000)
+
+Serious Violation:
+- Suspension from FPO activities
+- Fine (₹1,000-5,000)
+- Expulsion from membership (for members)
+- Termination (for staff)
+
+Criminal Violation:
+- Police complaint
+- Legal action
+- Recovery of losses
+```
+
+---
+
+### Policy 9: DOCUMENT RETENTION
+
+```
+═══════════════════════════════════════════════════════════════════════
+FPO DOCUMENT RETENTION POLICY
+[FPO NAME]
+═══════════════════════════════════════════════════════════════════════
+
+1. RETENTION PERIOD
+
+Minimum Retention: 8 years (as per Companies Act)
+Recommended: Permanent (for important documents)
+
+2. DOCUMENTS TO RETAIN
+
+Financial Documents:
+- Bank statements (8 years)
+- Vouchers and receipts (8 years)
+- Invoices (8 years)
+- Financial statements (permanent)
+- Audit reports (permanent)
+- Tax returns (permanent)
+
+Member Documents:
+- Member applications (permanent)
+- Share certificates (permanent)
+- Share Register (permanent)
+- Member payment records (8 years)
+
+Governance Documents:
+- MOA & AOA (permanent)
+- Board meeting minutes (permanent)
+- AGM minutes (permanent)
+- Resolutions (permanent)
+- Bylaws (permanent)
+
+Compliance Documents:
+- ROC filings (permanent)
+- Tax filings (permanent)
+- Subsidy applications (8 years)
+- Audit reports (permanent)
+
+3. STORAGE
+
+Physical Storage:
+- Secure filing cabinet
+- Locked and accessible only to authorized persons
+- Organized by category and year
+- Protected from fire, water, pests
+
+Digital Storage:
+- Cloud backup (Google Drive/Dropbox)
+- External hard drive backup
+- Password protected
+- Regular backup (daily/weekly)
+
+4. ACCESS CONTROL
+
+Who Can Access:
+- Chairman, Treasurer, Secretary (full access)
+- CEO/Accountant (operational access)
+- Auditors (during audit)
+- Board members (with permission)
+
+Access Log:
+- Record who accessed what documents
+- Date and time of access
+- Purpose of access
+
+5. DESTRUCTION
+
+After Retention Period:
+- Review documents
+- Identify documents to destroy
+- Board approval for destruction
+- Secure destruction (shredding/burning)
+- Record of destruction maintained
+```
+
+---
+
+### Policy 10: DIVIDEND DISTRIBUTION
+
+```
+═══════════════════════════════════════════════════════════════════════
+FPO DIVIDEND DISTRIBUTION POLICY
+[FPO NAME]
+═══════════════════════════════════════════════════════════════════════
+
+1. DIVIDEND DECLARATION
+
+When:
+- After annual audit completed
+- At AGM (Annual General Meeting)
+- Board recommends dividend
+- Members approve dividend
+
+How Much:
+- Based on profit available
+- After setting aside reserves (20%)
+- After contingency fund (10%)
+- Remaining distributed as dividend
+
+2. DISTRIBUTION METHOD
+
+Method: HYBRID (Recommended)
+- 30% distributed equally (by shareholding)
+- 70% distributed by patronage (participation)
+
+Example:
+Available Dividend: ₹70,000
+Equal Distribution (30%): ₹21,000 ÷ 20 shares = ₹1,050 per share
+Patronage Distribution (70%): ₹49,000 distributed by milk/produce supplied
+
+3. DIVIDEND PAYMENT
+
+Timeline:
+- Declared at AGM (within 6 months of year-end)
+- Paid within 30 days of declaration
+- Payment via bank transfer (preferred)
+
+TDS (Tax Deduction):
+- TDS @ 10% if dividend > ₹5,000 per member
+- TDS certificate issued (Form 16A)
+
+4. DIVIDEND POLICY
+
+Retention Policy:
+- Minimum 20% profit retained as reserve
+- Minimum 10% as contingency fund
+- Remaining distributed (subject to cash availability)
+
+No Profit Years:
+- No dividend declared
+- Losses carried forward
+- Members informed at AGM
+
+5. MEMBER RIGHTS
+
+Member Rights:
+- Right to receive dividend (if eligible)
+- Right to know dividend calculation
+- Right to query dividend amount
+- Right to receive dividend statement
+- Right to appeal if dispute
+```
+
+---
+
 ## 18. FARMER ENROLLMENT POLICY
 
 ### Purpose
@@ -4256,12 +5404,202 @@ This policy defines the process for enrolling new members into the FPO, ensuring
 - Remaining disbursement: Based on project progress
 - Regular EMI payments start after moratorium period (if any)
 
+### Step-by-Step Bank Loan Application Process
+
+**STEP 1: PREPARATION (Week 1-2)**
+
+1. **Choose the Right Bank:**
+   - Preferred: SBI, BOB, Canara Bank, NABARD-linked banks
+   - Contact bank manager for agricultural/FPO loan schemes
+   - Inquire about interest rates (typically 8-10% p.a. for FPOs)
+   - Ask about processing time and requirements
+
+2. **Calculate Loan Amount Needed:**
+   - Total project cost: ₹________
+   - Subsidy/grant available: ₹________
+   - Member contribution: ₹________
+   - **Loan required: ₹________** (typically 50-70% of project cost)
+
+3. **Prepare Detailed Project Report (DPR):**
+   - Business plan with activities
+   - Financial projections (Year 1-3)
+   - Investment breakdown
+   - Revenue projections
+   - Break-even analysis
+   - Market analysis
+
+**STEP 2: DOCUMENT COLLECTION (Week 2-3)**
+
+Gather all documents from checklist above:
+- FPO registration documents
+- Board resolutions
+- Member information
+- Financial documents
+- Collateral documents (if any)
+- Subsidy approvals (if any)
+
+**STEP 3: APPLICATION SUBMISSION (Week 3)**
+
+1. **Submit Application:**
+   - Complete bank loan application form
+   - Attach all required documents
+   - Submit to bank branch manager
+   - Get acknowledgment receipt
+
+2. **Bank Review:**
+   - Bank reviews application (typically 15-30 days)
+   - Bank may ask for additional documents
+   - Bank may conduct field visit to verify FPO operations
+   - Bank may interview directors/CEO
+
+**STEP 4: LOAN APPROVAL (Week 4-6)**
+
+1. **Bank Decision:**
+   - Bank approves or rejects loan
+   - If approved: Bank issues sanction letter
+   - Sanction letter contains:
+     - Loan amount approved
+     - Interest rate
+     - Repayment schedule
+     - Terms & conditions
+     - Collateral requirements (if any)
+
+2. **Loan Agreement:**
+   - Review loan agreement carefully
+   - Sign loan agreement
+   - Provide collateral (if required)
+   - Complete documentation
+
+**STEP 5: LOAN DISBURSEMENT (Week 6-8)**
+
+1. **First Disbursement:**
+   - First disbursement: 50-70% of approved amount
+   - Based on project progress
+   - Submit utilization certificate
+
+2. **Subsequent Disbursements:**
+   - Remaining disbursement: Based on project progress
+   - Submit progress reports
+   - Submit utilization certificates
+
+3. **EMI Payments:**
+   - Regular EMI payments start after moratorium period (if any)
+   - Moratorium period: Usually 6-12 months (no EMI during this period)
+   - After moratorium: Monthly/quarterly EMI payments
+
+### NABARD Credit Guarantee Procedure
+
+**What is NABARD Credit Guarantee?**
+- NABARD provides credit guarantee to banks for FPO loans
+- Reduces bank risk
+- Makes loan approval easier
+- Covers up to 85% of loan amount
+
+**How to Get NABARD Credit Guarantee:**
+
+1. **Apply to NABARD:**
+   - Submit application to NABARD regional office
+   - Provide FPO registration documents
+   - Provide bank loan sanction letter
+   - Pay guarantee fee (0.5-1% of loan amount)
+
+2. **NABARD Approval:**
+   - NABARD reviews application
+   - Approves credit guarantee
+   - Issues guarantee certificate
+
+3. **Bank Benefits:**
+   - Bank gets guarantee coverage
+   - Reduces bank risk
+   - Makes loan approval easier
+
+### Common Loan Rejection Reasons & Solutions
+
+**REJECTION REASON 1: Weak Financial Projections**
+- **Problem:** Unrealistic revenue projections
+- **Solution:** Provide realistic, conservative projections with market data
+
+**REJECTION REASON 2: Fake Members**
+- **Problem:** Bank finds duplicate/fake members
+- **Solution:** Ensure all members are genuine, verified, with proper documents
+
+**REJECTION REASON 3: No Buyer Agreement**
+- **Problem:** No confirmed buyers for produce
+- **Solution:** Get buyer agreements (MoU) from milk cooperatives, millers, etc.
+
+**REJECTION REASON 4: Weak Management**
+- **Problem:** No CEO or weak board
+- **Solution:** Appoint qualified CEO, strengthen board
+
+**REJECTION REASON 5: Poor Compliance**
+- **Problem:** Missing ROC filings, audit reports
+- **Solution:** Complete all compliance requirements before applying
+
+**REJECTION REASON 6: Insufficient Collateral**
+- **Problem:** Bank requires collateral but FPO doesn't have
+- **Solution:** Apply for NABARD credit guarantee (reduces collateral requirement)
+
+**REJECTION REASON 7: Low Bank Balance**
+- **Problem:** FPO account shows low/no activity
+- **Solution:** Show active operations, regular transactions, member participation
+
+### Processing Timeline
+
+**Typical Timeline:**
+- Application submission: Day 1
+- Bank review: Day 1-15
+- Field visit (if required): Day 10-20
+- Additional documents (if required): Day 15-25
+- Loan approval: Day 20-30
+- Loan agreement: Day 25-35
+- First disbursement: Day 30-45
+
+**Total Time: 30-45 days from application to disbursement**
+
+### Interest Rates & Charges
+
+**Typical Interest Rates:**
+- FPO loans: 8-10% p.a. (varies by bank)
+- NABARD-subsidized: 7-9% p.a.
+- Regular agricultural loan: 9-12% p.a.
+
+**Other Charges:**
+- Processing fee: 0.5-1% of loan amount
+- Documentation charges: ₹500-2,000
+- NABARD guarantee fee: 0.5-1% of loan amount (if applicable)
+- Prepayment charges: Usually none (check with bank)
+
+### Collateral Requirements
+
+**Types of Collateral Accepted:**
+- Land (if FPO owns)
+- Fixed deposits
+- Guarantor (personal guarantee from directors)
+- NABARD credit guarantee (reduces collateral requirement)
+
+**Collateral Amount:**
+- Typically 100-150% of loan amount
+- With NABARD guarantee: May be reduced to 50-75%
+
 ### Tips for Loan Approval
-- Maintain good bank account balance
+
+✅ **DO:**
+- Maintain good bank account balance (show activity)
 - Show active FPO operations (revenue, member participation)
 - Provide strong project report with realistic projections
 - Have subsidy/grant approvals (increases bank confidence)
 - Ensure all compliance documents are up-to-date
+- Get buyer agreements (MoU) before applying
+- Appoint qualified CEO
+- Show member commitment (share capital paid)
+
+❌ **DON'T:**
+- Apply with fake members
+- Provide unrealistic projections
+- Miss compliance deadlines
+- Apply without buyer agreements
+- Apply with weak management
+- Apply without proper documentation
 
 ---
 
@@ -4519,6 +5857,489 @@ This policy defines the process for enrolling new members into the FPO, ensuring
 - Secure password management
 - Access control (limit who can access sensitive data)
 - Protect member personal information (Aadhaar, bank details)
+
+---
+
+## 22. FAQ & TROUBLESHOOTING GUIDE
+
+### Common Questions & Answers
+
+**Q1: What if farmer has no MeeBhoomi access or internet?**
+
+**A:** Go to MRO (Mandal Revenue Officer) office with:
+- Aadhaar card (original + copy)
+- Application for ROR-1B/Adangal
+- Fee: ₹25-50
+- Get certified ROR-1B within 1-2 days
+- MRO office will print from their system
+
+**Q2: Can husband & wife both be members of the same FPO?**
+
+**A:** NO. Only one member per family (same ration card). If wife wants to join:
+- Wife must get separate ration card first
+- Then she can apply as independent member
+- Both must have separate land/farming proof
+
+**Q3: What if tenant lease is only 2 years? Can they join?**
+
+**A:** NOT eligible. Lease must be minimum 3 years. Solutions:
+- Renew lease with landlord for 3+ years
+- Get new lease deed executed
+- Then apply for membership
+
+**Q4: Member wants to quit after 1 year. How to exit?**
+
+**A:** Process:
+- Member gives 30-day written notice to Secretary
+- Clear all outstanding dues (if any)
+- Board calculates share redemption value (book value)
+- Payment made within 30 days of board approval
+- Exit certificate issued
+- Share certificate cancelled
+
+**Q5: No buyer for milk/produce. What to do?**
+
+**A:** Solutions:
+- Contact SFAC/NABARD - they help connect with buyers
+- Contact local milk cooperatives (AP Dairy, Vijaya Dairy)
+- Contact millers/processors directly
+- Use AP Karshak Portal to find buyers
+- Contact Resource Institution (RI) for market linkages
+
+**Q6: Bank rejected loan application. Why?**
+
+**A:** Common reasons:
+- Weak financial projections (unrealistic revenue)
+- Fake members (duplicate/fake entries)
+- No buyer agreement (no confirmed market)
+- Poor compliance (missing ROC filings, audit)
+- Weak management (no CEO, weak board)
+- Low bank balance (no activity shown)
+
+**Solutions:**
+- Provide realistic projections with market data
+- Ensure all members are genuine, verified
+- Get buyer agreements (MoU) before applying
+- Complete all compliance requirements
+- Appoint qualified CEO
+- Show active operations
+
+**Q7: How to handle member who doesn't pay dues/dividend?**
+
+**A:** Process:
+- Send reminder notice (7 days)
+- If not paid: Adjust against next payment
+- If repeated: Board can suspend member
+- If serious: Board can expel member (2/3 majority)
+- Recover dues before allowing exit
+
+**Q8: FPO made profit but no dividend distributed. Is this allowed?**
+
+**A:** YES, if retention policy says so. FPO must:
+- Reserve minimum 20% as contingency fund
+- Can retain more if needed for expansion
+- Must inform members at AGM
+- Dividend distribution is board decision (subject to AGM approval)
+
+**Q9: Member died. What happens to shares?**
+
+**A:** Succession process:
+- Legal heir submits death certificate
+- Legal heir submits succession certificate OR family settlement deed
+- Legal heir must be eligible (farmer)
+- Board approves succession
+- Shares transferred to legal heir
+- If legal heir not eligible: Shares redeemed at book value
+
+**Q10: How to verify if member is genuine farmer?**
+
+**A:** Verification process:
+- Check ROR-1B/Adangal from MeeBhoomi (for landowners)
+- Check lease deed (for tenants, minimum 3 years)
+- Check dairy agreement (for dairy farmers)
+- Field visit to farm/home (recommended)
+- Verify ration card (ensure one per family)
+- Cross-check with existing member database
+
+**Q11: FPO wants to change business activity. How?**
+
+**A:** Process:
+- Board resolution to change activity
+- Update MOA (Memorandum of Association) if major change
+- File with ROC (if MOA change required)
+- Inform members at AGM
+- Get necessary licenses/permits for new activity
+
+**Q12: Member wants to transfer shares to another member. How?**
+
+**A:** Share transfer process:
+- Both parties submit written application
+- Execute transfer deed
+- Pay transfer fee (₹50-100)
+- Board approval required (simple majority)
+- Share certificate cancelled and new one issued
+- Share Register updated
+
+**Q13: How often should board meetings be held?**
+
+**A:** Minimum:
+- Quarterly (every 3 months) - legally required
+- Recommended: Monthly for first year
+- AGM: Once per year (within 6 months of year-end)
+
+**Q14: What if board meeting quorum not met?**
+
+**A:** Quorum = 50% of directors + 1
+- If quorum not met: Meeting adjourned
+- Next meeting: Same agenda, no quorum required
+- Must inform all directors of adjourned meeting
+
+**Q15: FPO received subsidy but bank asking for more documents. Why?**
+
+**A:** Bank verification process:
+- Bank verifies subsidy utilization
+- Bank may ask for:
+  - Utilization certificate
+  - Invoices/receipts
+  - Progress reports
+  - Field visit
+- Provide all documents promptly
+- Show proper utilization of subsidy
+
+**Q16: Member complaining about payment delay. What to do?**
+
+**A:** Payment policy:
+- Milk: Payment within 7 days
+- Paddy: Payment within 15 days
+- If delayed: Pay interest @ 12% p.a.
+- Communicate delay reason to member
+- Document delay reason
+- Improve process to avoid future delays
+
+**Q17: How to handle dispute between members?**
+
+**A:** Dispute resolution:
+- Level 1: Informal resolution (CEO/Secretary)
+- Level 2: Board mediation
+- Level 3: Arbitration
+- Level 4: Court (last resort)
+- Timeline: Maximum 90 days
+
+**Q18: FPO wants to expand to new village. How?**
+
+**A:** Expansion process:
+- Board resolution to expand
+- Update MOA (if operational area changes)
+- File with ROC
+- Recruit members from new village
+- Ensure "one member per family" rule
+- Get necessary approvals
+
+**Q19: How to calculate dividend for members?**
+
+**A:** Dividend calculation:
+- Available profit = Net Profit - Reserve (20%) - Contingency (10%)
+- Distribution method (choose one):
+  - Equal (by shares): Available ÷ Total Shares × Member's Shares
+  - Patronage-based: 70% by participation, 30% equal
+  - Hybrid (recommended): 30% equal, 70% by patronage
+
+**Q20: Member not participating in FPO activities. What to do?**
+
+**A:** Options:
+- Remind member of benefits
+- Understand reason (may have valid reason)
+- If repeated non-participation: Can reduce dividend (if patronage-based)
+- If serious: Board can consider expulsion (last resort)
+- Document all communications
+
+**Q21: FPO wants to take loan from member. Is this allowed?**
+
+**A:** YES, with conditions:
+- Board resolution required
+- Interest rate: Maximum 12% p.a. (as per Companies Act)
+- Proper documentation (loan agreement)
+- Repayment schedule
+- Must be in best interest of FPO
+
+**Q22: How to handle member who violates code of conduct?**
+
+**A:** Process:
+- Warning letter (first offense, minor)
+- Fine (₹500-1,000) for repeated minor offenses
+- Suspension from activities (serious offense)
+- Expulsion (very serious, 2/3 board majority required)
+- Document all violations and actions
+
+**Q23: FPO wants to hire staff. What are the requirements?**
+
+**A:** Staff hiring:
+- Board resolution to hire
+- Define job role, salary, terms
+- Recruitment process (interview, selection)
+- Appointment letter issued
+- Terms: Salary, reporting, powers, termination
+- Follow labor laws (if applicable)
+
+**Q24: How to handle member who wants to rejoin after exit?**
+
+**A:** Rejoining process:
+- Must wait 6 months after exit
+- Must meet eligibility criteria again
+- Must pay share capital again
+- Board approval required
+- New member number assigned
+
+**Q25: FPO received grant but not sure how to use. What to do?**
+
+**A:** Grant utilization:
+- Check grant terms and conditions
+- Use only for approved purposes
+- Maintain proper records (invoices, receipts)
+- Submit utilization certificate
+- Get audit done (if required)
+- Follow grant guidelines strictly
+
+**Q26: Member wants to see FPO financial records. Is this allowed?**
+
+**A:** YES. Member rights:
+- Right to inspect financial records
+- Right to receive financial statements
+- Right to attend AGM (where financials presented)
+- Right to query any transaction
+- Request in writing to Secretary
+
+**Q27: How to handle member who supplies poor quality produce?**
+
+**A:** Quality control:
+- Set quality standards (communicate to members)
+- Test quality at collection (fat content for milk, grade for crops)
+- Pay based on quality (premium for good quality)
+- Educate member on quality improvement
+- If repeated poor quality: Can reject (with notice)
+
+**Q28: FPO wants to change bank account. How?**
+
+**A:** Bank account change:
+- Board resolution to change bank
+- Close old account (after clearing all transactions)
+- Open new account with board resolution
+- Update bank details with ROC (if required)
+- Inform all stakeholders (members, vendors, banks)
+
+**Q29: How to handle member who doesn't attend AGM?**
+
+**A:** AGM attendance:
+- AGM notice sent 21 days in advance
+- Member can attend or send proxy
+- Quorum: 1/3 of members or 100 members (whichever is less)
+- If quorum not met: Adjourned meeting (no quorum required)
+- Important decisions require member approval
+
+**Q30: FPO wants to merge with another FPO. Is this possible?**
+
+**A:** YES, but complex process:
+- Both FPOs must agree
+- Board resolutions from both FPOs
+- Member approval (special resolution, 3/4 majority)
+- File with ROC (merger application)
+- Legal process (court approval may be required)
+- Consult professional (CA/lawyer) for guidance
+
+**Q31: How to handle member who lost share certificate?**
+
+**A:** Lost certificate process:
+- Member submits written application
+- Affidavit (sworn statement) that certificate lost
+- Board resolution to issue duplicate
+- Duplicate certificate issued (marked "DUPLICATE")
+- Old certificate cancelled (if found later)
+- Fee: ₹100-200 (administrative cost)
+
+**Q32: FPO wants to start new activity (e.g., processing). What to do?**
+
+**A:** New activity process:
+- Board resolution to start new activity
+- Check if MOA allows (if not, amend MOA)
+- Get necessary licenses/permits
+- Prepare business plan
+- Arrange funding (loan/subsidy)
+- Recruit staff (if needed)
+- Start operations
+
+**Q33: How to handle member who doesn't pay share capital?**
+
+**A:** Share capital payment:
+- Share capital must be paid at time of joining
+- If not paid: Membership not complete
+- Cannot issue share certificate until paid
+- If member doesn't pay: Application rejected
+- No exceptions (share capital is mandatory)
+
+**Q34: FPO wants to change registered office address. How?**
+
+**A:** Address change process:
+- Board resolution to change address
+- File Form INC-22 with ROC (within 30 days)
+- Update address in all documents
+- Inform all stakeholders
+- Update bank records
+- Update on letterheads, website (if any)
+
+**Q35: How to handle member who wants to increase shareholding?**
+
+**A:** Share increase process:
+- Member submits application
+- Board approval required
+- Issue additional shares (if available)
+- Collect additional share capital
+- Issue new share certificate OR update existing
+- Update Share Register
+
+**Q36: FPO received multiple subsidy approvals. Can we use all?**
+
+**A:** Check subsidy terms:
+- Some subsidies are mutually exclusive
+- Some can be combined (with conditions)
+- Read each subsidy's terms carefully
+- Consult with SFAC/NABARD
+- Ensure no violation of terms
+- Maintain separate accounts for each subsidy
+
+**Q37: How to handle member who is director of another FPO?**
+
+**A:** Conflict of interest:
+- Member can be member of multiple FPOs (if different commodities)
+- But cannot be director of competing FPO
+- If conflict: Member must choose one
+- Board can ask member to resign from other FPO
+- Document conflict and resolution
+
+**Q38: FPO wants to give loan to member. Is this allowed?**
+
+**A:** YES, with conditions:
+- Board resolution required
+- Interest rate: Maximum 12% p.a.
+- Proper documentation (loan agreement)
+- Repayment schedule
+- Security/collateral (if large amount)
+- Must be in best interest of FPO
+
+**Q39: How to handle member who supplies to competitor?**
+
+**A:** Member obligations:
+- Member should prioritize FPO (if FPO offers fair price)
+- Cannot force member (member has choice)
+- Educate member on benefits of FPO
+- If member repeatedly supplies to competitor: Can reduce dividend (if patronage-based)
+- Document all communications
+
+**Q40: FPO wants to invest surplus funds. What are options?**
+
+**A:** Investment options:
+- Fixed deposits (banks)
+- Government securities
+- Mutual funds (conservative)
+- Cannot invest in shares/stocks (restricted for Producer Companies)
+- Board resolution required
+- Consult professional for guidance
+
+**Q41: How to handle member who doesn't follow FPO bylaws?**
+
+**A:** Bylaw violation:
+- Warning letter (first offense, minor)
+- Fine (₹500-1,000) for repeated minor offenses
+- Suspension from activities (serious offense)
+- Expulsion (very serious, 2/3 board majority)
+- Document all violations and actions
+
+**Q42: FPO wants to change financial year. How?**
+
+**A:** Financial year change:
+- Board resolution to change
+- File with ROC (Form AOC-4)
+- Inform Income Tax Department
+- Can change only once in lifetime (restrictions apply)
+- Consult professional (CA) for guidance
+
+**Q43: How to handle member who wants to see board meeting minutes?**
+
+**A:** Member rights:
+- Members can request board meeting minutes
+- Request in writing to Secretary
+- Secretary provides copy (may charge copying fee)
+- Confidential information may be redacted
+- Minutes available after board approval
+
+**Q44: FPO wants to start online sales. What to do?**
+
+**A:** Online sales process:
+- Board resolution to start online sales
+- Get necessary licenses (if required)
+- Set up online platform (website/app)
+- Payment gateway integration
+- Logistics arrangement
+- Marketing and promotion
+
+**Q45: How to handle member who wants to nominate successor?**
+
+**A:** Nomination process:
+- Member can nominate successor at time of joining
+- Nomination form filled and submitted
+- Nominee details recorded in member register
+- Upon member death: Nominee gets priority (if eligible)
+- If nominee not eligible: Shares go to legal heir OR redeemed
+
+**Q46: FPO wants to change CEO. What is the process?**
+
+**A:** CEO change process:
+- Board resolution to terminate (if termination) OR
+- CEO resignation accepted
+- Notice period: As per appointment letter (usually 30 days)
+- New CEO recruitment process
+- New appointment letter issued
+- Update bank records (if CEO was signatory)
+
+**Q47: How to handle member who wants to see audit report?**
+
+**A:** Audit report access:
+- Audit report presented at AGM (all members can see)
+- Members can request copy (after AGM)
+- Request in writing to Secretary
+- Secretary provides copy (may charge copying fee)
+- Full report available (no redaction)
+
+**Q48: FPO wants to start export. What are requirements?**
+
+**A:** Export requirements:
+- Export license (if required)
+- IEC (Import Export Code) from DGFT
+- Quality certifications
+- Buyer agreements
+- Logistics arrangement
+- Board resolution
+- Consult professional for guidance
+
+**Q49: How to handle member who wants to see member register?**
+
+**A:** Member register access:
+- Members can request to see member register
+- Request in writing to Secretary
+- Secretary shows register (at FPO office)
+- Confidential information (Aadhaar, bank details) may be redacted
+- Cannot take copy (privacy concerns)
+
+**Q50: FPO wants to dissolve/close. What is the process?**
+
+**A:** Dissolution process (complex, consult professional):
+- Board resolution to dissolve
+- Member approval (special resolution, 3/4 majority)
+- File with ROC (winding up application)
+- Settle all liabilities
+- Distribute assets to members
+- Close bank accounts
+- Cancel registration
+- Consult professional (CA/lawyer) for guidance
 
 ---
 
@@ -5912,6 +7733,422 @@ OFFICIAL CERTIFICATE
 
 ---
 
+## ANNEX-8: SAMPLE COMPLETED DOCUMENTS ✨
+
+### Purpose
+This annexure provides sample completed documents to help field staff and FPO members understand what correct documents look like. These are anonymized examples for reference only.
+
+---
+
+### SAMPLE 1: ROR-1B/Adangal Printout from MeeBhoomi
+
+**What a Correct ROR-1B Printout Looks Like:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+ANDHRA PRADESH - REVENUE DEPARTMENT
+MeeBhoomi Portal - ROR-1B (Record of Rights)
+═══════════════════════════════════════════════════════════════════════
+
+District: Krishna
+Mandal: Vijayawada Rural
+Village: Peddapuram
+Survey Number: 45/2
+
+PROPERTY DETAILS:
+─────────────────
+Patta Number: 1234
+Khata Number: 567
+Total Extent: 2.50 Acres
+Land Classification: Agricultural (Dry)
+Soil Type: Red Soil
+
+OWNER DETAILS:
+──────────────
+Name: RAM KUMAR S/O DAMODAR
+Aadhaar: XXXX XXXX 1234
+Address: Peddapuram Village, Vijayawada Rural Mandal, Krishna District
+Ration Card: AP/12/345/6789
+
+CULTIVATION DETAILS:
+────────────────────
+Current Crop: Paddy
+Season: Kharif 2024
+Tenancy Status: Owner Cultivator
+
+ENCUMBRANCES:
+─────────────
+Mortgage: NIL
+Liens: NIL
+Status: Clear Title
+
+VERIFICATION:
+─────────────
+Downloaded from: https://meebhoomi.ap.gov.in
+Download Date: 15-Jan-2025
+Verification Code: MB-AP-2025-123456
+Status: VERIFIED ✅
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**KEY POINTS TO VERIFY:**
+- ✅ Owner name matches Aadhaar
+- ✅ Survey number is clear
+- ✅ Extent (area) is mentioned
+- ✅ Land classification is "Agricultural"
+- ✅ No mortgage/liens (Clear Title)
+- ✅ Download date is recent (within 6 months)
+- ✅ MeeBhoomi verification code present
+
+---
+
+### SAMPLE 2: Completed Lease Deed (Tenant Farmer)
+
+**What a Correct Lease Deed Looks Like:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+LEASE DEED FOR AGRICULTURAL LAND
+═══════════════════════════════════════════════════════════════════════
+
+This Lease Deed is executed on this 1st day of April, 2024, between:
+
+LESSOR (Landowner):
+───────────────────
+Name: SHYAM SINGH S/O JAWAHAR SINGH
+Age: 45 years
+Aadhaar: XXXX XXXX 5678
+Address: Peddapuram Village, Vijayawada Rural Mandal, Krishna District
+PAN: ABCDE1234F
+
+LESSEE (Tenant):
+────────────────
+Name: VIJAY PATEL S/O MOHAN PATEL
+Age: 35 years
+Aadhaar: XXXX XXXX 9012
+Address: Peddapuram Village, Vijayawada Rural Mandal, Krishna District
+PAN: FGHIJ5678K
+
+PROPERTY DETAILS:
+─────────────────
+Survey Number: 45/2
+Village: Peddapuram
+Mandal: Vijayawada Rural
+District: Krishna, Andhra Pradesh
+Total Extent: 2.50 Acres
+Land Classification: Agricultural
+
+LEASE TERMS:
+────────────
+1. Lease Period: 3 years (from 01-Apr-2024 to 31-Mar-2027)
+2. Annual Rent: ₹15,000 per year
+3. Rent Payment: Annual, in advance (by 1st April each year)
+4. Purpose: Agricultural cultivation only
+5. Lessee can grow any crop as per choice
+6. Lessee responsible for all cultivation costs
+7. Lessor will not interfere in cultivation
+
+RIGHTS & OBLIGATIONS:
+─────────────────────
+- Lessee has right to cultivate and harvest crops
+- Lessee must maintain land in good condition
+- Lessee cannot sub-lease without lessor's written consent
+- Lessee must pay rent on time
+- Lessor must not disturb lessee during lease period
+
+TERMINATION:
+────────────
+- Lease terminates on 31-Mar-2027 (automatic)
+- Can be terminated early by mutual consent
+- If lessee defaults on rent: Lessor can terminate with 30 days notice
+
+WITNESSES:
+──────────
+Witness 1:
+Name: GOPAL S/O BHOLA
+Aadhaar: XXXX XXXX 3456
+Signature: _________________ Date: __________
+
+Witness 2:
+Name: SURESH S/O RAMESH
+Aadhaar: XXXX XXXX 7890
+Signature: _________________ Date: __________
+
+SIGNATURES:
+───────────
+LESSOR:
+Shyam Singh
+Signature: _________________ Date: 01-Apr-2024
+[Seal/Thumbprint]
+
+LESSEE:
+Vijay Patel
+Signature: _________________ Date: 01-Apr-2024
+[Seal/Thumbprint]
+
+NOTARIZED:
+──────────
+Notary Public: _________________
+Registration No.: _________________
+Date: 01-Apr-2024
+[Notary Seal]
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**KEY POINTS TO VERIFY:**
+- ✅ Lease period is minimum 3 years
+- ✅ Both parties' names, Aadhaar, addresses are clear
+- ✅ Survey number and property details are mentioned
+- ✅ Rent amount and payment terms are specified
+- ✅ Both parties have signed
+- ✅ Two witnesses have signed
+- ✅ Date is mentioned
+- ✅ Notarized (recommended but not mandatory)
+
+---
+
+### SAMPLE 3: VAO Certificate
+
+**What a Correct VAO Certificate Looks Like:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+OFFICIAL CERTIFICATE
+LAND VERIFICATION CERTIFICATE
+═══════════════════════════════════════════════════════════════════════
+
+Office of the Mandal Revenue Officer (MRO)
+Vijayawada Rural Mandal
+Krishna District, Andhra Pradesh
+
+Certificate No.: MRO/VR/2025/123
+Date: 20-Jan-2025
+
+TO WHOM IT MAY CONCERN
+
+This is to certify that:
+
+Name: RAM KUMAR S/O DAMODAR
+Aadhaar No.: XXXX XXXX 1234
+Address: Peddapuram Village, Vijayawada Rural Mandal, Krishna District
+
+is the owner/tenant of the following agricultural land:
+
+PROPERTY DETAILS:
+─────────────────
+Survey Number: 45/2
+Village: Peddapuram
+Mandal: Vijayawada Rural
+District: Krishna, Andhra Pradesh
+Total Extent: 2.50 Acres
+Land Classification: Agricultural (Dry)
+Soil Type: Red Soil
+
+VERIFICATION:
+─────────────
+Based on verification of revenue records (ROR-1B/Adangal) and field inspection:
+
+1. The above-mentioned person is the registered owner/tenant of the land
+2. The land is used for agricultural purposes
+3. The land is free from any mortgage/liens (Clear Title)
+4. The person is actively engaged in farming activities
+5. The person is eligible for FPO membership
+
+PURPOSE:
+────────
+This certificate is issued for the purpose of FPO membership verification.
+
+VALIDITY:
+─────────
+This certificate is valid for 6 months from the date of issue.
+
+Issued by:
+
+Signature: _________________
+Name: [MRO Name]
+Designation: Mandal Revenue Officer
+Office: Vijayawada Rural Mandal
+Date: 20-Jan-2025
+
+[Official Seal of MRO Office]
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**KEY POINTS TO VERIFY:**
+- ✅ MRO office letterhead/official format
+- ✅ Certificate number and date are mentioned
+- ✅ Person's name, Aadhaar, address are clear
+- ✅ Survey number and property details are mentioned
+- ✅ Verification statement is clear
+- ✅ MRO signature and seal are present
+- ✅ Date is mentioned
+- ✅ Validity period is mentioned
+
+---
+
+### SAMPLE 4: Share Certificate (Completed)
+
+**What a Correct Share Certificate Looks Like:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+SHARE CERTIFICATE
+═══════════════════════════════════════════════════════════════════════
+
+CERTIFICATE No.: SC-001          Date Issued: 15-Apr-2025
+
+                    FARMER PRODUCER COMPANY LIMITED
+                    PEDDAPURAM VILLAGE FPO
+
+═══════════════════════════════════════════════════════════════════════
+
+THIS IS TO CERTIFY that
+
+RAM KUMAR
+(Name of Member - as per Aadhaar)
+
+S/O DAMODAR
+(Father's Name)
+
+R/O Peddapuram Village, Vijayawada Rural Mandal, Krishna District, AP
+(Address)
+
+Aadhaar No.: XXXX XXXX 1234  PAN No.: ABCDE1234F
+
+is the registered holder of 2 SHARES of ₹100 each
+(each share valued at ₹100)
+
+amounting to Rupees Two Hundred Only (In Words: Two Hundred Only)
+
+in the above Company, fully paid up.
+
+TERMS & CONDITIONS:
+===================
+
+1. SHARE OWNERSHIP
+   The holder is the registered owner of these shares and possesses 
+   all rights and liabilities as per the Bylaws of the FPO.
+
+2. TRANSFER RESTRICTION
+   These shares cannot be transferred to any person outside the FPO 
+   without prior written consent of the Board of Directors.
+
+3. MEMBER RIGHTS
+   - Right to vote in AGM (1 vote per share / 1 vote per member)
+   - Right to receive annual dividend
+   - Right to inspect FPO records
+   - Right to receive surplus based on patronage
+   - Right to participate in FPO activities at member rates
+
+4. MEMBER RESPONSIBILITIES
+   - Follow FPO bylaws
+   - Pay any additional calls on shares if required
+   - Contribute to FPO as decided in AGM
+   - Participate in FPO activities
+   - Maintain confidentiality
+
+5. LIEN
+   The FPO has a lien on these shares for any money due from the 
+   member to the FPO (membership fees, penalties, etc.).
+
+6. FORFEITURE
+   If a member fails to pay calls/dues, shares may be forfeited 
+   as per FPO bylaws.
+
+7. SUCCESSION
+   Upon death of the member, shares pass to legal heir as per 
+   FPO succession policy.
+
+8. SHARE CERTIFICATE AUTHENTICITY
+   This certificate is valid only when countersigned by both 
+   Chairman and Company Secretary below. Any alteration renders 
+   it invalid.
+
+═══════════════════════════════════════════════════════════════════════
+
+AUTHORIZED SIGNATORIES:
+
+Chairman: ____________________________
+          [Signature & Date: 15-Apr-2025]
+          [FPO Seal]
+
+Company Secretary: ____________________________
+                   [Signature & Date: 15-Apr-2025]
+
+═══════════════════════════════════════════════════════════════════════
+
+MEMBER ACKNOWLEDGMENT:
+
+I hereby acknowledge receipt of this Share Certificate and undertake 
+to comply with all Terms & Conditions mentioned above.
+
+Member Signature: ________________________ Date: 15-Apr-2025
+
+Member Aadhaar No.: XXXX XXXX 1234
+Member Contact: +91-98765-43210
+
+═══════════════════════════════════════════════════════════════════════
+Notes:
+- Keep original safe with important documents
+- Notify FPO immediately if lost/damaged
+- Display proudly as proof of FPO membership!
+═══════════════════════════════════════════════════════════════════════
+```
+
+**KEY POINTS TO VERIFY:**
+- ✅ Certificate number is unique (SC-001, SC-002, etc.)
+- ✅ Date of issue is mentioned
+- ✅ FPO name is correct
+- ✅ Member name matches Aadhaar exactly
+- ✅ Number of shares and value are clear
+- ✅ Amount in words and numbers match
+- ✅ Chairman signature and seal are present
+- ✅ Secretary signature is present
+- ✅ Member acknowledgment signature is present
+- ✅ All dates are filled
+
+---
+
+### IMPORTANT NOTES FOR FIELD STAFF
+
+**When Verifying Documents:**
+
+1. **ROR-1B/Adangal:**
+   - Must be downloaded from MeeBhoomi portal (not photocopy of old document)
+   - Download date should be recent (within 6 months)
+   - Verify owner name matches Aadhaar
+   - Check for "Clear Title" (no mortgage/liens)
+
+2. **Lease Deed:**
+   - Lease period must be minimum 3 years
+   - Both parties must have signed
+   - Two witnesses must have signed
+   - Notarization recommended but not mandatory
+
+3. **VAO Certificate:**
+   - Must be on official MRO letterhead
+   - Must have MRO signature and seal
+   - Must mention survey number and property details
+   - Validity: Usually 6 months
+
+4. **Share Certificate:**
+   - Must have unique certificate number
+   - Must have Chairman and Secretary signatures
+   - Must have FPO seal
+   - Member must acknowledge receipt
+
+**Common Mistakes to Avoid:**
+- ❌ Accepting old/photocopied ROR-1B (must be fresh download)
+- ❌ Accepting lease deed with less than 3 years
+- ❌ Accepting VAO certificate without official seal
+- ❌ Accepting share certificate without proper signatures
+- ❌ Not verifying names match Aadhaar
+
+---
+
 ## CONCLUSION
 
 This **FPO AP STATE COMPLETE GUIDE** is the **single source of truth** for FPO registration and operations in Andhra Pradesh, combining comprehensive content from multiple sources:
@@ -5929,7 +8166,7 @@ This **FPO AP STATE COMPLETE GUIDE** is the **single source of truth** for FPO r
 - Annual Compliance Calendar with MCA Form Numbers
 - Digital Tools & MIS System
 
-✅ **7 AP-Specific Annexures:**
+✅ **8 AP-Specific Annexures:**
 - ANNEX-1: Andhra Pradesh Land Records & MeeBhoomi Portal Guide
 - ANNEX-2: AP State Nodal Agencies & Resource Institutions
 - ANNEX-3: AP Subsidy Schemes Mapping (Central vs State)
@@ -5937,6 +8174,7 @@ This **FPO AP STATE COMPLETE GUIDE** is the **single source of truth** for FPO r
 - ANNEX-5: SFAC Application Bundle (AP-Ready)
 - ANNEX-6: Telugu Language Farmer Handouts
 - ANNEX-7: AP Local Verification Workflow & VAO Certificate
+- ANNEX-8: Sample Completed Documents (ROR-1B, Lease Deed, VAO Certificate, Share Certificate)
 
 ✅ **Ready for AP Implementation:**
 - All templates customized for Andhra Pradesh
