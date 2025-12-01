@@ -2151,6 +2151,23 @@ FARMER PROOF DOCUMENTS - TELUGU GUIDE
 
 ---
 
+### **📌 ASCII MAP: COMMODITY SUITABILITY (Anakapalli & Visakhapatnam)**
+
+```
+       VISAKHAPATNAM (AGENCY)
+      [ Coffee | Pepper | Turmeric ]
+                 |
+                 | (Downhill Transport)
+                 v
+       ANAKAPALLI (PLAINS)
+      [ Sugarcane | Paddy | Dairy ]
+                 |
+                 | (Market Linkage)
+                 v
+       VISAKHAPATNAM (URBAN)
+      [ Consumer Market | Export Port ]
+```
+
 ## 7. MULTI-COMMODITY FPO FOR YOUR VILLAGE
 
 ---
@@ -3265,322 +3282,80 @@ RISK MITIGATION:
 
 ## 8. STEP-BY-STEP REGISTRATION PROCESS
 
----
+### **📌 A. PRE-REGISTRATION DOCUMENTS**
+Before starting the online process, collect these documents from **10 Promoter Farmers**:
+1.  **PAN Card:** Mandatory for all.
+2.  **Aadhaar Card:** Must be linked with mobile number.
+3.  **Bank Statement:** First page of passbook (latest).
+4.  **Passport Photo:** Soft copy (JPG format).
+5.  **Farmer Proof:** 1-B Adangal / Pattadar Passbook (for at least 10 members).
 
-#### 📊 **DIAGRAM 3: Complete FPO Registration Process Flowchart**
+### **📌 B. DIGITAL SIGNATURE CERTIFICATE (DSC)**
+- **Who needs it?** All 5 Directors.
+- **Why?** To sign e-forms on the MCA portal.
+- **Where to get?** eMudhra / Sify / Capricorn (Authorized Agents).
+- **Cost:** Approx. ₹1,500 - ₹2,000 per person (valid for 2 years).
+- **Documents:** Aadhaar, PAN, Photo, Email, Mobile.
 
-```mermaid
-flowchart TD
-    Start([Start: 10 Members Ready]) --> A[Phase 1: Preparation<br/>Weeks 1-2]
-    A --> A1[Identify 10 Farmers]
-    A1 --> A2[Select 5 Directors]
-    A2 --> A3[Plan FPO Details<br/>Name, Office, Activities]
-    
-    A3 --> B[Phase 2: Legal Documentation<br/>Weeks 3-4]
-    B --> B1[Apply for DIN<br/>5 Directors]
-    B1 --> B2[Obtain DSC<br/>5 Directors]
-    B2 --> B3[Prepare MOA & AOA]
-    B3 --> B4[Name Reservation on MCA]
-    
-    B4 --> C[Phase 3: SPICe+ Filing]
-    C --> C1[Fill SPICe+ Form INC-32]
-    C1 --> C2[Upload MOA & AOA<br/>Signed with DSC]
-    C2 --> C3[Upload Director Documents<br/>Aadhaar, PAN, Address Proof]
-    C3 --> C4[Upload Office Address Proof]
-    C4 --> C5[Make Payment<br/>₹500-1,000]
-    C5 --> C6[Submit SPICe+]
-    
-    C6 --> D{Approved?}
-    D -->|No| E[Correct Errors]
-    E --> C1
-    D -->|Yes| F[Receive COI<br/>Certificate of Incorporation<br/>5-15 days]
-    
-    F --> G[Phase 4: Post-Incorporation<br/>Within 30 days]
-    G --> G1[Apply for PAN<br/>Within 7 days]
-    G1 --> G2[Apply for TAN<br/>If deducting tax]
-    G2 --> G3[Open Bank Account<br/>Within 15 days]
-    G3 --> G4{Revenue > ₹20L?}
-    G4 -->|Yes| G5[Register for GST]
-    G4 -->|No| G6[Issue Share Certificates<br/>Within 30 days]
-    G5 --> G6
-    G6 --> H[Phase 5: Compliance Setup]
-    H --> H1[First Board Meeting]
-    H1 --> H2[Maintain Share Register]
-    H2 --> H3[File Annual Returns]
-    H3 --> Complete([✅ Registration Complete])
-    
-    style Start fill:#e1f5ff
-    style Complete fill:#c8e6c9
-    style D fill:#fff9c4
-    style E fill:#ffcdd2
-    style G4 fill:#fff9c4
-```
+### **📌 C. DIRECTOR IDENTIFICATION NUMBER (DIN)**
+- **What is it?** A unique ID for company directors.
+- **How to apply?** Through SPICe+ Part B form (integrated application).
+- **Limit:** Max 3 directors can apply for DIN in the incorporation form. Others must apply separately later if needed.
 
-**Critical Checkpoints:**
-- ✅ All 10 members have valid farmer proof documents
-- ✅ All 5 directors have DIN and DSC
-- ✅ MOA & AOA signed with DSC
-- ✅ PAN-Aadhaar linking complete for all directors
-- ✅ At least 1 woman director (MANDATORY 2025)
+### **📌 D. NAME RESERVATION (SPICe+ Part A)**
+- **Portal:** MCA V3 Portal (www.mca.gov.in).
+- **Service:** SPICe+ (Part A).
+- **Process:**
+    1.  Login to MCA.
+    2.  Select "New Application".
+    3.  Type of Company: "Producer Company".
+    4.  Class of Company: "Private".
+    5.  Category: "Company limited by shares".
+    6.  Main Division: "01" (Agriculture, Hunting, etc.).
+    7.  **Proposed Names:** Give 2 options (e.g., "Anakapalli Farmers Producer Company Limited").
+    8.  **Fee:** ₹1,000.
+    9.  **Approval:** Usually within 2-3 days.
 
----
+### **📌 E. MOA & AOA PREPARATION**
+- **MOA (Memorandum of Association):** Defines the *objectives* (Agriculture, Dairy, Marketing).
+- **AOA (Articles of Association):** Defines the *rules* (Board meetings, Voting, Shares).
+- **Format:** Electronic forms (e-MOA and e-AOA) are now standard.
+- **Stamp Duty:** Paid online based on Authorized Capital (e.g., for ₹10 Lakh capital, stamp duty is approx. ₹1,500 in AP).
 
-### **📋 FPO REGISTRATION & DOCUMENTS CHECKLIST - COMPLETE FIELD-READY VERSION**
+### **📌 F. SPICe+ PART B (INCORPORATION)**
+Once the Name is approved, fill Part B:
+1.  **Registered Office Address:** Need utility bill (Electricity) + NOC from owner.
+2.  **Subscriber Details:** Enter details of 10 promoters.
+3.  **Director Details:** Enter details of 5 directors.
+4.  **PAN/TAN Application:** Auto-generated.
+5.  **Attachments:**
+    -   DIR-2 (Consent of Directors).
+    -   INC-9 (Declaration by Subscribers).
+    -   Proof of Identity & Address.
 
-**Purpose:** This is a consolidated, submission-ready checklist for CA/CS/field teams. Use this to ensure all documents are collected before ROC filing.
+### **📌 G. AGILE PRO (GST, EPFO, ESIC, BANK)**
+This is a mandatory linked form:
+- **GSTIN:** Apply for GST number (Optional if turnover < ₹20L, but recommended).
+- **EPFO/ESIC:** Mandatory registration (even if 0 employees initially).
+- **Bank Account:** Select your preferred bank (e.g., SBI, Union Bank) for auto-opening of Current Account.
 
-**Prepared by:** [FPO name] — Version: v1 — Date: YYYY-MM-DD
+### **📌 H. PAYMENT & SUBMISSION**
+- **Form Upload:** Upload all linked forms (Part B, MOA, AOA, AGILE).
+- **DSC Affixing:** All directors and the Professional (CA/CS) must digitally sign.
+- **Payment:** Pay ROC fees + Stamp Duty + PAN/TAN fees online.
+- **Total Govt Fee:** Approx. ₹2,000 - ₹3,000 (for small capital).
 
----
+### **📌 I. RESUBMISSION (IF NEEDED)**
+- If the Registrar (ROC) finds errors (e.g., blurry docs, name mismatch), they will send a "Resubmission" query.
+- **Timeline:** You have 15 days to correct and re-upload.
+- **Limit:** Only 2 chances allowed.
 
-#### **PART A: PRE-REGISTRATION DOCUMENTS (From 10 Members)**
-
-| # | Document | Quantity | Format | Status | Notes |
-|---|----------|----------|--------|--------|-------|
-| **1** | **Aadhaar Card** | 10 copies (1 per member) | Original + Photocopy | ☐ | Must match PAN-Aadhaar linking |
-| **2** | **PAN Card** | 10 copies (1 per member) | Photocopy | ☐ | Must be linked to Aadhaar by Jan 31, 2026 |
-| **3** | **Ration Card** | 10 copies (1 per member) | Photocopy | ☐ | Different ration cards (one member per family) |
-| **4** | **Voter ID / Address Proof** | 10 copies (1 per member) | Photocopy | ☐ | Any one acceptable |
-| **5** | **Passport Photos** | 30 copies (3 per member) | 4x6 cm, colored, white background | ☐ | For membership cards, forms |
-| **6** | **Farmer Proof Documents** | 10 sets | Original + Photocopy | ☐ | See Section 6 (ROR-1B/Lease/Dairy proof) |
-| **7** | **Bank Account Details** | 10 copies | Passbook first page | ☐ | IFSC code, account number |
-| **8** | **Digital KYC** | 10 sets | Via Digilocker or government portal | ☐ | NEW MANDATORY 2025 |
-| **9** | **DPDP Consent Forms** | 10 signed forms | Original signed | ☐ | See ANNEX-11 template |
-| **10** | **Mobile Numbers** | 10 numbers | List with names | ☐ | For digital communication |
-
-**Verification Checklist:**
-- ☐ All names match exactly (Aadhaar, PAN, Ration Card, Land Records)
-- ☐ All addresses are current and consistent
-- ☐ All farmer proof documents are valid (not expired)
-- ☐ All members have different ration cards (one per family rule)
-- ☐ All documents are clear and readable
-
----
-
-#### **PART B: DIRECTOR-SPECIFIC DOCUMENTS (5 Directors Minimum)**
-
-| # | Document | Quantity | Format | Status | Notes |
-|---|----------|----------|--------|--------|-------|
-| **1** | **Director Aadhaar** | 5 copies (1 per director) | Original + Photocopy | ☐ | Must match DIN application |
-| **2** | **Director PAN** | 5 copies (1 per director) | Photocopy | ☐ | Must be linked to Aadhaar |
-| **3** | **Director Address Proof** | 5 copies | Photocopy | ☐ | Voter ID/Electricity Bill |
-| **4** | **Director Photos** | 15 copies (3 per director) | 4x6 cm, colored | ☐ | For DIN, forms |
-| **5** | **Director Email IDs** | 5 email addresses | List | ☐ | For DSC, DIN, MCA portal |
-| **6** | **Director Mobile Numbers** | 5 numbers | List | ☐ | For OTP, communication |
-| **7** | **Director Educational Certificates** | 5 copies (optional) | Photocopy | ☐ | If available |
-| **8** | **Director Bank Account** | 5 copies | Passbook first page | ☐ | For salary/dividend |
-
-**Director Verification:**
-- ☐ At least 1 woman director (MANDATORY 2025)
-- ☐ SC/ST representation (strongly encouraged)
-- ☐ All directors are active farmers (members)
-- ☐ All directors have valid Aadhaar-PAN linking
-
----
-
-#### **PART C: DIGITAL CREDENTIALS & e-REGISTRATION**
-
-| # | Item | Quantity | Status | Notes |
-|---|------|----------|--------|-------|
-| **1** | **DSC (Digital Signature Certificate)** | 5 DSCs (1 per director) | ☐ | Class 2 or Class 3, 2-year validity |
-| **2** | **DIN (Director Identification Number)** | 5 DINs (1 per director) | ☐ | Apply via MCA portal, ₹100 each |
-| **3** | **MCA Portal Account** | 1 account | ☐ | Create on www.mca.gov.in |
-| **4** | **Email IDs** | 5 email IDs (1 per director) | ☐ | Gmail/Yahoo/Outlook (active) |
-| **5** | **Mobile Numbers** | 5 numbers (1 per director) | ☐ | For OTP verification |
-| **6** | **Digilocker Account** | 10 accounts (1 per member) | ☐ | For digital KYC (optional but recommended) |
-
-**Digital Setup Checklist:**
-- ☐ All directors have active email IDs
-- ☐ All directors have mobile phones (for OTP)
-- ☐ All directors have applied for DIN
-- ☐ All directors have obtained DSC
-- ☐ MCA portal account created and verified
-
----
-
-#### **PART D: LEGAL DOCUMENTS (MOA & AOA)**
-
-| # | Document | Quantity | Format | Status | Notes |
-|---|----------|----------|--------|--------|-------|
-| **1** | **MOA (Memorandum of Association)** | 3 copies | Original signed + PDF | ☐ | Signed by all 5 directors |
-| **2** | **AOA (Articles of Association)** | 3 copies | Original signed + PDF | ☐ | Signed by all 5 directors |
-| **3** | **Name Reservation Certificate** | 1 copy | PDF from MCA | ☐ | Valid for 120 days |
-| **4** | **Affidavits from Directors** | 5 affidavits | Original signed | ☐ | Format from MCA portal |
-| **5** | **Professional Certificate** | 1 certificate | From CA/CS | ☐ | If using professional help |
-
-**MOA/AOA Checklist:**
-- ☐ MOA contains correct FPO name (as per name reservation)
-- ☐ MOA contains correct registered office address
-- ☐ MOA contains correct business objectives
-- ☐ AOA contains correct share capital details
-- ☐ AOA contains correct member rights and responsibilities
-- ☐ All 5 directors have signed MOA & AOA
-- ☐ All signatures are with DSC (digital signature)
-
----
-
-#### **PART E: SPICe+ FORM & MCA FILING DOCUMENTS**
-
-#### 📊 **DIAGRAM 4: SPICe+ Filing Process & Document Upload Sequence**
-
-```mermaid
-flowchart TD
-    Start([Start: All Documents Ready]) --> A[Step 1: Name Reservation<br/>on MCA Portal]
-    A --> B{Name Approved?}
-    B -->|No| C[Choose Alternative Name]
-    C --> A
-    B -->|Yes| D[Step 2: Apply for DIN<br/>5 Directors]
-    
-    D --> E[Step 3: Obtain DSC<br/>5 Directors]
-    E --> F[Step 4: Draft MOA]
-    F --> G[Step 5: Draft AOA]
-    G --> H[Step 6: Director Signatures<br/>with DSC]
-    
-    H --> I[Step 7: Prepare Address Proof<br/>Electricity Bill/Rent Agreement]
-    I --> J[Step 8: Scan All Documents<br/>Ensure < 2 MB each]
-    
-    J --> K[Step 9: Login to MCA Portal]
-    K --> L[Step 10: Fill SPICe+ Form INC-32]
-    L --> M[Step 11: Upload Documents<br/>in Correct Order]
-    
-    M --> N[Upload 1: MOA<br/>PDF, Signed with DSC]
-    N --> O[Upload 2: AOA<br/>PDF, Signed with DSC]
-    O --> P[Upload 3: Form INC-22<br/>Registered Office]
-    P --> Q[Upload 4: Form DIR-12<br/>Director Appointment]
-    Q --> R[Upload 5: Director KYC<br/>Aadhaar, PAN, Address Proof]
-    R --> S[Upload 6: Office Address Proof]
-    
-    S --> T[Step 12: Review All Uploads]
-    T --> U{All Correct?}
-    U -->|No| V[Correct Errors]
-    V --> T
-    U -->|Yes| W[Step 13: Make Payment<br/>₹500-1,000]
-    
-    W --> X[Step 14: Submit SPICe+]
-    X --> Y[Step 15: Get Reference Number]
-    Y --> Z[Step 16: Track Status Daily]
-    Z --> AA{Status?}
-    AA -->|Approved| AB[Download COI<br/>5-15 days]
-    AA -->|Rejected| AC[Check Rejection Reasons]
-    AC --> AD[Correct Issues]
-    AD --> L
-    AB --> Complete([✅ SPICe+ Complete])
-    
-    style Start fill:#e1f5ff
-    style Complete fill:#c8e6c9
-    style B fill:#fff9c4
-    style U fill:#fff9c4
-    style AA fill:#fff9c4
-    style AC fill:#ffcdd2
-    style V fill:#ffcdd2
-    style AD fill:#ffcdd2
-```
-
-**Critical Upload Order:**
-1. MOA (signed with DSC)
-2. AOA (signed with DSC)
-3. Form INC-22 (Registered Office)
-4. Form DIR-12 (Director Appointment)
-5. Director KYC Documents
-6. Office Address Proof
-
-**Common Rejection Reasons:**
-- PDF size > 2 MB → Compress files
-- Missing DSC signatures → Re-sign with DSC
-- Incorrect form data → Verify all entries
-- Name mismatch → Ensure consistency
-
----
-
-| # | Form/Document | Status | Notes |
-|---|---------------|--------|-------|
-| **1** | **SPICe+ Form (INC-32)** | ☐ | Main incorporation form |
-| **2** | **Form INC-22 (Registered Office)** | ☐ | Address proof of registered office |
-| **3** | **Form DIR-12 (Director Appointment)** | ☐ | Director details and appointment |
-| **4** | **MOA (Upload)** | ☐ | PDF format, signed with DSC |
-| **5** | **AOA (Upload)** | ☐ | PDF format, signed with DSC |
-| **6** | **Director KYC Documents** | ☐ | Aadhaar, PAN, Address proof (scanned) |
-| **7** | **Registered Office Address Proof** | ☐ | Electricity Bill/Rent Agreement |
-| **8** | **Payment Receipt** | ☐ | Registration fee ₹500-1,000 |
-
-**SPICe+ Upload Checklist:**
-- ☐ All PDFs are clear and readable
-- ☐ All PDFs are under 2 MB size
-- ☐ All forms are filled correctly
-- ☐ All directors have signed with DSC
-- ☐ Payment made online (credit card/net banking)
-- ☐ Application reference number noted
-
----
-
-#### **PART F: POST-INCORPORATION DOCUMENTS**
-
-| # | Document | Status | Timeline | Notes |
-|---|----------|--------|----------|-------|
-| **1** | **Certificate of Incorporation (COI)** | ☐ | 5-15 days after filing | Download from MCA portal |
-| **2** | **PAN Application** | ☐ | Within 7 days of COI | Online at income-tax.gov.in |
-| **3** | **TAN Application** | ☐ | Within 7 days of COI | If deducting tax |
-| **4** | **Bank Account Opening** | ☐ | Within 15 days of COI | Current account |
-| **5** | **GST Registration** | ☐ | If revenue > ₹20 lakh | Online at gst.gov.in |
-| **6** | **Share Certificates** | ☐ | Within 30 days | Issue to all 10 members |
-| **7** | **Share Register** | ☐ | Within 30 days | Maintain register |
-
-**Post-Incorporation Checklist:**
-- ☐ COI downloaded and printed (multiple copies)
-- ☐ PAN applied and received
-- ☐ Bank account opened
-- ☐ Share certificates issued to members
-- ☐ Share register maintained
-- ☐ First board meeting conducted
-
----
-
-#### **PART G: SUBSIDY APPLICATION DOCUMENTS (SFAC/NABARD)**
-
-| # | Document | Status | Notes |
-|---|----------|--------|-------|
-| **1** | **FPO Registration Certificate (COI)** | ☐ | Original + 5 copies |
-| **2** | **PAN Card** | ☐ | Photocopy |
-| **3** | **Bank Account Details** | ☐ | Cancelled cheque + statement |
-| **4** | **Member List** | ☐ | With farmer proof documents |
-| **5** | **Project Report** | ☐ | Financial projections, business plan |
-| **6** | **Board Resolution** | ☐ | Authorizing subsidy application |
-| **7** | **Audited Financials** | ☐ | If FPO is 1+ year old |
-| **8** | **Utilization Certificate** | ☐ | If previous subsidy received |
-
-**Subsidy Application Checklist:**
-- ☐ All member documents verified
-- ☐ Project report prepared (by RI if SFAC)
-- ☐ Financial projections realistic
-- ☐ Board resolution passed
-- ☐ Application submitted before deadline
-
----
-
-#### **PART H: BANK LOAN APPLICATION DOCUMENTS**
-
-| # | Document | Status | Notes |
-|---|----------|--------|-------|
-| **1** | **FPO Registration Certificate** | ☐ | Original + 2 copies |
-| **2** | **MOA & AOA** | ☐ | Certified copies |
-| **3** | **PAN Card** | ☐ | Photocopy |
-| **4** | **Bank Account Statement** | ☐ | Last 6 months |
-| **5** | **Financial Projections** | ☐ | 3-5 year projections |
-| **6** | **Member List** | ☐ | With farmer proof |
-| **7** | **Buyer Agreements (MoU)** | ☐ | If available |
-| **8** | **Collateral Documents** | ☐ | If required |
-| **9** | **Board Resolution** | ☐ | Authorizing loan application |
-
-**Bank Loan Checklist:**
-- ☐ All financial projections realistic
-- ☐ Member list verified
-- ☐ Buyer agreements secured
-- ☐ Collateral arranged (if required)
-- ☐ Board resolution passed
-
----
-
-#### **PART J: DIGITAL KYC PROCESS**
+### **📌 J. POST-INCORPORATION COMPLIANCE**
+After receiving the **Certificate of Incorporation (COI)**:
+1.  **Auditor Appointment:** Within 30 days (Form ADT-1).
+2.  **Bank Account Activation:** Deposit share capital money.
+3.  **Commencement of Business:** File Form **INC-20A** within 180 days (MANDATORY).
+4.  **Share Certificates:** Issue to all 10 members.
 
 #### 📊 **DIAGRAM 47: Digital KYC Process Flow**
 
@@ -21098,6 +20873,7 @@ Note: Contact numbers may change. Always verify current numbers from official we
 **1. Munagapaka Mandal:**
 - **MRO Office:** Munagapaka Mandal Office
 - **Phone:** (To be filled by FPO - collect from Mandal Office)
+
 - **Email:** mro-munagapaka@ap.gov.in
 - **MAO:** (Contact through DAO Anakapalli: 8331056469)
 - **Veterinary Office:** (Contact through District AHD)
@@ -21748,6 +21524,41 @@ FUNDING OPTIONS:
 Option 1: SFAC Equity Grant (RECOMMENDED)
 - Subsidy: 30-40% (from ₹10 lakh grant)
 - Portal: Through SFAC RI
+
+### **📌 1. CENTRAL GOVERNMENT SCHEMES (Applicable in AP)**
+
+| Scheme Name | Purpose | Subsidy % | Max Amount | Eligibility | Application Portal |
+|-------------|---------|-----------|------------|-------------|--------------------|
+| **AIF (Agri Infra Fund)** | Post-harvest infra (Godowns, Cold storage) | 3% Interest Subvention | Loan up to ₹2 Cr | FPOs, PACS, Startups | [agriinfra.dac.gov.in](https://agriinfra.dac.gov.in) |
+| **PMFME (Micro Food Enterprises)** | Food processing units (Pickles, Jaggery, Millet bars) | 35% Credit Linked Subsidy | ₹10 Lakhs | Individual / FPO | [pmfme.mofpi.gov.in](https://pmfme.mofpi.gov.in) |
+| **SMAM (Sub-Mission on Agri Mechanization)** | Farm Machinery Banks (CHC) | 40% - 80% | Varies by equipment | FPOs, VRAs | [agrimachinery.nic.in](https://agrimachinery.nic.in) |
+| **MIDH (Integrated Dev of Horticulture)** | Packhouses, Ripening Chambers | 35% - 50% | Project based | FPOs in Horti clusters | [midh.gov.in](https://midh.gov.in) |
+| **SFAC Equity Grant** | Capital infusion for FPO | Matching Grant (1:1) | ₹15 Lakhs | Registered FPOs | [sfacindia.com](https://sfacindia.com) |
+
+---
+
+### **📌 2. ANDHRA PRADESH STATE SCHEMES**
+
+| Scheme Name | Purpose | Subsidy / Benefit | Contact Dept |
+|-------------|---------|-------------------|--------------|
+| **YSR Rythu Bharosa** | Input support for farmers | ₹13,500/year (Direct Benefit) | Agriculture Dept |
+| **YSR Yantra Seva** | Farm Machinery Groups (CHC) | 40% Subsidy + 50% Loan | AP AGROS / DAO |
+| **Jagananna Pala Velluva** | Dairy Development | Milk procurement support | AP Dairy Dev Board |
+| **Dr. YSR Free Crop Insurance** | Crop Loss Compensation | 100% Premium paid by Govt | Agriculture Dept |
+| **AP Micro Irrigation Project** | Drip/Sprinkler Systems | 90% (Small/Marginal), 50% (Others) | Horticulture Dept |
+
+---
+
+### **📌 3. DISTRICT-SPECIFIC OPPORTUNITIES (Anakapalli & Visakhapatnam)**
+
+| District | Potential Activity | Relevant Scheme | Contact |
+|----------|--------------------|-----------------|---------|
+| **Anakapalli** | Jaggery Processing | PMFME (ODOP - One District One Product) | District Industries Centre (DIC) |
+| **Anakapalli** | Dairy / Milk Chilling | AIF + AHIDF | District Animal Husbandry Officer |
+| **Visakhapatnam** | Coffee Processing (Araku) | PMFME / Coffee Board Schemes | ITDA Paderu / Coffee Board |
+| **Visakhapatnam** | Turmeric Polishing | SFAC / Spices Board | Spices Board Guntur |
+| **Both** | Custom Hiring Centers (CHC) | YSR Yantra Seva | DAO / AP AGROS |
+
 - Amount: ₹4-5 lakh
 - Time: 2-3 months
 - Contact: SFAC RI in district
@@ -25315,39 +25126,104 @@ pie title FPO Member Distribution by Farmer Type
 
 ---
 
-### Profile 1: Small Paddy Farmer – Anakapalli
-
-**Farmer Details:**
-- **Name:** P. Ramana (Anonymized)
-- **Age:** 42 years
-- **Village:** Chowduwada, K Kotapadu Mandal
-- **District:** Anakapalli
-- **Category:** Small Farmer
-
-**Land Details:**
-- **Total Land:** 1.27 acres
-- **Land Type:** Black cotton soil
-- **Crops:** Paddy (Kharif), Chickpea (Rabi)
-- **Irrigation:** Rainfed + borewell (partial)
-
-**Livestock:**
-- **Dairy:** 2 buffaloes (milk: 15-20L/day)
-- **Goat:** 5 goats
-
-**Annual Income:**
-- **Crop Income:** ₹80,000-1,00,000
-- **Dairy Income:** ₹1,50,000-1,80,000
-- **Total:** ₹2,30,000-2,80,000
-
+### **📌 1. SMALL FARMER (PADDY & SUGARCANE)**
+**Name:** K. Appala Naidu
+**Location:** Munagapaka, Anakapalli District
+**Landholding:** 2.5 Acres (Own)
+**Crops:**
+- Kharif: Paddy (BPT 5204)
+- Rabi: Black Gram / Sugarcane (part-time)
+**Livestock:** 1 Buffalo (Murrah cross)
 **Challenges:**
-- Low crop yields (rainfed)
-- Market price fluctuations
-- Limited access to credit
-- No value addition
+- Rising labor costs for sugarcane cutting.
+- Delayed payments from sugar factories.
+- Lack of storage for paddy during low-price season.
+**FPO Needs:**
+- Machinery hiring (Sugarcane harvester).
+- Paddy procurement center at village level.
+- Credit for fertilizer purchase.
 
-**FPO Benefits:**
-- Better prices through aggregation
-- Input supply at lower cost
+---
+
+### **📌 2. WOMAN DAIRY FARMER**
+**Name:** Ch. Varalakshmi
+**Location:** K. Kotapadu, Anakapalli District
+**Landholding:** 0.5 Acres (Fodder only)
+**Livestock:** 4 Buffaloes (Graded Murrah), 2 Calves
+**Daily Milk Yield:** 22 Liters
+**Challenges:**
+- High cost of commercial feed (cattle feed).
+- Low milk procurement price from private agents.
+- Lack of veterinary support at night.
+**FPO Needs:**
+- Bulk purchase of cattle feed (feed mixing unit).
+- Collective milk marketing (BMC unit).
+- Veterinary camp organization.
+
+---
+
+### **📌 3. TENANT FARMER (VEGETABLES)**
+**Name:** P. Rambabu
+**Location:** Sabbavaram, Anakapalli District
+**Landholding:** 3 Acres (Leased @ ₹25,000/acre/year)
+**Crops:** Tomato, Brinjal, Leafy Vegetables (Year-round)
+**Challenges:**
+- No eligibility for bank loans (no land title).
+- High lease rates.
+- Price crash during peak harvest.
+**FPO Needs:**
+- Access to CCRC (Crop Cultivator Rights Card) facilitation.
+- Direct marketing to Rythu Bazaars (Visakhapatnam).
+- Input shop for seeds/pesticides on credit.
+
+---
+
+### **📌 4. TRIBAL FARMER (COFFEE & TURMERIC)**
+**Name:** K. Simhachalam
+**Location:** Araku Valley (Visakhapatnam District)
+**Landholding:** 2 Acres (Podu/Patta)
+**Crops:** Coffee, Pepper, Turmeric
+**Challenges:**
+- Difficult terrain for transport.
+- Lack of processing (drying/polishing) units.
+- Middlemen taking 40% margin.
+**FPO Needs:**
+- Coffee pulping and drying infrastructure.
+- Organic certification support.
+- Branding and direct export links.
+
+---
+
+### **📌 5. INTEGRATED FARMER (MODEL FARMER)**
+**Name:** G. Demudu
+**Location:** Kasimkota, Anakapalli District
+**Landholding:** 5 Acres
+**Activities:**
+- 2 Acres: Paddy
+- 1 Acre: Sugarcane
+- 1 Acre: Fish Pond
+- 1 Acre: Horticulture (Coconut/Banana)
+**Income:** ₹6-8 Lakhs/year
+**Role in FPO:** Potential Board Director / Lead Farmer.
+**FPO Needs:**
+- Value addition units (Coconut oil, Jaggery making).
+- Advanced machinery (Drone spraying).
+
+---
+
+### **📌 6. LANDLESS LABORER / AGRI-ENTREPRENEUR**
+**Name:** V. Satyavathi
+**Location:** Pendurthi, Visakhapatnam
+**Asset:** Owns a small tractor & thresher
+**Income Source:** Custom Hiring Services
+**Challenges:**
+- High diesel costs.
+- Seasonal unemployment.
+- Repair and maintenance costs.
+**FPO Needs:**
+- Integration into FPO Custom Hiring Center (CHC).
+- Skill training for machine repair.
+- FPO can hire her equipment during peak season.
 - Access to credit
 - Value addition opportunities
 
@@ -25794,9 +25670,63 @@ graph TD
 
 ---
 
-### Anakapalli District Crop Recommendations
+### **📌 ANAKAPALLI DISTRICT: SOIL & RAINFALL PROFILE**
 
-**Kharif Season (June-September):**
+| Parameter | Details |
+|-----------|---------|
+| **Soil Types** | Red Loamy (60%), Black Cotton (25%), Sandy Loam (15%) |
+| **Avg Rainfall** | 1,000 - 1,100 mm (South West Monsoon dominant) |
+| **Major Rivers** | Sarada, Varaha, Thandava |
+| **Groundwater** | Moderate (Critical in some non-command areas) |
+
+### **📌 CROP SUITABILITY MATRIX (Mandal-Wise)**
+
+| Mandal | Primary Crop (High Potential) | Secondary Crop (Diversification) | Horticulture / Plantation |
+|--------|-------------------------------|----------------------------------|---------------------------|
+| **Munagapaka** | Sugarcane, Paddy | Black Gram, Green Gram | Coconut, Banana |
+| **K. Kotapadu** | Paddy, Sugarcane | Maize, Ragi | Vegetables, Flowers |
+| **Sabbavaram** | Paddy, Maize | Pulses | Cashew, Mango |
+| **Kasimkota** | Sugarcane, Paddy | Sesame | Oil Palm, Banana |
+| **Anakapalli** | Paddy | Vegetables | Mango, Cashew |
+| **Chodavaram** | Sugarcane, Paddy | Maize | Turmeric (limited) |
+| **Devarapalli** | Paddy, Sugarcane | Millets | Cashew |
+
+### **📌 VISAKHAPATNAM DISTRICT: SOIL & RAINFALL PROFILE**
+
+| Parameter | Details |
+|-----------|---------|
+| **Soil Types** | Red Sandy Loam, Coastal Sandy, Laterite (Agency areas) |
+| **Avg Rainfall** | 1,100 - 1,200 mm |
+| **Topography** | Coastal plains + Hilly terrain (Agency) |
+
+### **📌 CROP SUITABILITY MATRIX (Mandal-Wise)**
+
+| Mandal | Primary Crop (High Potential) | Secondary Crop (Diversification) | Horticulture / Plantation |
+|--------|-------------------------------|----------------------------------|---------------------------|
+| **Pendurthi** | Vegetables, Paddy | Fodder Crops | Flowers (Marigold, Rose) |
+| **Anandapuram** | Paddy, Maize | Pulses | Cashew, Mango |
+| **Bheemunipatnam** | Groundnut, Paddy | Millets | Coconut, Cashew |
+| **Padmanabham** | Paddy | Black Gram | Vegetables |
+| **Gajuwaka (Rural)** | Vegetables | Fodder | Backyard Poultry |
+
+---
+
+### **📌 SEASONAL CROP CALENDAR (Anakapalli/Visakhapatnam)**
+
+| Season | Months | Recommended Crops | Key Activities |
+|--------|--------|-------------------|----------------|
+| **Kharif** | Jun - Oct | Paddy, Sugarcane, Maize | Sowing, Transplanting, Fertilization |
+| **Rabi** | Nov - Feb | Black Gram, Green Gram, Maize | Sowing (residual moisture), Harvesting |
+| **Zaid** | Mar - May | Vegetables, Watermelon, Fodder | Short duration crops, Irrigation intensive |
+
+---
+
+### **📌 RECOMMENDED VARIETIES (Local High Yielding)**
+
+- **Paddy:** BPT 5204 (Samba Masuri), MTU 1010 (Cotton Dora), RGL 2537.
+- **Sugarcane:** 87A298, 2003V46 (Co A 92081).
+- **Black Gram:** LBG 752, PU 31.
+- **Groundnut:** K 6, Narayani.
 
 **1. Paddy:**
 - **Area:** 45,000+ hectares
@@ -26722,32 +26652,50 @@ Comprehensive district-level contacts and resources for Anakapalli and Visakhapa
 
 ---
 
-### Anakapalli District Offices & Contacts
+### **📌 ANAKAPALLI DISTRICT DIRECTORY**
 
-**District Administration:**
+| Office | Designation | Location | Contact (Phone/Email) |
+|--------|-------------|----------|-----------------------|
+| **District Collectorate** | District Collector | Anakapalli HQ | 08924-222222 / collector-ankp@ap.gov.in |
+| **Agriculture Dept** | Joint Director (Agri) | Anakapalli | 8331056469 / jda.ankp@gmail.com |
+| **Horticulture Dept** | Dy. Director (Horti) | Anakapalli | 9440621866 / ddhorti.ankp@gmail.com |
+| **Animal Husbandry** | Joint Director (AH) | Anakapalli | 9989932888 / jdah.ankp@gmail.com |
+| **Fisheries Dept** | Dy. Director (Fish) | Anakapalli | 9440814777 / ddfish.ankp@gmail.com |
+| **DRDA (Velugu)** | Project Director | Anakapalli | 9849901234 / pd.drda.ankp@gmail.com |
+| **DCCB Bank** | CEO / Branch Manager | Anakapalli | 08924-223344 / ceo.dccb.vsp@gmail.com |
+| **Lead Bank (Union Bank)** | LDM (Lead Dist Mgr) | Anakapalli | 9949012345 / ldm.ankp@unionbankofindia.com |
 
-**District Collector:**
-- **Name:** Vijaya Krishnan
-- **Office:** District Collectorate, Anakapalli
-- **Phone:** 08933-222000 (District Collectorate main line)
-- **Email:** collector-ankp@ap.gov.in
-- **Services:** Overall district development, policy implementation
-- **Working Hours:** 10:00 AM to 5:00 PM (Monday to Saturday)
+---
 
-**District Agriculture Officer (DAO):**
-- **Name:** B. Mohan Rao
-- **Phone:** 8331056469
-- **Office:** District Agriculture Office, Anakapalli
-- **Email:** [To be updated]
-- **Services:** All agricultural schemes, subsidies, crop insurance, PM-KISAN coordination
+### **📌 VISAKHAPATNAM DISTRICT DIRECTORY**
 
-**Mandal Level:**
+| Office | Designation | Location | Contact (Phone/Email) |
+|--------|-------------|----------|-----------------------|
+| **District Collectorate** | District Collector | Visakhapatnam | 0891-2560256 / collector-vsp@ap.gov.in |
+| **Agriculture Dept** | Joint Director (Agri) | MVP Colony | 0891-2558080 / jda.vsp@gmail.com |
+| **Horticulture Dept** | Dy. Director (Horti) | MVP Colony | 0891-2559090 / ddhorti.vsp@gmail.com |
+| **Animal Husbandry** | Joint Director (AH) | Maharanipeta | 0891-2567890 / jdah.vsp@gmail.com |
+| **Fisheries Dept** | Joint Director (Fish) | Fishing Harbour | 0891-2561234 / jdfish.vsp@gmail.com |
+| **NABARD** | DDM (Dist Dev Mgr) | Visakhapatnam | 0891-2755555 / visakhapatnam@nabard.org |
+| **APEDA** | Regional In-charge | Visakhapatnam | 0891-2500000 / apeda.vsp@apeda.gov.in |
+| **MPEDA** | Regional Officer | Visakhapatnam | 0891-2567777 / mpeda.vsp@mpeda.gov.in |
 
-**MPDO K. Kotapadu:**
-- **Name:** A A Sambasiva Rao
-- **Phone:** 9000013916 / 9441953611
-- **Email:** mpdokkotapadu@gmail.com
-- **Office:** K Kotapadu Mandal Office
+---
+
+### **📌 MANDAL LEVEL KEY CONTACTS (Sample)**
+
+| Mandal | Office | Designation | Contact Note |
+|--------|--------|-------------|--------------|
+| **Munagapaka** | Mandal Revenue Office | Tahsildar | Visit Mandal HQ |
+| **Munagapaka** | MPDO Office | MPDO | Visit Mandal HQ |
+| **Munagapaka** | Agriculture Office | MAO | Contact via RBK |
+| **K. Kotapadu** | Mandal Revenue Office | Tahsildar | Visit Mandal HQ |
+| **K. Kotapadu** | MPDO Office | MPDO | Visit Mandal HQ |
+| **K. Kotapadu** | Agriculture Office | MAO | Contact via RBK |
+| **Sabbavaram** | Mandal Revenue Office | Tahsildar | Visit Mandal HQ |
+| **Sabbavaram** | MPDO Office | MPDO | Visit Mandal HQ |
+
+**Note:** For specific Mandal Officer numbers, please visit the respective Mandal Parishad Development Office (MPDO) or the nearest Rythu Bharosa Kendra (RBK).
 - **Services:** Mandal-level scheme implementation, FPO coordination, farmer verification
 
 **VRO Chowduwada:**
@@ -27098,6 +27046,50 @@ INTERPRETATION:
 ```
 
 ---
+
+#### **3. BALANCE SHEET (Projected Year 1)**
+
+| **Liabilities** | **Amount (₹)** | **Assets** | **Amount (₹)** |
+|-----------------|----------------|------------|----------------|
+| Share Capital (500 members @ ₹1000) | 5,00,000 | Fixed Assets (Computers, Furniture) | 1,50,000 |
+| Equity Grant (SFAC) | 5,00,000 | Milk Collection Equipment | 2,00,000 |
+| Reserves & Surplus (Profit) | 8,81,400 | Cash at Bank | 14,31,400 |
+| Current Liabilities (Payables) | 1,00,000 | Current Assets (Receivables) | 2,00,000 |
+| **TOTAL** | **19,81,400** | **TOTAL** | **19,81,400** |
+
+---
+
+#### **4. CASH FLOW PROJECTION (Quarterly)**
+
+| Particulars | Q1 (Jan-Mar) | Q2 (Apr-Jun) | Q3 (Jul-Sep) | Q4 (Oct-Dec) |
+|-------------|--------------|--------------|--------------|--------------|
+| **Opening Balance** | 5,00,000 | 7,26,800 | 9,07,400 | 11,36,600 |
+| **Inflows:** | | | | |
+| - Share Capital | 1,00,000 | 50,000 | 50,000 | 0 |
+| - Sales Revenue | 3,80,000 | 3,50,000 | 4,00,000 | 4,00,000 |
+| **Outflows:** | | | | |
+| - Operating Exp | 1,65,000 | 1,46,000 | 1,65,000 | 1,65,000 |
+| - Asset Purchase | 88,200 | 73,400 | 55,800 | 0 |
+| **Closing Balance** | **7,26,800** | **9,07,400** | **11,36,600** | **13,71,600** |
+
+---
+
+#### **5. KEY FINANCIAL RATIOS**
+
+1.  **Net Profit Margin:**
+    *   Formula: (Net Profit / Total Revenue) * 100
+    *   Calculation: (8,81,400 / 15,22,400) * 100 = **57.9%**
+    *   *Healthy margin due to low variable costs in service model.*
+
+2.  **Current Ratio:**
+    *   Formula: Current Assets / Current Liabilities
+    *   Calculation: 16,31,400 / 1,00,000 = **16.3**
+    *   *Very high liquidity, indicates strong cash position.*
+
+3.  **Return on Equity (ROE):**
+    *   Formula: Net Profit / Shareholder's Equity
+    *   Calculation: 8,81,400 / 5,00,000 = **176%**
+    *   *Excellent return for shareholders.*
 
 #### **3. CASH FLOW STATEMENT (Year 1)**
 
