@@ -21161,6 +21161,36 @@ Note: Contact numbers may change. Always verify current numbers from official we
 - **Phone:** (To be filled by FPO)
 - **Note:** Primary focus area - see Quick Reference Card for detailed contacts
 
+**7. Atchutapuram Mandal:**
+- **MRO Office:** Atchutapuram Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-atchutapuram@ap.gov.in
+- **MAO:** (Contact through DAO Anakapalli: 8331056469)
+- **Veterinary Office:** (To be filled by FPO - through District AHD)
+- **Rythu Bharosa Kendram:** Atchutapuram
+- **Phone:** (To be filled by FPO)
+- **Services:** Paddy aggregation, dairy linkage; industrial corridor proximity
+
+**8. Nakkapalli Mandal:**
+- **MRO Office:** Nakkapalli Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-nakkapalli@ap.gov.in
+- **MAO:** (Contact through DAO Anakapalli: 8331056469)
+- **Veterinary Office:** (To be filled by FPO - through District AHD)
+- **Rythu Bharosa Kendram:** Nakkapalli
+- **Phone:** (To be filled by FPO)
+- **Irrigation:** Yeluru Canal influence (paddy focus)
+
+**9. Rambilli Mandal:**
+- **MRO Office:** Rambilli Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-rambilli@ap.gov.in
+- **MAO:** (Contact through DAO Anakapalli: 8331056469)
+- **Veterinary Office:** (To be filled by FPO - through District AHD)
+- **Rythu Bharosa Kendram:** Rambilli
+- **Phone:** (To be filled by FPO)
+- **Services:** Paddy + banana; proximity to Atchutapuram industrial area
+
 ---
 
 #### **VISAKHAPATNAM DISTRICT - MANDAL-LEVEL CONTACTS**
@@ -21215,6 +21245,18 @@ Note: Contact numbers may change. Always verify current numbers from official we
 - **Veterinary Office:** (Contact through District AHD)
 - **Rythu Bharosa Kendram:** Parawada
 - **Phone:** (To be filled by FPO)
+
+**6. Additional RBKs (Visakhapatnam District):**
+- **RBK - Pendurthi:** (To be filled by FPO)
+- **RBK - Anandapuram:** (To be filled by FPO)
+- **RBK - Bheemunipatnam:** (To be filled by FPO)
+- **RBK - Gopalapatnam:** (To be filled by FPO)
+- **RBK - Parawada:** (To be filled by FPO)
+
+**7. Additional Offices (Visakhapatnam District):**
+- **Horticulture Sub-Division – Anandapuram:** (To be filled by FPO)
+- **Veterinary Polyclinic – Pendurthi:** (To be filled by FPO)
+- **Marketing Sub-Yard – Bheemili:** (To be filled by FPO)
 
 ---
 
@@ -21279,6 +21321,9 @@ graph TD
 | **Anakapalli** | Rythu Bharosa Kendram - Munagapaka | (To be filled by FPO) | (To be filled by FPO) | - | Munagapaka | PM-KISAN, Rythu Bharosa, crop insurance enrollment |
 | **Anakapalli** | Rythu Bharosa Kendram - Sabbavaram | (To be filled by FPO) | (To be filled by FPO) | - | Sabbavaram | PM-KISAN, Rythu Bharosa, crop insurance enrollment |
 | **Anakapalli** | Rythu Bharosa Kendram - K. Kotapadu | (To be filled by FPO) | (To be filled by FPO) | - | K. Kotapadu | PM-KISAN, Rythu Bharosa, crop insurance enrollment |
+| **Anakapalli** | Rythu Bharosa Kendram - Atchutapuram | (To be filled by FPO) | (To be filled by FPO) | - | Atchutapuram | PM-KISAN, Rythu Bharosa, crop insurance enrollment |
+| **Anakapalli** | Rythu Bharosa Kendram - Nakkapalli | (To be filled by FPO) | (To be filled by FPO) | - | Nakkapalli | PM-KISAN, Rythu Bharosa, crop insurance enrollment |
+| **Anakapalli** | Rythu Bharosa Kendram - Rambilli | (To be filled by FPO) | (To be filled by FPO) | - | Rambilli | PM-KISAN, Rythu Bharosa, crop insurance enrollment |
 | **Anakapalli** | Veterinary Office - Sabbavaram | (To be filled by FPO) | (To be filled by FPO) | - | Sabbavaram | Livestock health, veterinary services, dairy farmer certificates |
 | **Anakapalli** | Marketing Yard - Anakapalli Sugar Factory | (To be filled by FPO) | (To be filled by FPO) | - | Anakapalli | Sugarcane procurement, market linkage |
 | **Visakhapatnam** | District Agriculture Officer (DAO) | (To be filled by FPO) | 0891-2566001 | dao-vsp@ap.gov.in | District Agriculture Office, Visakhapatnam | FPO support, crop insurance, subsidies |
@@ -21293,6 +21338,9 @@ graph TD
 | **Visakhapatnam** | APDDA Dairy Office | (To be filled by FPO) | (To be filled by FPO) | dairy-vsp@ap.gov.in | District Animal Husbandry Office, Visakhapatnam | Dairy schemes, milk procurement support |
 | **Visakhapatnam** | Rythu Bharosa Kendram - Pendurthi | (To be filled by FPO) | (To be filled by FPO) | - | Pendurthi | PM-KISAN, Rythu Bharosa, crop insurance enrollment |
 | **Visakhapatnam** | Rythu Bharosa Kendram - Anandapuram | (To be filled by FPO) | (To be filled by FPO) | - | Anandapuram | PM-KISAN, Rythu Bharosa, crop insurance enrollment |
+| **Visakhapatnam** | Rythu Bharosa Kendram - Bheemunipatnam | (To be filled by FPO) | (To be filled by FPO) | - | Bheemunipatnam | PM-KISAN, Rythu Bharosa, crop insurance enrollment |
+| **Visakhapatnam** | Veterinary Office - Pendurthi | (To be filled by FPO) | (To be filled by FPO) | - | Pendurthi | Livestock health, veterinary services, dairy farmer certificates |
+| **Visakhapatnam** | Marketing Sub-Yard - Bheemunipatnam | (To be filled by FPO) | (To be filled by FPO) | - | Bheemunipatnam | Vegetables, fruits, coastal produce |
 | **Visakhapatnam** | Marketing Yard - Visakhapatnam | (To be filled by FPO) | (To be filled by FPO) | - | Visakhapatnam | Market linkage, procurement |
 | **Both** | Visakha Dairy | (To be filled by FPO) | 0891-2517230, 0891-2517555 | marketing@visakhadairy.com | Visakhapatnam | Milk procurement, quality testing |
 | **Both** | Heritage Foods (Bayyavaram) | (To be filled by FPO) | (To be filled by FPO) | - | Bayyavaram, Anakapalli | Milk procurement (closer to Anakapalli villages) |
@@ -25267,7 +25315,7 @@ pie title FPO Member Distribution by Farmer Type
 
 ---
 
-### Profile 1: Anakapalli Small/Marginal Farmer
+### Profile 1: Small Paddy Farmer – Anakapalli
 
 **Farmer Details:**
 - **Name:** P. Ramana (Anonymized)
@@ -25308,6 +25356,9 @@ pie title FPO Member Distribution by Farmer Type
 - **Activities:** Paddy + pulse aggregation, dairy collection
 - **Investment:** ₹2-3 lakh
 - **Expected Benefit:** ₹30,000-40,000 additional income/year
+**Contribution Potential:**
+- Paddy: 40-60 quintals/year via aggregation
+- Dairy (if applicable): 10-15 liters/day
 
 ---
 
@@ -25402,7 +25453,7 @@ pie title FPO Member Distribution by Farmer Type
 
 ---
 
-### Profile 4: Medium Sugarcane Farmer - Munagapaka
+### Profile 4: Medium Sugarcane Farmer – Munagapaka
 
 **Farmer Details:**
 - **Name:** S. Venkata Rao (Anonymized)
@@ -25445,6 +25496,10 @@ pie title FPO Member Distribution by Farmer Type
 - **Activities:** Sugarcane coordination, paddy aggregation, dairy collection
 - **Investment:** ₹5-8 lakh
 - **Expected Benefit:** ₹80,000-1,00,000 additional income/year
+**Contribution Potential:**
+- Sugarcane: 180-220 tons/year (factory linkage)
+- Paddy: 35-45 quintals/year
+- Dairy: 25-30 liters/day
 
 **Documentation Available:**
 - ROR-1B (MeeBhoomi certified)
@@ -25455,7 +25510,7 @@ pie title FPO Member Distribution by Farmer Type
 
 ---
 
-### Profile 5: Dairy Farmer - Sabbavaram
+### Profile 5: Dairy Farmer – Sabbavaram
 
 **Farmer Details:**
 - **Name:** K. Lakshmi (Anonymized)
@@ -25497,6 +25552,9 @@ pie title FPO Member Distribution by Farmer Type
 - **Activities:** Milk collection, quality testing, marketing to Heritage Foods
 - **Investment:** ₹3-5 lakh
 - **Expected Benefit:** ₹60,000-80,000 additional income/year
+**Contribution Potential:**
+- Milk: 35-40 liters/day (quality tested)
+- Vegetables: 5-7 quintals/month (seasonal)
 
 **Documentation Available:**
 - ROR-1B (MeeBhoomi certified)
@@ -25508,7 +25566,7 @@ pie title FPO Member Distribution by Farmer Type
 
 ---
 
-### Profile 6: Tenant Farmer - K. Kotapadu
+### Profile 6: Tenant Farmer – K. Kotapadu
 
 **Farmer Details:**
 - **Name:** M. Suresh (Anonymized)
@@ -25552,6 +25610,9 @@ pie title FPO Member Distribution by Farmer Type
 - **Activities:** Dairy collection, custom hiring, input supply
 - **Investment:** ₹1-2 lakh
 - **Expected Benefit:** ₹40,000-50,000 additional income/year
+**Contribution Potential:**
+- Milk: 25-30 liters/day
+- Paddy/Vegetables: 30-40 quintals/season
 
 **Documentation Available:**
 - Lease deed (registered)
@@ -25563,7 +25624,7 @@ pie title FPO Member Distribution by Farmer Type
 
 ---
 
-### Profile 7: Integrated Farmer - Kasimkota
+### Profile 7: Integrated Farmer – Kasimkota
 
 **Farmer Details:**
 - **Name:** B. Mohan Rao (Anonymized)
@@ -25607,6 +25668,11 @@ pie title FPO Member Distribution by Farmer Type
 - **Activities:** Multi-commodity aggregation, processing, value addition
 - **Investment:** ₹8-12 lakh
 - **Expected Benefit:** ₹1,00,000-1,50,000 additional income/year
+**Contribution Potential:**
+- Paddy: 60-80 quintals/year
+- Sugarcane: 120-150 tons/year
+- Mango: 80-100 quintals/year
+- Milk: 40-50 liters/day
 
 **Documentation Available:**
 - ROR-1B (MeeBhoomi certified)
@@ -25617,13 +25683,13 @@ pie title FPO Member Distribution by Farmer Type
 
 ---
 
-### Profile 8: Tribal-Border Millet Farmer - Kothavalasa Edge
+### Profile 8: Millet-Border Farmer – Anandapuram/Bheemili
 
 **Farmer Details:**
 - **Name:** T. Appala Naidu (Anonymized)
 - **Age:** 42 years
-- **Village:** Border area, Kothavalasa Mandal (tribal border zone)
-- **District:** Anakapalli
+- **Village:** Border area, Anandapuram/Bheemunipatnam (coastal border zone)
+- **District:** Visakhapatnam
 - **Category:** Small Farmer (Tribal-border area)
 
 **Land Details:**
@@ -25662,6 +25728,10 @@ pie title FPO Member Distribution by Farmer Type
 - **Activities:** Millet collection, processing, honey collection, organic certification
 - **Investment:** ₹4-6 lakh
 - **Expected Benefit:** ₹50,000-70,000 additional income/year
+**Contribution Potential:**
+- Millets (Ragi/Jowar): 35-45 quintals/year
+- Honey: 60-90 kg/year
+- Goats: 10-15 animals/year (market-ready)
 
 **Documentation Available:**
 - ROR-1B (MeeBhoomi certified - forest patta)
@@ -25843,19 +25913,19 @@ graph TD
 
 **Detailed Mandal-Wise Crop Suitability for FPO Planning:**
 
-| District | Mandal | Soil Type | Avg Annual Rainfall | Kharif Crops | Rabi Crops | Plantation/High Value | Allied Activities | FPO Suitability |
-|----------|--------|-----------|---------------------|--------------|------------|----------------------|-------------------|-----------------|
-| **Anakapalli** | Munagapaka | Black cotton, Red loam | 1,100-1,200 mm | Paddy, Sugarcane | Chickpea, Pigeon Pea | Banana | Dairy, Poultry | **High** - Multi-commodity FPO (Paddy + Sugarcane + Dairy) |
-| **Anakapalli** | Sabbavaram | Black cotton, Alluvial | 1,100-1,200 mm | Paddy, Pulses | Chickpea, Vegetables | Banana | Dairy (Heritage Foods proximity) | **High** - Dairy FPO + Paddy aggregation |
-| **Anakapalli** | Kothavalasa (Border) | Red soil, Laterite | 1,200-1,300 mm | Paddy, Millets (Ragi, Jowar) | Pulses, Vegetables | - | Goat/Sheep, Beekeeping | **Medium** - Millet FPO, Tribal-border focus |
-| **Anakapalli** | Kasimkota | Black cotton, Red loam | 1,100-1,200 mm | Paddy, Sugarcane | Chickpea, Vegetables | Banana | Dairy, Integrated farming | **High** - Integrated FPO (Paddy + Dairy + Sugarcane) |
-| **Anakapalli** | Yelamanchili | Black cotton, Alluvial | 1,100-1,200 mm | Paddy, Pulses | Chickpea, Pigeon Pea | Banana | Dairy, Poultry | **High** - Paddy + Pulse FPO (Yeluru canal irrigation) |
-| **Anakapalli** | K. Kotapadu | Black cotton, Red loam | 1,100-1,200 mm | Paddy, Sugarcane | Chickpea, Vegetables | Banana | Dairy, Poultry | **High** - Multi-commodity FPO (primary focus area) |
-| **Visakhapatnam** | Pendurthi | Red soil, Laterite | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Mango, Coconut | Dairy, Horticulture | **High** - Horticulture FPO (Mango + Vegetables) |
-| **Visakhapatnam** | Anandapuram | Red soil, Laterite | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Mango, Coconut | Dairy, Horticulture | **High** - Horticulture FPO (Meghadrigedda irrigation) |
-| **Visakhapatnam** | Bheemunipatnam | Coastal alluvial, Red soil | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Coconut | Dairy, Fisheries (coastal) | **Medium** - Coastal FPO (Paddy + Fisheries) |
-| **Visakhapatnam** | Gopalapatnam | Red soil, Laterite | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Mango, Coconut | Dairy, Horticulture | **High** - Horticulture FPO |
-| **Visakhapatnam** | Parawada | Red soil, Laterite | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Mango, Coconut | Dairy, Horticulture | **High** - Horticulture FPO |
+| District | Mandal | Soil Type | Avg Annual Rainfall | Kharif Crops | Rabi Crops | Plantation/High Value | Allied Activities | Dairy Suitability | Crop Calendar Ref | FPO Suitability | FPO Score |
+|----------|--------|-----------|---------------------|--------------|------------|----------------------|-------------------|------------------|-------------------|-----------------|-----------|
+| **Anakapalli** | Munagapaka | Black cotton, Red loam | 1,100-1,200 mm | Paddy, Sugarcane | Chickpea, Pigeon Pea | Banana | Dairy, Poultry | High | Anakapalli | **High** - Multi-commodity FPO (Paddy + Sugarcane + Dairy) | 9 |
+| **Anakapalli** | Sabbavaram | Black cotton, Alluvial | 1,100-1,200 mm | Paddy, Pulses | Chickpea, Vegetables | Banana | Dairy (Heritage proximity) | High | Anakapalli | **High** - Dairy FPO + Paddy aggregation | 9 |
+| **Anakapalli** | Kothavalasa (Border) | Red soil, Laterite | 1,200-1,300 mm | Paddy, Millets (Ragi, Jowar) | Pulses, Vegetables | - | Goat/Sheep, Beekeeping | Medium | Anakapalli | **Medium** - Millet FPO, Tribal-border focus | 7 |
+| **Anakapalli** | Kasimkota | Black cotton, Red loam | 1,100-1,200 mm | Paddy, Sugarcane | Chickpea, Vegetables | Banana | Dairy, Integrated farming | High | Anakapalli | **High** - Integrated FPO (Paddy + Dairy + Sugarcane) | 9 |
+| **Anakapalli** | Yelamanchili | Black cotton, Alluvial | 1,100-1,200 mm | Paddy, Pulses | Chickpea, Pigeon Pea | Banana | Dairy, Poultry | High | Anakapalli | **High** - Paddy + Pulse FPO (Yeluru canal) | 9 |
+| **Anakapalli** | K. Kotapadu | Black cotton, Red loam | 1,100-1,200 mm | Paddy, Sugarcane | Chickpea, Vegetables | Banana | Dairy, Poultry | High | Anakapalli | **High** - Multi-commodity FPO (primary focus area) | 10 |
+| **Visakhapatnam** | Pendurthi | Red soil, Laterite | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Mango, Coconut | Dairy, Horticulture | High | Visakhapatnam | **High** - Horticulture FPO (Mango + Vegetables) | 9 |
+| **Visakhapatnam** | Anandapuram | Red soil, Laterite | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Mango, Coconut | Dairy, Horticulture | High | Visakhapatnam | **High** - Horticulture FPO (Meghadrigedda irrigation) | 9 |
+| **Visakhapatnam** | Bheemunipatnam | Coastal alluvial, Red soil | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Coconut | Dairy, Fisheries (coastal) | Medium | Visakhapatnam | **Medium** - Coastal FPO (Paddy + Fisheries) | 7 |
+| **Visakhapatnam** | Gopalapatnam | Red soil, Laterite | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Mango, Coconut | Dairy, Horticulture | High | Visakhapatnam | **High** - Horticulture FPO | 9 |
+| **Visakhapatnam** | Parawada | Red soil, Laterite | 1,200-1,300 mm | Paddy, Vegetables | Vegetables, Pulses | Mango, Coconut | Dairy, Horticulture | High | Visakhapatnam | **High** - Horticulture FPO | 9 |
 
 **Key Irrigation Sources:**
 - **Thatipudi Reservoir:** Feeds Anakapalli district (Munagapaka, Sabbavaram, Kasimkota, Yelamanchili, K. Kotapadu)
@@ -26718,6 +26788,32 @@ Comprehensive district-level contacts and resources for Anakapalli and Visakhapa
 - **Services:** Horticulture schemes, fruit crop support, vegetable cultivation
 - **Contact:** Through DAO office (8331056469)
 
+**Additional Mandal Offices (Anakapalli):**
+
+**Atchutapuram Mandal:**
+- **MRO Office:** Atchutapuram Mandal Office
+- **Phone:** (To be filled by FPO)
+- **Email:** mro-atchutapuram@ap.gov.in
+- **RBK:** Atchutapuram (To be filled by FPO)
+- **Veterinary Office:** (To be filled by FPO)
+- **Services:** Paddy aggregation, dairy linkage; proximity to industrial corridor
+
+**Nakkapalli Mandal:**
+- **MRO Office:** Nakkapalli Mandal Office
+- **Phone:** (To be filled by FPO)
+- **Email:** mro-nakkapalli@ap.gov.in
+- **RBK:** Nakkapalli (To be filled by FPO)
+- **Veterinary Office:** (To be filled by FPO)
+- **Irrigation:** Yeluru Canal coverage (paddy focus)
+
+**Rambilli Mandal:**
+- **MRO Office:** Rambilli Mandal Office
+- **Phone:** (To be filled by FPO)
+- **Email:** mro-rambilli@ap.gov.in
+- **RBK:** Rambilli (To be filled by FPO)
+- **Veterinary Office:** (To be filled by FPO)
+- **Services:** Paddy + banana; linkages to Atchutapuram industrial area
+
 ---
 
 ### Visakhapatnam District Offices & Contacts
@@ -26916,6 +27012,9 @@ Comprehensive district-level contacts and resources for Anakapalli and Visakhapa
 | NABARD DDM | Samanth Kumar G. | - | vijayawada@nabard.org | FPO formation, subsidies, credit |
 | Visakha Dairy | - | 0891-2517230, 0891-2517555 | marketing@visakhadairy.com | Milk procurement, quality testing |
 | Heritage Foods (Bayyavaram) | - | Contact via website | www.heritagefoods.in | Milk procurement (closer to Anakapalli villages) |
+| RBK Atchutapuram | - | (To be filled by FPO) | - | PM-KISAN, Rythu Bharosa, crop insurance |
+| RBK Nakkapalli | - | (To be filled by FPO) | - | PM-KISAN, Rythu Bharosa, crop insurance |
+| RBK Rambilli | - | (To be filled by FPO) | - | PM-KISAN, Rythu Bharosa, crop insurance |
 
 **Quick Reference Table - Visakhapatnam District:**
 
@@ -26927,6 +27026,11 @@ Comprehensive district-level contacts and resources for Anakapalli and Visakhapa
 | GCC Regional Office | - | 0891-2566000, 0891-2566001 | gcc.vizag@ap.gov.in | Tribal farmer support, coffee/turmeric |
 | NABARD Regional Office | - | - | vijayawada@nabard.org | FPO formation, subsidies, credit |
 | District Animal Husbandry | - | 0891-2566003 | - | Livestock health, veterinary services |
+| RBK Pendurthi | - | (To be filled by FPO) | - | PM-KISAN, Rythu Bharosa, crop insurance |
+| RBK Anandapuram | - | (To be filled by FPO) | - | PM-KISAN, Rythu Bharosa, crop insurance |
+| RBK Bheemunipatnam | - | (To be filled by FPO) | - | PM-KISAN, Rythu Bharosa, crop insurance |
+| RBK Gopalapatnam | - | (To be filled by FPO) | - | PM-KISAN, Rythu Bharosa, crop insurance |
+| RBK Parawada | - | (To be filled by FPO) | - | PM-KISAN, Rythu Bharosa, crop insurance |
 
 ---
 
@@ -27200,6 +27304,83 @@ N = Number of Monthly Installments (Years × 12)
 | Office Setup | 2,00,000 | 7.1% |
 | Contingency | 3,00,000 | 10.7% |
 | **TOTAL** | **28,00,000** | **100%** |
+
+---
+
+#### **7. WORKING CAPITAL MODEL (12 MONTHS)**
+
+**Assumptions:** Combined operations in Anakapalli & Visakhapatnam (milk, paddy, sugarcane, banana, millets).
+
+| Month | Opening Cash | Milk Inflow | Paddy Inflow | Sugarcane Inflow | Banana/Millets Inflow | Operating Outflows | Closing Cash |
+|-------|--------------:|------------:|-------------:|-----------------:|----------------------:|-------------------:|------------:|
+| Jan | 0 | 1,20,000 | 80,000 | 15,000 | 5,000 | 1,44,000 | 76,000 |
+| Feb | 76,000 | 1,12,000 | 80,000 | 15,000 | 5,000 | 1,34,400 | 1,38,600 |
+| Mar | 1,38,600 | 1,24,000 | 80,000 | 15,000 | 6,000 | 1,47,800 | 1,65,800 |
+| Apr | 1,65,800 | 1,20,000 | 60,000 | 15,000 | 8,000 | 99,000 | 2,69,800 |
+| May | 2,69,800 | 1,10,000 | 60,000 | 15,000 | 10,000 | 96,000 | 3,68,800 |
+| Jun | 3,68,800 | 1,12,000 | 60,000 | 15,000 | 12,000 | 98,000 | 4,69,800 |
+| Jul | 4,69,800 | 1,20,000 | 80,000 | 15,000 | 6,000 | 1,44,000 | 5,26,800 |
+| Aug | 5,26,800 | 1,24,000 | 80,000 | 15,000 | 6,000 | 1,47,800 | 5,94,000 |
+| Sep | 5,94,000 | 1,20,000 | 80,000 | 15,000 | 5,000 | 1,44,000 | 6,50,000 |
+| Oct | 6,50,000 | 1,20,000 | 80,000 | 15,000 | 5,000 | 1,44,000 | 7,11,000 |
+| Nov | 7,11,000 | 1,12,000 | 80,000 | 15,000 | 5,000 | 1,36,400 | 7,71,600 |
+| Dec | 7,71,600 | 1,20,000 | 80,000 | 15,000 | 5,000 | 1,44,000 | 8,47,600 |
+
+**Note:** Use Excel to track monthly variances and buffers; align with P&L and cash flow.
+
+---
+
+#### **8. COMMODITY-WISE REVENUE MODELS (DISTRICT-TAILORED)**
+
+**Milk (Dairy Collection):**
+
+| Metric | Value |
+|--------|------:|
+| Avg Daily Volume | 600 liters |
+| Avg Margin | ₹2/liter |
+| Monthly Revenue | ₹36,000 – ₹37,200 |
+| Seasonality | Slight dip in May–Jun |
+| Buyers | Heritage Foods (Bayyavaram), Visakha Dairy |
+
+**Paddy (Aggregation):**
+
+| Metric | Value |
+|--------|------:|
+| Avg Monthly Volume | 800–1,200 quintals |
+| Avg Margin | ₹60–₹80/quintal |
+| Monthly Revenue | ₹60,000 – ₹96,000 |
+| Seasonality | Kharif high (Aug–Oct), Rabi moderate (Jan–Mar) |
+| Buyers | Rice millers, MSP procurement |
+
+**Sugarcane (Facilitation):**
+
+| Metric | Value |
+|--------|------:|
+| Avg Annual Volume | 150–220 tons |
+| Service Margin | ₹70–₹100/ton (coordination) |
+| Monthly Revenue | ₹12,000 – ₹20,000 (seasonal) |
+| Seasonality | Factory-linked (Nov–Feb peak) |
+| Buyer Linkage | Anakapalli Sugar Factory |
+
+**Banana (Plantation):**
+
+| Metric | Value |
+|--------|------:|
+| Avg Monthly Volume | 300–500 crates |
+| Avg Margin | ₹10–₹15/crate |
+| Monthly Revenue | ₹3,000 – ₹7,500 |
+| Seasonality | Year-round (monsoon flush) |
+| Buyers | Local markets, processors |
+
+**Millets (Ragi/Jowar):**
+
+| Metric | Value |
+|--------|------:|
+| Avg Monthly Volume | 80–120 quintals (seasonal) |
+| Avg Margin | ₹80–₹120/quintal |
+| Monthly Revenue | ₹6,400 – ₹14,400 (seasonal) |
+| Seasonality | Rainfed harvest (Sep–Oct) |
+| Buyers | Local markets, organic stores |
 
 ---
 
