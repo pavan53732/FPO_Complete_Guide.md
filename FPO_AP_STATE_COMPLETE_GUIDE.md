@@ -740,6 +740,53 @@ If ANY of these 5 things are mismatched, AP officers will reject the document:
 - ❌ Missing mortgage check (land has bank lien)
 - ❌ Wrong village/mandal name (old records)
 
+**STEP-BY-STEP REMEDIATION FOR EACH REJECTION REASON:**
+
+| Rejection Reason | Remediation Steps | Time Required | Cost |
+|------------------|-------------------|---------------|------|
+| **Name mismatch** | 1. Get affidavit from notary<br>2. Submit to MRO for correction<br>3. Get corrected ROR-1B | 7-15 days | ₹500-1,000 |
+| **Survey number wrong** | 1. Visit VRO with Aadhaar<br>2. Get correct survey number<br>3. Download fresh MeeBhoomi | 1-2 days | FREE |
+| **Mortgage shown** | 1. Get NOC from bank<br>2. Clear lien if possible<br>3. Get updated ROR-1B | 15-30 days | Bank charges |
+| **Old owner name** | 1. File mutation application<br>2. Submit succession documents<br>3. Get updated ROR-1B | 30-60 days | ₹1,000-2,000 |
+| **Old date (>2 years)** | 1. Download fresh MeeBhoomi printout<br>2. Get MRO certified copy | 1-2 days | ₹25-100 |
+| **Village/mandal mismatch** | 1. Verify with VRO<br>2. File correction if needed<br>3. Get updated ROR-1B | 7-15 days | ₹500-1,000 |
+
+---
+
+### 6.1.5 MeeBhoomi Screenshots (Recommended)
+
+**Visual Reference for MeeBhoomi Portal Usage:**
+
+**Screenshot 1: MeeBhoomi Search Page**
+- **Location:** See file `images/m1_meebhoomi_search.png` (to be added)
+- **Shows:** Portal homepage with district/mandal/village selection
+- **Highlights:** Survey number search box highlighted
+- **Purpose:** Helps farmers navigate to correct location
+
+**Screenshot 2: Sample ROR-1B Extract**
+- **Location:** See file `images/m2_ror1b_sample.png` (to be added)
+- **Shows:** Complete ROR-1B extract with:
+  - Owner name: P. Ramana
+  - Survey number: 112/2B
+  - Area: 1.27 Acres
+  - Liabilities: NIL (highlighted)
+  - Last updated: 12-Nov-2025
+- **Purpose:** Shows what correct ROR-1B looks like
+
+**Screenshot 3: MeeBhoomi Download Option**
+- **Location:** See file `images/m3_download_option.png` (to be added)
+- **Shows:** PDF download button and print option
+- **Purpose:** Guides farmers on how to save/print
+
+**Note:** Actual screenshots should be added to the `images/` folder in the repository. For now, farmers can refer to the text sample above (Section 6.1) and the MeeBhoomi portal directly.
+
+**How to Add Screenshots:**
+1. Take screenshots from https://meebhoomi.ap.gov.in
+2. Anonymize personal information (use sample data)
+3. Save as PNG files: `m1_meebhoomi_search.png`, `m2_ror1b_sample.png`, `m3_download_option.png`
+4. Place in `images/` folder
+5. Update this section with actual image paths
+
 ---
 
 **Use in FPO Enrollment:**
@@ -2050,7 +2097,49 @@ Year 8+: Federation (500+ members)
 
 ---
 
-### **📌 EMI Table for ₹10 Lakh Machinery Loan @ 9%**
+### **📌 One-Page EMI / Loan Repayment Sheet**
+
+**CRITICAL: FPO must generate sufficient revenue to cover EMI payments. Use this table to plan loan repayment.**
+
+**EMI Calculator for Common CAPEX Values:**
+
+| Loan Amount | Interest Rate | Tenure | Monthly EMI (₹) | Annual EMI (₹) | Total Interest (₹) | Total Amount (₹) | Minimum Monthly Revenue Required* |
+|-------------|---------------|--------|-----------------|----------------|-------------------|------------------|----------------------------------|
+| **₹5,00,000** | 8% | 3 years | 15,656 | 1,87,872 | 63,616 | 5,63,616 | ₹20,000 |
+| **₹5,00,000** | 8% | 5 years | 10,138 | 1,21,656 | 1,08,280 | 6,08,280 | ₹15,000 |
+| **₹5,00,000** | 9% | 3 years | 15,900 | 1,90,800 | 72,400 | 5,72,400 | ₹20,000 |
+| **₹5,00,000** | 9% | 5 years | 10,379 | 1,24,548 | 1,22,740 | 6,22,740 | ₹15,000 |
+| **₹5,00,000** | 10% | 3 years | 16,145 | 1,93,740 | 81,220 | 5,81,220 | ₹20,000 |
+| **₹5,00,000** | 10% | 5 years | 10,624 | 1,27,488 | 1,37,440 | 6,37,440 | ₹15,000 |
+| **₹10,00,000** | 8% | 3 years | 31,312 | 3,75,744 | 1,27,232 | 11,27,232 | ₹40,000 |
+| **₹10,00,000** | 8% | 5 years | 20,276 | 2,43,312 | 2,16,560 | 12,16,560 | ₹30,000 |
+| **₹10,00,000** | 9% | 3 years | 31,800 | 3,81,600 | 1,44,800 | 11,44,800 | ₹40,000 |
+| **₹10,00,000** | 9% | 5 years | 20,758 | 2,49,096 | 2,45,480 | 12,45,480 | ₹30,000 |
+| **₹10,00,000** | 10% | 3 years | 32,290 | 3,87,480 | 1,62,440 | 11,62,440 | ₹40,000 |
+| **₹10,00,000** | 10% | 5 years | 21,248 | 2,54,976 | 2,74,880 | 12,74,880 | ₹30,000 |
+| **₹20,00,000** | 8% | 3 years | 62,624 | 7,51,488 | 2,54,464 | 22,54,464 | ₹80,000 |
+| **₹20,00,000** | 8% | 5 years | 40,552 | 4,86,624 | 4,33,120 | 24,33,120 | ₹60,000 |
+| **₹20,00,000** | 9% | 3 years | 63,600 | 7,63,200 | 2,89,600 | 22,89,600 | ₹80,000 |
+| **₹20,00,000** | 9% | 5 years | 41,516 | 4,98,192 | 4,90,960 | 24,90,960 | ₹60,000 |
+| **₹20,00,000** | 10% | 3 years | 64,580 | 7,74,960 | 3,24,880 | 23,24,880 | ₹80,000 |
+| **₹20,00,000** | 10% | 5 years | 42,496 | 5,09,952 | 5,49,760 | 25,49,760 | ₹60,000 |
+
+**Note:** *Minimum Monthly Revenue Required = EMI × 2 (to cover EMI + operating expenses + buffer)
+
+**EMI Calculation Formula:**
+```
+EMI = [P × R × (1+R)^N] / [(1+R)^N - 1]
+Where:
+P = Principal (Loan Amount)
+R = Monthly Interest Rate (Annual Rate ÷ 12)
+N = Number of Monthly Installments
+```
+
+**Example Calculation for ₹10 Lakh @ 9% for 5 years:**
+- P = ₹10,00,000
+- R = 9% ÷ 12 = 0.75% = 0.0075
+- N = 5 × 12 = 60 months
+- EMI = [10,00,000 × 0.0075 × (1.0075)^60] / [(1.0075)^60 - 1] = ₹20,758
 
 **CRITICAL: FPO must generate sufficient revenue to cover EMI payments. Use this table to plan loan repayment.**
 
@@ -3189,6 +3278,23 @@ NOW IT IS AGREED AS FOLLOWS:
     - Amendments only in writing
     - Not transferable without consent
     - Confidentiality maintained
+
+11. CONTRACT VALUE & MARGIN SUMMARY:
+    ─────────────────────────────────
+    
+    | Item | Calculation | Annual Value (₹) |
+    |------|-------------|------------------|
+    | **Monthly Milk Supply** | 18,000 liters/month | - |
+    | **Annual Milk Supply** | 18,000 × 12 months | 2,16,000 liters |
+    | **Purchase Price (from members)** | ₹34/liter | 73,44,000 |
+    | **Sale Price (to buyer)** | ₹36/liter | 77,76,000 |
+    | **FPO Margin** | ₹2/liter | **4,32,000** |
+    | **Quality Premium (if applicable)** | +₹1/liter (estimated 20% of supply) | +43,200 |
+    | **Total Annual FPO Revenue** | - | **4,75,200** |
+    | **Less: Operating Costs** | Collection, testing, transport (estimated 10%) | -47,520 |
+    | **Net Annual Profit (FPO)** | - | **4,27,680** |
+    
+    **Note:** This contract provides stable revenue of ₹4.27 lakh annually for the FPO, supporting 20-30 dairy farmer members.
 
 SIGNATURES:
 ───────────
@@ -4977,6 +5083,20 @@ RECOMMENDED PRIORITY:
 
 **CRITICAL:** Banks and SFAC require complete financial statements. Below are ready-to-use formats.
 
+**📥 DOWNLOADABLE EXCEL FILE:**
+- **File Name:** `FPO_Financial_Model_v1.xlsx`
+- **Location:** See ANNEX-20: Customized Financial Models (Excel attached in repository)
+- **Contains:**
+  - Year 1-3 P&L (monthly & annual)
+  - Balance Sheet (Year-end)
+  - Monthly Cash Flow
+  - Break-even Analysis
+  - Capital Requirement Calculator
+  - EMI Calculator
+  - Sensitivity Analysis
+- **Usage:** Fill in your FPO's actual numbers to generate bank-ready financial statements
+- **Note:** Excel file should be attached in the repository `files/` folder or provided separately
+
 ---
 
 #### **Statement 1: Profit & Loss Statement (P&L) - Year 1-3 Format**
@@ -6520,6 +6640,92 @@ HOW TO USE HSN CODES:
 - Use 6-digit code if turnover > ₹5 crore
 - Helps in GST return filing
 ```
+
+**📋 GST RULES CHEAT-SHEET - 10-POINT CHECKLIST FOR AUDITORS:**
+
+```
+═══════════════════════════════════════════════════════════════════════
+GST COMPLIANCE CHECKLIST FOR FPOs - AUDITOR'S GUIDE
+═══════════════════════════════════════════════════════════════════════
+
+☐ 1. GST REGISTRATION STATUS
+   - Check: Is FPO registered for GST?
+   - Threshold: ₹40 lakh annual turnover (mandatory)
+   - Action: Verify GSTIN (15-digit number) is valid
+   - Document: GST registration certificate
+
+☐ 2. TURNOVER VERIFICATION
+   - Check: Annual revenue from all sources
+   - Calculation: Milk sales + Paddy sales + Input supply + Services
+   - If > ₹40 lakh: GST registration required
+   - If < ₹40 lakh: Optional (but check inter-state sales)
+
+☐ 3. PRODUCT GST RATES
+   - Fresh Milk: 0% GST (exempt) - HSN 0401
+   - Processed Milk Products: 5% GST (if processed)
+   - Unprocessed Paddy: 0% GST (exempt) - HSN 1006
+   - Processed Rice: 5% GST - HSN 1006
+   - Fresh Vegetables/Fruits: 0% GST (exempt)
+   - Fertilizers: 5% GST - HSN 3101-3105
+   - Seeds: 0% GST (usually exempt) - HSN 1201-1209
+
+☐ 4. SERVICE GST RATES
+   - Custom Hiring (Tractor/Thresher): 5% GST - HSN 9988
+   - Storage/Warehousing: 5% GST - HSN 9988
+   - Processing Services: 5% GST
+   - Input Supply Commission: 18% GST (if applicable)
+
+☐ 5. HSN CODE USAGE
+   - Check: All invoices have HSN codes
+   - Format: 4-digit (if turnover < ₹5 crore) or 6-digit (if > ₹5 crore)
+   - Verify: Correct HSN code for each product/service
+   - Action: Ensure HSN codes match GST return filing
+
+☐ 6. GST RETURN FILING
+   - GSTR-1: Monthly/Quarterly (sales details)
+   - GSTR-3B: Monthly/Quarterly (summary return)
+   - Due Date: 11th/13th of next month (monthly) or 13th/22nd (quarterly)
+   - Check: All returns filed on time
+   - Penalty: ₹50-200/day for late filing
+
+☐ 7. INPUT TAX CREDIT (ITC)
+   - Check: FPO claims ITC on purchases (fertilizers, equipment, etc.)
+   - Verify: ITC only on business expenses
+   - Action: Ensure ITC matches purchase invoices
+   - Document: Purchase invoices with GST
+
+☐ 8. INVOICE COMPLIANCE
+   - Check: All invoices have GSTIN
+   - Verify: HSN codes mentioned
+   - Check: GST amount shown separately
+   - Verify: Buyer GSTIN (if registered)
+   - Action: Ensure invoice format complies with GST rules
+
+☐ 9. EXEMPTION VERIFICATION
+   - Check: Unprocessed agricultural produce (0% GST)
+   - Verify: Processing threshold (when 5% GST applies)
+   - Action: Ensure correct GST rate applied
+   - Document: Product classification records
+
+☐ 10. COMPLIANCE DOCUMENTS
+   - GST Registration Certificate
+   - GST Return Filing Receipts (GSTR-1, GSTR-3B)
+   - Purchase Invoices (with GST)
+   - Sale Invoices (with GST)
+   - ITC Reconciliation Statement
+   - GST Payment Challans
+   - Annual GST Return (GSTR-9)
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**COMMON GST MISTAKES TO AVOID:**
+- ❌ Not registering when turnover exceeds ₹40 lakh
+- ❌ Applying wrong GST rate (e.g., 5% on fresh milk instead of 0%)
+- ❌ Missing HSN codes on invoices
+- ❌ Not filing returns on time
+- ❌ Claiming ITC on personal expenses
+- ❌ Not maintaining proper invoice records
 
 **GST Return Filing:**
 
@@ -18309,6 +18515,197 @@ Option 3: SFAC (as add-on)
 ✅ BEST APPROACH: AP Karshak first choice + RKVY as backup
 ═══════════════════════════════════════════════════════════════════════
 ```
+
+---
+
+---
+
+### **📌 DIRECT LINKS & APPLICATION DEADLINES - ANNEX-3 SUPPLEMENT**
+
+**Quick Reference: Direct Portal Links, Timelines, and Required Attachments**
+
+#### **1. SFAC Equity Grant (₹10 Lakh)**
+
+**Direct Links:**
+- **SFAC Website:** https://sfacindia.com
+- **Application Portal:** https://sfacindia.com/fpo-formation (or contact through RI)
+- **RI List Download:** https://sfacindia.com/PDFs/EmpanelledRIS/List%20of%20empanelled%20RIs%20Andhra%20Pradesh%20State.pdf
+- **Contact:** info@sfacindia.com, +91-11-2584-3600
+
+**Application Timeline:**
+- **RI Selection & Agreement:** 1-2 weeks
+- **Project Report Preparation:** 2-3 weeks
+- **Application Submission:** 1 week
+- **SFAC Review:** 6-8 weeks
+- **Approval & Disbursement:** 2-3 weeks
+- **Total Time:** 12-16 weeks (3-4 months)
+
+**Required Attachments (In Order):**
+1. FPO Registration Certificate (COI)
+2. MOA & AOA (certified copies)
+3. Board Resolution (approving SFAC application)
+4. Project Report (prepared by RI)
+5. Financial Projections (5-year)
+6. Member List (with land proof)
+7. Bank Account Details
+8. PAN Card
+9. GST Certificate (if applicable)
+10. Buyer Agreement/MoU (if available)
+
+**Deadline:** No fixed deadline - applications accepted year-round, but processing may be slower during March-April (financial year end)
+
+---
+
+#### **2. NABARD FPO Support (Dairy/Machinery Subsidy)**
+
+**Direct Links:**
+- **NABARD Website:** https://www.nabard.org
+- **FPO Support Page:** https://www.nabard.org/content1.aspx?id=1234&catid=8&mid=1 (check for latest)
+- **Regional Office (AP):** rbhy@nabard.org, 040-2337-7531
+- **District DDM:** Contact through commercial bank
+
+**Application Timeline:**
+- **Bank Application:** 1 week
+- **DPR Preparation (by bank/NABARD):** 2-3 weeks
+- **NABARD Review:** 4-6 weeks
+- **Approval & Disbursement:** 2-3 weeks
+- **Total Time:** 9-13 weeks (2.5-3 months)
+
+**Required Attachments (In Order):**
+1. FPO Registration Certificate
+2. Bank Loan Application Form
+3. Project Report/DPR
+4. Technical Specifications (equipment/machinery)
+5. Quotations (from 3 vendors)
+6. Member List
+7. Land Documents (for infrastructure)
+8. Buyer Agreement (for dairy/marketing)
+9. Financial Statements (if existing FPO)
+10. Bank Account Details
+
+**Deadline:** No fixed deadline - apply through bank anytime
+
+---
+
+#### **3. AP Karshak Portal (Mechanisation Subsidy)**
+
+**Direct Links:**
+- **AP Karshak Portal:** https://karshakapp.ap.gov.in
+- **Registration:** https://karshakapp.ap.gov.in/registration
+- **Application:** https://karshakapp.ap.gov.in/application
+- **Status Check:** https://karshakapp.ap.gov.in/status
+- **Helpline:** 1902 (AP State Call Centre - mention "Karshak")
+
+**Application Timeline:**
+- **Portal Registration:** 1 day
+- **Application Submission:** 1-2 days
+- **TAO Verification:** 1-2 weeks
+- **District Approval:** 1-2 weeks
+- **Subsidy Release:** 2-3 weeks
+- **Total Time:** 5-8 weeks (1.5-2 months) - **FASTEST**
+
+**Required Attachments (In Order):**
+1. FPO Registration Certificate
+2. Member List (minimum 10 members)
+3. Equipment Details (tractor, thresher, etc.)
+4. Quotations (from authorized dealers)
+5. Land Documents (for equipment storage)
+6. Bank Account Details
+7. Aadhaar (all directors)
+8. PAN Card
+
+**Deadline:** Applications accepted year-round, but apply before March 31 for same financial year processing
+
+---
+
+#### **4. PMFBY (Crop Insurance) Enrollment**
+
+**Direct Links:**
+- **PMFBY Portal:** https://pmfby.gov.in
+- **Enrollment:** https://pmfby.gov.in/enrollment (through bank or online)
+- **Claim Status:** https://pmfby.gov.in/claim-status
+- **Helpline:** 1800-180-1551
+
+**Application Timeline:**
+- **Enrollment (before sowing):** 1-2 days
+- **Premium Payment:** Same day
+- **Policy Issuance:** 1 week
+- **Claim Processing (if loss):** 30-45 days
+- **Total Time:** 1 week (enrollment), 30-45 days (claim)
+
+**Required Attachments (In Order):**
+1. Member List (with land details)
+2. Land Documents (ROR-1B/Adangal)
+3. Crop Details (crop type, area, season)
+4. Bank Account Details (for premium payment & claim)
+5. Aadhaar (all members)
+6. Sowing Certificate (from VRO/MAO)
+
+**Deadline:** 
+- **Kharif Season:** Enroll by June 30 (before sowing)
+- **Rabi Season:** Enroll by October 31 (before sowing)
+- **Late Enrollment:** Possible with penalty (check portal)
+
+---
+
+#### **5. AP Dairy Development Board Schemes**
+
+**Direct Links:**
+- **AP Government Portal:** https://ap.gov.in
+- **Dairy Department:** Contact through DAO (8331056469 for Anakapalli)
+- **State Call Centre:** 1902 (mention "Dairy")
+
+**Application Timeline:**
+- **Application Submission:** 1 week
+- **Verification:** 2-3 weeks
+- **Approval:** 2-3 weeks
+- **Disbursement:** 2-3 weeks
+- **Total Time:** 7-10 weeks (2-2.5 months)
+
+**Required Attachments (In Order):**
+1. FPO Registration Certificate
+2. Member List (dairy farmers)
+3. Livestock Registration Certificates
+4. Infrastructure Plan (milk collection center)
+5. Financial Projections
+6. Bank Account Details
+
+**Deadline:** Check with District Animal Husbandry Department (varies by scheme)
+
+---
+
+#### **6. AP AGROS (Machinery Subsidies)**
+
+**Direct Links:**
+- **AP AGROS Website:** https://ap-agros.com
+- **Application:** Contact through DAO or AGROS depot
+- **Email:** agros@ap.gov.in
+- **Helpline:** 1902 (mention "AGROS")
+
+**Application Timeline:**
+- **Application Submission:** 1 week
+- **Verification:** 1-2 weeks
+- **Approval:** 1-2 weeks
+- **Disbursement:** 2-3 weeks
+- **Total Time:** 5-8 weeks (1.5-2 months)
+
+**Required Attachments (In Order):**
+1. FPO Registration Certificate
+2. Equipment Quotations (from authorized dealers)
+3. Member List
+4. Land Documents (for equipment storage)
+5. Bank Account Details
+
+**Deadline:** Check with AGROS depot (Sabbavaram) or DAO
+
+---
+
+**IMPORTANT NOTES:**
+- **Always verify current deadlines** from official portals before applying
+- **Keep digital copies** of all documents (PDF format)
+- **Follow up regularly** on application status
+- **Maintain application reference numbers** for tracking
+- **Contact helplines** if application is delayed beyond timeline
 
 ---
 
