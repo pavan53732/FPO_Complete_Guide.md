@@ -299,7 +299,7 @@ Current Crop: Paddy / Maize
 Soil Type: Black soil (suitable for sugarcane)
 Ownership: Ryot (Individual owner)
 Mortgage/Lien: None [critical - must be clear]
-Last Updated: 15-Mar-2025
+Last Updated: 01-Dec-2025
 
 ACCEPTED AS PROOF FOR: Landowner membership, bank loans, SFAC subsidy, NABARD projects
 ```
@@ -6528,7 +6528,7 @@ Water source: Canal / Borwell / Rainfed
 Current crop: Paddy / सूखी धान
 Productivity: High / Medium / Low
 
-LAST UPDATED: 15-Nov-2024
+LAST UPDATED: 01-Dec-2025
 Updated by: Revenue Inspector [Name]
 Document ID: 2024AP4502
 
@@ -7874,7 +7874,7 @@ Status: Clear Title
 VERIFICATION:
 ─────────────
 Downloaded from: https://meebhoomi.ap.gov.in
-Download Date: 15-Jan-2025
+Download Date: 01-Dec-2025
 Verification Code: MB-AP-2025-123456
 Status: VERIFIED ✅
 
@@ -7945,7 +7945,7 @@ Land Classification: Agricultural
 
 LEASE TERMS:
 ────────────
-1. Lease Period: 3 years (from 01-Apr-2024 to 31-Mar-2027)
+1. Lease Period: 3 years (from 01-Apr-2025 to 31-Mar-2028)
 2. Annual Rent: ₹15,000 per year
 3. Rent Payment: Annual, in advance (by 1st April each year)
 4. Purpose: Agricultural cultivation only
@@ -7963,7 +7963,7 @@ RIGHTS & OBLIGATIONS:
 
 TERMINATION:
 ────────────
-- Lease terminates on 31-Mar-2027 (automatic)
+- Lease terminates on 31-Mar-2028 (automatic)
 - Can be terminated early by mutual consent
 - If lessee defaults on rent: Lessor can terminate with 30 days notice
 
@@ -7983,19 +7983,19 @@ SIGNATURES:
 ───────────
 LESSOR:
 Shyam Singh
-Signature: _________________ Date: 01-Apr-2024
+Signature: _________________ Date: 01-Apr-2025
 [Seal/Thumbprint]
 
 LESSEE:
 Vijay Patel
-Signature: _________________ Date: 01-Apr-2024
+Signature: _________________ Date: 01-Apr-2025
 [Seal/Thumbprint]
 
 NOTARIZED:
 ──────────
 Notary Public: _________________
 Registration No.: _________________
-Date: 01-Apr-2024
+Date: 01-Apr-2025
 [Notary Seal]
 
 ═══════════════════════════════════════════════════════════════════════
@@ -8050,7 +8050,7 @@ Vijayawada Rural Mandal
 Krishna District, Andhra Pradesh
 
 Certificate No.: MRO/VR/2025/123
-Date: 20-Jan-2025
+Date: 01-Dec-2025
 
 TO WHOM IT MAY CONCERN
 
@@ -8096,7 +8096,7 @@ Signature: _________________
 Name: [MRO Name]
 Designation: Mandal Revenue Officer
 Office: Vijayawada Rural Mandal
-Date: 20-Jan-2025
+Date: 01-Dec-2025
 
 [Official Seal of MRO Office]
 
@@ -8153,7 +8153,7 @@ Date: 20-Jan-2025
 SHARE CERTIFICATE
 ═══════════════════════════════════════════════════════════════════════
 
-CERTIFICATE No.: SC-001          Date Issued: 15-Apr-2025
+CERTIFICATE No.: SC-001          Date Issued: 15-Dec-2025
 
                     FARMER PRODUCER COMPANY LIMITED
                     PEDDAPURAM VILLAGE FPO
@@ -8227,11 +8227,11 @@ TERMS & CONDITIONS:
 AUTHORIZED SIGNATORIES:
 
 Chairman: ____________________________
-          [Signature & Date: 15-Apr-2025]
+          [Signature & Date: 15-Dec-2025]
           [FPO Seal]
 
 Company Secretary: ____________________________
-                   [Signature & Date: 15-Apr-2025]
+                   [Signature & Date: 15-Dec-2025]
 
 ═══════════════════════════════════════════════════════════════════════
 
@@ -8240,7 +8240,7 @@ MEMBER ACKNOWLEDGMENT:
 I hereby acknowledge receipt of this Share Certificate and undertake 
 to comply with all Terms & Conditions mentioned above.
 
-Member Signature: ________________________ Date: 15-Apr-2025
+Member Signature: ________________________ Date: 15-Dec-2025
 
 Member Aadhaar No.: XXXX XXXX 1234
 Member Contact: +91-98765-43210
