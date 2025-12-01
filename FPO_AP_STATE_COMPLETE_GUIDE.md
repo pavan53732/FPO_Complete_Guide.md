@@ -1834,6 +1834,135 @@ FARMER PROOF DOCUMENTS - TELUGU GUIDE
 
 ## 7. MULTI-COMMODITY FPO FOR YOUR VILLAGE
 
+---
+
+### **📌 AP COMMODITY MAP - ANAKAPALLI & VISAKHAPATNAM DISTRICTS**
+
+**Text-Based Visual Guide for Crop Suitability and FPO Activity Planning**
+
+```
+═══════════════════════════════════════════════════════════════════════
+ANDHRA PRADESH COMMODITY MAP - ANAKAPALLI & VISAKHAPATNAM DISTRICTS
+═══════════════════════════════════════════════════════════════════════
+
+NORTH COASTAL ZONE (VISAKHAPATNAM DISTRICT)
+─────────────────────────────────────────────
+│
+│ Location: Visakhapatnam District
+│ Mandals: Pendurthi, Anandapuram, Bheemunipatnam, Gopalapatnam, Parawada
+│
+│ PRIMARY CROPS:
+│ ├─ Coffee (Arabica) - 63,200 hectares
+│ ├─ Turmeric - 5,000+ hectares
+│ ├─ Black Pepper - 2,000+ hectares
+│ ├─ Mango - 16,800 hectares
+│ └─ Millets (Ragi, Jowar) - Tribal areas
+│
+│ ALLIED ACTIVITIES:
+│ ├─ Dairy (Visakha Dairy linkage)
+│ ├─ Beekeeping (Honey production)
+│ ├─ Goat/Sheep rearing
+│ └─ Fisheries (coastal areas)
+│
+│ IRRIGATION SOURCES:
+│ ├─ Meghadrigedda Reservoir
+│ ├─ Yeluru Canal
+│ ├─ Borewells
+│ └─ Rainfed (tribal areas)
+│
+│ FPO SUITABILITY:
+│ ✅ Coffee FPO (High - Premium market)
+│ ✅ Turmeric FPO (High - Value addition)
+│ ✅ Mango FPO (High - Export potential)
+│ ✅ Multi-commodity FPO (Medium - Coffee + Turmeric + Honey)
+│ ✅ Tribal FPO (High - GCC linkage)
+│
+└─────────────────────────────────────────────
+
+CENTRAL COASTAL ZONE (ANAKAPALLI DISTRICT)
+─────────────────────────────────────────────
+│
+│ Location: Anakapalli District
+│ Mandals: Munagapaka, Sabbavaram, Kothavalasa (border), Kasimkota, 
+│          Yelamanchili, K. Kotapadu
+│
+│ PRIMARY CROPS:
+│ ├─ Paddy - 45,000+ hectares
+│ ├─ Sugarcane - Major crop (Anakapalli Sugar Factory area)
+│ ├─ Banana - Plantation crop
+│ ├─ Pulses (Chickpea, Pigeon Pea) - 10,811+ hectares
+│ └─ Millets (border areas with Visakhapatnam)
+│
+│ ALLIED ACTIVITIES:
+│ ├─ Dairy (Heritage Foods Bayyavaram - ~30-40 km, closer than Visakha Dairy)
+│ ├─ Poultry
+│ ├─ Goat/Sheep rearing
+│ └─ Custom hiring services
+│
+│ IRRIGATION SOURCES:
+│ ├─ Thatipudi Reservoir
+│ ├─ Yeluru Canal
+│ ├─ Borewells
+│ └─ Rainfed (border areas)
+│
+│ FPO SUITABILITY:
+│ ✅ Multi-commodity FPO (High - Paddy + Dairy + Sugarcane)
+│ ✅ Dairy FPO (High - Heritage Foods proximity)
+│ ✅ Paddy FPO (High - Large area, government procurement)
+│ ✅ Sugarcane FPO (High - Sugar factory linkage)
+│ ✅ Banana FPO (Medium - Plantation crop)
+│
+└─────────────────────────────────────────────
+
+CROP SUITABILITY MATRIX BY IRRIGATION ZONE:
+─────────────────────────────────────────────
+
+ZONE 1: CANAL IRRIGATED (Thatipudi, Yeluru, Meghadrigedda)
+├─ Paddy: ✅✅✅ EXCELLENT (High yield, stable)
+├─ Sugarcane: ✅✅✅ EXCELLENT (Sugar factory linkage)
+├─ Banana: ✅✅ EXCELLENT (Plantation crop)
+└─ Vegetables: ✅✅ GOOD (Year-round)
+
+ZONE 2: BOREWELL IRRIGATED
+├─ Paddy: ✅✅ GOOD (Seasonal)
+├─ Pulses: ✅✅✅ EXCELLENT (Rabi season)
+├─ Vegetables: ✅✅ GOOD (Year-round)
+└─ Dairy: ✅✅✅ EXCELLENT (Fodder available)
+
+ZONE 3: RAINFED (Border areas, tribal zones)
+├─ Millets: ✅✅✅ EXCELLENT (Drought-resistant)
+├─ Pulses: ✅✅ GOOD (Rabi season)
+├─ Coffee: ✅✅✅ EXCELLENT (Visakhapatnam tribal)
+└─ Goat/Sheep: ✅✅✅ EXCELLENT (Low input)
+
+═══════════════════════════════════════════════════════════════════════
+FPO ACTIVITY RECOMMENDATIONS BY ZONE:
+═══════════════════════════════════════════════════════════════════════
+
+ANAKAPALLI DISTRICT FPOs:
+├─ Zone 1 (Canal): Multi-commodity (Paddy + Sugarcane + Dairy)
+├─ Zone 2 (Borewell): Paddy + Pulses + Dairy
+└─ Zone 3 (Rainfed): Millets + Dairy + Custom Hiring
+
+VISAKHAPATNAM DISTRICT FPOs:
+├─ Zone 1 (Canal): Mango + Vegetables + Dairy
+├─ Zone 2 (Borewell): Coffee + Turmeric + Honey
+└─ Zone 3 (Rainfed): Coffee + Millets + Goat/Sheep
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+**Key Irrigation Sources:**
+- **Thatipudi Reservoir:** Serves Anakapalli district, especially Munagapaka, Sabbavaram, Kasimkota mandals
+- **Meghadrigedda Reservoir:** Serves Visakhapatnam district, especially Pendurthi, Anandapuram mandals
+- **Yeluru Canal:** Serves both districts, especially Yelamanchili, K. Kotapadu areas
+
+**Market Linkage Priority:**
+1. **Anakapalli:** Heritage Foods Bayyavaram (dairy - closest), Anakapalli Sugar Factory (sugarcane), Rice millers (paddy)
+2. **Visakhapatnam:** Visakha Dairy (dairy), GCC (coffee/turmeric), Export markets (mango)
+
+---
+
 ### Your Village Resources
 
 **Based on your area:**
@@ -18383,7 +18512,176 @@ Note: Contact numbers may change. Always verify current numbers from official we
 
 ---
 
+### **📌 ANAKAPALLI & VISAKHAPATNAM DISTRICT - DETAILED MANDAL-LEVEL CONTACTS**
+
+**Format:**
+- DAO = District Agriculture Officer
+- MRO = Mandal Revenue Officer
+- MAO = Mandal Agricultural Officer
+- AHD = Animal Husbandry Department
+- HDO = Horticulture Dept Officer
+- MEO = Marketing Extension Officer
+
+---
+
+#### **ANAKAPALLI DISTRICT - MANDAL-LEVEL CONTACTS**
+
+**1. Munagapaka Mandal:**
+- **MRO Office:** Munagapaka Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-munagapaka@ap.gov.in
+- **MAO:** (Contact through DAO Anakapalli: 8331056469)
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Munagapaka
+- **Phone:** (To be filled by FPO)
+- **Services:** PM-KISAN, Rythu Bharosa, crop insurance enrollment
+
+**2. Sabbavaram Mandal:**
+- **MRO Office:** Sabbavaram Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-sabbavaram@ap.gov.in
+- **MAO:** (Contact through DAO Anakapalli: 8331056469)
+- **AP AGROS Depot:** Sabbavaram
+- **Phone:** (To be filled by FPO - collect from AGROS depot)
+- **Services:** Farm machinery, custom hiring center subsidies
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Sabbavaram
+- **Phone:** (To be filled by FPO)
+
+**3. Kothavalasa Mandal (Border with Visakhapatnam):**
+- **MRO Office:** Kothavalasa Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-kothavalasa@ap.gov.in
+- **MAO:** (Contact through DAO Anakapalli: 8331056469)
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Kothavalasa
+- **Phone:** (To be filled by FPO)
+- **Note:** Border area - suitable for millet-based FPOs
+
+**4. Kasimkota Mandal:**
+- **MRO Office:** Kasimkota Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-kasimkota@ap.gov.in
+- **MAO:** (Contact through DAO Anakapalli: 8331056469)
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Kasimkota
+- **Phone:** (To be filled by FPO)
+- **Services:** Integrated farming support (paddy + dairy)
+
+**5. Yelamanchili Mandal:**
+- **MRO Office:** Yelamanchili Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-yelamanchili@ap.gov.in
+- **MAO:** (Contact through DAO Anakapalli: 8331056469)
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Yelamanchili
+- **Phone:** (To be filled by FPO)
+- **Irrigation:** Yeluru Canal area
+
+**6. K. Kotapadu Mandal:**
+- **MRO Office:** K. Kotapadu Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-kkotapadu@ap.gov.in
+- **MPDO:** A A Sambasiva Rao, Phone: 9000013916 / 9441953611
+- **Email:** mpdokkotapadu@gmail.com
+- **Tahsildar:** Phone: 9989621944
+- **Email:** tahsildar.kkpd@gmail.com
+- **MAO:** (Contact through DAO Anakapalli: 8331056469)
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** K. Kotapadu
+- **Phone:** (To be filled by FPO)
+- **Note:** Primary focus area - see Quick Reference Card for detailed contacts
+
+---
+
+#### **VISAKHAPATNAM DISTRICT - MANDAL-LEVEL CONTACTS**
+
+**1. Pendurthi Mandal:**
+- **MRO Office:** Pendurthi Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-pendurthi@ap.gov.in
+- **MAO:** (Contact through DAO Visakhapatnam: 0891-2566001)
+- **Horticulture Office:** Pendurthi
+- **Phone:** (To be filled by FPO - collect from HDO office)
+- **Services:** Horticulture schemes, fruit crop support
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Pendurthi
+- **Phone:** (To be filled by FPO)
+- **Irrigation:** Meghadrigedda Reservoir area
+
+**2. Anandapuram Mandal:**
+- **MRO Office:** Anandapuram Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-anandapuram@ap.gov.in
+- **MAO:** (Contact through DAO Visakhapatnam: 0891-2566001)
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Anandapuram
+- **Phone:** (To be filled by FPO)
+- **Irrigation:** Meghadrigedda Reservoir area
+
+**3. Bheemunipatnam Mandal:**
+- **MRO Office:** Bheemunipatnam Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-bheemunipatnam@ap.gov.in
+- **MAO:** (Contact through DAO Visakhapatnam: 0891-2566001)
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Bheemunipatnam
+- **Phone:** (To be filled by FPO)
+- **Services:** Coastal area - fisheries support available
+
+**4. Gopalapatnam Mandal:**
+- **MRO Office:** Gopalapatnam Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-gopalapatnam@ap.gov.in
+- **MAO:** (Contact through DAO Visakhapatnam: 0891-2566001)
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Gopalapatnam
+- **Phone:** (To be filled by FPO)
+
+**5. Parawada Mandal:**
+- **MRO Office:** Parawada Mandal Office
+- **Phone:** (To be filled by FPO - collect from Mandal Office)
+- **Email:** mro-parawada@ap.gov.in
+- **MAO:** (Contact through DAO Visakhapatnam: 0891-2566001)
+- **Veterinary Office:** (Contact through District AHD)
+- **Rythu Bharosa Kendram:** Parawada
+- **Phone:** (To be filled by FPO)
+
+---
+
+#### **MARKET YARD CONTACTS**
+
+**Anakapalli Sugar Factory Market Yard:**
+- **Location:** Anakapalli Sugar Factory area, Anakapalli
+- **MEO (Marketing Extension Officer):** (To be filled by FPO - collect from market yard)
+- **Phone:** (To be filled by FPO)
+- **Services:** Paddy, sugarcane trading, regulated market
+- **Contact Method:** Visit market yard office or contact through DAO Anakapalli (8331056469)
+
+**Visakhapatnam Market Yard (Marripalem):**
+- **Location:** Marripalem Yard, Visakhapatnam
+- **MEO (Marketing Extension Officer):** (To be filled by FPO - collect from market yard)
+- **Phone:** (To be filled by FPO)
+- **Services:** Vegetables, fruits, agricultural produce trading
+- **Contact Method:** Visit market yard office or contact through DAO Visakhapatnam (0891-2566001)
+
+---
+
+**HOW TO FILL CONTACT DETAILS:**
+1. Visit Mandal Office (MRO) for mandal-level contacts
+2. Contact DAO office (Anakapalli: 8331056469, Visakhapatnam: 0891-2566001) for MAO contacts
+3. Visit market yard office for MEO contacts
+4. Contact District AHD through DAO for veterinary contacts
+5. Visit Rythu Bharosa Kendram for local service contacts
+6. Update this directory with actual phone numbers before submission
+
+**NOTE:** All phone numbers marked "(To be filled by FPO)" should be collected from respective offices before submission to banks/SFAC/NABARD.
+
+---
+
 ### **📌 COMPLETE AP DISTRICT FPO SUPPORT CONTACT DIRECTORY (26 DISTRICTS)**
+
+*(Consolidated: This section is also covered in ANNEX-19; repeated here for training and reference.)*
 
 **Format:**
 - DAO = District Agriculture Officer
@@ -19207,6 +19505,35 @@ Option 3: SFAC (as add-on)
 | **Cold Storage** | 40-50% | FPO eligible | NABARD/AP | NABARD DDM |
 | **Warehouse** | 40-50% | FPO eligible | NABARD/AP | NABARD DDM |
 
+**Detailed Subsidy Information for Anakapalli & Visakhapatnam:**
+
+**AP AGROS Mechanization Subsidy:**
+- **Subsidy:** 40-80% (varies by equipment)
+- **Eligibility:** FPOs with 10+ members, registered with ROC
+- **Documents Needed:** FPO certificate, member list, equipment quotations, land documents
+- **Relevant Mandals:** Sabbavaram (AGROS depot), Munagapaka, Kasimkota, Yelamanchili, K. Kotapadu
+- **Contact:** AP AGROS Depot, Sabbavaram (Phone: To be filled by FPO) or DAO Anakapalli (8331056469)
+- **Processing Time:** 5-8 weeks
+- **Portal:** AP Karshak Portal (https://karshakapp.ap.gov.in)
+
+**APMIP Drip Irrigation Subsidy:**
+- **Subsidy:** 55-80% (higher for SC/ST/Women farmers)
+- **Eligibility:** All farmers, FPOs eligible for bulk applications
+- **Documents Needed:** Land documents (ROR-1B), crop details, application form
+- **Relevant Mandals:** All mandals in Anakapalli & Visakhapatnam (especially canal-irrigated areas)
+- **Contact:** APMIP Office (through DAO) - Anakapalli: 8331056469, Visakhapatnam: 0891-2566001
+- **Processing Time:** 4-6 weeks
+- **Portal:** APMIP Portal or AP Karshak Portal
+
+**AP Seed Distribution Subsidy:**
+- **Subsidy:** 30-50% (varies by crop and season)
+- **Eligibility:** All farmers, FPOs can apply for bulk seed supply
+- **Documents Needed:** Member list, crop area details, application form
+- **Relevant Mandals:** All mandals (seasonal - Kharif/Rabi)
+- **Contact:** DAO Office - Anakapalli: 8331056469, Visakhapatnam: 0891-2566001
+- **Processing Time:** 2-4 weeks
+- **Season:** Apply before Kharif (June) or Rabi (October)
+
 ---
 
 #### **DAIRY SUBSIDIES (APDDCF, NABARD)**
@@ -19218,6 +19545,20 @@ Option 3: SFAC (as add-on)
 | **Milk Testing Kits** | 50% | FPO eligible | NABARD DDM |
 | **Dairy Infrastructure** | 40-50% | FPO eligible | NABARD DDM |
 | **Milk Collection Center** | 40-50% | FPO eligible | NABARD DDM |
+
+**Detailed Dairy Subsidy Information for Anakapalli & Visakhapatnam:**
+
+**APDDA Dairy Subsidies:**
+- **Milch Animal Purchase:** 50-60% subsidy (SC/ST/Women farmers)
+- **Bulk Milk Coolers:** 40% subsidy (FPO eligible)
+- **Milk Testing Kits:** 50% subsidy (FPO eligible)
+- **Dairy Infrastructure:** 40-50% subsidy (FPO eligible)
+- **Eligibility:** FPOs with dairy farmer members, livestock registration certificates
+- **Documents Needed:** FPO certificate, member list (dairy farmers), livestock registration, infrastructure plan
+- **Relevant Mandals:** All mandals (especially Sabbavaram, Munagapaka, Kasimkota, K. Kotapadu for Anakapalli; Pendurthi, Anandapuram for Visakhapatnam)
+- **Contact:** District AHD (through DAO) - Anakapalli: 8331056469, Visakhapatnam: 0891-2566001
+- **Processing Time:** 7-10 weeks
+- **Portal:** Contact through District Animal Husbandry Department
 
 ---
 
@@ -19247,6 +19588,44 @@ Option 3: SFAC (as add-on)
 |--------|----------|---------|---------|
 | **PMFBY (Crop Insurance)** | 100% crop loss | 1.5-5% of sum insured | Bank/PMFBY Portal |
 | **Weather-Based Insurance** | Weather risk | 1-3% of sum insured | Insurance Companies |
+
+**Central Schemes for Anakapalli & Visakhapatnam:**
+
+**PMFBY (Pradhan Mantri Fasal Bima Yojana):**
+- **Coverage:** 100% crop loss (natural calamities, pests, diseases)
+- **Premium:** 1.5-5% of sum insured (farmer pays, rest subsidized)
+- **Eligibility:** All farmers, FPOs can enroll members collectively
+- **Documents Needed:** Member list, land documents (ROR-1B), crop details, bank account
+- **Relevant Mandals:** All mandals (Kharif and Rabi seasons)
+- **Contact:** Through bank or PMFBY Portal (https://pmfby.gov.in)
+- **Processing Time:** 1 week (enrollment), 30-45 days (claim processing)
+- **Deadline:** Kharif - June 30, Rabi - October 31
+
+**PM-KUSUM (Solar Pumps):**
+- **Subsidy:** 70-90% (varies by component)
+- **Eligibility:** Farmers with borewells/surface water sources
+- **Documents Needed:** Land documents, borewell details, application form
+- **Relevant Mandals:** All mandals (especially borewell-irrigated areas)
+- **Contact:** NREDC (through DAO) - Anakapalli: 8331056469, Visakhapatnam: 0891-2566001
+- **Processing Time:** 8-12 weeks
+- **Portal:** PM-KUSUM Portal or AP Karshak Portal
+
+**NLM (National Livestock Mission):**
+- **Subsidy:** 50% for livestock development
+- **Eligibility:** FPOs with livestock farmer members
+- **Documents Needed:** FPO certificate, member list, livestock registration
+- **Relevant Mandals:** All mandals (especially dairy-focused areas)
+- **Contact:** District AHD (through DAO) - Anakapalli: 8331056469, Visakhapatnam: 0891-2566001
+- **Processing Time:** 6-10 weeks
+
+**PMKSY (Per Drop More Crop):**
+- **Subsidy:** 55% for drip irrigation (same as APMIP)
+- **Eligibility:** All farmers, FPOs eligible
+- **Documents Needed:** Land documents, crop details, application form
+- **Relevant Mandals:** All mandals
+- **Contact:** APMIP Office (through DAO) - Anakapalli: 8331056469, Visakhapatnam: 0891-2566001
+- **Processing Time:** 4-6 weeks
+- **Portal:** PMKSY Portal or AP Karshak Portal
 
 ---
 
@@ -23514,6 +23893,44 @@ Comprehensive district-level contacts and resources for Anakapalli and Visakhapa
 - **Address:** Regional Office, Visakhapatnam, Andhra Pradesh
 - **Working Hours:** 10:00 AM to 5:00 PM (Monday to Saturday)
 - **Services:** Tribal farmer support, coffee/turmeric procurement, market linkage, organic certification support
+
+**Horticulture Office (Pendurthi):**
+- **Location:** Horticulture Department Office, Pendurthi, Visakhapatnam District
+- **Phone:** (To be filled by FPO - collect from HDO office)
+- **Services:** Horticulture schemes, fruit crop support (Mango - 16,800 hectares), value addition
+- **Contact Method:** Through District Horticulture Officer (via DAO Visakhapatnam: 0891-2566001)
+
+**Rythu Bharosa Kendrams (Visakhapatnam District):**
+- **Pendurthi:** (To be filled by FPO)
+- **Anandapuram:** (To be filled by FPO)
+- **Bheemunipatnam:** (To be filled by FPO)
+- **Gopalapatnam:** (To be filled by FPO)
+- **Parawada:** (To be filled by FPO)
+- **Services:** PM-KISAN enrollment, Rythu Bharosa payments, crop insurance, farmer services
+- **Contact Method:** Visit local Rythu Bharosa Kendram or contact through MRO office
+
+**Veterinary Offices (Visakhapatnam District):**
+- **Pendurthi Veterinary Office:** (To be filled by FPO - collect from District AHD)
+- **Anandapuram Veterinary Office:** (To be filled by FPO - collect from District AHD)
+- **Bheemunipatnam Veterinary Office:** (To be filled by FPO - collect from District AHD)
+- **Services:** Livestock registration, vaccination, health certificates, breeding support
+- **Contact Method:** Through District Animal Husbandry Department (via DAO Visakhapatnam: 0891-2566001)
+
+**Market Yard Contacts:**
+
+**Anakapalli Sugar Factory Market Yard:**
+- **Location:** Anakapalli Sugar Factory area, Anakapalli
+- **MEO (Marketing Extension Officer):** (To be filled by FPO - collect from market yard)
+- **Phone:** (To be filled by FPO)
+- **Services:** Paddy, sugarcane trading, regulated market, MSP procurement
+- **Contact Method:** Visit market yard office or contact through DAO Anakapalli (8331056469)
+
+**Visakhapatnam Market Yard (Marripalem):**
+- **Location:** Marripalem Yard, Visakhapatnam
+- **MEO (Marketing Extension Officer):** (To be filled by FPO - collect from market yard)
+- **Phone:** (To be filled by FPO)
+- **Services:** Vegetables, fruits, agricultural produce trading, regulated market
+- **Contact Method:** Visit market yard office or contact through DAO Visakhapatnam (0891-2566001)
 
 ---
 
