@@ -15,6 +15,7 @@
 - 0.4 Cybersecurity & Data Safety - Mandatory Protocols
 - 0.5 e-NAM Registration - Mandatory for Market Access
 - 0.6 ONDC Marketplace - New Opportunity
+- 0.7 AP State Mandatory Agricultural Compliance Guidelines
 
 ### CORE SECTIONS (1-17)
 1. What is an FPO?
@@ -347,6 +348,186 @@ CYBERSECURITY INCIDENT LOG 2026
 4. Upload required documents
 5. Complete training modules
 6. Start selling
+
+---
+
+### 0.7 AP STATE MANDATORY AGRICULTURAL COMPLIANCE GUIDELINES
+
+**CRITICAL: Andhra Pradesh has specific state-level agricultural laws and compliance requirements that FPOs must follow in addition to federal regulations.**
+
+---
+
+#### 0.7.1 AP Agricultural Marketing Act Compliance
+
+**What is it:**
+- AP Agricultural Produce and Livestock Marketing (Promotion & Facilitation) Act
+- Regulates agricultural marketing, market yards, and FPO operations
+- Mandatory for FPOs selling produce in AP markets
+
+**FPO Compliance Requirements:**
+
+**1. Market Yard Registration:**
+- FPOs selling in AP market yards must register
+- Registration: Through District Marketing Officer
+- Fee: ₹500-1,000 (one-time)
+- Validity: 5 years (renewable)
+
+**2. Trading License:**
+- Required if FPO trades in regulated commodities
+- Apply: District Marketing Office
+- Fee: ₹1,000-2,000 annually
+- Documents: FPO registration certificate, PAN, address proof
+
+**3. Market Fee Payment:**
+- Market fee: 1% of transaction value (if selling in market yard)
+- Payment: Monthly to market committee
+- Exemption: Direct sales to processors/exporters (outside market yard)
+
+**4. Quality Standards:**
+- Must comply with AP quality standards for agricultural produce
+- Grading: As per AP Agricultural Marketing standards
+- Certification: From AP Marketing Department (if required)
+
+**Contact:**
+- **AP Marketing Department:** Contact District Marketing Officer
+- **AP Government Portal:** https://ap.gov.in
+- **State Call Centre:** 1902 (mention "Agricultural Marketing")
+
+---
+
+#### 0.7.2 APDDA (AP Dairy Development Agency) Linkage
+
+**What is it:**
+- AP Dairy Development Cooperative Federation (APDDA)
+- State-level dairy development agency
+- Provides support to dairy FPOs
+
+**FPO Benefits:**
+- **Milk Procurement Support:** Linkage with APDDA for bulk milk sales
+- **Quality Testing:** Access to APDDA quality testing facilities
+- **Training Programs:** Dairy management training
+- **Subsidy Support:** Dairy infrastructure subsidies
+
+**Registration Process:**
+1. Contact District Animal Husbandry Department
+2. Submit FPO registration certificate
+3. Provide member list (dairy farmers)
+4. Get APDDA registration number
+5. Access APDDA services
+
+**Contact:**
+- **APDDA Head Office:** Contact through District Animal Husbandry Department
+- **District AHD:** Through DAO office (8331056469 for Anakapalli)
+- **Services:** Milk procurement, quality testing, training
+
+---
+
+#### 0.7.3 APCOB/DRDA Preferred Banking Rules
+
+**What is it:**
+- AP State Cooperative Bank (APCOB) and District Rural Development Agency (DRDA)
+- Preferred banking partners for FPOs in AP
+- Special schemes and lower interest rates
+
+**APCOB Benefits for FPOs:**
+- **Lower Interest Rates:** 1-2% lower than commercial banks
+- **Faster Processing:** Priority processing for FPO loans
+- **Subsidy Linkage:** Direct linkage with government subsidies
+- **Flexible Terms:** Better repayment terms
+
+**DRDA Support:**
+- **Rural Development Schemes:** Access to DRDA schemes
+- **Infrastructure Support:** Village-level infrastructure development
+- **Training Programs:** Capacity building programs
+
+**How to Access:**
+1. Contact nearest APCOB branch
+2. Submit FPO registration certificate
+3. Apply for FPO account and loan
+4. Link with DRDA for additional support
+
+**Contact:**
+- **APCOB:** Contact nearest branch (check APCOB website)
+- **DRDA:** Through District Collector's office
+- **District Collector:** Anakapalli (collector-ankp@ap.gov.in)
+
+---
+
+#### 0.7.4 AP Kisan Board Certification Process
+
+**What is it:**
+- AP Kisan Board certification for agricultural products
+- Quality certification for FPO produce
+- Required for premium market access
+
+**Certification Benefits:**
+- **Quality Assurance:** Certified quality products
+- **Premium Pricing:** Higher prices for certified produce
+- **Market Access:** Access to premium markets
+- **Brand Recognition:** AP Kisan Board brand usage
+
+**Certification Process:**
+1. **Application:** Submit application to AP Kisan Board
+2. **Inspection:** Board inspects FPO operations
+3. **Quality Testing:** Product quality testing
+4. **Certification:** Issue of AP Kisan Board certificate
+5. **Renewal:** Annual renewal required
+
+**Required Documents:**
+- FPO registration certificate
+- Member list
+- Product samples
+- Quality test reports
+- Processing facility details (if applicable)
+
+**Contact:**
+- **AP Kisan Board:** Contact through District Agriculture Office
+- **DAO:** 8331056469 (Anakapalli)
+- **AP Government Portal:** https://ap.gov.in
+
+---
+
+#### 0.7.5 AP State Compliance Checklist
+
+**Annual Compliance Requirements:**
+
+```
+AP STATE COMPLIANCE CHECKLIST:
+
+☐ 1. AP Market Yard Registration (if selling in market yards)
+   - Registration valid: YES / NO
+   - Renewal due date: _______________
+
+☐ 2. APDDA Registration (if dairy FPO)
+   - Registration number: _______________
+   - Renewal due date: _______________
+
+☐ 3. APCOB Account (if applicable)
+   - Account opened: YES / NO
+   - Loan active: YES / NO
+
+☐ 4. AP Kisan Board Certification (if applicable)
+   - Certificate valid: YES / NO
+   - Renewal due date: _______________
+
+☐ 5. AP Quality Standards Compliance
+   - Quality standards met: YES / NO
+   - Testing done: YES / NO
+
+☐ 6. AP Marketing Fee Payment (if applicable)
+   - Market fee paid: YES / NO
+   - Payment receipt: _______________
+
+☐ 7. AP State Subsidy Utilization
+   - Subsidy received: YES / NO
+   - Utilization report submitted: YES / NO
+```
+
+**Penalties for Non-Compliance:**
+- **Market Yard Violation:** ₹5,000-10,000 fine
+- **Trading License Violation:** ₹2,000-5,000 fine
+- **Quality Standards Violation:** Product rejection, fine
+- **Subsidy Misuse:** Recovery of subsidy + penalty
 
 ---
 
@@ -12334,6 +12515,67 @@ STEP 4: Decision
 
 ---
 
+### 21.6 DIGITAL MIS TOOLS FOR FPO MANAGEMENT
+
+**Recommended FPO Management Software:**
+
+#### **1. HelloFPO**
+- **Purpose:** Complete FPO management system
+- **Features:** Member management, accounting, inventory, payments, reports
+- **Cost:** ₹5,000-15,000/year (subscription)
+- **Website:** https://hellofpo.com
+- **Best For:** Medium to large FPOs (50+ members)
+- **Languages:** English, Hindi, Telugu
+
+#### **2. KisanMitra**
+- **Purpose:** Farmer and FPO management platform
+- **Features:** Member database, transaction tracking, subsidy management
+- **Cost:** ₹3,000-10,000/year
+- **Website:** https://kisanmitra.in
+- **Best For:** Small to medium FPOs (10-100 members)
+- **Languages:** English, Hindi, Telugu
+
+#### **3. Microsoft 365 for FPO**
+- **Purpose:** Office productivity and collaboration
+- **Features:** Excel (financial models), Word (documents), Teams (meetings), OneDrive (backup)
+- **Cost:** ₹6,000-12,000/year (for 5 users)
+- **Website:** https://www.microsoft.com/en-in/microsoft-365
+- **Best For:** All FPOs (essential office tools)
+- **Languages:** English, Hindi, Telugu
+
+#### **4. Krishi Bharat MIS**
+- **Purpose:** Agricultural MIS for FPOs
+- **Features:** Crop tracking, member management, market linkage
+- **Cost:** ₹4,000-8,000/year
+- **Website:** Contact through NABARD or SFAC
+- **Best For:** Crop-focused FPOs
+- **Languages:** English, Hindi, Telugu
+
+#### **5. AP Agmarknet API**
+- **Purpose:** Market price information and e-NAM integration
+- **Features:** Real-time prices, market trends, e-NAM linkage
+- **Cost:** FREE (government service)
+- **Website:** https://agmarknet.gov.in
+- **Best For:** All FPOs (market intelligence)
+- **Languages:** English, Hindi, Telugu
+
+**Selection Guide:**
+
+| FPO Size | Recommended Tools | Total Cost/Year |
+|----------|-------------------|-----------------|
+| **Small (10-30 members)** | Google Workspace (Free) + KisanMitra | ₹3,000-10,000 |
+| **Medium (30-100 members)** | Microsoft 365 + HelloFPO + Tally | ₹30,000-50,000 |
+| **Large (100+ members)** | Microsoft 365 + HelloFPO + Tally + Custom MIS | ₹50,000-1,00,000 |
+
+**Implementation Steps:**
+1. **Month 1:** Set up Google Workspace or Microsoft 365 (basic tools)
+2. **Month 2:** Implement accounting software (Tally or Zoho Books)
+3. **Month 3:** Deploy FPO management software (HelloFPO or KisanMitra)
+4. **Month 4:** Train staff on all tools
+5. **Month 5:** Integrate e-NAM and Agmarknet for market prices
+
+---
+
 ## 22. FAQ & TROUBLESHOOTING GUIDE
 
 ### Common Questions & Answers
@@ -18141,6 +18383,245 @@ Note: Contact numbers may change. Always verify current numbers from official we
 
 ---
 
+### **📌 COMPLETE AP DISTRICT FPO SUPPORT CONTACT DIRECTORY (26 DISTRICTS)**
+
+**Format:**
+- DAO = District Agriculture Officer
+- DDM = NABARD District Development Manager
+- AHD = Animal Husbandry Department
+- MRO = Mandal Revenue Officer
+- HDO = Horticulture Dept Officer
+- MEO = Marketing Extension Officer
+
+---
+
+#### **NORTH COASTAL ANDHRA PRADESH**
+
+**1. Srikakulam District:**
+- **DAO Office:** Near Collectorate, Srikakulam
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-srikakulam@ap.gov.in
+- **NABARD DDM:** NABARD District Office, Srikakulam
+- **AHD:** Veterinary Hospital, Srikakulam
+- **Agri Marketing Office:** Regulated Market Yard, Srikakulam
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**2. Vizianagaram District:**
+- **DAO:** Collector Office Compound, Vizianagaram
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-vizianagaram@ap.gov.in
+- **NABARD DDM:** Vizianagaram Rural Bank Building
+- **AHD:** District Veterinary Hospital, Vizianagaram
+- **Marketing Office:** Bobbili RM Yard
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**3. Visakhapatnam District:**
+- **DAO:** Seethammadhara AG Dept Office, Visakhapatnam
+- **Phone:** 0891-2566001 (to be verified)
+- **Email:** dao-vsp@ap.gov.in
+- **NABARD DDM:** NAD Junction, Vizag
+- **AHD:** Dairy Farm Campus, Visakhapatnam
+- **Marketing Office:** Marripalem Yard, Visakhapatnam
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**4. Anakapalli District (Your District):**
+- **DAO:** B. Mohan Rao, Collectorate Annexe, Anakapalli
+- **Phone:** 8331056469
+- **Email:** dao-ankp@ap.gov.in
+- **NABARD DDM:** Samanth Kumar G., Anakapalli Urban Bank Building
+- **Email:** vijayawada@nabard.org
+- **AHD:** Dairy Development Office, Sabbavaram Road, Anakapalli
+- **Marketing Office:** Anakapalli Sugar Factory Market Yard
+- **Contact Method:** Direct contact available (see Quick Reference Card)
+
+**5. Alluri Sitarama Raju (ASR) District:**
+- **DAO:** Paderu ITDA Office, ASR District
+- **Phone:** (to be filled - collect from ITDA office)
+- **Email:** dao-asr@ap.gov.in
+- **NABARD:** Paderu RRB branch
+- **AHD:** Tribal Vet Wing, Paderu
+- **Contact Method:** ITDA Office, Paderu, State Call Centre: 1902
+
+**6. Parvathipuram Manyam District:**
+- **DAO:** Collector Campus, Parvathipuram
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-parvathipuram@ap.gov.in
+- **AHD:** Salur Veterinary Hospital
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+---
+
+#### **CENTRAL COASTAL ANDHRA PRADESH**
+
+**7. East Godavari District:**
+- **DAO:** Kakinada, East Godavari
+- **Phone:** 0883-2356001 (to be verified)
+- **Email:** dao-eg@ap.gov.in
+- **NABARD:** Kakinada Town
+- **AHD:** Dairy Development Society, Kakinada
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**8. Kakinada District:**
+- **DAO:** Samalkota, Kakinada District
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-kakinada@ap.gov.in
+- **AHD:** Kakinada Dairy Board
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**9. Dr. B.R. Ambedkar Konaseema District:**
+- **DAO:** Amalapuram, Konaseema District
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-konaseema@ap.gov.in
+- **AHD:** Palakollu Dairy Field Unit
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**10. West Godavari District:**
+- **DAO:** Eluru, West Godavari
+- **Phone:** 08812-230001 (to be verified)
+- **Email:** dao-wg@ap.gov.in
+- **NABARD DDM:** Eluru
+- **AHD:** Nidadavolu Milk Chilling Center
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**11. Krishna District:**
+- **DAO:** Machilipatnam, Krishna District
+- **Phone:** 0866-2476001 (to be verified)
+- **Email:** dao-krishna@ap.gov.in
+- **AHD:** Bandar Dairy Office, Machilipatnam
+- **NABARD:** Machilipatnam Regional Office
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**12. NTR District:**
+- **DAO:** Vijayawada, NTR District
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-ntr@ap.gov.in
+- **NABARD:** Governorpet, Vijayawada
+- **AHD:** Gannavaram Dairy Unit
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**13. Guntur District:**
+- **DAO:** Guntur Agri Complex, Guntur
+- **Phone:** 0863-2256001 (to be verified)
+- **Email:** dao-guntur@ap.gov.in
+- **NABARD:** Brodipet, Guntur
+- **AHD:** Sangam Dairy Office, Guntur
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**14. Palnadu District:**
+- **DAO:** Narasaraopet, Palnadu District
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-palnadu@ap.gov.in
+- **AHD:** Palnadu Vet Block
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**15. Bapatla District:**
+- **DAO:** Bapatla College Campus, Bapatla District
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-bapatla@ap.gov.in
+- **AHD:** Chirala Dairy Unit
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**16. Prakasam District:**
+- **DAO:** Ongole, Prakasam
+- **Phone:** 08592-230001 (to be verified)
+- **Email:** dao-prakasam@ap.gov.in
+- **AHD:** Markapuram Vet Dept, Prakasam
+- **NABARD:** Ongole Town
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**17. Nellore (SPSR) District:**
+- **DAO:** Nellore Collectorate, Nellore
+- **Phone:** 0861-2306001 (to be verified)
+- **Email:** dao-nellore@ap.gov.in
+- **AHD:** Nellore Milk Union
+- **Agri Marketing:** Podalakur Yard, Nellore
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+---
+
+#### **RAYALASEEMA REGION**
+
+**18. Chittoor District:**
+- **DAO:** Chittoor
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-chittoor@ap.gov.in
+- **AHD:** Tirupati Dairy Board
+- **NABARD:** Tirupati
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**19. Tirupati District:**
+- **DAO:** Tirupati SPMVV Complex, Tirupati
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-tirupati@ap.gov.in
+- **AHD:** Tiruchanur Dairy Project
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**20. Annamayya District:**
+- **DAO:** Rayachoti, Annamayya District
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-annamayya@ap.gov.in
+- **AHD:** Rajampet Vet Hospital
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**21. Kadapa (YSR) District:**
+- **DAO:** Kadapa
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-kadapa@ap.gov.in
+- **NABARD:** Kadapa town
+- **AHD:** Proddatur Dairy Office
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**22. Kurnool District:**
+- **DAO:** Kurnool
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-kurnool@ap.gov.in
+- **AHD:** Adoni Vet Dept, Kurnool
+- **NABARD:** Kurnool Town
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**23. Nandyal District:**
+- **DAO:** Nandyal
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-nandyal@ap.gov.in
+- **AHD:** Nossam Vet Unit
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**24. Sri Satyasai District:**
+- **DAO:** Penukonda, Sri Satyasai District
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-srisatyasai@ap.gov.in
+- **AHD:** Dharmavaram
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**25. Anantapur District:**
+- **DAO:** Anantapur
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-anantapur@ap.gov.in
+- **AHD:** Rythu Bharosa Kendram, Anantapur
+- **NABARD:** Anantapur Rural
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+**26. Sri Balaji District (New District - if applicable):**
+- **DAO:** Tirumala region, Sri Balaji District
+- **Phone:** (to be filled - collect from District Collectorate)
+- **Email:** dao-sribalaji@ap.gov.in
+- **AHD:** Tirumala Dairy Support Unit
+- **Contact Method:** District Collectorate Office, State Call Centre: 1902
+
+---
+
+**HOW TO FILL CONTACT DETAILS:**
+1. Visit District Collectorate Office
+2. Ask for District Agriculture Officer (DAO) contact
+3. Get NABARD DDM contact from nearest commercial bank
+4. Get AHD contact from District Animal Husbandry Department
+5. Update this directory with actual phone numbers
+6. Keep updated contact list for FPO operations
+
+**NOTE:** All phone numbers marked "(to be filled)" should be collected from District Collectorate Office or AP Government Portal (https://ap.gov.in) before submission to banks/SFAC/NABARD.
+
+---
+
 **SFAC Empanelled Resource Institutions (RIs) in Andhra Pradesh:**
 
 ```
@@ -18706,6 +19187,134 @@ Option 3: SFAC (as add-on)
 - **Follow up regularly** on application status
 - **Maintain application reference numbers** for tracking
 - **Contact helplines** if application is delayed beyond timeline
+
+---
+
+### **📌 AP SUBSIDY MAPPING TABLES - COMPREHENSIVE GUIDE**
+
+---
+
+#### **AGRICULTURE DEPARTMENT SUBSIDIES (AP + CENTRAL)**
+
+| Scheme | Subsidy % | Eligibility | Department | Contact |
+|--------|-----------|-------------|------------|---------|
+| **Farm Mechanisation (AP Karshak)** | 40-80% | Tractor/Equipment | AP AGROS | AP Karshak Portal |
+| **PM-KUSUM Solar Pumps** | 70-90% | Borewell/Surface Water | NREDC | District Agriculture Office |
+| **Seed Distribution Subsidy** | 30-50% | Seasonal Crops | AP Agri Dept | DAO Office |
+| **Horticulture Plantation** | 40-60% | Mango, Banana, Coconut | AP Horticulture | HDO Office |
+| **Drip Irrigation** | 55-80% | All farmers | APMIP | APMIP Office |
+| **Custom Hiring Center** | 40-50% | FPO eligible | AP AGROS | AP Karshak Portal |
+| **Cold Storage** | 40-50% | FPO eligible | NABARD/AP | NABARD DDM |
+| **Warehouse** | 40-50% | FPO eligible | NABARD/AP | NABARD DDM |
+
+---
+
+#### **DAIRY SUBSIDIES (APDDCF, NABARD)**
+
+| Scheme | Subsidy % | Notes | Contact |
+|--------|-----------|-------|---------|
+| **Milch Animal Purchase** | 50-60% | Subsidy to SC/ST/Women | District AHD |
+| **Bulk Milk Coolers** | 40% | FPO Eligible | NABARD DDM |
+| **Milk Testing Kits** | 50% | FPO eligible | NABARD DDM |
+| **Dairy Infrastructure** | 40-50% | FPO eligible | NABARD DDM |
+| **Milk Collection Center** | 40-50% | FPO eligible | NABARD DDM |
+
+---
+
+#### **FISHERIES SUBSIDIES (COASTAL AP)**
+
+| Scheme | Subsidy % | Area | Contact |
+|--------|-----------|------|---------|
+| **Aerators** | 50% | Nellore/Krishna/Godavari | District Fisheries Office |
+| **Pond Lining** | 50% | Coastal & Agency | District Fisheries Office |
+| **Fish Processing Unit** | 40-50% | FPO eligible | NABARD DDM |
+
+---
+
+#### **LIVESTOCK SUBSIDIES**
+
+| Scheme | Subsidy % | Eligibility | Contact |
+|--------|-----------|-------------|---------|
+| **Goat/Sheep Rearing** | 50% | SC/ST/Women | District AHD |
+| **Poultry Unit** | 40-50% | FPO eligible | NABARD DDM |
+| **Livestock Insurance** | 50% | All farmers | PMFBY Portal |
+
+---
+
+#### **CROP INSURANCE (PMFBY)**
+
+| Scheme | Coverage | Premium | Contact |
+|--------|----------|---------|---------|
+| **PMFBY (Crop Insurance)** | 100% crop loss | 1.5-5% of sum insured | Bank/PMFBY Portal |
+| **Weather-Based Insurance** | Weather risk | 1-3% of sum insured | Insurance Companies |
+
+---
+
+### **📌 AP SAMPLE TEMPLATES**
+
+---
+
+#### **TEMPLATE 1: MRO LAND OWNERSHIP CERTIFICATE**
+
+```
+═══════════════════════════════════════════════════════════════════════
+GOVERNMENT OF ANDHRA PRADESH
+OFFICE OF THE MRO, __________ MANDAL
+═══════════════════════════════════════════════════════════════════════
+
+This is to certify that Sri/Smt __________________
+S/o/D/o __________________, residing at ___________
+is the lawful owner of land:
+
+Survey No: ______
+Extent: _______ Acres
+Village: __________
+Mandal: __________
+
+Verified with MeeBhoomi ROR-1B.
+Certified this on: ____ / ____ / 2025
+
+(MRO Signature & Seal)
+```
+
+---
+
+#### **TEMPLATE 2: VAO TENANT VERIFICATION CERTIFICATE**
+
+```
+═══════════════════════════════════════════════════════════════════════
+VILLAGE ADMINISTRATIVE OFFICE
+___________ Village, __________ Mandal, A.P.
+═══════════════════════════════════════════════════════════════════════
+
+This is to certify that Sri/Smt __________
+is cultivating land in Survey No _________
+Extent _______ Acres
+as a TENANT FARMER for agricultural year 2025-26.
+
+Landowner: ___________________
+Agreement Verified: YES / NO
+
+(VAO Signature & Seal)
+```
+
+---
+
+#### **TEMPLATE 3: DAIRY FARMER CERTIFICATE**
+
+```
+═══════════════════════════════════════════════════════════════════════
+ANIMAL HUSBANDRY DEPARTMENT
+__________ Mandal, Andhra Pradesh
+═══════════════════════════════════════════════════════════════════════
+
+Certified that Sri/Smt __________
+owns ___ cows / ___ buffaloes.
+Regular milk supply for ___ months verified.
+
+Veterinary Inspector
+(Sign & Seal)
+```
 
 ---
 
@@ -22050,6 +22659,88 @@ District-specific crop recommendations and suitability matrix for FPOs in Anakap
 
 ---
 
+### **📌 COMPLETE AP CROP MATRIX (ALL 26 DISTRICTS)**
+
+**Choose your village → choose your crop → choose your FPO activity**
+
+---
+
+#### **COASTAL ANDHRA PRADESH CROP MATRIX**
+
+**(Srikakulam → Visakhapatnam → Anakapalli → East/West Godavari → Krishna → Guntur → Prakasam → Nellore)**
+
+| District | Kharif Main Crops | Rabi Crops | Plantation | Allied |
+|----------|-------------------|------------|------------|--------|
+| **Srikakulam** | Paddy, Sugarcane | Maize, Pulses | Banana, Coconut | Dairy, Poultry |
+| **Vizianagaram** | Paddy, Ragi | Chillies, Pulses | Coconut | Dairy, Fisheries |
+| **Visakhapatnam** | Paddy, Ragi | Chillies | Coconut, Coffee | Dairy, Fisheries |
+| **Anakapalli** | Paddy, Sugarcane | Maize, Pulses | Banana | Dairy, Poultry |
+| **ASR (Alluri Sitarama Raju)** | Millets, Paddy | Horsegram | Coffee, Pepper | Goatery |
+| **Parvathipuram Manyam** | Millets, Paddy | Pulses | Coffee, Pepper | Goatery |
+| **East Godavari** | Paddy | Maize | Banana, Coconut | Fisheries |
+| **Kakinada** | Paddy, Sugarcane | Maize | Banana, Coconut | Fisheries |
+| **Konaseema** | Paddy | Maize | Banana, Coconut | Fisheries |
+| **West Godavari** | Paddy, Maize | Pulses | Banana | Dairy |
+| **Krishna** | Paddy, Chillies | Cotton | Banana | Shrimp |
+| **NTR** | Paddy, Chillies | Cotton | Banana | Dairy |
+| **Guntur** | Chillies, Cotton | Bengal Gram | Lemon | Dairy |
+| **Palnadu** | Paddy, Cotton | Pulses | Lemon | Dairy |
+| **Bapatla** | Paddy, Chillies | Pulses | Lemon | Dairy |
+| **Prakasam** | Groundnut | Millets | Mango | Sheep |
+| **Nellore (SPSR)** | Paddy | Blackgram | Banana | Fisheries |
+
+---
+
+#### **RAYALASEEMA CROP MATRIX**
+
+**(Chittoor → Annamayya → Kadapa → Nandyal → Kurnool → Anantapur → Satyasai)**
+
+| District | Major Crops | Plantation | Allied |
+|----------|-------------|------------|--------|
+| **Chittoor** | Groundnut, Paddy | Mango | Dairy |
+| **Tirupati** | Groundnut, Paddy | Mango, Sapota | Dairy |
+| **Annamayya** | Ragi, Groundnut | Sapota | Goatery |
+| **Kadapa (YSR)** | Cotton, Groundnut | Lime | Dairy |
+| **Kurnool** | Groundnut, Cotton | Sunflower | Dairy |
+| **Nandyal** | Redgram, Cotton | Cotton | Sheep |
+| **Anantapur** | Groundnut, Cotton | Mango | Sheep-Goat |
+| **Sri Satyasai** | Millets, Groundnut | Tamarind | Dairy |
+| **Sri Balaji** | Groundnut, Paddy | Mango | Dairy |
+
+---
+
+#### **AP COMMODITY MAP (TEXT VISUAL)**
+
+```
+═══════════════════════════════════════════════════════════════════════
+ANDHRA PRADESH COMMODITY MAP - FPO ACTIVITY GUIDE
+═══════════════════════════════════════════════════════════════════════
+
+NORTH COASTAL AP
+(Srikakulam / Vizianagaram / ASR / Parvathipuram Manyam)
+→ Millets, Paddy, Coffee, Pepper
+→ FPO Focus: Coffee FPO, Millets FPO, Tribal FPO
+
+CENTRAL COASTAL AP
+(Visakhapatnam / Anakapalli / East/West Godavari / Krishna / Guntur)
+→ Paddy, Sugarcane, Banana, Dairy, Fisheries
+→ FPO Focus: Multi-commodity FPO, Dairy FPO, Paddy FPO
+
+SOUTH COASTAL AP
+(Prakasam / Nellore)
+→ Groundnut, Pulses, Shrimp, Banana
+→ FPO Focus: Groundnut FPO, Pulses FPO, Fisheries FPO
+
+RAYALASEEMA
+(Chittoor / Annamayya / Kadapa / Kurnool / Nandyal / Anantapur / Satyasai)
+→ Groundnut, Millets, Mango, Lime, Goatery, Dairy
+→ FPO Focus: Groundnut FPO, Mango FPO, Livestock FPO
+
+═══════════════════════════════════════════════════════════════════════
+```
+
+---
+
 ## ANNEX-17: LIVESTOCK FPO TEMPLATES ✨
 
 ### Purpose
@@ -22962,6 +23653,151 @@ Comprehensive district-level contacts and resources for Anakapalli and Visakhapa
 
 ### Purpose
 District-specific financial models and projections for different FPO types in Anakapalli and Visakhapatnam.
+
+---
+
+### **📌 COMPLETE FINANCIAL MODELS FOR FPOs**
+
+---
+
+#### **1. PROFIT & LOSS STATEMENT (Year 1)**
+
+**Assumptions:**
+- Milk: 600 L/day → ₹2 margin → ₹1,200/day
+- Paddy trade: ₹80,000/month margin
+- Sugarcane facilitation: ₹15,000/month
+
+**P&L Table:**
+
+| Month | Milk Margin | Paddy Margin | Sugarcane | Expenses | Net |
+|-------|-------------|--------------|-----------|----------|-----|
+| **Jan** | 36,000 | 80,000 | 15,000 | 55,000 | 76,000 |
+| **Feb** | 33,600 | 80,000 | 15,000 | 55,000 | 73,600 |
+| **Mar** | 37,200 | 80,000 | 15,000 | 55,000 | 77,200 |
+| **Apr** | 36,000 | 60,000 | 15,000 | 50,000 | 61,000 |
+| **May** | 32,000 | 60,000 | 15,000 | 48,000 | 59,000 |
+| **Jun** | 33,600 | 60,000 | 15,000 | 48,000 | 60,600 |
+| **Jul** | 36,000 | 80,000 | 15,000 | 55,000 | 76,000 |
+| **Aug** | 37,200 | 80,000 | 15,000 | 55,000 | 77,200 |
+| **Sep** | 36,000 | 80,000 | 15,000 | 55,000 | 76,000 |
+| **Oct** | 36,000 | 80,000 | 15,000 | 55,000 | 76,000 |
+| **Nov** | 33,600 | 80,000 | 15,000 | 55,000 | 73,600 |
+| **Dec** | 36,000 | 80,000 | 15,000 | 55,000 | 76,000 |
+| **TOTAL** | **4,22,400** | **9,20,000** | **1,80,000** | **6,41,000** | **8,81,400** |
+
+**Annual Summary:**
+- **Total Revenue:** ₹15,22,400
+- **Total Expenses:** ₹6,41,000
+- **Net Profit:** ₹8,81,400
+- **Profit Margin:** 57.9%
+
+---
+
+#### **2. BREAK-EVEN ANALYSIS**
+
+```
+Fixed Costs = ₹4,50,000/year
+Variable Cost = ₹0.80 per liter
+Selling Margin = ₹2.00 per liter
+
+Break Even Quantity = Fixed Costs / Contribution
+= 4,50,000 / (2 – 0.80)
+= 4,50,000 / 1.20
+= 3,75,000 liters per year
+= 1,027 liters per day
+
+INTERPRETATION:
+✅ FPO needs to collect 1,027 liters/day to break even
+✅ Current collection: 600 liters/day (below break-even)
+✅ Action: Increase collection to 1,000+ liters/day OR reduce fixed costs
+```
+
+---
+
+#### **3. CASH FLOW STATEMENT (Year 1)**
+
+| Month | Inflow | Outflow | Net Cash | Cumulative Cash | Remarks |
+|-------|--------|---------|----------|-----------------|---------|
+| **Jan** | 2,20,000 | 1,44,000 | +76,000 | 76,000 | Peak season |
+| **Feb** | 2,10,000 | 1,36,400 | +73,600 | 1,49,600 | Stable |
+| **Mar** | 2,25,000 | 1,47,800 | +77,200 | 2,26,800 | High supply |
+| **Apr** | 1,60,000 | 99,000 | +61,000 | 2,87,800 | Off-season |
+| **May** | 1,55,000 | 96,000 | +59,000 | 3,46,800 | Heat season |
+| **Jun** | 1,60,000 | 98,000 | +62,000 | 4,08,800 | Monsoon start |
+| **Jul** | 2,20,000 | 1,44,000 | +76,000 | 4,84,800 | Peak season |
+| **Aug** | 2,25,000 | 1,47,800 | +77,200 | 5,62,000 | High supply |
+| **Sep** | 2,20,000 | 1,44,000 | +76,000 | 6,38,000 | Peak season |
+| **Oct** | 2,20,000 | 1,44,000 | +76,000 | 7,14,000 | Peak season |
+| **Nov** | 2,10,000 | 1,36,400 | +73,600 | 7,87,600 | Stable |
+| **Dec** | 2,20,000 | 1,44,000 | +76,000 | 8,63,600 | Year-end |
+
+**Year-End Cash Position:** ₹8,63,600
+
+---
+
+#### **4. BALANCE SHEET (Year-End)**
+
+**ASSETS:**
+
+| Asset | Amount (₹) |
+|-------|------------|
+| **Current Assets:** | |
+| Cash & Bank Balance | 8,63,600 |
+| Inventory (Milk/Paddy) | 50,000 |
+| Receivables (from buyers) | 1,00,000 |
+| **Total Current Assets** | **10,13,600** |
+| **Fixed Assets:** | |
+| Machinery & Equipment | 5,00,000 |
+| Furniture & Fixtures | 50,000 |
+| **Total Fixed Assets** | **5,50,000** |
+| **TOTAL ASSETS** | **15,63,600** |
+
+**LIABILITIES & EQUITY:**
+
+| Liability/Equity | Amount (₹) |
+|------------------|------------|
+| **Current Liabilities:** | |
+| Payables (to members) | 2,00,000 |
+| Short-term loans | 1,00,000 |
+| **Total Current Liabilities** | **3,00,000** |
+| **Long-term Liabilities:** | |
+| Machinery loan | 8,00,000 |
+| **Total Long-term Liabilities** | **8,00,000** |
+| **Equity:** | |
+| Share Capital | 1,00,000 |
+| Retained Earnings | 3,63,600 |
+| **Total Equity** | **4,63,600** |
+| **TOTAL LIABILITIES & EQUITY** | **15,63,600** |
+
+---
+
+#### **5. CAPITAL REQUIREMENT CALCULATOR**
+
+**Initial Capital Requirements:**
+
+| Item | Amount (₹) | Source |
+|------|------------|--------|
+| **Share Capital (10 members × ₹10,000)** | 1,00,000 | Members |
+| **SFAC Equity Grant** | 10,00,000 | SFAC |
+| **NABARD Subsidy (Dairy)** | 5,00,000 | NABARD |
+| **Bank Loan (Machinery)** | 10,00,000 | Bank |
+| **Working Capital** | 2,00,000 | Members/Bank |
+| **TOTAL CAPITAL** | **28,00,000** | |
+
+**Capital Utilization:**
+
+| Item | Amount (₹) | % of Total |
+|------|------------|------------|
+| Machinery & Equipment | 10,00,000 | 35.7% |
+| Dairy Infrastructure | 5,00,000 | 17.9% |
+| Working Capital | 8,00,000 | 28.6% |
+| Office Setup | 2,00,000 | 7.1% |
+| Contingency | 3,00,000 | 10.7% |
+| **TOTAL** | **28,00,000** | **100%** |
+
+---
+
+### **District-Specific Financial Models:**
 
 ---
 
