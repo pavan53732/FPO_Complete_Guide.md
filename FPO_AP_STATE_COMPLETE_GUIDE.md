@@ -4192,6 +4192,58 @@ Share allocation:
 - Equal for all members (simple way)
 - Pro-rata based on land/assets
 - Flexible based on capacity to contribute
+
+---
+
+## ANNEX-1A: REGISTRATION LEGAL TEMPLATES (COPY-PASTE READY)
+
+**CRITICAL: Use these exact texts for SPICe+ Part A (Main Objects) and Part B (Subscribers Sheet).**
+
+### 1. MOA "MAIN OBJECTS" CLAUSE (For SPICe+ Part A)
+
+**Copy and paste this EXACT text into the "Main Objects" field of the SPICe+ form. This covers all standard FPO activities.**
+
+> **III. The objects for which the Company is established are:**
+>
+> **(A) THE MAIN OBJECTS TO BE PURSUED BY THE COMPANY ON ITS INCORPORATION ARE:**
+>
+> 1. To carry on the business of production, harvesting, procurement, grading, pooling, handling, marketing, selling, export of primary produce of the Members or import of goods or services for their benefit.
+> 2. To carry on the business of processing including preserving, drying, distilling, brewing, vinting, canning, and packaging of produce of its Members.
+> 3. To manufacture, sell or supply machinery, equipment or consumables mainly to its Members.
+> 4. To provide education on the mutual assistance principles to its Members and others.
+> 5. To render technical services, consultancy services, training, research and development and all other activities for the promotion of the interests of its Members.
+> 6. To generate, transmit and distribute power, revitalize land and water resources, their use, conservation and communications relatable to primary produce.
+> 7. To promote and operate schemes of mutual assistance, welfare and insurance for the Members.
+> 8. To carry on the business of aggregation of produce including Paddy, Sugarcane, Dairy, Millets, Pulses, and Horticulture crops from the Members and marketing the same to institutional buyers, processors, or end consumers.
+
+---
+
+### 2. SUBSCRIBERS' PAGE TEMPLATE (Handwritten & Scanned)
+
+**INSTRUCTIONS:**
+1. Print the MOA/AOA final page.
+2. All 10 subscribers (farmers) must **HANDWRITE** their details in the table below.
+3. One witness (CA/CS/Advocate) must witness all signatures.
+4. Scan as PDF and upload in SPICe+ Part B.
+
+**FORMAT TO HANDWRITE:**
+
+| Name, Address, Description & Occupation of Subscriber | DIN / PAN / Passport No. | No. of Equity Shares taken | Signature | Name, Address, Description & Occupation of Witness |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. [NAME]**<br>S/o [Father's Name]<br>[Full Address with PIN]<br>Occ: Farmer | PAN: [PAN Number] | 100 (One Hundred) | *(Sign Here)* | **Witness:**<br>I witness that the subscribers have signed in my presence.<br><br>*(Sign & Stamp)*<br>**[CA/CS Name]**<br>Chartered Accountant<br>M.No: [Membership No]<br>[Address] |
+| **2. [NAME]**<br>S/o [Father's Name]<br>[Full Address]<br>Occ: Farmer | PAN: [PAN Number] | 100 (One Hundred) | *(Sign Here)* | |
+| **3. [NAME]**... | ... | ... | ... | |
+
+*(Repeat for all 10 subscribers)*
+
+---
+
+### 3. AOA (ARTICLES OF ASSOCIATION) NOTE
+
+**For SPICe+ Form:**
+- Select **"Table F"** (Articles of Association of a Company Limited by Shares).
+- The standard Table F is sufficient for FPO registration.
+- You do not need to draft custom Articles unless you have specific special rules.
 ```
 
 ---
