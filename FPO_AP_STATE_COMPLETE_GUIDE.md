@@ -7,6 +7,56 @@
 
 ## TABLE OF CONTENTS
 
+### 📊 VISUAL DIAGRAMS & FLOWCHARTS
+**All diagrams use Mermaid syntax and are embedded within relevant sections:**
+- **DIAGRAM 1:** Member Enrollment & Document Verification Workflow (Section 6)
+- **DIAGRAM 2:** AP Escalation Flow for MRO/VAO Delays (Section 6)
+- **DIAGRAM 3:** Complete FPO Registration Process Flowchart (Section 8)
+- **DIAGRAM 4:** SPICe+ Filing Process & Document Upload Sequence (Section 8.1.3)
+- **DIAGRAM 5:** FPO Scaling Roadmap - 10 → 500 Members (Section 7)
+- **DIAGRAM 6:** Subsidy Application Decision Tree (Section 10)
+- **DIAGRAM 7:** Insurance Claim Process Flowchart (Section 16)
+- **DIAGRAM 8:** AP Cyclone Preparedness Timeline (Section 16.5)
+- **DIAGRAM 9:** Dispute Resolution Escalation Flow (Section 17)
+- **DIAGRAM 10:** Member Exit Process Flowchart (Section 17)
+- **DIAGRAM 11:** GST Registration Decision Tree (Section 13)
+- **DIAGRAM 12:** Bank Loan Application Process Flowchart (Section 19)
+- **DIAGRAM 13:** MeeBhoomi Verification & Remediation Flow (Section 6.1.1)
+- **DIAGRAM 14:** Multi-Commodity FPO Revenue Stream Diagram (Section 7)
+- **DIAGRAM 15:** AP Office Visit Checklist Flow (Section 6.1.4)
+- **DIAGRAM 16:** Scheme Integration Strategy Diagram (Section 10)
+- **DIAGRAM 17:** Financial Projection Timeline (3-Year) (Section 11)
+- **DIAGRAM 18:** Break-Even Analysis Chart (Section 11)
+- **DIAGRAM 19:** Cash Flow Timeline Diagram (Section 11)
+- **DIAGRAM 20:** EMI Calculation Flowchart (ANNEX-20)
+- **DIAGRAM 21:** Share Certificate Issuance Process (Section 15)
+- **DIAGRAM 22:** Board Meeting Process Flow (Section 14)
+- **DIAGRAM 23:** Audit Process Timeline (Section 13)
+- **DIAGRAM 24:** PAN-Aadhaar Linking Process Flow (Section 34)
+- **DIAGRAM 25:** SFAC Application Process Flow (Section 10)
+- **DIAGRAM 26:** Share Transfer Process Flow (Section 15)
+- **DIAGRAM 27:** Dividend Distribution Process Flow (Section 15)
+- **DIAGRAM 28:** Crop Insurance Enrollment & Claim Process (Section 16)
+- **DIAGRAM 29:** e-NAM Registration & Trading Process (Section 9)
+- **DIAGRAM 30:** Tribal FPO GCC Linkage Process (Section 38)
+- **DIAGRAM 31:** Organic Certification Process (Section 38)
+- **DIAGRAM 32:** District Crop Suitability Matrix (ANNEX-16)
+- **DIAGRAM 33:** AP Contact Directory Hierarchy (ANNEX-2)
+- **DIAGRAM 34:** FPO Organizational Structure Chart (Section 12)
+- **DIAGRAM 35:** Revenue Stream Contribution Chart (Section 9)
+- **DIAGRAM 36:** Member Growth Projection Chart (Section 7)
+- **DIAGRAM 37:** Infrastructure Development Timeline (Section 7)
+- **DIAGRAM 38:** Training Program Flowchart (ANNEX-9)
+- **DIAGRAM 39:** Compliance Calendar Visual - Annual & Detailed (Section 20, ANNEX-14)
+- **DIAGRAM 40:** Risk Assessment Matrix (Section 16)
+- **DIAGRAM 41:** Document Retention Timeline (Section 17)
+- **DIAGRAM 42:** Quality Control & Testing Process Flow (ANNEX-9, MODULE 4)
+- **DIAGRAM 43:** Procurement & Collection Process Flow (Section 17, Policy 1)
+- **DIAGRAM 44:** AP Commodity Map Visual (Section 7)
+- **DIAGRAM 45:** Farmer Profile Distribution Chart (ANNEX-15)
+- **DIAGRAM 46:** Subsidy Utilization Tracking (Section 10)
+- **DIAGRAM 47:** Digital KYC Process Flow (Section 8)
+
 ### REGULATORY COMPLIANCE (2025 MANDATORY)
 **0. Regulatory Updates & Mandatory Compliance 2025 - CRITICAL NEW MANDATES** ⚠️
 - 0.1 DPDP Act 2025 - Data Privacy (Mandatory by May 2027)
@@ -902,6 +952,66 @@ If ANY of these 5 things are mismatched, AP officers will reject the document:
 
 ### 6.1.1 MeeBhoomi Verification – 10 Mistake Check Table
 
+#### 📊 **DIAGRAM 13: MeeBhoomi Verification & Remediation Flow**
+
+```mermaid
+flowchart TD
+    A[MeeBhoomi ROR-1B Downloaded] --> B[Check 1: Owner Name]
+    B --> C{Matches Aadhaar?}
+    C -->|No| D[Get Name Correction Certificate<br/>7-15 days, ₹500-1,000]
+    C -->|Yes| E[Check 2: Survey Number]
+    
+    D --> B
+    E --> F{Correct Format?}
+    F -->|No| G[Get Correct Survey Number from VRO<br/>1-2 days, FREE]
+    F -->|Yes| H[Check 3: Mortgage/Lien]
+    
+    G --> E
+    H --> I{Shows NIL?}
+    I -->|No| J[Get NOC from Bank<br/>Clear Lien<br/>15-30 days, Bank charges]
+    I -->|Yes| K[Check 4: Last Updated Date]
+    
+    J --> H
+    K --> L{Within 2 Years?}
+    L -->|No| M[Download Fresh MeeBhoomi<br/>1-2 days, ₹25-100]
+    L -->|Yes| N[Check 5: Village/Mandal Name]
+    
+    M --> K
+    N --> O{Matches Current?}
+    O -->|No| P[Verify with VRO<br/>File Correction if Needed<br/>7-15 days, ₹500-1,000]
+    O -->|Yes| Q[All Checks Passed]
+    
+    P --> N
+    Q --> R[Get MRO Certified Copy<br/>1-2 days, ₹25-100]
+    R --> S[Attach to FPO Application]
+    S --> Complete([✅ Document Ready])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style C fill:#fff9c4
+    style F fill:#fff9c4
+    style I fill:#fff9c4
+    style L fill:#fff9c4
+    style O fill:#fff9c4
+    style D fill:#ffcdd2
+    style G fill:#fff9c4
+    style J fill:#ffcdd2
+    style M fill:#fff9c4
+    style P fill:#fff9c4
+```
+
+**10 Critical Checks:**
+1. Owner Name (matches Aadhaar exactly)
+2. Father's Name (matches Aadhaar)
+3. Survey Number (correct format)
+4. Village Name (matches current)
+5. Mandal Name (matches current)
+6. District Name (matches current)
+7. Land Area (matches actual)
+8. Mortgage/Lien (must be NIL)
+9. Last Updated Date (within 2 years)
+10. Soil Type (matches FPO commodity)
+
 **Use this table to verify MeeBhoomi ROR-1B documents before submission:**
 
 | # | Check Item | What to Verify | Correct | Wrong | Action if Wrong |
@@ -1308,6 +1418,78 @@ BENEFITS:
 
 ### CRITICAL: PROOF VERIFICATION WORKFLOW IN AP
 
+#### 📊 **DIAGRAM 1: Member Enrollment & Document Verification Workflow**
+
+```mermaid
+flowchart TD
+    A[Member Application Received] --> B{Document Type?}
+    B -->|Landowner| C[ROR-1B/Adangal Check]
+    B -->|Tenant| D[Lease Deed Check]
+    B -->|Dairy Farmer| E[Livestock Proof Check]
+    
+    C --> F[MeeBhoomi Verification]
+    F --> G{Name Matches Aadhaar?}
+    G -->|Yes| H{Survey Number Clear?}
+    G -->|No| I[Get Name Correction Certificate]
+    I --> F
+    H -->|Yes| J{No Mortgage/Lien?}
+    H -->|No| K[Verify with VAO]
+    K --> F
+    J -->|Yes| L[Get MRO Certified Copy]
+    J -->|No| M[Clear Mortgage/Lien]
+    M --> F
+    
+    D --> N{Lease Period ≥ 3 Years?}
+    N -->|Yes| O{Landlord Signature Clear?}
+    N -->|No| P[Get Updated Lease Deed]
+    P --> D
+    O -->|Yes| Q{Date Within 2 Years?}
+    O -->|No| R[Get Re-signed Lease]
+    R --> D
+    Q -->|Yes| S[Get MRO Lease Certificate]
+    Q -->|No| T[Get Fresh Lease Deed]
+    T --> D
+    
+    E --> U{Livestock Passport OR<br/>Milk Agreement?}
+    U -->|Yes| V[Check Veterinary Records]
+    U -->|No| W[Get Livestock Registration]
+    W --> E
+    V --> X[Verify Bank Statement<br/>Milk Payments]
+    X --> Y{6+ Months Records?}
+    Y -->|Yes| Z[Document Verified]
+    Y -->|No| AA[Request More Records]
+    AA --> E
+    
+    L --> AB[All Documents Complete?]
+    S --> AB
+    Z --> AB
+    AB -->|Yes| AC[Mark APPROVED]
+    AB -->|No| AD[Request Missing Docs<br/>7 Day Deadline]
+    AD --> B
+    AC --> AE[CEO/Secretary Countersign]
+    AE --> AF[Member Enrollment Complete]
+    
+    style A fill:#e1f5ff
+    style AF fill:#c8e6c9
+    style AD fill:#ffcdd2
+    style I fill:#fff9c4
+    style M fill:#fff9c4
+    style P fill:#fff9c4
+    style R fill:#fff9c4
+    style T fill:#fff9c4
+    style W fill:#fff9c4
+    style AA fill:#fff9c4
+```
+
+**How to Use This Diagram:**
+- Follow the flowchart from top to bottom based on member's document type
+- Each decision point (diamond shape) requires verification
+- Yellow boxes indicate actions needed before proceeding
+- Red boxes indicate rejection paths that need remediation
+- Green box indicates successful completion
+
+---
+
 ```
 MEMBER ENROLLMENT - DOCUMENT VERIFICATION CHECKLIST
 
@@ -1395,6 +1577,61 @@ CEO/Secretary to countersign: _________________________ Date: ______
 ### 📌 **AP Escalation Flow When MRO/VAO Delays Certification**
 
 **CRITICAL: If MRO or VAO delays document certification, follow this escalation pathway:**
+
+#### 📊 **DIAGRAM 2: AP Escalation Flow for MRO/VAO Delays**
+
+```mermaid
+flowchart TD
+    A[Document Certification Needed] --> B[Step 1: VAO Request]
+    B --> C{Resolved in<br/>3 days?}
+    C -->|Yes| D[✅ Complete]
+    C -->|No| E[Step 2: MRO Request]
+    
+    E --> F{Resolved in<br/>5 days?}
+    F -->|Yes| D
+    F -->|No| G[Step 3: RDO Complaint]
+    
+    G --> H{Resolved in<br/>7 days?}
+    H -->|Yes| D
+    H -->|No| I[Step 4: District Collector]
+    
+    I --> J{Resolved in<br/>15 days?}
+    J -->|Yes| D
+    J -->|No| K[Step 5: MeeSeva/Spandana Portal]
+    
+    K --> L[File Online Complaint]
+    L --> M[Get Tracking Number]
+    M --> N[Track Status Online]
+    N --> O{Response in<br/>7-15 days?}
+    O -->|Yes| D
+    O -->|No| P[Follow Up with Portal]
+    P --> O
+    
+    style A fill:#e1f5ff
+    style D fill:#c8e6c9
+    style B fill:#fff9c4
+    style E fill:#fff9c4
+    style G fill:#fff9c4
+    style I fill:#fff9c4
+    style K fill:#ffcdd2
+    style L fill:#ffcdd2
+```
+
+**Key Time Limits:**
+- **VAO:** 1 day normal, 3 days max delay
+- **MRO:** 1-2 days normal, 5 days max delay
+- **RDO:** 3-5 days normal, 7 days max delay
+- **Collector:** 7-15 days normal, 30 days max delay
+- **Portal:** 7-15 days response time
+
+**Tips for Faster Resolution:**
+- Always carry original Aadhaar, Ration Card, and survey number
+- Be polite and explain FPO membership requirement
+- Mention SFAC/bank deadline (creates urgency)
+- Follow up politely after 2-3 days if no response
+- Keep complaint reference number if filing online
+
+---
 
 ```
 Step 1 → VAO (Village Administrative Officer)
@@ -1552,6 +1789,66 @@ Step 5 → MeeSeva | Spandana Portal complaint
 ---
 
 ### 6.1.4 AP Visit Checklist (Documents to Carry to VAO/MRO)
+
+#### 📊 **DIAGRAM 15: AP Office Visit Checklist Flow**
+
+```mermaid
+flowchart TD
+    A[Plan Office Visit] --> B[Pre-Visit Document Check]
+    B --> C{Aadhaar Card<br/>Original + 2 Copies?}
+    C -->|No| D[Get Aadhaar Copies]
+    D --> C
+    C -->|Yes| E{Ration Card<br/>Original + 2 Copies?}
+    
+    E -->|No| F[Get Ration Card Copies]
+    F --> E
+    E -->|Yes| G{Voter ID<br/>Original + 1 Copy?}
+    G -->|No| H[Get Voter ID Copy]
+    H --> G
+    G -->|Yes| I{MeeBhoomi Printout<br/>Fresh < 6 months?}
+    
+    I -->|No| J[Download Fresh Printout]
+    J --> I
+    I -->|Yes| K{Survey Number<br/>Details Available?}
+    K -->|No| L[Get from VRO]
+    L --> K
+    K -->|Yes| M{Passport Photos<br/>2-3 Copies?}
+    
+    M -->|No| N[Get Fresh Photos]
+    N --> M
+    M -->|Yes| O{Application Form<br/>Filled?}
+    O -->|No| P[Fill Application Form]
+    P --> O
+    O -->|Yes| Q{All Documents<br/>Ready?}
+    
+    Q -->|No| R[Collect Missing Documents]
+    R --> B
+    Q -->|Yes| S[Visit VAO/MRO Office]
+    S --> T[Submit Documents]
+    T --> U[Get Certificate]
+    
+    style A fill:#e1f5ff
+    style U fill:#c8e6c9
+    style C fill:#fff9c4
+    style E fill:#fff9c4
+    style G fill:#fff9c4
+    style I fill:#fff9c4
+    style K fill:#fff9c4
+    style M fill:#fff9c4
+    style O fill:#fff9c4
+    style Q fill:#fff9c4
+```
+
+**Pre-Visit Checklist:**
+- ✅ Aadhaar Card (Original + 2 copies)
+- ✅ Ration Card (Original + 2 copies)
+- ✅ Voter ID (Original + 1 copy)
+- ✅ MeeBhoomi Printout (Fresh, < 6 months)
+- ✅ Survey Number Details
+- ✅ Passport Photos (2-3 copies, 4x6 cm)
+- ✅ Application Form (Filled)
+- ✅ Cash (₹100-500 for fees)
+- ✅ Mobile Phone (Charged, for OTP)
 
 **Before visiting VAO/MRO office, ensure you carry ALL these documents:**
 
@@ -1907,7 +2204,95 @@ FARMER PROOF DOCUMENTS - TELUGU GUIDE
 
 ---
 
+#### 📊 **DIAGRAM 14: Multi-Commodity FPO Revenue Stream Diagram**
+
+```mermaid
+flowchart LR
+    A[Member Contributions] --> B[Commodity 1: Dairy]
+    A --> C[Commodity 2: Paddy]
+    A --> D[Commodity 3: Sugarcane]
+    
+    B --> B1[Collection: 600L/day]
+    B1 --> B2[Processing: Testing, Chilling]
+    B2 --> B3[Sales: Heritage Foods/Visakha Dairy]
+    B3 --> B4[Revenue Stream 1<br/>₹50-60L/year]
+    
+    C --> C1[Collection: 1000 quintals]
+    C1 --> C2[Storage: Warehouse]
+    C2 --> C3[Sales: Rice Millers/MSP]
+    C3 --> C4[Revenue Stream 2<br/>₹30-40L/year]
+    
+    D --> D1[Services: Custom Hiring]
+    D1 --> D2[Tractor/Thresher Rental]
+    D2 --> D3[Member + Non-member Rates]
+    D3 --> D4[Revenue Stream 3<br/>₹20-30L/year]
+    
+    B4 --> E[Combined Revenue<br/>₹1-1.3 Cr/year]
+    C4 --> E
+    D4 --> E
+    
+    E --> F[Operating Expenses<br/>₹70-80L/year]
+    E --> G[Gross Profit<br/>₹30-50L/year]
+    
+    G --> H[Net Profit<br/>₹15-25L/year]
+    H --> I[Member Dividends<br/>₹1,500-2,500/member]
+    H --> J[Reserve Fund<br/>₹5-10L/year]
+    H --> K[Reinvestment<br/>₹5-10L/year]
+    
+    style A fill:#e1f5ff
+    style E fill:#fff9c4
+    style G fill:#c8e6c9
+    style H fill:#4caf50
+    style I fill:#81c784
+    style J fill:#81c784
+    style K fill:#81c784
+```
+
+**Revenue Contribution:**
+- **Dairy:** 50-60% of total revenue
+- **Paddy:** 30-40% of total revenue
+- **Sugarcane Services:** 20-30% of total revenue
+
+**Benefits of Multi-Commodity Model:**
+- Diversified revenue streams (risk reduction)
+- Year-round operations (no seasonal gaps)
+- Better loan eligibility (banks prefer diversified FPOs)
+- Higher member satisfaction (multiple income sources)
+
+---
+
 ### **📌 AP COMMODITY MAP - ANAKAPALLI & VISAKHAPATNAM DISTRICTS**
+
+#### 📊 **DIAGRAM 44: AP Commodity Map Visual**
+
+```mermaid
+graph TD
+    A[Andhra Pradesh<br/>Anakapalli & Visakhapatnam] --> B[North Coastal Zone<br/>Visakhapatnam]
+    A --> C[Central Coastal Zone<br/>Anakapalli]
+    
+    B --> B1[Primary Crops]
+    B1 --> B2[Coffee - 63,200 ha<br/>Turmeric - 5,000+ ha<br/>Black Pepper - 2,000+ ha<br/>Mango - 16,800 ha]
+    
+    B --> B3[Allied Activities]
+    B3 --> B4[Dairy - Visakha Dairy<br/>Beekeeping - Honey<br/>Goat/Sheep Rearing]
+    
+    C --> C1[Primary Crops]
+    C1 --> C2[Paddy - 45,000+ ha<br/>Sugarcane - 12,000+ ha<br/>Banana - 8,000+ ha<br/>Pulses - 8,000+ ha]
+    
+    C --> C3[Allied Activities]
+    C3 --> C4[Dairy - Heritage Foods<br/>Custom Hiring<br/>Input Supply]
+    
+    B --> B5[Irrigation]
+    B5 --> B6[Meghadrigedda Reservoir<br/>Rainfed - Tribal Areas]
+    
+    C --> C5[Irrigation]
+    C5 --> C6[Thatipudi Reservoir<br/>Yeluru Canal<br/>Tail-end Canal Zones]
+    
+    style B fill:#e1f5ff
+    style C fill:#fff9c4
+    style B2 fill:#c8e6c9
+    style C2 fill:#c8e6c9
+```
 
 **Text-Based Visual Guide for Crop Suitability and FPO Activity Planning**
 
@@ -2120,6 +2505,135 @@ PROFIT (After costs): ₹10-20 lakh
 **SCALING ROADMAP: PHASED GROWTH STRATEGY**
 
 FPOs should grow systematically to ensure sustainable operations. This framework provides a roadmap for scaling from initial 10 members to 500+ members.
+
+#### 📊 **DIAGRAM 5: FPO Scaling Roadmap - 10 → 500 Members**
+
+```mermaid
+gantt
+    title FPO Scaling Roadmap: 10 to 500+ Members
+    dateFormat YYYY
+    section Phase 1: Foundation
+    Establish Operations (10-50 members)    :2025, 2y
+    Build Trust & Infrastructure            :2025, 2y
+    Revenue: ₹30-50L/year                  :2025, 2y
+    
+    section Phase 2: Growth
+    Expand Operations (50-200 members)      :2027, 2y
+    Diversify Activities                    :2027, 2y
+    Revenue: ₹1-3 Cr/year                  :2027, 2y
+    
+    section Phase 3: Maturity
+    Optimize Operations (200-500 members)   :2029, 3y
+    Value Addition & Processing             :2029, 3y
+    Revenue: ₹3-10 Cr/year                 :2029, 3y
+    
+    section Phase 4: Federation
+    Form Federation (500+ members)          :2032, 2y
+    Regional Impact & Export                :2032, 2y
+    Revenue: ₹10+ Cr/year                  :2032, 2y
+```
+
+```mermaid
+flowchart LR
+    A[Phase 1: Foundation<br/>10-50 Members<br/>Year 1-2<br/>₹30-50L Revenue] --> B[Phase 2: Growth<br/>50-200 Members<br/>Year 3-4<br/>₹1-3 Cr Revenue]
+    B --> C[Phase 3: Maturity<br/>200-500 Members<br/>Year 5-7<br/>₹3-10 Cr Revenue]
+    C --> D[Phase 4: Federation<br/>500+ Members<br/>Year 8+<br/>₹10+ Cr Revenue]
+    
+    A --> A1[✓ Break-even<br/>✓ Basic Infrastructure<br/>✓ Member Trust]
+    B --> B1[✓ Multiple Revenue Streams<br/>✓ Professional Management<br/>✓ Market Linkages]
+    C --> C1[✓ Value Addition<br/>✓ Technology Integration<br/>✓ Strong Brand]
+    D --> D1[✓ Regional Presence<br/>✓ Export Opportunities<br/>✓ Policy Influence]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff9c4
+    style C fill:#c8e6c9
+    style D fill:#4caf50
+    style A1 fill:#e1f5ff
+    style B1 fill:#fff9c4
+    style C1 fill:#c8e6c9
+    style D1 fill:#4caf50
+```
+
+**Key Milestones:**
+- **Phase 1:** Break-even, 80%+ member satisfaction, positive cash flow
+- **Phase 2:** ₹1 Cr+ revenue, multiple revenue streams, strong market linkages
+- **Phase 3:** ₹3 Cr+ revenue, value-added products, strong brand presence
+- **Phase 4:** ₹10 Cr+ revenue, regional market presence, policy influence
+
+#### 📊 **DIAGRAM 36: Member Growth Projection Chart**
+
+```mermaid
+graph LR
+    A[Year 1<br/>10-50 Members<br/>Foundation] --> B[Year 2<br/>50-100 Members<br/>Early Growth]
+    B --> C[Year 3<br/>100-200 Members<br/>Rapid Growth]
+    C --> D[Year 4<br/>200-350 Members<br/>Expansion]
+    D --> E[Year 5<br/>350-500 Members<br/>Maturity]
+    
+    A --> A1[10 Members<br/>Start]
+    A --> A2[25 Members<br/>6 Months]
+    A --> A3[50 Members<br/>Year End]
+    
+    B --> B1[75 Members<br/>Mid-Year]
+    B --> B2[100 Members<br/>Year End]
+    
+    C --> C1[150 Members<br/>Mid-Year]
+    C --> C2[200 Members<br/>Year End]
+    
+    D --> D1[275 Members<br/>Mid-Year]
+    D --> D2[350 Members<br/>Year End]
+    
+    E --> E1[425 Members<br/>Mid-Year]
+    E --> E2[500+ Members<br/>Year End]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff9c4
+    style C fill:#c8e6c9
+    style D fill:#4caf50
+    style E fill:#2e7d32
+```
+
+**Growth Factors:**
+- **Year 1:** Word-of-mouth, initial success stories
+- **Year 2:** Visible benefits, trust building
+- **Year 3:** Strong reputation, multiple activities
+- **Year 4:** Value addition, professional management
+- **Year 5:** Regional presence, federation potential
+
+#### 📊 **DIAGRAM 37: Infrastructure Development Timeline**
+
+```mermaid
+gantt
+    title Infrastructure Development Timeline (5 Years)
+    dateFormat YYYY
+    section Phase 1: Foundation
+    Basic Office Setup              :2025, 1y
+    Collection Center (Dairy)       :2025, 1y
+    Basic Storage (Paddy)           :2025, 1y
+    Bank Account & Financial Setup  :2025, 1y
+    
+    section Phase 2: Growth
+    Cold Storage Unit               :2026, 1y
+    Custom Hiring Center            :2026, 1y
+    Warehouse Expansion             :2026, 1y
+    Quality Testing Lab             :2027, 1y
+    
+    section Phase 3: Maturity
+    Processing Unit                 :2028, 1y
+    Value Addition Facility         :2028, 1y
+    Digital Infrastructure          :2028, 1y
+    Branding & Packaging Unit       :2029, 1y
+    
+    section Phase 4: Federation
+    Regional Hub                    :2030, 1y
+    Export Facility                 :2030, 1y
+    Technology Integration          :2030, 1y
+```
+
+**Infrastructure Investment:**
+- **Phase 1:** ₹5-10 lakh (basic setup)
+- **Phase 2:** ₹20-30 lakh (expansion)
+- **Phase 3:** ₹50-75 lakh (value addition)
+- **Phase 4:** ₹1-2 Cr (regional hub)
 
 ---
 
@@ -2802,6 +3316,64 @@ RISK MITIGATION:
 
 ---
 
+#### 📊 **DIAGRAM 3: Complete FPO Registration Process Flowchart**
+
+```mermaid
+flowchart TD
+    Start([Start: 10 Members Ready]) --> A[Phase 1: Preparation<br/>Weeks 1-2]
+    A --> A1[Identify 10 Farmers]
+    A1 --> A2[Select 5 Directors]
+    A2 --> A3[Plan FPO Details<br/>Name, Office, Activities]
+    
+    A3 --> B[Phase 2: Legal Documentation<br/>Weeks 3-4]
+    B --> B1[Apply for DIN<br/>5 Directors]
+    B1 --> B2[Obtain DSC<br/>5 Directors]
+    B2 --> B3[Prepare MOA & AOA]
+    B3 --> B4[Name Reservation on MCA]
+    
+    B4 --> C[Phase 3: SPICe+ Filing]
+    C --> C1[Fill SPICe+ Form INC-32]
+    C1 --> C2[Upload MOA & AOA<br/>Signed with DSC]
+    C2 --> C3[Upload Director Documents<br/>Aadhaar, PAN, Address Proof]
+    C3 --> C4[Upload Office Address Proof]
+    C4 --> C5[Make Payment<br/>₹500-1,000]
+    C5 --> C6[Submit SPICe+]
+    
+    C6 --> D{Approved?}
+    D -->|No| E[Correct Errors]
+    E --> C1
+    D -->|Yes| F[Receive COI<br/>Certificate of Incorporation<br/>5-15 days]
+    
+    F --> G[Phase 4: Post-Incorporation<br/>Within 30 days]
+    G --> G1[Apply for PAN<br/>Within 7 days]
+    G1 --> G2[Apply for TAN<br/>If deducting tax]
+    G2 --> G3[Open Bank Account<br/>Within 15 days]
+    G3 --> G4{Revenue > ₹20L?}
+    G4 -->|Yes| G5[Register for GST]
+    G4 -->|No| G6[Issue Share Certificates<br/>Within 30 days]
+    G5 --> G6
+    G6 --> H[Phase 5: Compliance Setup]
+    H --> H1[First Board Meeting]
+    H1 --> H2[Maintain Share Register]
+    H2 --> H3[File Annual Returns]
+    H3 --> Complete([✅ Registration Complete])
+    
+    style Start fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style D fill:#fff9c4
+    style E fill:#ffcdd2
+    style G4 fill:#fff9c4
+```
+
+**Critical Checkpoints:**
+- ✅ All 10 members have valid farmer proof documents
+- ✅ All 5 directors have DIN and DSC
+- ✅ MOA & AOA signed with DSC
+- ✅ PAN-Aadhaar linking complete for all directors
+- ✅ At least 1 woman director (MANDATORY 2025)
+
+---
+
 ### **📋 FPO REGISTRATION & DOCUMENTS CHECKLIST - COMPLETE FIELD-READY VERSION**
 
 **Purpose:** This is a consolidated, submission-ready checklist for CA/CS/field teams. Use this to ensure all documents are collected before ROC filing.
@@ -2898,6 +3470,77 @@ RISK MITIGATION:
 
 #### **PART E: SPICe+ FORM & MCA FILING DOCUMENTS**
 
+#### 📊 **DIAGRAM 4: SPICe+ Filing Process & Document Upload Sequence**
+
+```mermaid
+flowchart TD
+    Start([Start: All Documents Ready]) --> A[Step 1: Name Reservation<br/>on MCA Portal]
+    A --> B{Name Approved?}
+    B -->|No| C[Choose Alternative Name]
+    C --> A
+    B -->|Yes| D[Step 2: Apply for DIN<br/>5 Directors]
+    
+    D --> E[Step 3: Obtain DSC<br/>5 Directors]
+    E --> F[Step 4: Draft MOA]
+    F --> G[Step 5: Draft AOA]
+    G --> H[Step 6: Director Signatures<br/>with DSC]
+    
+    H --> I[Step 7: Prepare Address Proof<br/>Electricity Bill/Rent Agreement]
+    I --> J[Step 8: Scan All Documents<br/>Ensure < 2 MB each]
+    
+    J --> K[Step 9: Login to MCA Portal]
+    K --> L[Step 10: Fill SPICe+ Form INC-32]
+    L --> M[Step 11: Upload Documents<br/>in Correct Order]
+    
+    M --> N[Upload 1: MOA<br/>PDF, Signed with DSC]
+    N --> O[Upload 2: AOA<br/>PDF, Signed with DSC]
+    O --> P[Upload 3: Form INC-22<br/>Registered Office]
+    P --> Q[Upload 4: Form DIR-12<br/>Director Appointment]
+    Q --> R[Upload 5: Director KYC<br/>Aadhaar, PAN, Address Proof]
+    R --> S[Upload 6: Office Address Proof]
+    
+    S --> T[Step 12: Review All Uploads]
+    T --> U{All Correct?}
+    U -->|No| V[Correct Errors]
+    V --> T
+    U -->|Yes| W[Step 13: Make Payment<br/>₹500-1,000]
+    
+    W --> X[Step 14: Submit SPICe+]
+    X --> Y[Step 15: Get Reference Number]
+    Y --> Z[Step 16: Track Status Daily]
+    Z --> AA{Status?}
+    AA -->|Approved| AB[Download COI<br/>5-15 days]
+    AA -->|Rejected| AC[Check Rejection Reasons]
+    AC --> AD[Correct Issues]
+    AD --> L
+    AB --> Complete([✅ SPICe+ Complete])
+    
+    style Start fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style B fill:#fff9c4
+    style U fill:#fff9c4
+    style AA fill:#fff9c4
+    style AC fill:#ffcdd2
+    style V fill:#ffcdd2
+    style AD fill:#ffcdd2
+```
+
+**Critical Upload Order:**
+1. MOA (signed with DSC)
+2. AOA (signed with DSC)
+3. Form INC-22 (Registered Office)
+4. Form DIR-12 (Director Appointment)
+5. Director KYC Documents
+6. Office Address Proof
+
+**Common Rejection Reasons:**
+- PDF size > 2 MB → Compress files
+- Missing DSC signatures → Re-sign with DSC
+- Incorrect form data → Verify all entries
+- Name mismatch → Ensure consistency
+
+---
+
 | # | Form/Document | Status | Notes |
 |---|---------------|--------|-------|
 | **1** | **SPICe+ Form (INC-32)** | ☐ | Main incorporation form |
@@ -2983,6 +3626,62 @@ RISK MITIGATION:
 - ☐ Buyer agreements secured
 - ☐ Collateral arranged (if required)
 - ☐ Board resolution passed
+
+---
+
+#### **PART J: DIGITAL KYC PROCESS**
+
+#### 📊 **DIAGRAM 47: Digital KYC Process Flow**
+
+```mermaid
+flowchart TD
+    A[Member KYC Required] --> B{Digital KYC Available?}
+    B -->|Yes| C[Step 1: Digilocker Setup]
+    B -->|No| D[Step 1: Physical Documents]
+    
+    C --> E[Download Digilocker App]
+    E --> F[Register with Aadhaar]
+    F --> G[Step 2: Upload Documents]
+    G --> H[Aadhaar Card]
+    H --> I[PAN Card]
+    I --> J[Bank Passbook]
+    J --> K[Step 3: Share Digilocker Link]
+    
+    K --> L[FPO Receives Documents]
+    L --> M[Step 4: Verify Documents]
+    M --> N{All Documents Valid?}
+    N -->|Yes| O[Step 5: KYC Complete]
+    N -->|No| P[Request Corrections]
+    P --> G
+    
+    D --> Q[Collect Physical Documents]
+    Q --> R[Aadhaar - Original + Copy]
+    R --> S[PAN - Copy]
+    S --> T[Bank Passbook - Copy]
+    T --> U[Step 2: Manual Verification]
+    U --> V[Step 3: Store Securely]
+    V --> O
+    
+    O --> W[Update Member Register]
+    W --> X[✅ KYC Complete]
+    
+    style A fill:#e1f5ff
+    style O fill:#c8e6c9
+    style X fill:#4caf50
+    style N fill:#fff9c4
+    style P fill:#ffcdd2
+```
+
+**Digital KYC Benefits:**
+- Faster processing
+- Reduced paperwork
+- Secure document storage
+- Easy verification
+
+**Physical KYC Fallback:**
+- Use when digital not available
+- Manual verification required
+- Secure storage essential
 
 ---
 
@@ -3773,6 +4472,20 @@ Share allocation:
 
 ## 9. FPO BUSINESS ACTIVITIES & REVENUE
 
+#### 📊 **DIAGRAM 35: Revenue Stream Contribution Chart**
+
+```mermaid
+pie title Revenue Contribution by Activity (Year 1)
+    "Dairy (50-60%)" : 55
+    "Paddy (30-40%)" : 35
+    "Sugarcane Services (10-15%)" : 10
+```
+
+**Revenue Breakdown:**
+- **Dairy:** 50-60% of total revenue (₹50-60L/year)
+- **Paddy:** 30-40% of total revenue (₹30-40L/year)
+- **Sugarcane Services:** 10-15% of total revenue (₹10-20L/year)
+
 ### Core Activity 1: MILK COLLECTION & MARKETING
 
 ```
@@ -4034,6 +4747,38 @@ STEP 3: Negotiate Terms
 - Direct payment to FPO account
 
 **How to Register on e-NAM:**
+
+#### 📊 **DIAGRAM 29: e-NAM Registration & Trading Process**
+
+```mermaid
+flowchart TD
+    A[e-NAM Registration] --> B[Step 1: Visit Portal<br/>https://www.enam.gov.in]
+    B --> C[Step 2: Click Register as FPO]
+    C --> D[Step 3: Provide Details]
+    D --> D1[FPO Registration Certificate]
+    D1 --> D2[PAN, GST Details]
+    D2 --> D3[Bank Account Details]
+    D3 --> D4[Commodity Details]
+    D4 --> E[Step 4: Submit Application]
+    E --> F[Step 5: e-NAM Verification<br/>7-10 Days]
+    F --> G{Approved?}
+    G -->|Yes| H[Step 6: Login Credentials Provided]
+    G -->|No| I[Review & Resubmit]
+    I --> E
+    H --> J[Step 7: Start Trading]
+    J --> K[List Produce for Sale]
+    K --> L[Buyers Bid Online]
+    L --> M[Select Best Price]
+    M --> N[Complete Transaction]
+    N --> O[Payment to FPO Account]
+    O --> Complete([✅ Trading Active])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style G fill:#fff9c4
+    style I fill:#fff9c4
+```
+
 ```
 STEP 1: Visit e-NAM Portal
 - URL: https://www.enam.gov.in
@@ -4963,6 +5708,42 @@ ACTION: Contact NABARD AFTER FPO registration for infrastructure subsidy
 
 **SFAC Equity Grant (₹10 lakh):**
 
+#### 📊 **DIAGRAM 25: SFAC Application Process Flow**
+
+```mermaid
+flowchart TD
+    A[FPO Registered with COI] --> B[Step 1: Contact SFAC RI<br/>WASSAN: 9440621866]
+    B --> C[Step 2: RI Consultation<br/>Project Planning]
+    C --> D[Step 3: Prepare Documents]
+    D --> D1[FPO Registration Certificate]
+    D1 --> D2[Member List with Farmer Proof]
+    D2 --> D3[Project Report]
+    D3 --> D4[Financial Projections]
+    D4 --> D5[Board Resolution]
+    D5 --> E[Step 4: RI Prepares Application]
+    E --> F[Step 5: RI Submits Online<br/>SFAC Portal]
+    F --> G[Step 6: SFAC Technical Review<br/>15-30 Days]
+    G --> H{Approved?}
+    H -->|Yes| I[Step 7: Grant Approved<br/>₹10 Lakh]
+    H -->|No| J[Step 8: Review Rejection Reasons]
+    J --> K{Can Fix Issues?}
+    K -->|Yes| L[Correct & Re-submit]
+    L --> F
+    K -->|No| M[Application Closed]
+    I --> N[Step 9: Grant Deposited<br/>FPO Bank Account]
+    N --> O[Step 10: Utilization<br/>As Per Plan]
+    O --> Complete([✅ SFAC Grant Utilized])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style H fill:#fff9c4
+    style K fill:#fff9c4
+    style J fill:#ffcdd2
+    style M fill:#ffcdd2
+```
+
+**Timeline:** 2-3 months from application to fund receipt
+
 ```
 ├─ Step 1: Contact SFAC RI (WASSAN): 9440621866
 ├─ Step 2: RI helps prepare project report + financial projections
@@ -5025,9 +5806,134 @@ TIME: 2-3 months
 
 FPOs can combine multiple government schemes to maximize benefits. This section shows how to integrate different schemes for comprehensive support.
 
+#### 📊 **DIAGRAM 6: Subsidy Application Decision Tree**
+
+```mermaid
+flowchart TD
+    A[FPO Activity Planning] --> B{What Activity?}
+    
+    B -->|Dairy| C[Dairy FPO Setup]
+    C --> C1[NABARD Dairy Subsidy<br/>50% up to ₹6L]
+    C1 --> C2[SFAC Equity Grant<br/>₹10L]
+    C2 --> C3[AP State Dairy Scheme<br/>₹2-3L if available]
+    C3 --> C4[Total: ₹18-19L Subsidy]
+    
+    B -->|Storage/Warehouse| D[Storage FPO Setup]
+    D --> D1[NABARD Warehouse<br/>40% up to ₹4L]
+    D1 --> D2[SFAC Equity Grant<br/>₹3L]
+    D2 --> D3[PMEGP<br/>25% up to ₹2L]
+    D3 --> D4[Total: ₹9L Subsidy]
+    
+    B -->|Machinery/Custom Hiring| E[Machinery FPO Setup]
+    E --> E1[AP Karshak<br/>40-80% up to ₹5L]
+    E1 --> E2[RKVY<br/>40-50% up to ₹3L]
+    E2 --> E3[SFAC Equity Grant<br/>₹2L]
+    E3 --> E4[Total: ₹10L Subsidy]
+    
+    B -->|Processing Unit| F[Processing FPO Setup]
+    F --> F1[SFAC Equity Grant<br/>₹5L]
+    F1 --> F2[NABARD<br/>40% up to ₹4L]
+    F2 --> F3[AP State Scheme<br/>₹2L if available]
+    F3 --> F4[Total: ₹11L Subsidy]
+    
+    C4 --> G[Check Scheme Compatibility]
+    D4 --> G
+    E4 --> G
+    F4 --> G
+    
+    G --> H{Compatible?}
+    H -->|Yes| I[Apply to Primary Scheme First]
+    H -->|No| J[Choose Best Single Scheme]
+    
+    I --> K[Wait for Approval]
+    K --> L[Apply to Secondary Scheme]
+    L --> M[Maximize Total Subsidy]
+    
+    style A fill:#e1f5ff
+    style C4 fill:#c8e6c9
+    style D4 fill:#c8e6c9
+    style E4 fill:#c8e6c9
+    style F4 fill:#c8e6c9
+    style M fill:#4caf50
+    style H fill:#fff9c4
+```
+
+#### 📊 **DIAGRAM 46: Subsidy Utilization Tracking**
+
+```mermaid
+flowchart LR
+    A[Total Subsidy Received<br/>₹30L] --> B[Infrastructure<br/>₹15L - 50%]
+    A --> C[Working Capital<br/>₹9L - 30%]
+    A --> D[Equipment<br/>₹4.5L - 15%]
+    A --> E[Training & Capacity<br/>₹1.5L - 5%]
+    
+    B --> B1[Cold Storage<br/>₹8L]
+    B --> B2[Collection Center<br/>₹5L]
+    B --> B3[Office Setup<br/>₹2L]
+    
+    C --> C1[Member Payments<br/>₹6L]
+    C --> C2[Operating Expenses<br/>₹3L]
+    
+    D --> D1[Testing Equipment<br/>₹2.5L]
+    D --> D2[Transportation<br/>₹2L]
+    
+    E --> E1[Member Training<br/>₹1L]
+    E --> E2[Staff Training<br/>₹0.5L]
+    
+    style A fill:#e1f5ff
+    style B fill:#c8e6c9
+    style C fill:#fff9c4
+    style D fill:#ffcdd2
+    style E fill:#e1bee7
+```
+
+**Tracking Benefits:**
+- Monitor subsidy utilization
+- Ensure compliance with scheme terms
+- Plan future subsidy applications
+- Report to funding agencies
+
+**Key Principles:**
+- Check scheme compatibility before combining
+- Avoid double funding (same item from multiple schemes)
+- Apply to primary scheme first, then secondary
+- Maximize total subsidy while minimizing own investment
+
 ---
 
 ### Scheme Integration Strategy
+
+#### 📊 **DIAGRAM 16: Scheme Integration Strategy Diagram**
+
+```mermaid
+graph TD
+    A[FPO Project: Dairy Setup] --> B[Scheme 1: SFAC Equity Grant<br/>₹10L]
+    A --> C[Scheme 2: NABARD Dairy Subsidy<br/>₹6L - 50%]
+    A --> D[Scheme 3: AP State Dairy<br/>₹3L if available]
+    
+    B --> E[Use: Infrastructure<br/>Working Capital]
+    C --> F[Use: Cold Storage<br/>Testing Equipment]
+    D --> G[Use: Collection Center]
+    
+    E --> H[Total Subsidy: ₹19L]
+    F --> H
+    G --> H
+    
+    H --> I[FPO Investment: ₹3L]
+    H --> J[Bank Loan: ₹8L]
+    I --> K[Total Project: ₹30L]
+    J --> K
+    
+    style A fill:#e1f5ff
+    style H fill:#c8e6c9
+    style K fill:#4caf50
+```
+
+**Key Principles:**
+- Combine compatible schemes for maximum benefit
+- Use different items for different schemes (avoid double funding)
+- Apply to primary scheme first, then secondary
+- Total subsidy can reach 60-70% of project cost
 
 **APPROACH 1: SFAC + NABARD + State Schemes**
 
@@ -5705,6 +6611,45 @@ Advanced financial modeling helps FPOs make informed decisions, assess investmen
 
 ### Financial Model 1: 5-Year Revenue Projections
 
+#### 📊 **DIAGRAM 17: Financial Projection Timeline (3-Year)**
+
+```mermaid
+gantt
+    title 3-Year Financial Projection Timeline
+    dateFormat YYYY
+    section Year 1
+    Revenue: ₹30-50L    :2025, 1y
+    Members: 10-50      :2025, 1y
+    Profit: ₹5-10L      :2025, 1y
+    
+    section Year 2
+    Revenue: ₹1-1.5Cr   :2026, 1y
+    Members: 50-150     :2026, 1y
+    Profit: ₹15-25L     :2026, 1y
+    
+    section Year 3
+    Revenue: ₹2-3Cr     :2027, 1y
+    Members: 150-300    :2027, 1y
+    Profit: ₹30-50L     :2027, 1y
+```
+
+```mermaid
+graph LR
+    A[Year 1<br/>₹30-50L Revenue<br/>10-50 Members] --> B[Year 2<br/>₹1-1.5Cr Revenue<br/>50-150 Members]
+    B --> C[Year 3<br/>₹2-3Cr Revenue<br/>150-300 Members]
+    
+    A --> A1[Foundation Phase<br/>Break-even Target]
+    B --> B1[Growth Phase<br/>Multiple Revenue Streams]
+    C --> C1[Maturity Phase<br/>Value Addition]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff9c4
+    style C fill:#c8e6c9
+    style A1 fill:#e1f5ff
+    style B1 fill:#fff9c4
+    style C1 fill:#c8e6c9
+```
+
 **Purpose:** Project revenue growth over 5 years based on member growth and activity expansion.
 
 **Excel Template Structure:**
@@ -5912,6 +6857,31 @@ ROI = (₹1,00,000 ÷ ₹3,50,000) × 100 = 28.6% per year
 ---
 
 ### Financial Model 4: Cash Flow Projection
+
+#### 📊 **DIAGRAM 19: Cash Flow Timeline Diagram**
+
+```mermaid
+gantt
+    title Monthly Cash Flow Projection - Year 1
+    dateFormat MM-DD
+    section Inflows
+    Milk Collection Revenue    :01-01, 365d
+    Paddy Sales Revenue        :10-01, 90d
+    Input Supply Revenue       :01-01, 365d
+    Custom Hiring Revenue      :06-01, 180d
+    Subsidy Receipts           :04-01, 30d
+    
+    section Outflows
+    Member Payments (Milk)     :01-01, 365d
+    Member Payments (Paddy)    :10-01, 90d
+    Salaries                   :01-01, 365d
+    Operating Expenses         :01-01, 365d
+    Loan EMI                   :04-01, 365d
+    
+    section Critical
+    Negative Cash Flow Months  :crit, 01-01, 60d
+    Peak Revenue Months        :milestone, 10-01, 0d
+```
 
 **Purpose:** Forecast cash inflows and outflows to ensure liquidity.
 
@@ -6475,6 +7445,33 @@ CAPITAL STRUCTURE:
 
 #### **Statement 5: Break-Even Point Calculator**
 
+#### 📊 **DIAGRAM 18: Break-Even Analysis Chart**
+
+```mermaid
+graph LR
+    A[Fixed Costs<br/>₹5,24,000/year] --> B[Break-Even Point]
+    C[Variable Costs<br/>₹18/L Milk<br/>₹1,800/Q Paddy] --> B
+    D[Revenue<br/>₹35/L Milk<br/>₹2,500/Q Paddy] --> B
+    B --> E{Break-Even Volume}
+    E -->|Milk Only| F[30,824 L/year<br/>2,569 L/month]
+    E -->|Paddy Only| G[749 Q/year<br/>62 Q/month]
+    E -->|Mixed| H[40,308 units/year]
+    F --> I[Margin of Safety<br/>88.5%]
+    G --> I
+    H --> I
+    
+    style A fill:#ffcdd2
+    style C fill:#fff9c4
+    style D fill:#c8e6c9
+    style B fill:#fff9c4
+    style I fill:#4caf50
+```
+
+**Break-Even Formula:**
+- **Break-Even = Fixed Costs ÷ Contribution Margin**
+- **Contribution Margin = Selling Price - Variable Cost**
+- **Margin of Safety = (Current Sales - Break-Even Sales) ÷ Current Sales × 100**
+
 **Purpose:** Calculate minimum revenue needed to cover all costs.
 
 ```
@@ -6545,6 +7542,43 @@ INTERPRETATION:
 ---
 
 ## 12. ROLE & RESPONSIBILITIES FOR EACH POSITION
+
+#### 📊 **DIAGRAM 34: FPO Organizational Structure Chart**
+
+```mermaid
+graph TD
+    A[General Body<br/>All Members<br/>AGM Authority] --> B[Board of Directors<br/>5-15 Directors]
+    B --> C[Chairman<br/>Strategic Leadership]
+    B --> D[Vice-Chairman<br/>Support Chairman]
+    B --> E[Treasurer<br/>Financial Management]
+    B --> F[Secretary<br/>Administration]
+    B --> G[Other Directors<br/>Specialized Roles]
+    
+    C --> H[CEO/Manager<br/>Day-to-Day Operations]
+    D --> H
+    E --> H
+    F --> H
+    
+    H --> I[Accountant<br/>Financial Records]
+    H --> J[Field Staff<br/>Member Services]
+    H --> K[Activity Managers<br/>Dairy/Paddy/etc.]
+    
+    I --> L[Members<br/>10-500+ Farmers]
+    J --> L
+    K --> L
+    
+    style A fill:#e1f5ff
+    style B fill:#fff9c4
+    style C fill:#ffcdd2
+    style H fill:#c8e6c9
+    style L fill:#81c784
+```
+
+**Reporting Structure:**
+- **General Body → Board of Directors:** AGM elects board
+- **Board → CEO/Manager:** Board appoints and supervises CEO
+- **CEO → Staff:** CEO manages operational staff
+- **Staff → Members:** Staff serves members
 
 ### POSITION 1: CHAIRMAN
 
@@ -7207,6 +8241,31 @@ Verified by: _________________
 
 ### CRITICAL: FPOs MUST FOLLOW THESE LEGAL REQUIREMENTS
 
+#### 📊 **DIAGRAM 23: Audit Process Timeline**
+
+```mermaid
+gantt
+    title Annual Compliance & Audit Timeline
+    dateFormat MM-DD
+    section Monthly
+    Daily Records & Bank Reconciliation    :01-01, 365d
+    Member Payment Processing              :01-01, 365d
+    
+    section Quarterly
+    Financial Statements Preparation       :03-31, 1d
+    Board Review                           :03-31, 1d
+    Internal Audit                         :03-31, 1d
+    
+    section Annual
+    AGM Preparation                        :08-01, 30d
+    Annual General Meeting                 :09-01, 1d
+    Annual Audit by CA                     :09-15, 45d
+    Annual Return Filing (AOC-4)           :10-30, 1d
+    MGT-7 Filing                           :10-30, 1d
+    Director KYC (DIR-3)                   :10-30, 1d
+    Tax Returns (if applicable)            :07-31, 1d
+```
+
 **Timeline & Frequency:**
 
 ```
@@ -7635,6 +8694,62 @@ Recommendations: [Actions needed]
 ### GST COMPLIANCE: COMPLETE GUIDE FOR FPOs
 
 **When Does FPO Need GST Registration?**
+
+#### 📊 **DIAGRAM 11: GST Registration Decision Tree**
+
+```mermaid
+flowchart TD
+    A[FPO Revenue Assessment] --> B{Annual Turnover?}
+    
+    B -->|> ₹40L| C[GST Registration MANDATORY]
+    B -->|< ₹40L| D{Inter-state Supply?}
+    
+    D -->|Yes| C
+    D -->|No| E{E-commerce Sales?}
+    
+    E -->|Yes| C
+    E -->|No| F{Import/Export?}
+    
+    F -->|Yes| C
+    F -->|No| G{Only Unprocessed<br/>Agricultural Produce?}
+    
+    G -->|Yes| H[GST NOT Required<br/>Many Exemptions]
+    G -->|No| I{Only Services to<br/>Members?}
+    
+    I -->|Yes| J[GST NOT Required<br/>Some Exemptions]
+    I -->|No| K[GST Registration OPTIONAL<br/>But Recommended]
+    
+    C --> L[Register for GST]
+    L --> M{Supply Type?}
+    M -->|Intra-state| N[CGST + SGST]
+    M -->|Inter-state| O[IGST]
+    
+    N --> P[Get GSTIN<br/>15-digit Number]
+    O --> P
+    K --> Q{Want to Register?}
+    Q -->|Yes| L
+    Q -->|No| R[Continue Without GST<br/>Monitor Turnover]
+    
+    style C fill:#ffcdd2
+    style H fill:#c8e6c9
+    style J fill:#c8e6c9
+    style K fill:#fff9c4
+    style P fill:#4caf50
+    style B fill:#fff9c4
+    style D fill:#fff9c4
+    style E fill:#fff9c4
+    style F fill:#fff9c4
+    style G fill:#fff9c4
+    style I fill:#fff9c4
+    style M fill:#fff9c4
+    style Q fill:#fff9c4
+```
+
+**Key Thresholds:**
+- **₹40 lakh:** Normal threshold (AP is not special category)
+- **Inter-state supply:** Always requires GST
+- **E-commerce:** Always requires GST
+- **Unprocessed agricultural produce:** Many exemptions available
 
 ```
 MANDATORY REGISTRATION:
@@ -8245,6 +9360,51 @@ Treasurer: ________________ Date: ________
 
 ## 14. FIRST BOARD MEETING MINUTES FORMAT
 
+#### 📊 **DIAGRAM 22: Board Meeting Process Flow**
+
+```mermaid
+flowchart TD
+    A[Board Meeting Scheduled] --> B[Step 1: Notice Sent<br/>7-21 Days Before]
+    B --> C[Step 2: Agenda Prepared]
+    C --> D[Step 3: Directors Confirm Attendance]
+    D --> E[Step 4: Meeting Day]
+    
+    E --> F{Quorum Present?<br/>Minimum 50%}
+    F -->|No| G[Meeting Postponed]
+    G --> A
+    F -->|Yes| H[Step 5: Chairman Opens Meeting]
+    
+    H --> I[Step 6: Previous Minutes Approved]
+    I --> J[Step 7: Agenda Items Discussed]
+    J --> K[Step 8: Resolutions Proposed]
+    K --> L[Step 9: Voting]
+    
+    L --> M{Majority Vote?}
+    M -->|Yes| N[Resolution Passed]
+    M -->|No| O[Resolution Rejected]
+    
+    N --> P[Step 10: Minutes Recorded]
+    O --> P
+    P --> Q[Step 11: Chairman Signs Minutes]
+    Q --> R[Step 12: Secretary Signs Minutes]
+    R --> S[Step 13: All Directors Sign]
+    S --> Complete([✅ Meeting Complete])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style F fill:#fff9c4
+    style M fill:#fff9c4
+    style G fill:#ffcdd2
+    style O fill:#ffcdd2
+```
+
+**Key Requirements:**
+- **Notice Period:** 7-21 days before meeting
+- **Quorum:** Minimum 50% of directors must be present
+- **Voting:** Majority vote required for resolutions
+- **Minutes:** Must be signed by Chairman and Secretary
+- **Frequency:** Minimum 4 board meetings per year
+
 ### CRITICAL DOCUMENT: FIRST BOARD MEETING AFTER REGISTRATION
 
 This is the MOST IMPORTANT meeting as it formally establishes the FPO's operations.
@@ -8619,6 +9779,45 @@ Director 2: _____________________ Date: __________
 
 ## 15. SHARE CERTIFICATE & REGISTER FORMAT
 
+#### 📊 **DIAGRAM 21: Share Certificate Issuance Process**
+
+```mermaid
+flowchart TD
+    A[Member Pays Share Capital] --> B[Step 1: Verify Payment<br/>Bank Statement]
+    B --> C[Step 2: Update Share Register]
+    C --> D[Step 3: Prepare Share Certificate]
+    D --> E[Step 4: Fill Certificate Details]
+    
+    E --> F[Certificate Number]
+    F --> G[Member Name & Details]
+    G --> H[Number of Shares]
+    H --> I[Share Value]
+    I --> J[Date of Issue]
+    
+    J --> K[Step 5: Chairman Signs]
+    K --> L[Step 6: Secretary Signs]
+    L --> M[Step 7: Affix FPO Seal]
+    M --> N[Step 8: Issue to Member]
+    
+    N --> O[Step 9: Member Acknowledgment]
+    O --> P[Step 10: Update Share Register]
+    P --> Q[Step 11: Maintain Records]
+    Q --> Complete([✅ Certificate Issued])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style B fill:#fff9c4
+```
+
+**Timeline:** Share certificates must be issued within 30 days of share capital payment
+
+**Key Details:**
+- Certificate Number: Sequential (001, 002, 003...)
+- Member Details: As per Aadhaar
+- Number of Shares: Based on payment
+- Signatures: Chairman + Secretary mandatory
+- Seal: FPO official seal required
+
 ### Share Certificate Template
 
 ```
@@ -8782,6 +9981,32 @@ NOTES:
 
 ### Share Transfer Procedure
 
+#### 📊 **DIAGRAM 26: Share Transfer Process Flow**
+
+```mermaid
+flowchart TD
+    A[Share Transfer Request] --> B[Step 1: Transferor Submits Request<br/>Written Application]
+    B --> C[Step 2: Board Review]
+    C --> D{Transferee Eligible?}
+    D -->|No| E[Request Rejected]
+    E --> F[Notify Transferor]
+    D -->|Yes| G[Step 3: Calculate Transfer Value<br/>Book Value]
+    G --> H[Step 4: Transferor & Transferee Sign<br/>Transfer Deed]
+    H --> I[Step 5: Board Approval<br/>Resolution]
+    I --> J[Step 6: Cancel Old Share Certificate]
+    J --> K[Step 7: Issue New Share Certificate]
+    K --> L[Step 8: Update Share Register]
+    L --> M[Step 9: Update Member Register]
+    M --> N[Step 10: Notify Both Parties]
+    N --> Complete([✅ Share Transfer Complete])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style D fill:#fff9c4
+    style E fill:#ffcdd2
+    style F fill:#ffcdd2
+```
+
 **When Can Shares Be Transferred?**
 
 Shares can be transferred between members OR to new members (subject to board approval) in the following cases:
@@ -8879,6 +10104,42 @@ Secretary Signature: _________________ Date: __________
 ---
 
 ### Dividend Distribution Formula & Timeline
+
+#### 📊 **DIAGRAM 27: Dividend Distribution Process Flow**
+
+```mermaid
+flowchart TD
+    A[Annual Profit Calculated] --> B[Step 1: Calculate Available Dividend<br/>Net Profit - Reserve (20%) - Contingency (10%)]
+    B --> C[Step 2: Choose Distribution Method]
+    C --> D{Method?}
+    D -->|Equal by Shares| E[Method 1: Equal Distribution<br/>Dividend per Share]
+    D -->|Patronage-Based| F[Method 2: Patronage-Based<br/>50% Equal + 50% Patronage]
+    D -->|Hybrid| G[Method 3: Hybrid<br/>30% Equal + 70% Patronage]
+    
+    E --> H[Calculate Dividend per Share]
+    F --> I[Calculate Patronage Points]
+    G --> J[Calculate Hybrid Distribution]
+    
+    H --> K[Step 3: Board Approval<br/>Resolution]
+    I --> K
+    J --> K
+    
+    K --> L[Step 4: AGM Approval<br/>Member Vote]
+    L --> M{Approved?}
+    M -->|Yes| N[Step 5: Prepare Dividend List]
+    M -->|No| O[Revise Distribution]
+    O --> C
+    
+    N --> P[Step 6: Payment Within 30 Days<br/>Bank Transfer]
+    P --> Q[Step 7: Issue Dividend Certificates]
+    Q --> Complete([✅ Dividend Distributed])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style D fill:#fff9c4
+    style M fill:#fff9c4
+    style O fill:#fff9c4
+```
 
 **What is Dividend?**
 
@@ -9819,6 +11080,31 @@ STEP 4: Claim Settlement
 - ICICI Lombard: 1800-2666
 - District Agriculture Office: For enrollment assistance
 
+#### 📊 **DIAGRAM 28: Crop Insurance Enrollment & Claim Process**
+
+```mermaid
+flowchart TD
+    A[PMFBY Enrollment] --> B[Step 1: Contact DAO<br/>District Agriculture Office]
+    B --> C[Step 2: Submit Member List<br/>With Land Details]
+    C --> D[Step 3: Pay Premium<br/>Government Subsidized]
+    D --> E[Step 4: Get Insurance Certificate]
+    E --> F[Coverage Active]
+    
+    F --> G[Crop Loss Occurs]
+    G --> H[Step 1: Report Within 72 Hours<br/>Contact DAO/Insurance Company]
+    H --> I[Step 2: Surveyor Visit<br/>Field Inspection]
+    I --> J[Step 3: Damage Assessment<br/>Loss Calculation]
+    J --> K[Step 4: Claim Calculation<br/>Based on Assessment]
+    K --> L[Step 5: Claim Approval]
+    L --> M[Step 6: Payment to Member<br/>Bank Account<br/>30-45 Days]
+    M --> Complete([✅ Claim Settled])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style F fill:#c8e6c9
+    style G fill:#ffcdd2
+```
+
 ---
 
 **2. LIVESTOCK INSURANCE**
@@ -9911,6 +11197,38 @@ STEP 4: Claim Process
 - United India Insurance
 - ICICI Lombard
 - Contact: Nearest insurance branch
+
+#### 📊 **DIAGRAM 40: Risk Assessment Matrix**
+
+```mermaid
+graph TD
+    A[Risk Assessment Matrix] --> B[High Probability<br/>High Impact]
+    A --> C[High Probability<br/>Low Impact]
+    A --> D[Low Probability<br/>High Impact]
+    A --> E[Low Probability<br/>Low Impact]
+    
+    B --> B1[CRITICAL RISKS<br/>Priority 1]
+    B1 --> B2[Cyclone Damage<br/>Crop Failure<br/>Price Crash]
+    
+    C --> C1[MODERATE RISKS<br/>Priority 2]
+    C1 --> C2[Equipment Breakdown<br/>Member Dropout<br/>Payment Delays]
+    
+    D --> D1[HIGH IMPACT RISKS<br/>Priority 2]
+    D1 --> D2[Fire/Flood<br/>Fraud/Theft<br/>Legal Disputes]
+    
+    E --> E1[LOW RISKS<br/>Priority 3]
+    E1 --> E2[Minor Equipment Issues<br/>Weather Variations<br/>Market Fluctuations]
+    
+    style B1 fill:#ffcdd2
+    style C1 fill:#fff9c4
+    style D1 fill:#fff9c4
+    style E1 fill:#c8e6c9
+```
+
+**Risk Mitigation Strategy:**
+- **Priority 1 (Critical):** Insurance coverage, contingency fund, disaster preparedness
+- **Priority 2 (Moderate/High Impact):** Preventive maintenance, member engagement, legal compliance
+- **Priority 3 (Low):** Regular monitoring, basic safeguards
 
 ---
 
@@ -10036,6 +11354,61 @@ STEP 4: Claim Process
 
 ### Insurance Claim Process
 
+#### 📊 **DIAGRAM 7: Insurance Claim Process Flowchart**
+
+```mermaid
+flowchart TD
+    A[Incident Occurs] --> B[Step 1: Report Incident<br/>Within 24-48 Hours]
+    B --> C[Contact Insurance Helpline]
+    C --> D[Provide Incident Details]
+    D --> E[Get Claim Reference Number]
+    
+    E --> F[Step 2: Document Incident]
+    F --> G[Take Photos/Videos]
+    G --> H[Get Police Report<br/>If Applicable]
+    H --> I[Get Medical/Veterinary Reports<br/>If Applicable]
+    I --> J[Preserve All Evidence]
+    
+    J --> K[Step 3: Submit Claim]
+    K --> L[Fill Claim Form]
+    L --> M[Attach Supporting Documents]
+    M --> N[Submit to Insurance Company]
+    N --> O[Get Acknowledgment]
+    
+    O --> P[Step 4: Survey/Assessment]
+    P --> Q[Insurance Surveyor Visits]
+    Q --> R[Assess Damage/Loss]
+    R --> S[Prepare Survey Report]
+    S --> T{Additional Documents<br/>Required?}
+    T -->|Yes| U[Provide Additional Docs]
+    U --> P
+    T -->|No| V[Step 5: Claim Settlement]
+    
+    V --> W[Insurance Company Reviews]
+    W --> X{Approved?}
+    X -->|Yes| Y[Payment to Bank Account<br/>30-45 days]
+    X -->|No| Z[Rejection with Reasons]
+    Z --> AA{Appeal?}
+    AA -->|Yes| AB[File Appeal]
+    AB --> W
+    AA -->|No| AC[Claim Closed]
+    Y --> Complete([✅ Claim Settled])
+    
+    style A fill:#ffcdd2
+    style Complete fill:#c8e6c9
+    style T fill:#fff9c4
+    style X fill:#fff9c4
+    style AA fill:#fff9c4
+    style Z fill:#ffcdd2
+    style AC fill:#ffcdd2
+```
+
+**Critical Timelines:**
+- **Report:** Within 24-48 hours (immediate)
+- **Documentation:** Within 7 days (complete)
+- **Survey:** Within 15 days (insurance company)
+- **Settlement:** 30-45 days (typical)
+
 **General Claim Process:**
 
 **STEP 1: Report Incident**
@@ -10131,6 +11504,69 @@ Andhra Pradesh faces multiple climate risks that can severely impact FPO operati
 ---
 
 #### 16.5.1 AP Cyclone Zones & Risk Assessment
+
+#### 📊 **DIAGRAM 8: AP Cyclone Preparedness Timeline**
+
+```mermaid
+gantt
+    title AP Cyclone Preparedness Timeline (Annual Cycle)
+    dateFormat MM-DD
+    section Pre-Cyclone Season
+    Infrastructure Hardening (May/Oct)     :05-01, 30d
+    Emergency Supplies Stocking            :05-01, 30d
+    Member Communication Setup             :05-01, 30d
+    Insurance Verification                 :05-01, 30d
+    Financial Preparedness                 :05-01, 30d
+    
+    section During Warning
+    Immediate Actions (48-72 hrs)          :crit, 05-31, 3d
+    Communication Alerts                   :crit, 05-31, 3d
+    Documentation                          :crit, 05-31, 3d
+    
+    section Post-Cyclone
+    Damage Assessment (48 hrs)             :crit, 06-03, 2d
+    Insurance Claims Filing                :crit, 06-03, 2d
+    Recovery Actions                       :06-05, 30d
+    Member Support                         :06-05, 30d
+```
+
+```mermaid
+flowchart TD
+    A[May/October - Pre-Cyclone Season] --> B[Infrastructure Hardening]
+    B --> C[Emergency Supplies]
+    C --> D[Member Communication]
+    D --> E[Insurance Verification]
+    E --> F[Financial Preparedness]
+    
+    F --> G[Cyclone Warning Issued<br/>48-72 Hours Before]
+    G --> H[Immediate Actions]
+    H --> I[Move Livestock]
+    I --> J[Secure Equipment]
+    J --> K[Alert Members]
+    
+    K --> L[Cyclone Hits]
+    L --> M[Post-Cyclone - 48 Hours]
+    M --> N[Damage Assessment]
+    N --> O[Insurance Claims]
+    O --> P[Recovery Actions]
+    P --> Q[Member Support]
+    Q --> R[Resume Operations]
+    
+    style A fill:#e1f5ff
+    style G fill:#fff9c4
+    style L fill:#ffcdd2
+    style M fill:#ffcdd2
+    style R fill:#c8e6c9
+```
+
+**Peak Cyclone Seasons:**
+- **May-June:** Pre-monsoon cyclones
+- **October-November:** Post-monsoon cyclones
+
+**Critical Actions:**
+- **Pre-Season:** Complete all preparedness activities
+- **48-72 Hours Before:** Execute immediate protective actions
+- **Post-Cyclone:** Complete damage assessment and claims within 48 hours
 
 **Cyclone-Prone Districts in AP:**
 
@@ -10953,6 +12389,8 @@ WEEK 9-12: LONG-TERM RECOVERY
 
 #### **Crop Insurance Process (PMFBY) - AP-Specific:**
 
+**Note:** The detailed Crop Insurance Enrollment & Claim Process flowchart is available in DIAGRAM 28 (see Section 16 above).
+
 ```
 ENROLLMENT:
 ───────────
@@ -11377,6 +12815,8 @@ WEEK 9-12: LONG-TERM RECOVERY
 
 #### **Crop Insurance Process (PMFBY) - AP-Specific:**
 
+**Note:** The detailed Crop Insurance Enrollment & Claim Process flowchart is available in DIAGRAM 28 (see Section 16 above).
+
 ```
 ENROLLMENT:
 ───────────
@@ -11508,6 +12948,64 @@ PHASE 4: LONG-TERM (Month 4-6)
 ## 17. INTERNAL POLICIES FRAMEWORK
 
 ### Policy 1: PROCUREMENT POLICY
+
+#### 📊 **DIAGRAM 43: Procurement & Collection Process Flow**
+
+```mermaid
+flowchart TD
+    A[Member Ready to Supply Produce] --> B[Step 1: Member Registration]
+    B --> C{Member Registered?}
+    C -->|No| D[Complete Member Registration]
+    D --> B
+    C -->|Yes| E[Step 2: Pre-Collection Communication]
+    
+    E --> F[FPO Announces Collection Schedule]
+    F --> G[Member Confirms Quantity]
+    G --> H[Step 3: Collection Day]
+    
+    H --> I[Member Arrives at Collection Center]
+    I --> J[Step 4: Produce Receipt]
+    J --> K[Weigh/Measure Quantity]
+    K --> L[Record Member Details]
+    L --> M[Step 5: Quality Testing]
+    
+    M --> N{Quality Check Pass?}
+    N -->|Yes| O[Step 6: Accept Produce]
+    N -->|No| P[Step 6: Reject/Return]
+    
+    O --> Q[Step 7: Calculate Payment]
+    Q --> R[Base Price × Quantity]
+    R --> S[Add Quality Premium<br/>If Applicable]
+    S --> T[Step 8: Issue Receipt]
+    
+    T --> U[Member Receives Receipt]
+    U --> V[Step 9: Payment Processing]
+    V --> W{Payment Method?}
+    
+    W -->|Cash| X[Immediate Cash Payment]
+    W -->|Bank Transfer| Y[Bank Transfer<br/>Within 3-5 Days]
+    W -->|Credit| Z[Credit Entry<br/>Settlement Later]
+    
+    X --> AA[Step 10: Update Records]
+    Y --> AA
+    Z --> AA
+    
+    AA --> AB[Update Member Account]
+    AB --> AC[Update Inventory]
+    AC --> AD[Update Financial Records]
+    AD --> AE[✅ Procurement Complete]
+    
+    P --> AF[Inform Member]
+    AF --> AG[Explain Rejection Reason]
+    AG --> AH[Member Can Correct & Resubmit]
+    AH --> A
+    
+    style A fill:#e1f5ff
+    style AE fill:#c8e6c9
+    style N fill:#fff9c4
+    style P fill:#ffcdd2
+    style O fill:#c8e6c9
+```
 
 ```
 ═══════════════════════════════════════════════════════════════════════
@@ -11975,6 +13473,55 @@ If Dispute Over Transfer:
 
 ### Policy 6: MEMBER RESIGNATION & EXIT
 
+#### 📊 **DIAGRAM 10: Member Exit Process Flowchart**
+
+```mermaid
+flowchart TD
+    A[Member Submits Exit Request] --> B[Step 1: Board Review]
+    B --> C{Valid Reason?}
+    C -->|No| D[Request Clarification]
+    D --> A
+    C -->|Yes| E[Step 2: Check Outstanding Dues]
+    
+    E --> F{Any Dues?}
+    F -->|Yes| G[Request Payment]
+    G --> H{Payment Made?}
+    H -->|No| I[Exit Blocked<br/>Clear Dues First]
+    H -->|Yes| J[Step 3: Calculate Share Redemption]
+    F -->|No| J
+    
+    J --> K{Redemption Value}
+    K -->|Book Value| L[Net Assets ÷ Total Shares<br/>× Member Shares]
+    K -->|Face Value| M[If FPO New/Not Profitable]
+    L --> N[Step 4: Board Approval]
+    M --> N
+    
+    N --> O[Step 5: Payment<br/>Within 30 Days]
+    O --> P[Bank Transfer]
+    P --> Q[Step 6: Issue Exit Certificate]
+    Q --> R[Step 7: Cancel Share Certificate]
+    R --> S[Step 8: Update Share Register]
+    S --> T[Step 9: Remove from Member Register]
+    T --> Complete([✅ Exit Complete])
+    
+    I --> E
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style C fill:#fff9c4
+    style F fill:#fff9c4
+    style H fill:#fff9c4
+    style I fill:#ffcdd2
+    style D fill:#fff9c4
+```
+
+**Key Conditions:**
+- Minimum 30 days notice required
+- All outstanding dues must be cleared
+- Redemption value = Book value OR Face value (if new FPO)
+- Payment within 30 days of board approval
+- Cannot rejoin for 6 months after exit
+
 ```
 ═══════════════════════════════════════════════════════════════════════
 FPO MEMBER RESIGNATION & EXIT POLICY
@@ -12054,6 +13601,53 @@ Expulsion Process:
 ---
 
 ### Policy 7: DISPUTE RESOLUTION
+
+#### 📊 **DIAGRAM 9: Dispute Resolution Escalation Flow**
+
+```mermaid
+flowchart TD
+    A[Dispute Arises] --> B[Level 1: Informal Resolution<br/>CEO/Secretary]
+    B --> C{Resolved in<br/>7 days?}
+    C -->|Yes| D[✅ Matter Closed]
+    C -->|No| E[Level 2: Board Mediation<br/>3 Directors Committee]
+    
+    E --> F{Resolved in<br/>30 days?}
+    F -->|Yes| D
+    F -->|No| G[Level 3: Arbitration<br/>Mutually Agreed Arbitrator]
+    
+    G --> H{Resolved in<br/>60 days?}
+    H -->|Yes| D
+    H -->|No| I[Level 4: Legal Action<br/>Court of Law]
+    
+    I --> J[Legal Proceedings]
+    J --> K[Court Decision]
+    K --> L{Appeal?}
+    L -->|Yes| M[Higher Court]
+    L -->|No| N[Final Resolution]
+    
+    E --> O{Member Unhappy?}
+    O -->|Yes| P[Appeal to AGM]
+    P --> Q{2/3 Majority<br/>Overturn?}
+    Q -->|Yes| R[Board Decision Overturned]
+    Q -->|No| S[Board Decision Upheld]
+    
+    style A fill:#ffcdd2
+    style D fill:#c8e6c9
+    style N fill:#c8e6c9
+    style C fill:#fff9c4
+    style F fill:#fff9c4
+    style H fill:#fff9c4
+    style L fill:#fff9c4
+    style O fill:#fff9c4
+    style Q fill:#fff9c4
+```
+
+**Timeline Summary:**
+- **Level 1:** 7 days (informal)
+- **Level 2:** 30 days (board mediation)
+- **Level 3:** 60 days (arbitration)
+- **Total Maximum:** 90 days (unless extended)
+- **Level 4:** Variable (legal action)
 
 ```
 ═══════════════════════════════════════════════════════════════════════
@@ -12209,6 +13803,40 @@ Criminal Violation:
 ---
 
 ### Policy 9: DOCUMENT RETENTION
+
+#### 📊 **DIAGRAM 41: Document Retention Timeline**
+
+```mermaid
+gantt
+    title Document Retention Timeline
+    dateFormat YYYY
+    section Permanent Retention
+    Financial Statements        :2025, 100y
+    Audit Reports              :2025, 100y
+    Tax Returns                :2025, 100y
+    Member Applications        :2025, 100y
+    Share Certificates         :2025, 100y
+    Share Register             :2025, 100y
+    MOA & AOA                  :2025, 100y
+    Board Minutes              :2025, 100y
+    
+    section 8-Year Retention
+    Bank Statements            :2025, 8y
+    Vouchers & Receipts        :2025, 8y
+    Invoices                   :2025, 8y
+    Member Payment Records     :2025, 8y
+    Employee Records           :2025, 8y
+    
+    section 3-Year Retention
+    Routine Correspondence     :2025, 3y
+    Meeting Notices            :2025, 3y
+    Temporary Documents        :2025, 3y
+```
+
+**Retention Rules:**
+- **Permanent:** Critical legal and financial documents
+- **8 Years:** Standard business records (Companies Act requirement)
+- **3 Years:** Routine operational documents
 
 ```
 ═══════════════════════════════════════════════════════════════════════
@@ -12416,6 +14044,56 @@ This policy defines the process for enrolling new members into the FPO, ensuring
 ---
 
 ## 19. BANK LOAN APPLICATION CHECKLIST
+
+#### 📊 **DIAGRAM 12: Bank Loan Application Process Flowchart**
+
+```mermaid
+flowchart TD
+    A[Loan Need Identified] --> B[Step 1: Choose Bank<br/>SBI/BOB/Canara/NABARD-linked]
+    B --> C[Step 2: Calculate Loan Amount<br/>50-70% of Project Cost]
+    C --> D[Step 3: Prepare Project Report<br/>DPR with Financial Projections]
+    
+    D --> E[Step 4: Gather Documents]
+    E --> E1[FPO Registration Docs]
+    E1 --> E2[Board & Governance Docs]
+    E2 --> E3[Member Information]
+    E3 --> E4[Financial Documents]
+    E4 --> E5[Collateral & Security]
+    E5 --> E6[Subsidy & Grant Docs]
+    E6 --> E7[Compliance Documents]
+    
+    E7 --> F[Step 5: Submit Application]
+    F --> G[Step 6: Bank Review<br/>15-30 days]
+    G --> H{Bank Decision?}
+    
+    H -->|Approved| I[Step 7: Loan Agreement]
+    H -->|Rejected| J[Review Rejection Reasons]
+    J --> K{Can Fix Issues?}
+    K -->|Yes| L[Correct & Re-apply]
+    L --> F
+    K -->|No| M[Application Closed]
+    
+    I --> N[Step 8: Loan Disbursement]
+    N --> O[First Disbursement<br/>50-70% of Amount]
+    O --> P[Step 9: Project Implementation]
+    P --> Q[Step 10: Remaining Disbursement<br/>Based on Progress]
+    Q --> R[Step 11: EMI Payments Start<br/>After Moratorium]
+    R --> Complete([✅ Loan Active])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style H fill:#fff9c4
+    style K fill:#fff9c4
+    style J fill:#ffcdd2
+    style M fill:#ffcdd2
+```
+
+**Key Requirements:**
+- **Loan Amount:** Typically 50-70% of project cost
+- **Interest Rate:** 8-10% p.a. for FPOs
+- **Processing Time:** 15-30 days
+- **First Disbursement:** 50-70% of approved amount
+- **Remaining:** Based on project progress
 
 ### Documents Required for Bank Loan Application
 
@@ -12687,6 +14365,43 @@ Gather all documents from checklist above:
 ---
 
 ## 20. ANNUAL COMPLIANCE CALENDAR WITH MCA FORM NUMBERS
+
+#### 📊 **DIAGRAM 39: Compliance Calendar Visual (Annual)**
+
+```mermaid
+gantt
+    title Annual Compliance Calendar - Critical Deadlines
+    dateFormat MM-DD
+    section Q1
+    PAN-Aadhaar Verification (DIR-3)    :crit, 01-31, 1d
+    DPDP Consent Forms Update           :crit, 01-31, 1d
+    Cyber Security Audit                :01-31, 1d
+    e-NAM Registration                  :02-28, 1d
+    Data Protection Assessment          :03-31, 1d
+    
+    section Q2
+    Financial Year End                  :03-31, 1d
+    Annual Accounts Preparation         :04-01, 90d
+    Board Diversity Review              :06-30, 1d
+    
+    section Q3
+    Income Tax Return (ITR-6)           :crit, 07-31, 1d
+    AGM Conduct                         :crit, 09-30, 1d
+    Digital KYC Update                  :09-30, 1d
+    
+    section Q4
+    AOC-4 Filing (Financial Statements) :crit, 10-30, 1d
+    MGT-7 Filing (Annual Return)        :crit, 11-30, 1d
+    ADT-1 Filing (Auditor)              :crit, 10-15, 1d
+    Annual Data Security Audit          :crit, 12-31, 1d
+```
+
+**Critical Deadlines:**
+- **January 31:** PAN-Aadhaar linking, DPDP consent (MANDATORY)
+- **July 31:** Income Tax Return (MANDATORY)
+- **September 30:** AGM must be conducted (MANDATORY)
+- **October 30:** AOC-4 filing (MANDATORY - ₹200/day penalty)
+- **November 30:** MGT-7 filing (MANDATORY - ₹200/day penalty)
 
 ### Monthly Compliance
 
@@ -16747,6 +18462,35 @@ Establish a transparent and fair mechanism for members, directors, and staff to 
 
 ### PAN-Aadhaar Linking (MANDATORY)
 
+#### 📊 **DIAGRAM 24: PAN-Aadhaar Linking Process Flow**
+
+```mermaid
+flowchart TD
+    A[PAN-Aadhaar Linking Required] --> B[Step 1: Visit NSDL Portal<br/>https://www.onlineservices.nsdl.com/]
+    B --> C[Step 2: Login with PAN]
+    C --> D[Step 3: Enter Aadhaar Number]
+    D --> E[Step 4: Verify OTP<br/>Sent to Registered Mobile]
+    E --> F{OTP Verified?}
+    F -->|No| G[Resend OTP]
+    G --> E
+    F -->|Yes| H[Step 5: Submit Linking Request]
+    H --> I[Step 6: Linking Processed<br/>24 Hours]
+    I --> J[Step 7: Linking Complete]
+    J --> K[Step 8: Quarterly Verification]
+    K --> L{Status Check<br/>Every 3 Months}
+    L -->|Linked| M[✅ Status OK]
+    L -->|Unlinked| N[Re-link Immediately]
+    N --> B
+    M --> O[Maintain Verification Log]
+    O --> Complete([✅ Compliance Maintained])
+    
+    style A fill:#ffcdd2
+    style Complete fill:#c8e6c9
+    style F fill:#fff9c4
+    style L fill:#fff9c4
+    style N fill:#ffcdd2
+```
+
 **Why Link:**
 - Government requirement
 - Bank account access
@@ -17825,6 +19569,46 @@ This section provides crop-specific FPO models tailored for Anakapalli and Visak
 
 **Organic Certification Process:**
 
+#### 📊 **DIAGRAM 31: Organic Certification Process**
+
+```mermaid
+flowchart TD
+    A[FPO Decides to Get Organic Certification] --> B[Step 1: Choose Certifying Agency<br/>NPOP-Accredited]
+    B --> C[OneCert Asia / Indocert / SGS / Bureau Veritas]
+    C --> D[Step 2: Submit Application<br/>Month 1]
+    D --> E[Pay Certification Fee<br/>₹50,000-1,00,000]
+    E --> F[Step 3: Documentation Phase<br/>Month 2]
+    
+    F --> G[Organic Farming Practices Documentation]
+    G --> H[Input Use Records<br/>Organic Inputs Only]
+    H --> I[Crop Production Records]
+    I --> J[Processing Records]
+    J --> K[Member Farm Details]
+    
+    K --> L[Step 4: Farm Inspection<br/>Month 3-4]
+    L --> M[Inspector Visits Member Farms]
+    M --> N[Verifies Organic Practices]
+    N --> O[Checks Documentation]
+    O --> P[Prepares Inspection Report]
+    
+    P --> Q{Inspection Passed?}
+    Q -->|No| R[Address Non-Compliance]
+    R --> L
+    Q -->|Yes| S[Step 5: Certification Issued<br/>Month 4-5]
+    
+    S --> T[NPOP Certificate Received]
+    T --> U[Step 6: Annual Renewal<br/>Year 2+]
+    U --> V[Yearly Inspection]
+    V --> W[Documentation Update]
+    W --> X[Certificate Renewed]
+    
+    style A fill:#e1f5ff
+    style S fill:#c8e6c9
+    style T fill:#4caf50
+    style Q fill:#fff9c4
+    style R fill:#ffcdd2
+```
+
 **NPOP Certification:**
 1. **Application:** Submit to NPOP-accredited certifying agency
 2. **Inspection:** Organic farm inspection
@@ -18267,6 +20051,53 @@ This section provides specialized FPO framework for tribal farmers in Visakhapat
 - Quality testing
 - Payment processing
 - Regular coordination
+
+#### 📊 **DIAGRAM 30: Tribal FPO GCC Linkage Process**
+
+```mermaid
+flowchart TD
+    A[Tribal FPO Ready] --> B[Step 1: Initial Contact<br/>GCC Regional Office]
+    B --> C[Phone: 0891-2566000<br/>Email: gcc.vizag@ap.gov.in]
+    C --> D[Step 2: Schedule Meeting]
+    D --> E[Present FPO Registration Certificate]
+    E --> F[Present Member ST Certificates]
+    F --> G[Present Crop Production Details]
+    
+    G --> H[Step 3: Documentation Review]
+    H --> I{GCC Approval?}
+    I -->|No| J[Address Feedback]
+    J --> H
+    I -->|Yes| K[Step 4: Agreement Negotiation]
+    
+    K --> L[Procurement Quantity]
+    L --> M[Quality Standards]
+    M --> N[Pricing Terms]
+    N --> O[Payment Terms]
+    
+    O --> P[Step 5: Sign Partnership Agreement]
+    P --> Q[Step 6: Start Operations]
+    Q --> R[Crop Collection from Members]
+    R --> S[Quality Testing & Grading]
+    S --> T[Organic Certification Verification]
+    T --> U[Bulk Dispatch to GCC]
+    U --> V[Payment Receipt<br/>7-10 days]
+    
+    V --> W[Step 7: Regular Coordination]
+    W --> X[Monthly Review Meetings]
+    X --> Y[Annual Agreement Renewal]
+    
+    style A fill:#e1f5ff
+    style P fill:#c8e6c9
+    style V fill:#4caf50
+    style I fill:#fff9c4
+```
+
+**Key Benefits:**
+- Premium pricing (10-15% above market)
+- Direct procurement from FPO
+- Regular payment (7-10 days)
+- Quality support and training
+- Market access for tribal farmers
 
 **Organic Coffee Aggregation:**
 
@@ -19455,6 +21286,47 @@ Note: Contact numbers may change. Always verify current numbers from official we
 ---
 
 ### **📌 COMPREHENSIVE DISTRICT CONTACT DIRECTORY - ANAKAPALLI & VISAKHAPATNAM**
+
+#### 📊 **DIAGRAM 33: AP Contact Directory Hierarchy**
+
+```mermaid
+graph TD
+    A[District Collector] --> B[District Agriculture Officer<br/>DAO]
+    A --> C[District Animal Husbandry<br/>AHD]
+    A --> D[Revenue Divisional Officer<br/>RDO]
+    
+    B --> E[Mandal Agriculture Officer<br/>MAO]
+    B --> F[AP AGROS Depot]
+    B --> G[Rythu Bharosa Kendram]
+    
+    C --> H[Veterinary Office]
+    C --> I[APDDA Dairy Office]
+    
+    D --> J[Mandal Revenue Officer<br/>MRO]
+    J --> K[Village Revenue Officer<br/>VAO]
+    
+    L[NABARD DDM] --> B
+    L --> C
+    
+    M[SFAC AP Office] --> B
+    
+    N[Visakha Dairy] --> C
+    O[Heritage Foods] --> C
+    
+    style A fill:#e1f5ff
+    style B fill:#c8e6c9
+    style C fill:#c8e6c9
+    style D fill:#c8e6c9
+    style J fill:#fff9c4
+    style K fill:#fff9c4
+```
+
+**Key Relationships:**
+- **DAO → MAO → Farmers:** Agriculture support and subsidies
+- **AHD → Veterinary → Dairy Farmers:** Livestock and dairy support
+- **RDO → MRO → VAO → Farmers:** Land records and certificates
+- **NABARD DDM:** Coordinates with DAO and AHD for subsidies
+- **SFAC:** Works with DAO for equity grants
 
 **Complete Contact Table for FPO Operations:**
 
@@ -22181,6 +24053,59 @@ Notes:
 ### Purpose
 Modular training content for FPO capacity building. These modules can be used for 1-day workshops, training sessions, or self-learning by FPO directors, staff, and members.
 
+#### 📊 **DIAGRAM 38: Training Program Flowchart**
+
+```mermaid
+flowchart TD
+    A[Training Need Identified] --> B[Step 1: Define Objectives]
+    B --> C[Step 2: Select Target Audience]
+    C --> D{Who Needs Training?}
+    
+    D -->|New Members| E[Module 1: FPO Basics]
+    D -->|Directors| F[Module 2: Governance]
+    D -->|Staff| G[Module 3: Operations]
+    D -->|All Members| H[Module 4: Financial Literacy]
+    
+    E --> I[Step 3: Schedule Training]
+    F --> I
+    G --> I
+    H --> I
+    
+    I --> J[Step 4: Prepare Materials]
+    J --> K[Training Content]
+    K --> L[Handouts]
+    L --> M[Visual Aids]
+    
+    M --> N[Step 5: Conduct Training]
+    N --> O[Interactive Sessions]
+    O --> P[Q&A]
+    P --> Q[Practical Exercises]
+    
+    Q --> R[Step 6: Assessment]
+    R --> S{Training Effective?}
+    S -->|Yes| T[Step 7: Follow-up]
+    S -->|No| U[Revise Content]
+    U --> I
+    
+    T --> V[Step 8: Documentation]
+    V --> W[Attendance Register]
+    W --> X[Feedback Forms]
+    X --> Y[Training Report]
+    
+    Y --> Z[✅ Training Complete]
+    
+    style A fill:#e1f5ff
+    style Z fill:#c8e6c9
+    style S fill:#fff9c4
+    style U fill:#ffcdd2
+```
+
+**Training Delivery Methods:**
+- **In-person:** Village-level workshops
+- **Online:** Video calls, webinars
+- **Hybrid:** Combination of both
+- **Self-paced:** Reading materials, videos
+
 ---
 
 ### MODULE 1: FPO BASICS & BENEFITS (2 Hours)
@@ -22339,6 +24264,60 @@ Modular training content for FPO capacity building. These modules can be used fo
 - Maintain produce quality
 - Quality testing procedures
 - Quality premium benefits
+
+#### 📊 **DIAGRAM 42: Quality Control & Testing Process Flow**
+
+```mermaid
+flowchart TD
+    A[Member Produce Received] --> B[Step 1: Initial Inspection]
+    B --> C{Commodity Type?}
+    
+    C -->|Milk| D[Milk Quality Check]
+    C -->|Paddy| E[Paddy Quality Check]
+    C -->|Sugarcane| F[Sugarcane Quality Check]
+    C -->|Other| G[General Quality Check]
+    
+    D --> D1[Visual Inspection<br/>Color, Odor, Temperature]
+    D1 --> D2[Fat Content Test<br/>Minimum 3.5%]
+    D2 --> D3[SNF Test<br/>Minimum 8.5%]
+    D3 --> D4[Adulteration Test<br/>Zero Tolerance]
+    D4 --> H
+    
+    E --> E1[Moisture Content Test<br/>Maximum 14%]
+    E1 --> E2[Grade Classification<br/>A/B/C Grade]
+    E2 --> E3[Foreign Matter Check<br/>Maximum 2%]
+    E3 --> H
+    
+    F --> F1[Sucrose Content Test<br/>Minimum 12%]
+    F1 --> F2[Fiber Content Check]
+    F2 --> F3[Freshness Check]
+    F3 --> H
+    
+    G --> G1[Visual Quality Check]
+    G1 --> G2[Weight/Quantity Check]
+    G2 --> H
+    
+    H{Meets Quality Standards?}
+    H -->|Yes| I[Step 2: Accept Produce]
+    H -->|No| J[Step 2: Reject/Return]
+    
+    I --> K[Step 3: Record Quality Data]
+    K --> L[Update Member Record]
+    L --> M[Calculate Quality Premium]
+    M --> N[Step 4: Issue Quality Certificate]
+    N --> O[✅ Quality Control Complete]
+    
+    J --> P[Inform Member]
+    P --> Q[Explain Rejection Reason]
+    Q --> R[Member Can Correct & Resubmit]
+    R --> A
+    
+    style A fill:#e1f5ff
+    style O fill:#c8e6c9
+    style H fill:#fff9c4
+    style J fill:#ffcdd2
+    style I fill:#c8e6c9
+```
 
 **Content Outline:**
 
@@ -23400,6 +25379,28 @@ CYBERSECURITY INCIDENT LOG 2026
 
 ## ANNEX-14: PENALTY MATRIX & REGULATORY CALENDAR
 
+#### 📊 **DIAGRAM 39: Compliance Calendar Visual (Detailed)**
+
+```mermaid
+graph TD
+    A[January] --> A1[PAN-Aadhaar Verification<br/>DPDP Consent Update<br/>Cyber Security Audit]
+    B[February] --> B1[e-NAM Registration]
+    C[March] --> C1[Data Protection Assessment<br/>Financial Year End]
+    D[April-June] --> D1[Annual Accounts Prep<br/>Board Diversity Review]
+    E[July] --> E1[Income Tax Return<br/>ITR-6 Filing]
+    F[August-September] --> F1[AGM Conduct<br/>Digital KYC Update]
+    G[October] --> G1[AOC-4 Filing<br/>ADT-1 Filing]
+    H[November] --> H1[MGT-7 Filing]
+    I[December] --> I1[Annual Data Security Audit]
+    
+    style A1 fill:#ffcdd2
+    style E1 fill:#ffcdd2
+    style F1 fill:#ffcdd2
+    style G1 fill:#ffcdd2
+    style H1 fill:#ffcdd2
+    style I1 fill:#ffcdd2
+```
+
 ### Complete Penalty Table (All Violations)
 
 | VIOLATION | LAW | PENALTY | CONSEQUENCES |
@@ -23498,6 +25499,30 @@ CYBERSECURITY INCIDENT LOG 2026
 
 ### Purpose
 Real-world farmer profiles from Anakapalli and Visakhapatnam districts to help FPOs understand different farmer types and their needs.
+
+#### 📊 **DIAGRAM 45: Farmer Profile Distribution Chart**
+
+```mermaid
+pie title FPO Member Distribution by Farmer Type
+    "Small/Marginal Farmers" : 60
+    "Dairy Farmers" : 20
+    "Tenant Farmers" : 10
+    "Integrated Farmers" : 7
+    "Tribal Farmers" : 3
+```
+
+**Typical FPO Composition (50 Members):**
+- **Small/Marginal Farmers (30 members - 60%):** Landowners with 1-5 acres
+- **Dairy Farmers (10 members - 20%):** Livestock-focused farmers
+- **Tenant Farmers (5 members - 10%):** Leased land farmers
+- **Integrated Farmers (3-4 members - 7%):** Multiple activities (crops + dairy)
+- **Tribal Farmers (1-2 members - 3%):** Tribal area farmers
+
+**Benefits of Diverse Composition:**
+- Multiple revenue streams
+- Year-round operations
+- Risk diversification
+- Better market access
 
 ---
 
@@ -23910,6 +25935,51 @@ Real-world farmer profiles from Anakapalli and Visakhapatnam districts to help F
 
 ### Purpose
 District-specific crop recommendations and suitability matrix for FPOs in Anakapalli and Visakhapatnam districts.
+
+#### 📊 **DIAGRAM 32: District Crop Suitability Matrix**
+
+```mermaid
+graph TD
+    A[Anakapalli District] --> B[High Suitability]
+    A --> C[Medium Suitability]
+    A --> D[Low Suitability]
+    
+    B --> B1[Paddy<br/>All Mandals]
+    B --> B2[Dairy<br/>Sabbavaram, Kasimkota]
+    B --> B3[Sugarcane<br/>Munagapaka, K. Kotapadu]
+    
+    C --> C1[Banana<br/>Yelamanchili, Kasimkota]
+    C --> C2[Pulses<br/>Kothavalasa, Border Areas]
+    C --> C3[Millets<br/>Kothavalasa Edge]
+    
+    D --> D1[Coffee<br/>Not Suitable]
+    D --> D2[Turmeric<br/>Limited Areas]
+    
+    E[Visakhapatnam District] --> F[High Suitability]
+    E --> G[Medium Suitability]
+    E --> H[Low Suitability]
+    
+    F --> F1[Paddy<br/>Pendurthi, Anandapuram]
+    F --> F2[Dairy<br/>All Mandals]
+    F --> F3[Horticulture<br/>Pendurthi]
+    
+    G --> G1[Millets<br/>Bheemunipatnam]
+    G --> G2[Pulses<br/>Gopalapatnam]
+    
+    H --> H1[Sugarcane<br/>Limited Water]
+    
+    style B fill:#c8e6c9
+    style F fill:#c8e6c9
+    style C fill:#fff9c4
+    style G fill:#fff9c4
+    style D fill:#ffcdd2
+    style H fill:#ffcdd2
+```
+
+**Suitability Rating:**
+- **High:** Ideal conditions, high yield potential, strong market demand
+- **Medium:** Suitable with proper management, moderate yield potential
+- **Low:** Challenging conditions, requires special care or not recommended
 
 ---
 
@@ -25287,6 +27357,44 @@ INTERPRETATION:
 ---
 
 #### **6. EMI CALCULATOR - LOAN REPAYMENT TABLES**
+
+#### 📊 **DIAGRAM 20: EMI Calculation Flowchart**
+
+```mermaid
+flowchart TD
+    A[Loan Amount Needed] --> B{Loan Amount?}
+    B -->|₹5L| C[Calculate EMI<br/>₹10,379/month]
+    B -->|₹10L| D[Calculate EMI<br/>₹20,758/month]
+    B -->|₹20L| E[Calculate EMI<br/>₹41,516/month]
+    
+    C --> F[Check Revenue Capacity]
+    D --> F
+    E --> F
+    
+    F --> G{Monthly Revenue<br/>> EMI × 2?}
+    G -->|Yes| H[✅ Loan Viable]
+    G -->|No| I[❌ Reduce Loan Amount<br/>OR Increase Revenue]
+    
+    I --> B
+    H --> J[Calculate Total Interest]
+    J --> K[Calculate Total Amount]
+    K --> L[Plan Repayment Schedule]
+    L --> Complete([✅ Loan Approved])
+    
+    style A fill:#e1f5ff
+    style Complete fill:#c8e6c9
+    style G fill:#fff9c4
+    style H fill:#c8e6c9
+    style I fill:#ffcdd2
+```
+
+**EMI Formula:**
+- **EMI = [P × R × (1+R)^N] / [(1+R)^N - 1]**
+- P = Principal (Loan Amount)
+- R = Monthly Interest Rate (9% / 12 / 100 = 0.0075)
+- N = Number of Months (5 years × 12 = 60)
+
+**Safety Rule:** Monthly Revenue must be ≥ EMI × 2 (to cover EMI + operating expenses + buffer)
 
 **EMI Calculation for Common Loan Amounts (9% Interest Rate, 5-Year Tenure):**
 
