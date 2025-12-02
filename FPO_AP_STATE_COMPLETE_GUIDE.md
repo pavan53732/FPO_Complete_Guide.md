@@ -7,90 +7,93 @@
 
 ## TABLE OF CONTENTS
 
+| Section | Description | Page |
+|---------|-------------|------|
+| **REGULATORY COMPLIANCE (2025 MANDATORY)** | | |
+| **0.** | Regulatory Updates & Mandatory Compliance 2025 ⚠️ | 4 |
+| | 0.1 DPDP Act 2025 - Data Privacy (Mandatory by May 2027) | 4 |
+| | 0.2 PAN-Aadhaar Linking - Mandatory for Banking | 5 |
+| | 0.3 Women & SC/ST Board Representation - Now Mandatory | 6 |
+| | 0.4 Cybersecurity & Data Safety - Mandatory Protocols | 8 |
+| | 0.5 e-NAM Registration - Mandatory for Market Access | 9 |
+| | 0.6 ONDC Marketplace - New Opportunity | 10 |
+| | 0.7 AP State Mandatory Agricultural Compliance Guidelines | 12 |
+| **CORE SECTIONS (1-17)** | | |
+| **1.** | What is an FPO? | 15 |
+| **2.** | Why Choose Producer Company Over Section 8? | 21 |
+| **3.** | Eligibility & Minimum Requirements | 22 |
+| **4.** | Understanding "One Member Per Family" Rule | 29 |
+| **5.** | Documents Required from Each Farmer | 30 |
+| **6.** | **Farmer Proof Categories - ANDHRA PRADESH SPECIFIC** ✨ | 44 |
+| **7.** | Multi-Commodity FPO for Your Village | 83 |
+| **8.** | Step-by-Step Registration Process | 119 |
+| | 8.1 Digital Keys & e-Registration - Complete Guide | 120 |
+| | 8.1.1 DSC (Digital Signature Certificate) | 121 |
+| | 8.1.2 DIN (Director Identification Number) | 124 |
+| | 8.1.3 SPICe+ Form - Upload Checklist & Filing Process | 127 |
+| | 8.1.4 eSign/DSC Use - When to Use Which | 130 |
+| | 8.1.5 Registrar/ROC Forms - Complete List | 132 |
+| | 8.1.6 MCA Portal Steps - Complete Guide | 135 |
+| | 8.1.7 Post-Incorporation Steps - PAN, TAN, Bank Account | 140 |
+| **9.** | FPO Business Activities & Revenue | 144 |
+| **10.** | **Government Subsidies & Benefits - AP FOCUS** ✨ | 164 |
+| **10A.** | **Current Active Schemes - VERIFIED DEC 2025** ✅ | 215 |
+| **11.** | Ready-to-Use Templates (P&L, Balance Sheet, Cash Flow) | 243 |
+| **12.** | Role & Responsibilities for Each Position | 267 |
+| **13.** | Post-Registration Compliance Requirements (GST & IT) | 299 |
+| **14.** | First Board Meeting Minutes Template | 325 |
+| **15.** | Share Certificate & Register Format | 336 |
+| **16.** | Risk Management & Fraud Prevention | 352 |
+| **17.** | Internal Policies Framework | 411 |
+| **ENHANCED SECTIONS (18-39)** | | |
+| **18.** | Farmer Enrollment Policy | 439 |
+| **19.** | Bank Loan Application Checklist | 441 |
+| **20.** | Annual Compliance Calendar with MCA Form Numbers | 452 |
+| **21.** | Digital Tools & MIS System | 458 |
+| **22.** | FAQ & Troubleshooting Guide | 474 |
+| **23.** | Performance Monitoring & KPIs | 486 |
+| **24.** | Data Privacy & Compliance (DPDP Act 2025) | 494 |
+| **25.** | Sustainability & Social Impact | 507 |
+| **26.** | Fillable PDF Versions & Digital Forms | 513 |
+| **27.** | Video Tutorial Links & Learning Resources | 517 |
+| **28.** | HR & Staff Management Policies | 523 |
+| **29.** | Legal Notices & Resolution Templates | 534 |
+| **30.** | Grievance Redressal & Whistleblower Policy | 545 |
+| **31.** | Board Diversity & Women Inclusion | 547 |
+| **32.** | Cybersecurity & Data Breach Protocols | 548 |
+| **33.** | e-NAM & Digital Marketplace Onboarding | 550 |
+| **34.** | Digital KYC & Aadhaar-PAN Compliance | 552 |
+| **35.** | **Farmer Type & Farming System Models** ✨ | 555 |
+| **36.** | **Livestock & Allied Agriculture FPO** ✨ | 565 |
+| **37.** | **Crop-Specific FPO Models for Districts** ✨ | 578 |
+| **38.** | **Tribal Farmer FPO Framework** ✨ | 589 |
+| **39.** | **Rainfed Agriculture & Climate-Resilient FPO** ✨ | 598 |
+| **AP-SPECIFIC ANNEXURES** | | |
+| **ANNEX-1** | AP Land Records & MeeBhoomi Portal Guide | 607 |
+| **ANNEX-2** | AP State Nodal Agencies & Resource Institutions | 614 |
+| **QUICK REF** | K Kotapadu & Chowduwada FPO Contacts | 629 |
+| **ANNEX-3** | AP Subsidy Schemes Mapping (Central vs State) | 634 |
+| **ANNEX-4** | Share Transfer, Succession & Exit Policy | 647 |
+| **ANNEX-5** | SFAC Application Bundle (AP-Ready) | 655 |
+| **ANNEX-6** | Telugu Language Farmer Handouts | 664 |
+| **ANNEX-7** | AP Local Verification Workflow & VAO Certificate | 669 |
+| **ANNEX-8** | Sample Completed Documents | 675 |
+| **ANNEX-9** | Training Modules (8 Comprehensive Modules) | 687 |
+| **ANNEX-10** | Marketing & Branding Strategies | 702 |
+| **ANNEX-11** | DPDP Compliance Templates | 711 |
+| **ANNEX-12** | Board Diversity & Women Inclusion | 715 |
+| **ANNEX-13** | Cybersecurity & Data Security | 717 |
+| **ANNEX-14** | Penalty Matrix & Regulatory Calendar | 720 |
+| **ANNEX-15** | District-Specific Farmer Profiles ✨ | 723 |
+| **ANNEX-16** | Crop Selection Guide by District ✨ | 736 |
+| **ANNEX-17** | Livestock FPO Templates ✨ | 745 |
+| **ANNEX-18** | Tribal Farmer Resources ✨ | 757 |
+| **ANNEX-19** | District Contacts & Resources ✨ | 761 |
+| **ANNEX-20** | Customized Financial Models ✨ | 769 |
 
-### REGULATORY COMPLIANCE (2025 MANDATORY)
-**0. Regulatory Updates & Mandatory Compliance 2025 - CRITICAL NEW MANDATES** ⚠️
-- 0.1 DPDP Act 2025 - Data Privacy (Mandatory by May 2027)
-- 0.2 PAN-Aadhaar Linking - Mandatory for Banking
-- 0.3 Women & SC/ST Board Representation - Now Mandatory
-- 0.4 Cybersecurity & Data Safety - Mandatory Protocols
-- 0.5 e-NAM Registration - Mandatory for Market Access
-- 0.6 ONDC Marketplace - New Opportunity
-- 0.7 AP State Mandatory Agricultural Compliance Guidelines
+---
 
-### CORE SECTIONS (1-17)
-1. What is an FPO?
-2. Why Choose Producer Company Over Section 8?
-3. Eligibility & Minimum Requirements
-4. Understanding "One Member Per Family" Rule
-5. Documents Required from Each Farmer
-6. **Farmer Proof Categories - ANDHRA PRADESH SPECIFIC** ✨
-7. Multi-Commodity FPO for Your Village
-8. Step-by-Step Registration Process
-   - 8.1 Digital Keys & e-Registration - Complete Guide
-   - 8.1.1 DSC (Digital Signature Certificate)
-   - 8.1.2 DIN (Director Identification Number)
-   - 8.1.3 SPICe+ Form - Upload Checklist & Filing Process
-   - 8.1.4 eSign/DSC Use - When to Use Which
-   - 8.1.5 Registrar/ROC Forms - Complete List
-   - 8.1.6 MCA Portal Steps - Complete Guide
-   - 8.1.7 Post-Incorporation Steps - PAN, TAN, Bank Account
-9. FPO Business Activities & Revenue
-10. **Government Subsidies & Benefits - AP FOCUS** ✨ (with K Kotapadu & Anakapalli district-level contacts)
-11. Ready-to-Use Templates (with Complete Financial Statements: P&L, Balance Sheet, Cash Flow, Break-even, Capital requirement)
-12. Role & Responsibilities for Each Position
-13. Post-Registration Compliance Requirements (with Comprehensive GST & Income Tax Guidance)
-14. First Board Meeting Minutes Template
-15. Share Certificate & Register Format
-16. Risk Management & Fraud Prevention (with AP-Specific Disaster Management: cyclones, floods, drought, crop failure)
-17. Internal Policies Framework
-
-### ENHANCED SECTIONS (18-39)
-18. Farmer Enrollment Policy
-19. Bank Loan Application Checklist
-20. Annual Compliance Calendar with MCA Form Numbers (with 2025 compliance requirements)
-21. Digital Tools & MIS System (Including Emerging Technology + Mandatory Cybersecurity Tools)
-22. FAQ & Troubleshooting Guide
-23. Performance Monitoring & KPIs
-24. Data Privacy & Compliance (with DPDP Act 2025 Framework)
-25. Sustainability & Social Impact
-26. Fillable PDF Versions & Digital Forms
-27. Video Tutorial Links & Learning Resources
-28. HR & Staff Management Policies
-29. Legal Notices & Resolution Templates
-30. Grievance Redressal & Whistleblower Policy
-31. Board Diversity & Women Inclusion
-32. Cybersecurity & Data Breach Protocols
-33. e-NAM & Digital Marketplace Onboarding
-34. Digital KYC & Aadhaar-PAN Compliance (with Penalty Summary Table)
-35. **Farmer Type & Farming System Models** ✨ (Small/Marginal, Tribal, Landless, Integrated, Livestock-Focused)
-36. **Livestock & Allied Agriculture FPO** ✨ (Dairy, Goat/Sheep, Beekeeping, Insurance, Visakha Dairy Linkage, Heritage Foods Bayyavaram Linkage)
-37. **Crop-Specific FPO Models for Districts** ✨ (Coffee, Turmeric, Black Pepper, Mango, Pulses, Rainfed)
-38. **Tribal Farmer FPO Framework** ✨ (Eligibility, GCC Linkage, Organic Certification, Honey, Governance)
-39. **Rainfed Agriculture & Climate-Resilient FPO** ✨ (Crop Selection, Water Harvesting, Drought-Resistant Varieties, PMFBY, Climate Practices)
-
-### AP-SPECIFIC ANNEXURES
-- [**ANNEX-1:**](#annex-1) Andhra Pradesh Land Records & MeeBhoomi Portal Guide (with K Kotapadu-specific instructions)
-- [**ANNEX-2:**](#annex-2) AP State Nodal Agencies & Resource Institutions (with K Kotapadu & Chowduwada hyperlocal contacts + AP Officials Contact Table)
-- [**QUICK REFERENCE:**](#quick-reference) K Kotapadu & Chowduwada FPO Contacts (One-page quick reference card)
-- [**ANNEX-3:**](#annex-3) AP Subsidy Schemes Mapping (Central vs State)
-- [**ANNEX-4:**](#annex-4) Share Transfer, Succession & Exit Policy
-- [**ANNEX-5:**](#annex-5) SFAC Application Bundle (AP-Ready)
-- [**ANNEX-6:**](#annex-6) Telugu Language Farmer Handouts
-- [**ANNEX-7:**](#annex-7) AP Local Verification Workflow & VAO Certificate (with Chowduwada-specific workflow)
-- [**ANNEX-8:**](#annex-8) Sample Completed Documents (ROR-1B, Lease Deed, VAO Certificate, Share Certificate)
-- [**ANNEX-9:**](#annex-9) Training Modules (8 Comprehensive Modules)
-- [**ANNEX-10:**](#annex-10) Marketing & Branding Strategies
-- [**ANNEX-11:**](#annex-11) DPDP Compliance Templates (Data Collection Consent Form, Access Log, Breach Notification, Deletion Request Log, Annual Compliance Attestation)
-- [**ANNEX-12:**](#annex-12) Board Diversity & Women Inclusion (Board Diversity Commitment Form, Woman Director Job Description, SC/ST Special Scheme Information)
-- [**ANNEX-13:**](#annex-13) Cybersecurity & Data Security (Cybersecurity Policy, Staff Training Register, Incident Response Plan, Incident Log, Password Policy Checklist, Backup Verification Checklist)
-- [**ANNEX-14:**](#annex-14) Penalty Matrix & Regulatory Calendar (Complete Penalty Table, Monthly Compliance Calendar, Quarterly Review Checklist, Contact Directory for Regulatory Bodies)
-- [**ANNEX-15:**](#annex-15) District-Specific Farmer Profiles ✨ (Anakapalli Small/Marginal, Visakhapatnam Tribal, Landless, Integrated Farm Profiles)
-- [**ANNEX-16:**](#annex-16) Crop Selection Guide by District ✨ (Anakapalli & Visakhapatnam Crop Recommendations, Suitability Matrix, Seasonal Calendar)
-- [**ANNEX-17:**](#annex-17) Livestock FPO Templates ✨ (Dairy Collection Center Checklist, Goat Rearing Registration, Beekeeping Collective Formation, Livestock Insurance Application)
-- [**ANNEX-18:**](#annex-18) Tribal Farmer Resources ✨ (GCC Linkage Procedures, Organic Coffee Certification Guide, Honey Grading Standards, Tribal Area Subsidy List)
-- [**ANNEX-19:**](#annex-19) District Contacts & Resources ✨ (Anakapalli & Visakhapatnam District Offices, Banking & Credit, Dairy & Livestock, Research & Extension)
-- [**ANNEX-20:**](#annex-20) Customized Financial Models ✨ (Small Farmer FPO, Coffee FPO, Dairy Economics, Livestock Returns, Honey Income, Rainfed Farming)
+**Total Pages: 790** | **Last Updated: December 2, 2025**
 
 ---
 
