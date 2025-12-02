@@ -102,8 +102,9 @@ async def generate_pdf():
         # Generate PDF
         print("\nGenerating PDF...")
         print("  Format: A4")
-        print("  Margins: 2cm all sides")
+        print("  Margins: 2cm top/sides, 2.5cm bottom (for page numbers)")
         print("  Print background: True")
+        print("  Page numbers: Footer center")
         
         try:
             await page.pdf(
@@ -112,12 +113,21 @@ async def generate_pdf():
                 margin={
                     'top': '2cm',
                     'right': '2cm',
-                    'bottom': '2cm',
+                    'bottom': '2.5cm',
                     'left': '2cm'
                 },
                 print_background=True,
                 prefer_css_page_size=False,
-                scale=0.9  # Slightly smaller to fit content better
+                scale=0.9,  # Slightly smaller to fit content better
+                display_header_footer=True,
+                header_template='<span></span>',  # Empty header
+                footer_template='''
+                    <div style="width: 100%; font-size: 10px; text-align: center; color: #666; padding-top: 5px;">
+                        <span>FPO Complete Guide for Andhra Pradesh</span>
+                        <span style="margin-left: 20px; margin-right: 20px;">|</span>
+                        <span>Page <span class="pageNumber"></span> of <span class="totalPages"></span></span>
+                    </div>
+                '''
             )
             print("PDF generated successfully!")
         except Exception as e:
