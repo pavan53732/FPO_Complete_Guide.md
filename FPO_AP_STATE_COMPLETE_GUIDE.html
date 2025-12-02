@@ -949,23 +949,474 @@ CYBERSECURITY INCIDENT LOG 2026
 <h3 id="definition">Definition</h3>
 <p><strong>FPO = Farmer Producer Organisation</strong></p>
 
-<p>An FPO is a collective organization of farmers that works together to:</p>
-<ul>
-<li>Aggregate agricultural produce from member farmers</li>
-<li>Procure inputs (seeds, fertilizers) at better rates</li>
-<li>Process and add value to farm products</li>
-<li>Market products directly to buyers</li>
-<li>Reduce costs and increase profitability for members</li>
-</ul>
+<p>An FPO is a <strong>collective organization of farmers</strong> legally registered as a company, where farmers become shareholders and owners. It is a democratic, member-owned entity that enables small and marginal farmers to aggregate their resources, produce, and purchasing power to achieve economies of scale that would be impossible individually.</p>
 
-<h3 id="legal-structure">Legal Structure</h3>
-<p>FPOs can be registered under multiple laws:</p>
-<ul>
-<li><strong>Producer Company</strong> (Most common - RECOMMENDED)</li>
-<li>Cooperative Society</li>
-<li>Section 8 Company (Non-profit)</li>
-<li>Federation of FPOs</li>
-</ul>
+<p><strong>Simple Explanation:</strong></p>
+<blockquote><p>"Think of an FPO as a <strong>company owned by farmers, for farmers</strong>. Instead of selling your produce alone at the mercy of middlemen, you join hands with 10-500 other farmers to sell together, buy together, and profit together."</p></blockquote>
+
+<hr>
+
+<h3 id="diagram-50-what-is-an-fpo-visual-overview">📊 <strong>DIAGRAM 50: What is an FPO - Visual Overview</strong></h3>
+
+<div class="mermaid">
+flowchart TB
+    subgraph Individual["Individual Farmer (Without FPO)"]
+        A1[Small Quantity Produce] --> A2[Sells to Middleman]
+        A2 --> A3[Gets ₹15/kg]
+        A4[Buys Inputs Alone] --> A5[Pays ₹400/bag]
+        A3 --> A6[Low Profit<br/>High Risk]
+        A5 --> A6
+    end
+    
+    subgraph Collective["FPO Member (With FPO)"]
+        B1[Combined Produce<br/>100+ Farmers] --> B2[Sells Directly to Buyer]
+        B2 --> B3[Gets ₹22/kg]
+        B4[Bulk Purchase<br/>Through FPO] --> B5[Pays ₹320/bag]
+        B3 --> B6[Higher Profit<br/>Lower Risk]
+        B5 --> B6
+    end
+    
+    Individual -.->|JOIN FPO| Collective
+    
+    style A6 fill:#ffcdd2
+    style B6 fill:#c8e6c9
+</div>
+
+<hr>
+
+<h3 id="core-functions-of-an-fpo">Core Functions of an FPO</h3>
+
+<p>An FPO performs <strong>5 core functions</strong> that transform individual farmer economics:</p>
+
+<table>
+<thead><tr>
+<th>Function</th>
+<th>What FPO Does</th>
+<th>Individual Farmer Benefit</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>1. Aggregation</strong></td>
+<td>Combines produce from 100-500+ farmers</td>
+<td>Sells in bulk (better price)</td>
+</tr>
+<tr>
+<td><strong>2. Input Supply</strong></td>
+<td>Bulk purchase of seeds, fertilizers, pesticides</td>
+<td>10-20% lower input costs</td>
+</tr>
+<tr>
+<td><strong>3. Processing</strong></td>
+<td>Cleaning, grading, packaging, value addition</td>
+<td>Higher selling price</td>
+</tr>
+<tr>
+<td><strong>4. Marketing</strong></td>
+<td>Direct linkage to buyers, corporates, export</td>
+<td>Eliminates middlemen</td>
+</tr>
+<tr>
+<td><strong>5. Services</strong></td>
+<td>Custom hiring, training, credit facilitation</td>
+<td>Reduced farming costs</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h3 id="diagram-51-fpo-value-chain-flow">📊 <strong>DIAGRAM 51: FPO Value Chain Flow</strong></h3>
+
+<div class="mermaid">
+flowchart LR
+    subgraph Inputs["INPUT SUPPLY"]
+        I1[Seeds] --> I2[FPO Bulk Purchase]
+        I3[Fertilizers] --> I2
+        I4[Pesticides] --> I2
+        I2 --> I5[Members Get<br/>10-20% Discount]
+    end
+    
+    subgraph Production["PRODUCTION SUPPORT"]
+        P1[Training Programs]
+        P2[Technical Guidance]
+        P3[Custom Hiring Center]
+        P4[Soil Testing]
+    end
+    
+    subgraph Aggregation["AGGREGATION"]
+        A1[Farmer 1: 5 Quintals]
+        A2[Farmer 2: 3 Quintals]
+        A3[Farmer 100: 4 Quintals]
+        A1 --> A4[FPO Collection Center<br/>500+ Quintals Combined]
+        A2 --> A4
+        A3 --> A4
+    end
+    
+    subgraph Processing["PROCESSING"]
+        PR1[Cleaning & Sorting]
+        PR2[Grading by Quality]
+        PR3[Packaging & Branding]
+        A4 --> PR1 --> PR2 --> PR3
+    end
+    
+    subgraph Marketing["MARKETING"]
+        M1[Direct to Processors]
+        M2[Government MSP]
+        M3[Retail Chains]
+        M4[Export Markets]
+        PR3 --> M1
+        PR3 --> M2
+        PR3 --> M3
+        PR3 --> M4
+    end
+    
+    style I5 fill:#c8e6c9
+    style A4 fill:#fff9c4
+    style PR3 fill:#e1f5ff
+</div>
+
+<hr>
+
+<h3 id="real-world-success-story-ap-fpo-example">Real-World Success Story: AP FPO Example</h3>
+
+<p><strong>Case Study: Pragathi Farmers Producer Company, Anakapalli District</strong></p>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+SUCCESS STORY: BEFORE vs AFTER FPO
+═══════════════════════════════════════════════════════════════════════
+
+BEFORE FPO (Individual Farming):
+├─ Average farm size: 1.5 acres
+├─ Paddy selling price: ₹1,450/quintal (to middleman)
+├─ Input cost (seeds): ₹450/kg (retail purchase)
+├─ Annual income: ₹35,000-45,000 per farmer
+└─ Risk: HIGH (price fluctuation, no support)
+
+AFTER FPO (Collective Strength):
+├─ Combined acreage: 180 acres (120 farmers)
+├─ Paddy selling price: ₹1,850/quintal (direct to miller)
+├─ Input cost (seeds): ₹360/kg (bulk purchase 20% savings)
+├─ Annual income: ₹52,000-68,000 per farmer
+├─ Additional benefits:
+│   ├─ ₹10 lakh SFAC equity grant
+│   ├─ Custom hiring center (subsidized rates)
+│   ├─ Crop insurance facilitation
+│   └─ Bank loan at 7% (vs 12-15% individual)
+└─ Risk: LOW (collective bargaining, diversification)
+
+IMPROVEMENT:
+├─ Income increase: 40-50% higher
+├─ Cost reduction: 20% on inputs
+├─ Risk reduction: Insurance + collective support
+└─ Access to government schemes: ₹15-20 lakh in subsidies
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="key-benefits-of-fpo-membership">Key Benefits of FPO Membership</h3>
+
+<h4 id="diagram-52-fpo-benefits-wheel">📊 <strong>DIAGRAM 52: FPO Benefits Wheel</strong></h4>
+
+<div class="mermaid">
+mindmap
+  root((FPO<br/>Benefits))
+    Economic Benefits
+      Better Prices
+      Lower Input Costs
+      Profit Sharing
+      Access to Credit
+    Market Access
+      Direct Buyer Linkage
+      Export Opportunities
+      e-NAM Platform
+      Retail Chain Access
+    Support Services
+      Training Programs
+      Technical Guidance
+      Custom Hiring
+      Insurance Facilitation
+    Government Benefits
+      SFAC ₹10 Lakh Grant
+      NABARD Subsidies
+      RKVY Schemes
+      MSP Procurement
+    Risk Reduction
+      Price Stability
+      Collective Insurance
+      Diversified Income
+      Emergency Support
+</div>
+
+<p><strong>Detailed Benefit Analysis:</strong></p>
+
+<table>
+<thead><tr>
+<th>Benefit Category</th>
+<th>Without FPO</th>
+<th>With FPO</th>
+<th>Improvement</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Selling Price</strong></td>
+<td>₹15-18/kg</td>
+<td>₹20-25/kg</td>
+<td>+30-40%</td>
+</tr>
+<tr>
+<td><strong>Input Cost</strong></td>
+<td>₹400/bag</td>
+<td>₹320-340/bag</td>
+<td>-15-20%</td>
+</tr>
+<tr>
+<td><strong>Bank Interest</strong></td>
+<td>12-15%</td>
+<td>7-9%</td>
+<td>-4-6%</td>
+</tr>
+<tr>
+<td><strong>Market Access</strong></td>
+<td>Local mandi only</td>
+<td>Direct buyers, e-NAM, export</td>
+<td>Multiple channels</td>
+</tr>
+<tr>
+<td><strong>Government Schemes</strong></td>
+<td>Individual application (difficult)</td>
+<td>FPO-facilitated (easy)</td>
+<td>Higher success rate</td>
+</tr>
+<tr>
+<td><strong>Training</strong></td>
+<td>Self-funded, rare</td>
+<td>Regular, free through FPO</td>
+<td>Continuous learning</td>
+</tr>
+<tr>
+<td><strong>Insurance</strong></td>
+<td>Complex, individual</td>
+<td>Group insurance, easier claims</td>
+<td>Better coverage</td>
+</tr>
+<tr>
+<td><strong>Storage</strong></td>
+<td>None (distress sale)</td>
+<td>FPO warehouse</td>
+<td>Can wait for better price</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h3 id="who-should-consider-joining-an-fpo">Who Should Consider Joining an FPO?</h3>
+
+<p><strong>Ideal FPO Member Profile:</strong></p>
+
+<pre><code>✅ BEST SUITED FOR FPO:
+├─ Small farmers (&lt; 2 hectares)
+├─ Marginal farmers (&lt; 1 hectare)
+├─ Tenant farmers (with lease agreements)
+├─ Dairy farmers (any scale)
+├─ Farmers growing same crop/commodity
+├─ Farmers in same geographic area
+├─ Farmers wanting to reduce middlemen
+└─ Farmers seeking government scheme benefits
+
+⚠️ MAY NOT BENEFIT FROM FPO:
+├─ Large farmers (&gt; 10 hectares) - already have bargaining power
+├─ Farmers with established direct buyer relationships
+├─ Farmers in very remote areas (logistics challenge)
+└─ Farmers not willing to participate actively
+
+❌ CANNOT JOIN FPO:
+├─ Non-farmers (traders, middlemen without farming)
+├─ People with conflicting business interests
+├─ Convicted criminals (moral turpitude)
+├─ Discharged insolvents
+└─ Minors (&lt; 18 years)</code></pre>
+
+<hr>
+
+<h3 id="legal-structure-options">Legal Structure Options</h3>
+
+<p>FPOs can be registered under multiple legal frameworks, but <strong>Producer Company</strong> is the most recommended:</p>
+
+<h4 id="diagram-53-legal-structure-comparison">📊 <strong>DIAGRAM 53: Legal Structure Comparison</strong></h4>
+
+<div class="mermaid">
+flowchart TD
+    A[FPO Legal Structure Options] --> B[Producer Company<br/>Part IXA - Companies Act 2013]
+    A --> C[Cooperative Society<br/>State Cooperative Acts]
+    A --> D[Section 8 Company<br/>Companies Act - Non-profit]
+    A --> E[Federation of FPOs<br/>Multiple FPOs Combined]
+    
+    B --> B1[✅ RECOMMENDED<br/>Best for farmers]
+    C --> C1[⚠️ State-specific<br/>Political interference]
+    D --> D1[❌ No profit sharing<br/>Limited for farmers]
+    E --> E1[⚠️ Advanced stage<br/>For mature FPOs]
+    
+    B1 --> F[Benefits:<br/>• Profit sharing allowed<br/>• All subsidies eligible<br/>• Bank loan easy<br/>• Democratic governance<br/>• Limited liability]
+    
+    style B fill:#c8e6c9
+    style B1 fill:#4caf50
+    style F fill:#e8f5e9
+    style D1 fill:#ffcdd2
+</div>
+
+<p><strong>Quick Comparison:</strong></p>
+
+<table>
+<thead><tr>
+<th>Feature</th>
+<th>Producer Company</th>
+<th>Cooperative</th>
+<th>Section 8</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Profit Distribution</strong></td>
+<td>✅ YES (dividends)</td>
+<td>✅ YES (limited)</td>
+<td>❌ NO</td>
+</tr>
+<tr>
+<td><strong>SFAC/NABARD Eligible</strong></td>
+<td>✅ YES (all schemes)</td>
+<td>⚠️ Some schemes</td>
+<td>❌ Limited</td>
+</tr>
+<tr>
+<td><strong>Political Interference</strong></td>
+<td>❌ None</td>
+<td>⚠️ High</td>
+<td>❌ None</td>
+</tr>
+<tr>
+<td><strong>Formation Complexity</strong></td>
+<td>Medium</td>
+<td>Simple</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td><strong>Member Liability</strong></td>
+<td>Limited</td>
+<td>Unlimited</td>
+<td>Limited</td>
+</tr>
+<tr>
+<td><strong>Governance</strong></td>
+<td>Democratic</td>
+<td>Democratic</td>
+<td>Board-driven</td>
+</tr>
+<tr>
+<td><strong>Recommended For</strong></td>
+<td><strong>ALL FPOs</strong></td>
+<td>Traditional coops</td>
+<td>NGOs, CSR</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h3 id="fpo-vs-individual-farmer-economic-comparison">FPO vs Individual Farmer: Economic Comparison</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+ANNUAL INCOME COMPARISON: Individual vs FPO Member
+═══════════════════════════════════════════════════════════════════════
+
+INDIVIDUAL FARMER (1.5 Acres Paddy):
+├─ Production: 20 quintals/year
+├─ Selling price: ₹1,450/quintal (middleman)
+├─ Gross income: ₹29,000
+├─ Input cost: ₹12,000 (retail rates)
+├─ Labor/other: ₹8,000
+├─ NET INCOME: ₹9,000
+└─ Monthly income: ₹750 😢
+
+FPO MEMBER (Same 1.5 Acres):
+├─ Production: 20 quintals/year
+├─ Selling price: ₹1,850/quintal (direct buyer)
+├─ Gross income: ₹37,000
+├─ Input cost: ₹9,600 (20% FPO discount)
+├─ Labor/other: ₹7,500 (custom hiring savings)
+├─ NET INCOME: ₹19,900
+├─ PLUS: Dividend from FPO profit: ₹1,500-3,000
+├─ PLUS: Training/schemes value: ₹2,000-5,000
+├─ TOTAL BENEFIT: ₹23,400-27,900
+└─ Monthly income: ₹1,950-2,325 😊
+
+IMPROVEMENT: 160-210% increase in net income!
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="common-misconceptions-about-fpos">Common Misconceptions About FPOs</h3>
+
+<table>
+<thead><tr>
+<th>Misconception</th>
+<th>Reality</th>
+</tr></thead><tbody>
+<tr>
+<td>"FPO is only for big farmers"</td>
+<td>❌ FPO is BEST for small/marginal farmers (< 2 hectares)</td>
+</tr>
+<tr>
+<td>"FPO takes away my land"</td>
+<td>❌ You keep 100% ownership of your land and produce</td>
+</tr>
+<tr>
+<td>"FPO is government-controlled"</td>
+<td>❌ FPO is farmer-owned and farmer-controlled</td>
+</tr>
+<tr>
+<td>"Only landowners can join"</td>
+<td>❌ Tenant farmers, dairy farmers, beekeepers can join</td>
+</tr>
+<tr>
+<td>"FPO membership is expensive"</td>
+<td>❌ Share capital is typically ₹100-1,000 only</td>
+</tr>
+<tr>
+<td>"I'll lose my independence"</td>
+<td>❌ You can sell produce independently if needed</td>
+</tr>
+<tr>
+<td>"FPO profits go to directors"</td>
+<td>❌ Profits distributed to ALL members as dividends</td>
+</tr>
+<tr>
+<td>"FPO is complicated to join"</td>
+<td>❌ Just submit basic documents and pay share capital</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h3 id="summary-why-every-small-farmer-should-consider-fpo">Summary: Why Every Small Farmer Should Consider FPO</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+FPO = YOUR STRENGTH IN NUMBERS
+═══════════════════════════════════════════════════════════════════════
+
+10 REASONS TO JOIN AN FPO:
+
+1️⃣  Better prices (30-40% more than middleman)
+2️⃣  Lower input costs (15-20% savings on bulk purchase)
+3️⃣  Direct market access (no middlemen)
+4️⃣  Government subsidies (₹10-30 lakh available)
+5️⃣  Bank loans at lower interest (7-9% vs 12-15%)
+6️⃣  Training and technical support (free)
+7️⃣  Custom hiring services (subsidized equipment)
+8️⃣  Crop insurance facilitation (easier claims)
+9️⃣  Dividend from FPO profits (annual bonus)
+🔟  Voice in decision-making (one member = one vote)
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
 
 <hr>
 
@@ -1026,61 +1477,574 @@ CYBERSECURITY INCIDENT LOG 2026
 
 <h2 id="3-eligibility-minimum-requirements">3. ELIGIBILITY & MINIMUM REQUIREMENTS</h2>
 
+<h3 id="diagram-54-fpo-eligibility-decision-tree">📊 <strong>DIAGRAM 54: FPO Eligibility Decision Tree</strong></h3>
+
+<div class="mermaid">
+flowchart TD
+    A[Want to Join/Form FPO?] --> B{Are you a farmer?}
+    B -->|Yes| C{What type of farming?}
+    B -->|No| D[❌ NOT ELIGIBLE<br/>Must be involved in agriculture]
+    
+    C -->|Landowner| E[✅ ELIGIBLE<br/>Provide ROR-1B/Land Records]
+    C -->|Tenant Farmer| F{Have Lease Agreement?}
+    C -->|Dairy Farmer| G[✅ ELIGIBLE<br/>Provide Livestock Proof]
+    C -->|Fishery/Beekeeping| H[✅ ELIGIBLE<br/>Provide Activity Proof]
+    C -->|Landless Laborer| I{Allied Agriculture Work?}
+    
+    F -->|Yes| J[✅ ELIGIBLE<br/>Provide Lease Deed]
+    F -->|No| K[⚠️ Get Lease Agreement First]
+    
+    I -->|Yes| L[✅ ELIGIBLE<br/>Provide Work Certificate]
+    I -->|No| M[❌ NOT ELIGIBLE<br/>Must have farming activity]
+    
+    E --> N{Different Family<br/>from Other Members?}
+    J --> N
+    G --> N
+    H --> N
+    L --> N
+    
+    N -->|Yes| O{Age 18+?}
+    N -->|No| P[❌ NOT ELIGIBLE<br/>Only 1 member per ration card]
+    
+    O -->|Yes| Q{No Criminal Record?}
+    O -->|No| R[❌ NOT ELIGIBLE<br/>Must be adult]
+    
+    Q -->|Yes| S{Not Insolvent?}
+    Q -->|No| T[❌ NOT ELIGIBLE<br/>Criminal conviction bars membership]
+    
+    S -->|Yes| U[✅ FULLY ELIGIBLE<br/>Submit Documents]
+    S -->|No| V[❌ NOT ELIGIBLE<br/>Discharged insolvents barred]
+    
+    style D fill:#ffcdd2
+    style M fill:#ffcdd2
+    style P fill:#ffcdd2
+    style R fill:#ffcdd2
+    style T fill:#ffcdd2
+    style V fill:#ffcdd2
+    style E fill:#c8e6c9
+    style J fill:#c8e6c9
+    style G fill:#c8e6c9
+    style H fill:#c8e6c9
+    style L fill:#c8e6c9
+    style U fill:#4caf50
+</div>
+
+<hr>
+
 <h3 id="basic-requirements-for-fpo-formation">Basic Requirements for FPO Formation</h3>
 
 <table>
 <thead><tr>
 <th>Requirement</th>
 <th>Details</th>
+<th>AP-Specific Notes</th>
 </tr></thead><tbody>
 <tr>
 <td><strong>Minimum Members</strong></td>
 <td>10 farmers (from 10 DIFFERENT families)</td>
+<td>Same ration card = same family</td>
 </tr>
 <tr>
 <td><strong>Minimum Directors</strong></td>
 <td>5 (selected from members)</td>
+<td>At least 1 woman director mandatory (2025)</td>
 </tr>
 <tr>
 <td><strong>Maximum Directors</strong></td>
 <td>15</td>
+<td>SC/ST representation encouraged</td>
 </tr>
 <tr>
 <td><strong>Share Capital</strong></td>
 <td>₹100 to ₹1,000 per member (minimum)</td>
+<td>₹500 recommended for subsidy eligibility</td>
 </tr>
 <tr>
 <td><strong>Geographic Area</strong></td>
-<td>Should be from same village/mandal/district</td>
+<td>Same village/mandal/district</td>
+<td>K Kotapadu, Anakapalli recommended together</td>
 </tr>
 <tr>
 <td><strong>Common Interest</strong></td>
-<td>Same farming activity or related activities</td>
+<td>Same farming activity or related</td>
+<td>Multi-commodity allowed</td>
+</tr>
+<tr>
+<td><strong>Age Requirement</strong></td>
+<td>18 years minimum, no upper limit</td>
+<td>Active farming capability required</td>
+</tr>
+<tr>
+<td><strong>Legal Status</strong></td>
+<td>Sound mind, not insolvent</td>
+<td>No moral turpitude conviction</td>
 </tr>
 </tbody>
 </table>
 
-<h3 id="who-can-join-an-fpo">Who Can Join an FPO?</h3>
+<hr>
 
-<p>✅ <strong>Eligible Members:</strong></p>
-<ul>
-<li>Active farmers with landholdings</li>
-<li>Tenant farmers with lease agreements</li>
-<li>Dairy farmers (even without land)</li>
-<li>Fishery farmers</li>
-<li>Beekeepers</li>
-<li>Plantation farmers</li>
-<li>Allied agricultural activity workers</li>
-</ul>
+<h3 id="detailed-eligibility-criteria-by-farmer-type">Detailed Eligibility Criteria by Farmer Type</h3>
 
-<p>❌ <strong>NOT Eligible:</strong></p>
-<ul>
-<li>Non-farmers/Urban residents</li>
-<li>Traders/Middlemen (unless they're farmers)</li>
-<li>People with conflicting/competitive business</li>
-<li>Discharged insolvents</li>
-<li>Convicted criminals (with moral turpitude)</li>
-</ul>
+<h4 id="diagram-55-farmer-eligibility-by-type">📊 <strong>DIAGRAM 55: Farmer Eligibility by Type</strong></h4>
+
+<div class="mermaid">
+graph TB
+    subgraph Landowner["TYPE 1: LANDOWNER FARMER"]
+        L1[Owns agricultural land]
+        L2[Land in own name in MeeBhoomi]
+        L3[No mortgage/lien blocking]
+        L1 --> L4[Documents: ROR-1B, Pattadar Passbook]
+        L2 --> L4
+        L3 --> L4
+        L4 --> L5[✅ ELIGIBLE]
+    end
+    
+    subgraph Tenant["TYPE 2: TENANT FARMER"]
+        T1[Cultivates leased land]
+        T2[Lease agreement 3+ years]
+        T3[Landlord consent obtained]
+        T1 --> T4[Documents: Lease Deed, Landlord NOC]
+        T2 --> T4
+        T3 --> T4
+        T4 --> T5[✅ ELIGIBLE]
+    end
+    
+    subgraph Dairy["TYPE 3: DAIRY FARMER"]
+        D1[Owns cattle/buffalo]
+        D2[Supplies milk regularly]
+        D3[No land required]
+        D1 --> D4[Documents: Livestock Passport, Milk Receipts]
+        D2 --> D4
+        D3 --> D4
+        D4 --> D5[✅ ELIGIBLE]
+    end
+    
+    subgraph Allied["TYPE 4: ALLIED AGRICULTURE"]
+        A1[Fishery farming]
+        A2[Beekeeping]
+        A3[Goat/Sheep rearing]
+        A4[Poultry farming]
+        A1 --> A5[Documents: Activity Registration, Sales Proof]
+        A2 --> A5
+        A3 --> A5
+        A4 --> A5
+        A5 --> A6[✅ ELIGIBLE]
+    end
+    
+    subgraph Tribal["TYPE 5: TRIBAL FARMER (SPECIAL)"]
+        TR1[ITDA area farmer]
+        TR2[ST Certificate holder]
+        TR3[Any size landholding]
+        TR1 --> TR4[Documents: ST Certificate, Land/GCC Card]
+        TR2 --> TR4
+        TR3 --> TR4
+        TR4 --> TR5[✅ ELIGIBLE + Special Benefits]
+    end
+    
+    style L5 fill:#c8e6c9
+    style T5 fill:#c8e6c9
+    style D5 fill:#c8e6c9
+    style A6 fill:#c8e6c9
+    style TR5 fill:#4caf50
+</div>
+
+<hr>
+
+<h3 id="who-can-join-an-fpo-comprehensive-list">Who Can Join an FPO? (Comprehensive List)</h3>
+
+<h4 id="eligible-members-can-join">✅ <strong>ELIGIBLE Members (Can Join):</strong></h4>
+
+<table>
+<thead><tr>
+<th>Category</th>
+<th>Eligibility Criteria</th>
+<th>Required Proof</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Landowner Farmer</strong></td>
+<td>Owns agricultural land in revenue records</td>
+<td>ROR-1B, MeeBhoomi printout</td>
+</tr>
+<tr>
+<td><strong>Tenant Farmer</strong></td>
+<td>Cultivates land on lease (min 3 years)</td>
+<td>Notarized lease deed</td>
+</tr>
+<tr>
+<td><strong>Dairy Farmer</strong></td>
+<td>Owns cattle/buffalo, supplies milk</td>
+<td>Livestock passport, milk receipts</td>
+</tr>
+<tr>
+<td><strong>Fishery Farmer</strong></td>
+<td>Engaged in fish farming</td>
+<td>Fishery registration, pond lease</td>
+</tr>
+<tr>
+<td><strong>Beekeeper</strong></td>
+<td>Engaged in honey production</td>
+<td>Beekeeping registration</td>
+</tr>
+<tr>
+<td><strong>Goat/Sheep Rearer</strong></td>
+<td>Owns livestock for rearing</td>
+<td>Livestock registration</td>
+</tr>
+<tr>
+<td><strong>Poultry Farmer</strong></td>
+<td>Engaged in poultry farming</td>
+<td>Poultry farm registration</td>
+</tr>
+<tr>
+<td><strong>Plantation Farmer</strong></td>
+<td>Coffee, rubber, tea, coconut farming</td>
+<td>Plantation records</td>
+</tr>
+<tr>
+<td><strong>Horticulture Farmer</strong></td>
+<td>Fruit/vegetable cultivation</td>
+<td>Cultivation proof</td>
+</tr>
+<tr>
+<td><strong>Sericulture Farmer</strong></td>
+<td>Silk worm rearing</td>
+<td>Sericulture registration</td>
+</tr>
+<tr>
+<td><strong>Women Farmer</strong></td>
+<td>Any farming activity</td>
+<td>Same as above + woman ID</td>
+</tr>
+<tr>
+<td><strong>Tribal Farmer</strong></td>
+<td>Any farming activity in ITDA areas</td>
+<td>ST certificate + farming proof</td>
+</tr>
+<tr>
+<td><strong>SC/ST Farmer</strong></td>
+<td>Any farming activity</td>
+<td>Caste certificate + farming proof</td>
+</tr>
+<tr>
+<td><strong>Joint Farmer</strong></td>
+<td>Part of joint family farm</td>
+<td>Family declaration + individual ID</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h4 id="not-eligible-cannot-join">❌ <strong>NOT Eligible (Cannot Join):</strong></h4>
+
+<table>
+<thead><tr>
+<th>Category</th>
+<th>Reason for Ineligibility</th>
+<th>Exception</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Non-farmers</strong></td>
+<td>No agricultural activity</td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Urban residents</strong></td>
+<td>Not engaged in farming</td>
+<td>Unless they own farmland</td>
+</tr>
+<tr>
+<td><strong>Traders/Middlemen</strong></td>
+<td>Conflicting business interest</td>
+<td>Unless they are also farmers</td>
+</tr>
+<tr>
+<td><strong>Commission agents</strong></td>
+<td>Conflicting business interest</td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Input dealers</strong></td>
+<td>May have conflict of interest</td>
+<td>Unless farmer-owned shop</td>
+</tr>
+<tr>
+<td><strong>Minors (< 18 years)</strong></td>
+<td>Legal incapacity</td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Convicted criminals</strong></td>
+<td>Moral turpitude conviction</td>
+<td>After sentence completion (case-by-case)</td>
+</tr>
+<tr>
+<td><strong>Discharged insolvents</strong></td>
+<td>Financial liability risk</td>
+<td>After discharge certificate</td>
+</tr>
+<tr>
+<td><strong>Mentally unsound</strong></td>
+<td>Legal incapacity</td>
+<td>With guardian representation</td>
+</tr>
+<tr>
+<td><strong>Same ration card family</strong></td>
+<td>One member per family rule</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h3 id="special-categories-priority-groups">Special Categories & Priority Groups</h3>
+
+<h4 id="1-women-farmers-priority"><strong>1. Women Farmers (Priority)</strong></h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+WOMEN FARMER SPECIAL PROVISIONS
+═══════════════════════════════════════════════════════════════════════
+
+ELIGIBILITY:
+├─ Same as other farmers
+├─ Land can be in husband&#x27;s name (with NOC)
+├─ Dairy/poultry in own name preferred
+└─ SHG members eligible with farming activity
+
+MANDATORY REPRESENTATION (2025):
+├─ At least 1 woman director on board (NEW RULE)
+├─ Strongly encouraged: 30% women membership
+└─ Special schemes for women-led FPOs
+
+ADDITIONAL BENEFITS:
+├─ Higher subsidy rates (10-15% extra)
+├─ Priority in SFAC selection
+├─ SHG-FPO linkage schemes
+├─ Training priority
+└─ Leadership development programs
+
+DOCUMENTS REQUIRED:
+├─ All standard documents
+├─ Marriage certificate (if land in spouse name)
+├─ SHG membership proof (if applicable)
+└─ Women farmer registration (if available)
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h4 id="2-tribal-farmers-itda-areas"><strong>2. Tribal Farmers (ITDA Areas)</strong></h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+TRIBAL FARMER SPECIAL PROVISIONS
+═══════════════════════════════════════════════════════════════════════
+
+ELIGIBILITY:
+├─ ST certificate holder
+├─ Farming in ITDA (Integrated Tribal Development Agency) areas
+├─ Any size landholding (even 0.5 acres)
+├─ GCC (Girijan Cooperative Corporation) card holders
+└─ Forest rights certificate holders
+
+AP TRIBAL AREAS COVERED:
+├─ Visakhapatnam Agency areas
+├─ Paderu, Araku, G.K. Veedhi, Munchingput
+├─ Parts of Anakapalli district (border tribal areas)
+└─ Any area notified under ST schedule
+
+ADDITIONAL BENEFITS:
+├─ 100% subsidy on some schemes (vs 50% for others)
+├─ GCC linkage for marketing (coffee, honey, turmeric)
+├─ ITDA support for FPO formation
+├─ Priority in organic certification
+├─ Special training programs
+└─ TRIFED linkage for forest produce
+
+DOCUMENTS REQUIRED:
+├─ ST Certificate (Caste Certificate)
+├─ ITDA identity card (if available)
+├─ GCC membership card (if available)
+├─ Land document OR forest rights certificate
+└─ Standard identity proofs
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h4 id="3-sc-scheduled-caste-farmers"><strong>3. SC (Scheduled Caste) Farmers</strong></h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+SC FARMER SPECIAL PROVISIONS
+═══════════════════════════════════════════════════════════════════════
+
+ELIGIBILITY:
+├─ SC certificate holder
+├─ Engaged in farming activity (any type)
+├─ Land size no barrier (even small holdings)
+└─ Tenant farming acceptable
+
+ADDITIONAL BENEFITS:
+├─ Higher subsidy rates (additional 10-20%)
+├─ Priority in scheme selection
+├─ SCSP (Scheduled Caste Sub Plan) funding
+├─ Special skill development programs
+└─ Preferential credit from banks
+
+DOCUMENTS REQUIRED:
+├─ SC Certificate (Caste Certificate)
+├─ Standard farming proof
+├─ Standard identity proofs
+└─ Bank account details
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="common-eligibility-mistakes-to-avoid">Common Eligibility Mistakes to Avoid</h3>
+
+<h4 id="diagram-56-eligibility-red-flags">📊 <strong>DIAGRAM 56: Eligibility Red Flags</strong></h4>
+
+<div class="mermaid">
+flowchart TD
+    A[Common Eligibility Mistakes] --> B[Mistake 1: Same Family]
+    A --> C[Mistake 2: No Farming Proof]
+    A --> D[Mistake 3: Document Mismatch]
+    A --> E[Mistake 4: Conflict of Interest]
+    A --> F[Mistake 5: Age/Legal Issues]
+    
+    B --> B1[❌ Husband + Wife both members<br/>from same ration card]
+    B --> B2[❌ Father + Son from same<br/>ration card]
+    B --> B3[✅ FIX: Only 1 member per<br/>ration card]
+    
+    C --> C1[❌ No land records AND<br/>no dairy/allied proof]
+    C --> C2[❌ Urban resident claiming<br/>farmer status]
+    C --> C3[✅ FIX: Get proper farming<br/>documentation first]
+    
+    D --> D1[❌ Name spelling different<br/>in Aadhaar vs Land records]
+    D --> D2[❌ Address mismatch between<br/>documents]
+    D --> D3[✅ FIX: Correct documents<br/>before applying]
+    
+    E --> E1[❌ Input dealer wanting to<br/>join for business]
+    E --> E2[❌ Commission agent joining<br/>to control pricing]
+    E --> E3[✅ FIX: Declare conflict,<br/>board decides eligibility]
+    
+    F --> F1[❌ Below 18 years applying]
+    F --> F2[❌ Criminal conviction<br/>not disclosed]
+    F --> F3[✅ FIX: Wait for eligibility<br/>or disclose honestly]
+    
+    style B1 fill:#ffcdd2
+    style B2 fill:#ffcdd2
+    style C1 fill:#ffcdd2
+    style C2 fill:#ffcdd2
+    style D1 fill:#ffcdd2
+    style D2 fill:#ffcdd2
+    style E1 fill:#ffcdd2
+    style E2 fill:#ffcdd2
+    style F1 fill:#ffcdd2
+    style F2 fill:#ffcdd2
+    style B3 fill:#c8e6c9
+    style C3 fill:#c8e6c9
+    style D3 fill:#c8e6c9
+    style E3 fill:#c8e6c9
+    style F3 fill:#c8e6c9
+</div>
+
+<hr>
+
+<h3 id="eligibility-verification-process">Eligibility Verification Process</h3>
+
+<p><strong>Step-by-Step Verification:</strong></p>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+FPO ELIGIBILITY VERIFICATION CHECKLIST
+═══════════════════════════════════════════════════════════════════════
+
+STEP 1: BASIC IDENTITY CHECK
+☐ Aadhaar card (name matches all documents?)
+☐ Age 18+ years verified
+☐ Address matches farming location
+☐ No criminal record declaration
+
+STEP 2: FAMILY CHECK (ONE PER FAMILY RULE)
+☐ Ration card obtained
+☐ No other family member already in FPO from same ration card
+☐ If joint family, only one representative selected
+☐ Declaration signed by applicant
+
+STEP 3: FARMING ACTIVITY CHECK
+☐ Land records (if landowner)
+   - MeeBhoomi ROR-1B obtained
+   - Name matches Aadhaar
+   - No mortgage/lien blocking
+☐ Lease deed (if tenant)
+   - Minimum 3 years lease period
+   - Landlord signature verified
+   - Notarized (recommended)
+☐ Livestock proof (if dairy farmer)
+   - Livestock passport OR
+   - Milk receipts (6+ months)
+   - Veterinary certificate
+☐ Allied agriculture proof (if applicable)
+   - Activity registration
+   - Sales/income proof
+
+STEP 4: SPECIAL CATEGORY CHECK
+☐ Women farmer: Additional woman declaration
+☐ Tribal farmer: ST certificate verified
+☐ SC farmer: SC certificate verified
+☐ PWD farmer: Disability certificate if claiming benefits
+
+STEP 5: FINAL APPROVAL
+☐ All documents complete
+☐ Field verification done (site visit)
+☐ CEO/Secretary approval
+☐ Board resolution for admission
+
+RESULT: ☐ APPROVED / ☐ CONDITIONAL / ☐ REJECTED
+If Conditional, missing items: ___________________
+Deadline to complete: ___________________
+
+Verified by: ___________________ Date: ___________
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="summary-eligibility-quick-reference">Summary: Eligibility Quick Reference</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+QUICK ELIGIBILITY REFERENCE CARD
+═══════════════════════════════════════════════════════════════════════
+
+CAN JOIN FPO:
+✅ Landowner farmer (any size)
+✅ Tenant farmer (3+ year lease)
+✅ Dairy farmer (with livestock)
+✅ Fishery/beekeeping farmer
+✅ Women farmers (priority)
+✅ Tribal farmers (special benefits)
+✅ SC/ST farmers (special benefits)
+✅ Joint family (1 representative)
+
+CANNOT JOIN FPO:
+❌ Non-farmers
+❌ Traders without farming
+❌ Commission agents
+❌ Same ration card family members (beyond 1)
+❌ Minors (&lt; 18 years)
+❌ Convicted criminals
+❌ Discharged insolvents
+
+MANDATORY REQUIREMENTS:
+📋 Aadhaar card
+📋 Ration card (different from other members)
+📋 Farming proof (land/lease/livestock)
+📋 Bank account
+📋 Share capital payment (₹100-1,000)
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
 
 <hr>
 
@@ -1185,91 +2149,735 @@ CYBERSECURITY INCIDENT LOG 2026
 
 <p><em>(Consolidated: This section is also covered in Section 8 (FPO Registration & Documents Checklist); repeated here for training and reference.)</em></p>
 
-<h3 id="mandatory-documents-must-have">MANDATORY Documents (Must Have)</h3>
+<hr>
+
+<h3 id="diagram-57-document-collection-verification-flow">📊 <strong>DIAGRAM 57: Document Collection & Verification Flow</strong></h3>
+
+<div class="mermaid">
+flowchart TD
+    A[Member Wants to Join FPO] --> B[Step 1: Collect Identity Documents]
+    
+    B --> C[Aadhaar Card<br/>Original + 2 Copies]
+    B --> D[PAN Card<br/>1 Copy]
+    B --> E[Ration Card<br/>Original + 1 Copy]
+    
+    C --> F[Step 2: Verify Identity]
+    D --> F
+    E --> F
+    
+    F --> G{All Names Match?}
+    G -->|No| H[Get Correction/Affidavit]
+    H --> F
+    G -->|Yes| I[Step 3: Collect Farmer Proof]
+    
+    I --> J{Farmer Type?}
+    J -->|Landowner| K[MeeBhoomi ROR-1B]
+    J -->|Tenant| L[Lease Deed 3+ years]
+    J -->|Dairy| M[Livestock + Milk Proof]
+    J -->|Allied| N[Activity Registration]
+    
+    K --> O[Step 4: Verify Farmer Proof]
+    L --> O
+    M --> O
+    N --> O
+    
+    O --> P{Farmer Proof Valid?}
+    P -->|No| Q[Request Updated Document]
+    Q --> I
+    P -->|Yes| R[Step 5: Additional Documents]
+    
+    R --> S[Passport Photos 2-3]
+    R --> T[Bank Passbook Copy]
+    R --> U[DPDP Consent Form]
+    R --> V[Mobile Number]
+    
+    S --> W[Step 6: Final Verification]
+    T --> W
+    U --> W
+    V --> W
+    
+    W --> X{All Documents Complete?}
+    X -->|No| Y[Request Missing Documents<br/>7-Day Deadline]
+    Y --> B
+    X -->|Yes| Z[Step 7: CEO/Secretary Approval]
+    Z --> AA[✅ Member Enrolled]
+    
+    style A fill:#e1f5ff
+    style AA fill:#4caf50
+    style H fill:#fff9c4
+    style Q fill:#fff9c4
+    style Y fill:#ffcdd2
+</div>
+
+<hr>
+
+<h3 id="document-categories-overview">Document Categories Overview</h3>
+
+<h4 id="diagram-58-document-categories-matrix">📊 <strong>DIAGRAM 58: Document Categories Matrix</strong></h4>
+
+<div class="mermaid">
+graph TB
+    subgraph Identity["CATEGORY 1: IDENTITY DOCUMENTS"]
+        I1[Aadhaar Card<br/>MANDATORY]
+        I2[PAN Card<br/>MANDATORY]
+        I3[Voter ID<br/>OPTIONAL]
+    end
+    
+    subgraph Address["CATEGORY 2: ADDRESS PROOF"]
+        A1[Ration Card<br/>MANDATORY - Also proves family]
+        A2[Electricity Bill<br/>ALTERNATIVE]
+        A3[Voter ID<br/>ALTERNATIVE]
+    end
+    
+    subgraph Farmer["CATEGORY 3: FARMER PROOF"]
+        F1[MeeBhoomi ROR-1B<br/>For Landowners]
+        F2[Lease Deed<br/>For Tenants]
+        F3[Livestock Passport<br/>For Dairy Farmers]
+        F4[Activity Registration<br/>For Allied Agriculture]
+    end
+    
+    subgraph Financial["CATEGORY 4: FINANCIAL DOCUMENTS"]
+        FN1[Bank Passbook<br/>MANDATORY]
+        FN2[Share Capital Receipt<br/>After Enrollment]
+    end
+    
+    subgraph Compliance["CATEGORY 5: COMPLIANCE (2025)"]
+        C1[DPDP Consent Form<br/>NEW MANDATORY]
+        C2[PAN-Aadhaar Linking<br/>MANDATORY]
+        C3[Mobile Number<br/>For Digital KYC]
+    end
+    
+    subgraph Special["CATEGORY 6: SPECIAL CATEGORIES"]
+        S1[Caste Certificate<br/>For SC/ST Benefits]
+        S2[ST Certificate<br/>For Tribal Benefits]
+        S3[Woman Declaration<br/>For Women Priority]
+    end
+    
+    style I1 fill:#ffcdd2
+    style I2 fill:#ffcdd2
+    style A1 fill:#ffcdd2
+    style FN1 fill:#ffcdd2
+    style C1 fill:#ffcdd2
+    style C2 fill:#ffcdd2
+</div>
+
+<hr>
+
+<h3 id="mandatory-documents-must-have-for-all-members">MANDATORY Documents (Must Have for ALL Members)</h3>
 
 <table>
 <thead><tr>
+<th>#</th>
 <th>Document</th>
 <th>Purpose</th>
-<th>Notes</th>
+<th>Format Required</th>
+<th>Where to Get</th>
+<th>Cost</th>
+<th>Critical Notes</th>
 </tr></thead><tbody>
 <tr>
+<td>1</td>
 <td><strong>Aadhaar Card</strong></td>
-<td>Identity verification</td>
-<td>[CRITICAL: Must match FPO PAN-Aadhaar linking - verify government portal] Original + Photocopy</td>
+<td>Primary identity</td>
+<td>Original + 2 Photocopies (Color)</td>
+<td>UIDAI/CSC Center</td>
+<td>FREE</td>
+<td>Must match PAN name exactly</td>
 </tr>
 <tr>
+<td>2</td>
 <td><strong>PAN Card</strong></td>
-<td>Income tax identification</td>
-<td>[CRITICAL: Must be linked to Aadhaar by Jan 31, 2026] Photocopy acceptable</td>
+<td>Tax identification</td>
+<td>1 Photocopy</td>
+<td>Income Tax website</td>
+<td>₹107 online</td>
+<td>MUST be linked to Aadhaar by Jan 31, 2026</td>
 </tr>
 <tr>
-<td><strong>Voter ID / Ration Card / Electricity Bill</strong></td>
-<td>Address proof</td>
-<td>Any one of these</td>
+<td>3</td>
+<td><strong>Ration Card</strong></td>
+<td>Family/address proof</td>
+<td>Original + 1 Photocopy</td>
+<td>Mee Seva/Civil Supplies</td>
+<td>FREE</td>
+<td>Only 1 member per ration card in FPO</td>
 </tr>
 <tr>
-<td><strong>Passport-size Photo</strong></td>
-<td>FPO records, membership card</td>
-<td>4x6 cm, colored, white background</td>
+<td>4</td>
+<td><strong>Passport Photo</strong></td>
+<td>ID card & records</td>
+<td>4-6 copies (4x6 cm, colored, white background)</td>
+<td>Photo studio</td>
+<td>₹30-50</td>
+<td>Recent (within 6 months)</td>
 </tr>
 <tr>
+<td>5</td>
 <td><strong>Farmer Proof</strong></td>
 <td>Prove farming status</td>
-<td>See Section 6 for details</td>
+<td>See Section 6 detailed types</td>
+<td>Varies by type</td>
+<td>Varies</td>
+<td>Most critical document</td>
 </tr>
 <tr>
-<td><strong>Bank Account Details</strong></td>
-<td>Salary/dividend transfer</td>
-<td>Passbook with IFSC code, verify active</td>
+<td>6</td>
+<td><strong>Bank Passbook</strong></td>
+<td>Payment transfer</td>
+<td>First page photocopy showing Name, Account, IFSC</td>
+<td>Bank branch</td>
+<td>FREE</td>
+<td>Active account required</td>
 </tr>
 <tr>
-<td><strong>Digital KYC</strong></td>
-<td>NEW MANDATORY</td>
-<td>Via Digilocker or government portal</td>
-</tr>
-<tr>
-<td><strong>Data Privacy Consent</strong></td>
-<td>NEW MANDATORY</td>
-<td>DPDP consent form signature (see ANNEX-11)</td>
-</tr>
-<tr>
+<td>7</td>
 <td><strong>Mobile Number</strong></td>
-<td>NEW MANDATORY</td>
-<td>For digital communication</td>
+<td>Digital communication</td>
+<td>Linked to Aadhaar for OTP</td>
+<td>Telecom provider</td>
+<td>-</td>
+<td>Required for digital KYC</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>DPDP Consent Form</strong></td>
+<td>Data privacy compliance</td>
+<td>Signed original form</td>
+<td>FPO provides</td>
+<td>FREE</td>
+<td>NEW MANDATORY 2025</td>
 </tr>
 </tbody>
 </table>
 
-<h3 id="optional-documents-recommended">OPTIONAL Documents (Recommended)</h3>
+<hr>
 
-<ul>
-<li>Bank passbook (first page)</li>
-<li>Mobile number (for contact)</li>
-<li>Caste certificate (if applying for SC/ST schemes)</li>
-<li>Land measurement document (if available)</li>
-</ul>
+<h3 id="document-collection-by-farmer-type">Document Collection by Farmer Type</h3>
 
-<h3 id="document-checklist-format">Document Checklist Format</h3>
+<h4 id="type-a-landowner-farmer"><strong>TYPE A: LANDOWNER FARMER</strong></h4>
 
-<pre><code>Farmer Name: _______________________
-Ration Card No: ___________________
-Mobile No: __________________________
+<pre><code>═══════════════════════════════════════════════════════════════════════
+LANDOWNER FARMER - COMPLETE DOCUMENT LIST
+═══════════════════════════════════════════════════════════════════════
 
-MANDATORY DOCUMENTS:
-☐ Aadhaar Card (Copy)
-☐ PAN Card (Copy)
-☐ Address Proof: [ ] Voter ID [ ] Ration Card [ ] Electricity Bill
-☐ Passport Photo (4x6 cm, colored) - Quantity: 2
-☐ Farmer Proof Document (See Section 6)
-☐ Bank Passbook (First page with name &amp; account)
+IDENTITY DOCUMENTS:
+☐ Aadhaar Card (Original + 2 Copies)
+   - Name must match land records exactly
+   - Address should be farming village
+☐ PAN Card (1 Copy)
+   - Must be linked to Aadhaar
+☐ Ration Card (Original + 1 Copy)
+   - Proves family status
+   - Only 1 member per ration card
 
-OPTIONAL DOCUMENTS:
-☐ Caste Certificate (if SC/ST)
-☐ Mobile Number: _______________
+FARMER PROOF (Primary - Choose One):
+☐ MeeBhoomi ROR-1B (PREFERRED)
+   - Downloaded fresh (within 6 months)
+   - Name matches Aadhaar
+   - No mortgage/lien shown
+   - MRO certified copy (optional but recommended)
+☐ Pattadar Passbook (Alternative)
+   - If MeeBhoomi not available
+   - Should be cross-verified with MeeBhoomi
+☐ E-Passbook (Digital Alternative)
+   - Downloaded from MeeBhoomi portal
+   - Contains verification code
 
-Collected on: ________________
-Verified by: _________________</code></pre>
+ADDITIONAL DOCUMENTS:
+☐ Passport Photos (4-6 copies)
+☐ Bank Passbook (First page copy)
+☐ DPDP Consent Form (Signed)
+
+OPTIONAL BUT RECOMMENDED:
+☐ Voter ID (Backup address proof)
+☐ Electricity Bill (Current address proof)
+☐ Land measurement document (Exact area proof)
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h4 id="type-b-tenant-farmer"><strong>TYPE B: TENANT FARMER</strong></h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+TENANT FARMER - COMPLETE DOCUMENT LIST
+═══════════════════════════════════════════════════════════════════════
+
+IDENTITY DOCUMENTS:
+☐ Aadhaar Card (Original + 2 Copies)
+☐ PAN Card (1 Copy)
+☐ Ration Card (Original + 1 Copy)
+
+FARMER PROOF (ALL Required):
+☐ Lease Deed (Primary Document)
+   - Minimum 3 years lease period
+   - Start date and end date clearly mentioned
+   - Signed by landlord + tenant
+   - Two witnesses signed
+   - Survey number mentioned
+   - Notarized (STRONGLY RECOMMENDED)
+
+☐ Landlord Documents:
+   - Landlord Aadhaar Copy
+   - Landlord ROR-1B (Shows ownership)
+   - Landlord signature verified
+
+☐ MRO Lease Certificate (Optional but Recommended)
+   - Official confirmation from MRO
+   - Adds credibility to lease
+
+ADDITIONAL DOCUMENTS:
+☐ Passport Photos (4-6 copies)
+☐ Bank Passbook (First page copy)
+☐ DPDP Consent Form (Signed)
+
+CRITICAL CHECKLIST FOR LEASE DEED:
+☐ Lease period ≥ 3 years?
+☐ End date at least 2 years from now?
+☐ Landlord signature genuine?
+☐ Survey number matches MeeBhoomi?
+☐ Two witnesses present?
+☐ Notary stamp (recommended)?
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h4 id="type-c-dairy-farmer"><strong>TYPE C: DAIRY FARMER</strong></h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+DAIRY FARMER - COMPLETE DOCUMENT LIST
+═══════════════════════════════════════════════════════════════════════
+
+IDENTITY DOCUMENTS:
+☐ Aadhaar Card (Original + 2 Copies)
+☐ PAN Card (1 Copy)
+☐ Ration Card (Original + 1 Copy)
+
+FARMER PROOF (Choose Combination):
+
+OPTION 1: Livestock Passport (Best)
+☐ Livestock Passport from Veterinary Department
+   - Animal breed, age, health status
+   - Owner name matches Aadhaar
+   - Recent (within 6 months)
+
+OPTION 2: Milk Supply Agreement
+☐ Milk Supply Agreement with Dairy
+   - Dairy name and registration number
+   - Farmer name matches Aadhaar
+   - Milk quantity (average liters/day)
+   - Duration of supply (minimum 6 months)
+   - Dairy seal and signature
+
+OPTION 3: Milk Receipts + Bank Statement
+☐ Milk Receipts (Last 6 months)
+   - Shows regular milk supply
+   - Name matches member application
+☐ Bank Statement showing milk payments
+   - Deposits from dairy/cooperative
+
+SUPPORTING DOCUMENTS:
+☐ Veterinary Treatment Records (Last 6-12 months)
+   - Shows active animal husbandry
+☐ Animal Ear Tag Number (if available)
+
+ADDITIONAL DOCUMENTS:
+☐ Passport Photos (4-6 copies)
+☐ Bank Passbook (First page copy)
+☐ DPDP Consent Form (Signed)
+
+NOTE: Dairy farmers DO NOT need land documents if they have valid livestock proof.
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h4 id="type-d-allied-agriculture-farmer"><strong>TYPE D: ALLIED AGRICULTURE FARMER</strong></h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+ALLIED AGRICULTURE FARMER - DOCUMENT LIST BY ACTIVITY
+═══════════════════════════════════════════════════════════════════════
+
+COMMON DOCUMENTS (All Types):
+☐ Aadhaar Card (Original + 2 Copies)
+☐ PAN Card (1 Copy)
+☐ Ration Card (Original + 1 Copy)
+☐ Passport Photos (4-6 copies)
+☐ Bank Passbook (First page copy)
+☐ DPDP Consent Form (Signed)
+
+ACTIVITY-SPECIFIC DOCUMENTS:
+
+FISHERY FARMING:
+☐ Fishery License/Registration
+☐ Pond Lease Agreement (if leased)
+☐ Fish sales receipts (last 6 months)
+☐ Fisheries Department registration
+
+BEEKEEPING:
+☐ Beekeeping Registration (KVIC/Dept)
+☐ Number of hives declaration
+☐ Honey sales receipts (if available)
+☐ Training certificate (if available)
+
+GOAT/SHEEP REARING:
+☐ Livestock Registration
+☐ Animal count declaration
+☐ Sales receipts (last 6 months)
+☐ Veterinary records
+
+POULTRY FARMING:
+☐ Poultry Farm Registration
+☐ Bird count declaration
+☐ Sales receipts (eggs/birds)
+☐ Animal Husbandry certification
+
+SERICULTURE:
+☐ Sericulture Registration
+☐ Mulberry plantation proof
+☐ Cocoon sales receipts
+☐ Sericulture Department certification
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h4 id="type-e-special-category-farmers"><strong>TYPE E: SPECIAL CATEGORY FARMERS</strong></h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+SPECIAL CATEGORY FARMERS - ADDITIONAL DOCUMENTS
+═══════════════════════════════════════════════════════════════════════
+
+WOMEN FARMERS (In addition to farming proof):
+☐ All standard documents as per farmer type
+☐ Women farmer declaration (self-attestation)
+☐ SHG membership proof (if applicable)
+☐ Marriage certificate (if land in spouse name)
+☐ Spouse NOC (if land in spouse name)
+
+TRIBAL FARMERS (ITDA Areas):
+☐ All standard documents as per farmer type
+☐ ST Certificate (Caste Certificate) - MANDATORY
+☐ ITDA Identity Card (if available)
+☐ GCC Membership Card (if available)
+☐ Forest Rights Certificate (if applicable)
+☐ Tribal area residence proof
+
+SC FARMERS:
+☐ All standard documents as per farmer type
+☐ SC Certificate (Caste Certificate) - MANDATORY
+☐ For SCSP scheme benefits
+
+PWD (PERSONS WITH DISABILITIES):
+☐ All standard documents as per farmer type
+☐ Disability Certificate (40%+ disability)
+☐ Issued by District Medical Board
+☐ For special scheme benefits
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="document-verification-standards">Document Verification Standards</h3>
+
+<h4 id="diagram-59-document-quality-checklist">📊 <strong>DIAGRAM 59: Document Quality Checklist</strong></h4>
+
+<div class="mermaid">
+flowchart TD
+    A[Document Received] --> B{Quality Check}
+    
+    B --> C[Check 1: Readability]
+    C --> C1{Text Clear?}
+    C1 -->|No| C2[Request Fresh Copy]
+    C1 -->|Yes| D[Check 2: Completeness]
+    
+    D --> D1{All Pages Present?}
+    D1 -->|No| D2[Request Missing Pages]
+    D1 -->|Yes| E[Check 3: Authenticity]
+    
+    E --> E1{Stamps/Signatures Valid?}
+    E1 -->|No| E2[Request Verified Copy]
+    E1 -->|Yes| F[Check 4: Currency]
+    
+    F --> F1{Recent Enough?}
+    F1 -->|No| F2[Request Updated Document]
+    F1 -->|Yes| G[Check 5: Name Matching]
+    
+    G --> G1{Name Matches Aadhaar?}
+    G1 -->|No| G2[Request Correction/Affidavit]
+    G1 -->|Yes| H[✅ Document Accepted]
+    
+    C2 --> A
+    D2 --> A
+    E2 --> A
+    F2 --> A
+    G2 --> A
+    
+    style A fill:#e1f5ff
+    style H fill:#c8e6c9
+    style C2 fill:#ffcdd2
+    style D2 fill:#ffcdd2
+    style E2 fill:#ffcdd2
+    style F2 fill:#ffcdd2
+    style G2 fill:#ffcdd2
+</div>
+
+<hr>
+
+<h3 id="document-quality-requirements">Document Quality Requirements</h3>
+
+<table>
+<thead><tr>
+<th>Document</th>
+<th>Validity Period</th>
+<th>Name Matching</th>
+<th>Certification Required</th>
+<th>AP-Specific Notes</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Aadhaar Card</strong></td>
+<td>Lifetime (verify address current)</td>
+<td>Must match PAN exactly</td>
+<td>Self-attested</td>
+<td>Download fresh from UIDAI if address changed</td>
+</tr>
+<tr>
+<td><strong>PAN Card</strong></td>
+<td>Lifetime</td>
+<td>Must match Aadhaar exactly</td>
+<td>Self-attested</td>
+<td>Must be linked to Aadhaar</td>
+</tr>
+<tr>
+<td><strong>Ration Card</strong></td>
+<td>Active (check with Civil Supplies)</td>
+<td>Must match Aadhaar</td>
+<td>Original required</td>
+<td>One per family verification</td>
+</tr>
+<tr>
+<td><strong>MeeBhoomi ROR-1B</strong></td>
+<td>Fresh (< 6 months preferred)</td>
+<td>Must match Aadhaar</td>
+<td>MRO certified recommended</td>
+<td>Download with verification code</td>
+</tr>
+<tr>
+<td><strong>Lease Deed</strong></td>
+<td>Must have 2+ years remaining</td>
+<td>Both parties match Aadhaar</td>
+<td>Notarized recommended</td>
+<td>Minimum 3 years total period</td>
+</tr>
+<tr>
+<td><strong>Livestock Passport</strong></td>
+<td>Fresh (< 6 months)</td>
+<td>Must match Aadhaar</td>
+<td>Veterinary Department stamp</td>
+<td>From registered vet clinic</td>
+</tr>
+<tr>
+<td><strong>Milk Receipts</strong></td>
+<td>Last 6 months</td>
+<td>Must match application name</td>
+<td>Dairy stamp/signature</td>
+<td>Multiple receipts strengthen proof</td>
+</tr>
+<tr>
+<td><strong>Bank Passbook</strong></td>
+<td>Active account</td>
+<td>Must match Aadhaar</td>
+<td>Bank stamp on copy</td>
+<td>IFSC code visible</td>
+</tr>
+<tr>
+<td><strong>Caste Certificate</strong></td>
+<td>Valid (check expiry)</td>
+<td>Must match Aadhaar</td>
+<td>Tahsildar/MRO issued</td>
+<td>For SC/ST benefits</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h3 id="common-document-rejection-reasons-solutions">Common Document Rejection Reasons & Solutions</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+TOP 15 DOCUMENT REJECTION REASONS - HOW TO FIX
+═══════════════════════════════════════════════════════════════════════
+
+IDENTITY DOCUMENT ISSUES:
+
+1. ❌ Aadhaar name spelled differently than PAN
+   ✅ FIX: Get either Aadhaar or PAN corrected to match
+   ⏱️ TIME: 15-30 days for correction
+
+2. ❌ Aadhaar address showing different village
+   ✅ FIX: Update Aadhaar address OR get residence certificate
+   ⏱️ TIME: 7-15 days for update
+
+3. ❌ PAN not linked to Aadhaar
+   ✅ FIX: Link at www.incometax.gov.in immediately
+   ⏱️ TIME: 24-48 hours
+   ⚠️ CRITICAL: Deadline Jan 31, 2026, else PAN becomes inoperative
+
+4. ❌ Ration card showing different family head
+   ✅ FIX: Either update ration card OR get family declaration
+   ⏱️ TIME: 15-30 days
+
+FARMER PROOF ISSUES:
+
+5. ❌ MeeBhoomi name doesn&#x27;t match Aadhaar exactly
+   ✅ FIX: Get affidavit declaring same person OR name correction
+   ⏱️ TIME: Affidavit: 1 day, Correction: 15-30 days
+
+6. ❌ MeeBhoomi shows mortgage/lien on land
+   ✅ FIX: Get NOC from bank/lender OR clear the lien
+   ⏱️ TIME: NOC: 7-15 days, Lien clearance: 30-60 days
+
+7. ❌ MeeBhoomi printout older than 2 years
+   ✅ FIX: Download fresh printout from portal
+   ⏱️ TIME: 10 minutes (online)
+
+8. ❌ Lease deed less than 3 years duration
+   ✅ FIX: Get new lease deed with 3+ years duration
+   ⏱️ TIME: 1-3 days (with landlord cooperation)
+
+9. ❌ Lease deed not notarized (bank/SFAC rejection)
+   ✅ FIX: Get lease deed notarized
+   ⏱️ TIME: 1 day, ₹100-200 cost
+
+10. ❌ Multiple owners but only one signed lease
+    ✅ FIX: Get all owners to sign OR get NOC from others
+    ⏱️ TIME: 1-7 days
+
+11. ❌ Livestock proof older than 6 months
+    ✅ FIX: Get fresh veterinary certificate
+    ⏱️ TIME: 1-3 days
+
+12. ❌ Milk receipts not in member&#x27;s name
+    ✅ FIX: Get dairy to issue receipts in correct name
+    ⏱️ TIME: 7-15 days
+
+FINANCIAL/COMPLIANCE ISSUES:
+
+13. ❌ Bank account inactive/dormant
+    ✅ FIX: Activate account with small transaction
+    ⏱️ TIME: 1-2 days
+
+14. ❌ DPDP consent form not signed
+    ✅ FIX: Get member to sign consent form
+    ⏱️ TIME: Same day
+
+15. ❌ Mobile number not linked to Aadhaar
+    ✅ FIX: Update mobile in Aadhaar at CSC center
+    ⏱️ TIME: 2-7 days
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="master-document-checklist-print-this">Master Document Checklist (Print This!)</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+FPO MEMBER DOCUMENT COLLECTION - MASTER CHECKLIST
+═══════════════════════════════════════════════════════════════════════
+
+Member Name: _________________________________
+Ration Card No: _______________________________
+Contact Number: _______________________________
+Farmer Type: ☐ Landowner ☐ Tenant ☐ Dairy ☐ Allied: ________
+Date: _________________________________________
+
+PART A: IDENTITY DOCUMENTS (All Members)
+┌────────────────────────────────────────────────────────────────────┐
+│ ☐ Aadhaar Card - Original verified, 2 copies attached            │
+│   Name as per Aadhaar: ____________________________________       │
+│   Aadhaar Number: ____________________________________            │
+│                                                                    │
+│ ☐ PAN Card - 1 copy attached                                     │
+│   PAN Number: ____________________________________                │
+│   Aadhaar-PAN linked? ☐ Yes ☐ No (CRITICAL!)                     │
+│                                                                    │
+│ ☐ Ration Card - Original verified, 1 copy attached               │
+│   Ration Card Number: ____________________________________        │
+│   Other FPO members from same card? ☐ No ☐ Yes (REJECT!)         │
+│                                                                    │
+│ ☐ Passport Photos - _____ copies (4x6 cm, colored)               │
+└────────────────────────────────────────────────────────────────────┘
+
+PART B: FARMER PROOF (Based on Type)
+┌────────────────────────────────────────────────────────────────────┐
+│ FOR LANDOWNER:                                                     │
+│ ☐ MeeBhoomi ROR-1B                                                │
+│   Survey Number: ____________________________________             │
+│   Area: __________ acres                                          │
+│   Download Date: _____________ (&lt; 6 months? ☐ Yes ☐ No)          │
+│   Mortgage/Lien: ☐ NIL (OK) ☐ Yes (ISSUE!)                       │
+│   MRO Certified: ☐ Yes ☐ No                                       │
+│                                                                    │
+│ FOR TENANT:                                                        │
+│ ☐ Lease Deed                                                      │
+│   Lease Period: _____ years (≥ 3? ☐ Yes ☐ No)                    │
+│   End Date: _______________ (2+ years remaining? ☐ Yes ☐ No)     │
+│   Notarized: ☐ Yes ☐ No                                           │
+│   Landlord Documents: ☐ Aadhaar ☐ ROR-1B                          │
+│                                                                    │
+│ FOR DAIRY:                                                         │
+│ ☐ Livestock Passport/Registration                                 │
+│   Animals: ☐ Cow (___) ☐ Buffalo (___) ☐ Mixed                   │
+│   Date: _______________ (&lt; 6 months? ☐ Yes ☐ No)                 │
+│ ☐ Milk Receipts (6+ months): ☐ Yes ☐ No                          │
+│   Dairy Name: ____________________________________                │
+│   Avg Quantity: ________ liters/day                               │
+│                                                                    │
+│ FOR ALLIED:                                                        │
+│ ☐ Activity Registration                                           │
+│   Activity Type: ____________________________________             │
+│   Registration Number: ____________________________________       │
+└────────────────────────────────────────────────────────────────────┘
+
+PART C: FINANCIAL &amp; COMPLIANCE
+┌────────────────────────────────────────────────────────────────────┐
+│ ☐ Bank Passbook (First page copy)                                 │
+│   Bank Name: ____________________________________                  │
+│   Account Number: ____________________________________            │
+│   IFSC Code: ____________________________________                  │
+│   Account Active: ☐ Yes ☐ No                                      │
+│                                                                    │
+│ ☐ DPDP Consent Form - Signed ☐ Yes ☐ No                          │
+│                                                                    │
+│ ☐ Mobile Number (Aadhaar-linked): ____________________________   │
+└────────────────────────────────────────────────────────────────────┘
+
+PART D: SPECIAL CATEGORY (If Applicable)
+┌────────────────────────────────────────────────────────────────────┐
+│ ☐ Woman Farmer: Declaration attached                              │
+│ ☐ Tribal (ST): ST Certificate attached                            │
+│ ☐ SC: SC Certificate attached                                     │
+│ ☐ PWD: Disability Certificate attached                            │
+└────────────────────────────────────────────────────────────────────┘
+
+VERIFICATION:
+┌────────────────────────────────────────────────────────────────────┐
+│ All documents complete: ☐ Yes ☐ No (Missing: _________________)  │
+│ All names matching: ☐ Yes ☐ No (Mismatch in: _________________)  │
+│ Field verification done: ☐ Yes ☐ No                               │
+│                                                                    │
+│ DECISION: ☐ APPROVED ☐ CONDITIONAL ☐ REJECTED                     │
+│                                                                    │
+│ If Conditional, pending: ____________________________________     │
+│ Deadline: ____________________________________                     │
+│                                                                    │
+│ Collected by: ______________________ Date: __________________     │
+│ Verified by: _______________________ Date: __________________     │
+│ Approved by: _______________________ Date: __________________     │
+└────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
 
 <hr>
 
@@ -3090,6 +4698,805 @@ FARMER PROOF DOCUMENTS - TELUGU GUIDE
       [ Consumer Market | Export Port ]</code></pre>
 
 <h2 id="7-multi-commodity-fpo-for-your-village">7. MULTI-COMMODITY FPO FOR YOUR VILLAGE</h2>
+
+<hr>
+
+<h3 id="diagram-60-multi-commodity-fpo-decision-framework">📊 <strong>DIAGRAM 60: Multi-Commodity FPO Decision Framework</strong></h3>
+
+<div class="mermaid">
+flowchart TD
+    A[Start: Village Resource Assessment] --> B{Primary Resource<br/>Available?}
+    
+    B -->|Land-Based| C[Crop Agriculture]
+    B -->|Livestock| D[Animal Husbandry]
+    B -->|Water Bodies| E[Aquaculture]
+    B -->|Forest/Hills| F[Agro-Forestry]
+    
+    C --> C1{Irrigation?}
+    C1 -->|Canal/Dam| C2[Paddy + Sugarcane<br/>+ Banana]
+    C1 -->|Borewell| C3[Paddy + Pulses<br/>+ Vegetables]
+    C1 -->|Rainfed| C4[Millets + Pulses<br/>+ Oilseeds]
+    
+    D --> D1{Animal Type?}
+    D1 -->|Cattle/Buffalo| D2[Dairy FPO]
+    D1 -->|Goat/Sheep| D3[Meat + Wool FPO]
+    D1 -->|Poultry| D4[Eggs + Meat FPO]
+    
+    E --> E1[Fish + Prawns<br/>FPO]
+    
+    F --> F1{Area Type?}
+    F1 -->|Coffee Belt| F2[Coffee + Pepper<br/>+ Honey]
+    F1 -->|Tribal Hills| F3[Millets + Turmeric<br/>+ NTFP]
+    
+    C2 --> G{Combine with<br/>Allied Activity?}
+    C3 --> G
+    C4 --> G
+    D2 --> G
+    D3 --> G
+    D4 --> G
+    E1 --> G
+    F2 --> G
+    F3 --> G
+    
+    G -->|Yes| H[MULTI-COMMODITY FPO<br/>Recommended]
+    G -->|No| I[SINGLE-COMMODITY FPO]
+    
+    H --> J[Add Custom Hiring<br/>+ Input Supply]
+    I --> J
+    
+    J --> K[✅ FPO Model Selected]
+    
+    style A fill:#e1f5ff
+    style K fill:#4caf50
+    style H fill:#c8e6c9
+</div>
+
+<hr>
+
+<h3 id="comprehensive-commodity-selection-matrix">Comprehensive Commodity Selection Matrix</h3>
+
+<h4 id="diagram-61-ap-commodity-profitability-matrix">📊 <strong>DIAGRAM 61: AP Commodity Profitability Matrix</strong></h4>
+
+<div class="mermaid">
+quadrantChart
+    title Commodity Selection Matrix: Risk vs Profitability
+    x-axis Low Profitability --> High Profitability
+    y-axis Low Risk --> High Risk
+    quadrant-1 High Risk, High Profit - Evaluate Carefully
+    quadrant-2 Low Risk, High Profit - BEST CHOICE
+    quadrant-3 Low Risk, Low Profit - Stable Income
+    quadrant-4 High Risk, Low Profit - AVOID
+    
+    Dairy: [0.75, 0.25]
+    Paddy-MSP: [0.55, 0.20]
+    Sugarcane: [0.60, 0.30]
+    Coffee: [0.85, 0.45]
+    Turmeric: [0.80, 0.55]
+    Banana: [0.65, 0.50]
+    Millets: [0.45, 0.15]
+    Vegetables: [0.70, 0.65]
+    Poultry: [0.60, 0.40]
+    Fishery: [0.75, 0.50]
+</div>
+
+<hr>
+
+<h3 id="master-commodity-analysis-table">Master Commodity Analysis Table</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+COMPLETE COMMODITY ANALYSIS FOR ANDHRA PRADESH FPOs - ANAKAPALLI &amp; VISAKHAPATNAM FOCUS
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+COMMODITY: DAIRY (MILK)
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Category: Livestock | Risk Level: LOW | Profit Potential: HIGH | Year-Round: YES
+
+Investment Required:
+├─ Minimum: ₹3-5 lakh (Basic Collection Center)
+├─ Medium: ₹8-12 lakh (Chilling Unit + Testing)
+└─ Advanced: ₹20-30 lakh (Processing + Packaging)
+
+Expected Returns (100 members, 500L/day):
+├─ Collection: ₹35-40/liter
+├─ Sale Price: ₹45-55/liter
+├─ Margin: ₹10-15/liter
+├─ Daily Revenue: ₹5,000-7,500
+├─ Monthly Revenue: ₹1.5-2.25 lakh
+└─ Annual Revenue: ₹18-27 lakh
+
+Market Linkages (Anakapalli/Visakhapatnam):
+├─ Heritage Foods Bayyavaram (Primary - ~30km)
+├─ Visakha Dairy (Alternative - ~45km)
+├─ Local sweet shops
+└─ Direct-to-consumer
+
+Key Success Factors:
+├─ Morning + Evening collection (2x/day)
+├─ FAT/SNF testing at collection point
+├─ Chilling within 2 hours of collection
+├─ Regular payment to farmers (weekly/bi-weekly)
+└─ Veterinary support for animals
+
+Seasonal Pattern: ★★★★★ (Excellent year-round)
+Jan-Mar: Peak production (Flush season)
+Apr-Jun: Moderate production (Summer stress)
+Jul-Sep: Good production (Green fodder available)
+Oct-Dec: Peak production (Festival demand)
+
+Best Combined With: Paddy (fodder), Sugarcane (bagasse feed), Custom Hiring
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+COMMODITY: PADDY (RICE)
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Category: Crop | Risk Level: LOW | Profit Potential: MEDIUM | Year-Round: NO (Seasonal)
+
+Investment Required:
+├─ Minimum: ₹2-3 lakh (Aggregation + Basic Storage)
+├─ Medium: ₹8-12 lakh (Warehouse + Grading)
+└─ Advanced: ₹25-40 lakh (Rice Mill Partnership)
+
+Expected Returns (100 members, 2000 quintal/season):
+├─ Procurement: ₹2,200-2,400/quintal
+├─ MSP Sale: ₹2,500-2,700/quintal (Kharif 2025-26: ₹2,575)
+├─ Margin: ₹200-300/quintal
+├─ Per Season Revenue: ₹4-6 lakh (margin)
+└─ Annual Revenue (2 seasons): ₹8-12 lakh (margin)
+
+Market Linkages:
+├─ Government MSP Centers (Primary)
+├─ Rice Millers (Direct - better rates)
+├─ e-NAM Platform
+└─ Export (quality dependent)
+
+Key Success Factors:
+├─ Quality control at aggregation
+├─ Proper drying (moisture &lt;14%)
+├─ Clean storage (pest-free)
+├─ Timely payment to farmers
+└─ MSP documentation compliance
+
+Seasonal Pattern:
+Kharif (Jun-Nov): ★★★★★ Primary Season
+Rabi (Dec-Apr): ★★★★☆ Secondary Season (where irrigation available)
+
+Value Addition Options:
+├─ Milling partnership (10-15% extra margin)
+├─ Branded rice packaging (20-30% extra)
+├─ Rice bran oil linkage
+└─ Organic certification premium (15-25%)
+
+Best Combined With: Dairy, Sugarcane, Custom Hiring
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+COMMODITY: SUGARCANE
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Category: Crop | Risk Level: LOW-MEDIUM | Profit Potential: MEDIUM-HIGH | Year-Round: NO (Crushing Season)
+
+Investment Required:
+├─ Minimum: ₹1-2 lakh (Aggregation only)
+├─ Medium: ₹10-15 lakh (Transport + Jaggery Unit)
+└─ Advanced: ₹50-80 lakh (Own Jaggery Processing)
+
+Expected Returns (100 members, 5000 tonnes/season):
+├─ Sugar Factory Rate: ₹350-400/quintal
+├─ Jaggery Conversion: ₹450-550/quintal (equivalent)
+├─ Per Season Revenue: ₹1.75-2.0 Cr (gross)
+├─ FPO Margin: ₹5-10/quintal on aggregation
+└─ Annual Margin Revenue: ₹2.5-5 lakh
+
+Market Linkages:
+├─ Anakapalli Sugar Factory (Primary)
+├─ Visakhapatnam Sugar Mills
+├─ Local jaggery traders
+└─ Organic jaggery market (premium)
+
+Key Success Factors:
+├─ Timely harvesting coordination
+├─ Transport arrangement to factory
+├─ Quality monitoring (brix level)
+├─ Factory payment follow-up
+└─ Jaggery processing (if own unit)
+
+Seasonal Pattern:
+Nov-Apr: ★★★★★ Crushing Season
+May-Oct: ★★☆☆☆ Off-season (ratoon management)
+
+Value Addition Options:
+├─ Jaggery production (40-50% extra value)
+├─ Organic jaggery (25-30% premium)
+├─ Powder jaggery (20-25% premium)
+└─ Direct-to-consumer sales
+
+Best Combined With: Dairy, Paddy, Input Supply
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+COMMODITY: COFFEE (Visakhapatnam Tribal Areas)
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Category: Plantation | Risk Level: MEDIUM | Profit Potential: HIGH | Year-Round: NO (Harvest Season)
+
+Investment Required:
+├─ Minimum: ₹3-5 lakh (Collection + Basic Processing)
+├─ Medium: ₹15-25 lakh (Pulping + Drying)
+└─ Advanced: ₹50-80 lakh (Complete Processing)
+
+Expected Returns (100 members, 500 quintal/season):
+├─ Cherry Price: ₹60-80/kg
+├─ Parchment Price: ₹400-500/kg
+├─ Roasted Coffee: ₹800-1200/kg
+├─ Per Season Revenue: ₹30-40 lakh (parchment)
+└─ FPO Margin: ₹15-20/kg cherry aggregation
+
+Market Linkages:
+├─ Girijan Cooperative Corporation (GCC) - Primary
+├─ Coffee Board auctions
+├─ Direct export buyers
+└─ Specialty coffee market (premium)
+
+Key Success Factors:
+├─ Quality control at cherry collection
+├─ Proper pulping within 24 hours
+├─ Sun drying to correct moisture
+├─ Storage in jute bags
+└─ Traceability documentation
+
+Seasonal Pattern:
+Nov-Feb: ★★★★★ Harvest Season
+Mar-Oct: ★★☆☆☆ Maintenance Season
+
+Value Addition Options:
+├─ Pulping + Parchment (3x value)
+├─ Roasting + Packaging (8-10x value)
+├─ Specialty/Single Origin (Premium)
+└─ Coffee tourism linkage
+
+Best Combined With: Black Pepper, Turmeric, Honey (same ecology)
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+COMMODITY: TURMERIC
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Category: Spice | Risk Level: MEDIUM | Profit Potential: HIGH | Year-Round: NO (Harvest Season)
+
+Investment Required:
+├─ Minimum: ₹2-3 lakh (Collection + Drying)
+├─ Medium: ₹10-15 lakh (Polishing + Grading)
+└─ Advanced: ₹30-50 lakh (Powder Processing)
+
+Expected Returns (100 members, 300 quintal/season):
+├─ Raw Turmeric: ₹80-100/kg
+├─ Dried Turmeric: ₹150-200/kg
+├─ Powder: ₹250-350/kg
+├─ Per Season Revenue: ₹45-60 lakh (dried)
+└─ FPO Margin: ₹10-15/kg on aggregation
+
+Market Linkages:
+├─ GCC (Girijan Cooperative)
+├─ Spice traders
+├─ Export buyers (curcumin content)
+└─ Direct-to-consumer (online)
+
+Key Success Factors:
+├─ Variety selection (high curcumin)
+├─ Proper curing/boiling
+├─ Sun drying to 8-10% moisture
+├─ Quality grading
+└─ Curcumin testing certification
+
+Seasonal Pattern:
+Jan-Mar: ★★★★★ Harvest Season
+Apr-Dec: ★★☆☆☆ Growing Season
+
+Value Addition Options:
+├─ Dried + Polished (2x value)
+├─ Powder + Packaging (3-4x value)
+├─ Organic certification (30% premium)
+└─ Curcumin extraction (high value)
+
+Best Combined With: Coffee, Black Pepper, Ginger
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+COMMODITY: VEGETABLES
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Category: Horticulture | Risk Level: HIGH | Profit Potential: HIGH | Year-Round: YES
+
+Investment Required:
+├─ Minimum: ₹3-5 lakh (Collection + Transport)
+├─ Medium: ₹15-25 lakh (Cold Storage + Grading)
+└─ Advanced: ₹40-60 lakh (Processing + Export)
+
+Expected Returns (100 members):
+├─ Highly variable by vegetable type
+├─ Tomato: ₹10-60/kg (volatile)
+├─ Onion: ₹15-40/kg (seasonal)
+├─ Leafy: ₹20-50/kg (stable)
+├─ Monthly Revenue: ₹2-8 lakh (variable)
+└─ FPO Margin: 10-15% on aggregation
+
+Market Linkages:
+├─ Rythu Bazaar (direct)
+├─ APMC Mandi
+├─ Hotels/Restaurants
+├─ Supermarkets
+└─ Online platforms
+
+Key Success Factors:
+├─ Post-harvest handling (critical)
+├─ Cold chain access
+├─ Quick turnaround (perishable)
+├─ Multiple buyer relationships
+└─ Price volatility management
+
+Seasonal Pattern: Varies by vegetable
+Tomato: Oct-Mar (Winter crop)
+Onion: Mar-May (Harvest)
+Leafy: Year-round (irrigation dependent)
+
+Risk Mitigation:
+├─ Diversified vegetable portfolio
+├─ Contract farming with buyers
+├─ Cold storage access
+└─ Price insurance (if available)
+
+Best Combined With: Dairy, Input Supply, Custom Hiring
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+COMMODITY: CUSTOM HIRING CENTER (Services)
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Category: Service | Risk Level: LOW | Profit Potential: MEDIUM | Year-Round: YES
+
+Investment Required:
+├─ Basic: ₹5-10 lakh (Tractor + Implements)
+├─ Medium: ₹15-25 lakh (+ Harvester)
+└─ Advanced: ₹40-60 lakh (Full Mechanization)
+
+Expected Returns:
+├─ Tractor: ₹500-800/hour
+├─ Thresher: ₹300-500/hour
+├─ Harvester: ₹2,000-3,000/acre
+├─ Monthly Revenue: ₹50,000-1.5 lakh
+├─ Annual Revenue: ₹10-20 lakh
+└─ Net Profit: ₹4-8 lakh (after maintenance)
+
+Equipment Utilization Rates:
+├─ Tractor: 800-1200 hours/year
+├─ Thresher: 300-500 hours/year
+├─ Harvester: 150-250 hours/year
+└─ Implements: Seasonal
+
+Key Success Factors:
+├─ Equipment maintenance schedule
+├─ Trained operators
+├─ Booking system
+├─ Fair pricing
+└─ Insurance coverage
+
+Seasonal Pattern:
+Jun-Jul: ★★★★★ Land Preparation
+Oct-Nov: ★★★★★ Kharif Harvest
+Dec-Jan: ★★★★★ Rabi Sowing
+Mar-Apr: ★★★★☆ Rabi Harvest
+
+Subsidy Available:
+├─ SMAM Scheme: 40-80% subsidy
+├─ RKVY: 50-75% subsidy
+└─ Sub-Mission on Agriculture Mechanization
+
+Best Combined With: Any crop-based FPO
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+COMMODITY: INPUT SUPPLY (Trading)
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Category: Service | Risk Level: LOW | Profit Potential: LOW-MEDIUM | Year-Round: YES
+
+Investment Required:
+├─ Minimum: ₹2-3 lakh (Working Capital)
+├─ Medium: ₹5-10 lakh (+ Storage)
+└─ Advanced: ₹15-25 lakh (+ Seed Processing)
+
+Expected Returns:
+├─ Seeds: 10-15% margin
+├─ Fertilizers: 5-8% margin
+├─ Pesticides: 12-18% margin
+├─ Monthly Revenue: ₹30,000-1 lakh (margin)
+└─ Annual Margin: ₹4-10 lakh
+
+Product Categories:
+├─ Certified Seeds
+├─ Bio-fertilizers
+├─ Chemical Fertilizers (DAP, Urea, MOP)
+├─ Pesticides/Insecticides
+├─ Organic Inputs
+└─ Farm Equipment (small)
+
+Key Success Factors:
+├─ Quality certification
+├─ Competitive pricing
+├─ Credit facility to members
+├─ Timely availability
+└─ Technical guidance
+
+Seasonal Pattern:
+Jun-Jul: ★★★★★ Kharif Input Season
+Dec-Jan: ★★★★★ Rabi Input Season
+Other: ★★☆☆☆ Low demand
+
+Licensing Required:
+├─ Seed License (State Seeds Corporation)
+├─ Fertilizer License (Agriculture Dept)
+└─ Pesticide License (CIB&amp;RC)
+
+Best Combined With: Any FPO activity
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="commodity-combination-recommendations-by-area">Commodity Combination Recommendations by Area</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+RECOMMENDED COMMODITY COMBINATIONS FOR ANAKAPALLI DISTRICT FPOs
+═══════════════════════════════════════════════════════════════════════
+
+COMBINATION 1: DAIRY + PADDY + INPUT SUPPLY (Most Recommended)
+─────────────────────────────────────────────────────────────────────
+Suitability: Canal/Borewell irrigated areas
+Risk Level: LOW
+Revenue Potential: ₹50-80 lakh/year (Year 2-3)
+
+Why This Works:
+✅ Dairy: Year-round income (no seasonal gap)
+✅ Paddy: MSP support, stable demand
+✅ Input Supply: Service members, low risk
+✅ Paddy straw → Cattle fodder (synergy)
+
+Revenue Mix:
+├─ Dairy: 40-50%
+├─ Paddy: 35-45%
+└─ Input Supply: 10-15%
+
+Infrastructure Priority:
+1. Milk collection center (₹3-5 lakh)
+2. Paddy storage shed (₹2-3 lakh)
+3. Input supply shop (₹1-2 lakh)
+
+─────────────────────────────────────────────────────────────────────
+
+COMBINATION 2: DAIRY + SUGARCANE + CUSTOM HIRING
+─────────────────────────────────────────────────────────────────────
+Suitability: Anakapalli Sugar Factory belt
+Risk Level: LOW-MEDIUM
+Revenue Potential: ₹60-100 lakh/year (Year 2-3)
+
+Why This Works:
+✅ Dairy: Year-round income
+✅ Sugarcane: Factory linkage (assured market)
+✅ Custom Hiring: Mechanization demand high
+✅ Sugarcane bagasse → Cattle feed (synergy)
+
+Revenue Mix:
+├─ Dairy: 35-45%
+├─ Sugarcane: 40-50%
+└─ Custom Hiring: 15-20%
+
+Infrastructure Priority:
+1. Milk collection center (₹3-5 lakh)
+2. Transport arrangement for sugarcane
+3. Tractor + implements (₹8-12 lakh)
+
+─────────────────────────────────────────────────────────────────────
+
+COMBINATION 3: PADDY + PULSES + VEGETABLES (Diversified Crop)
+─────────────────────────────────────────────────────────────────────
+Suitability: Mixed irrigation areas
+Risk Level: MEDIUM
+Revenue Potential: ₹40-70 lakh/year
+
+Why This Works:
+✅ Paddy: Kharif main crop, stable
+✅ Pulses: Rabi crop, fills seasonal gap
+✅ Vegetables: High margin, year-round
+✅ Crop rotation improves soil health
+
+Revenue Mix:
+├─ Paddy: 45-55%
+├─ Pulses: 20-30%
+└─ Vegetables: 20-30%
+
+Infrastructure Priority:
+1. Multi-commodity warehouse (₹5-8 lakh)
+2. Grading/cleaning equipment (₹2-3 lakh)
+3. Transport vehicle (₹3-5 lakh)
+
+═══════════════════════════════════════════════════════════════════════
+RECOMMENDED COMMODITY COMBINATIONS FOR VISAKHAPATNAM DISTRICT FPOs
+═══════════════════════════════════════════════════════════════════════
+
+COMBINATION 4: COFFEE + TURMERIC + HONEY (Tribal Area)
+─────────────────────────────────────────────────────────────────────
+Suitability: Tribal/Hilly areas (Pendurthi, Anandapuram uplands)
+Risk Level: MEDIUM
+Revenue Potential: ₹50-80 lakh/year
+
+Why This Works:
+✅ Coffee: Premium product, export potential
+✅ Turmeric: Inter-cropping with coffee
+✅ Honey: Zero additional land, forest flowers
+✅ All products have long shelf life
+✅ GCC linkage for marketing
+
+Revenue Mix:
+├─ Coffee: 50-60%
+├─ Turmeric: 25-35%
+└─ Honey: 10-15%
+
+Infrastructure Priority:
+1. Coffee pulping unit (₹5-8 lakh)
+2. Drying yard (₹2-3 lakh)
+3. Storage + processing (₹5-8 lakh)
+
+─────────────────────────────────────────────────────────────────────
+
+COMBINATION 5: DAIRY + MANGO + VEGETABLES (Coastal)
+─────────────────────────────────────────────────────────────────────
+Suitability: Coastal plains near Visakhapatnam
+Risk Level: MEDIUM
+Revenue Potential: ₹60-100 lakh/year
+
+Why This Works:
+✅ Dairy: Visakha Dairy linkage
+✅ Mango: Export quality, high value
+✅ Vegetables: Urban market proximity
+✅ Year-round income mix
+
+Revenue Mix:
+├─ Dairy: 40-50%
+├─ Mango: 30-40% (seasonal peak)
+└─ Vegetables: 15-25%
+
+Infrastructure Priority:
+1. Milk collection center (₹3-5 lakh)
+2. Mango ripening/packing (₹5-8 lakh)
+3. Vegetable collection point (₹2-3 lakh)
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="seasonal-activity-planning-calendar">Seasonal Activity Planning Calendar</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+MULTI-COMMODITY FPO: 12-MONTH ACTIVITY CALENDAR
+═══════════════════════════════════════════════════════════════════════
+
+JANUARY
+─────────────────────────────────────────────────────────────────────
+Crops: Rabi crops growing | Sugarcane harvesting starts
+Dairy: Peak production (flush season)
+Services: Input supply (Rabi fertilizers)
+Key Tasks:
+├─ Sugarcane supply to factory
+├─ Milk collection at peak
+├─ Rabi crop monitoring
+└─ Income Tax/GST filings
+
+FEBRUARY
+─────────────────────────────────────────────────────────────────────
+Crops: Coffee harvest | Turmeric harvest | Rabi growing
+Dairy: Peak production continues
+Services: Custom hiring (sugarcane transport)
+Key Tasks:
+├─ Coffee collection &amp; processing
+├─ Turmeric collection
+├─ Sugarcane crushing continues
+└─ Member share capital collection
+
+MARCH
+─────────────────────────────────────────────────────────────────────
+Crops: Mango season starts | Rabi harvest begins
+Dairy: Production starts declining
+Services: Harvesting services
+Key Tasks:
+├─ Mango aggregation starts
+├─ Rabi paddy harvest
+├─ Pulses harvest
+└─ AGM preparation
+
+APRIL
+─────────────────────────────────────────────────────────────────────
+Crops: Mango peak | Summer vegetables | Rabi harvest complete
+Dairy: Summer stress - production low
+Services: Storage filling
+Key Tasks:
+├─ Mango export/sales peak
+├─ Warehouse filling (paddy, pulses)
+├─ Summer vegetable sales
+└─ Annual General Meeting
+
+MAY
+─────────────────────────────────────────────────────────────────────
+Crops: Mango continues | Land preparation starts
+Dairy: Low season
+Services: Land preparation
+Key Tasks:
+├─ Mango season ending
+├─ Warehouse management
+├─ Kharif seed procurement
+└─ Input supply stocking
+
+JUNE
+─────────────────────────────────────────────────────────────────────
+Crops: Kharif sowing (Paddy, Sugarcane)
+Dairy: Moderate production
+Services: Peak input supply | Custom hiring
+Key Tasks:
+├─ Seed distribution to members
+├─ Fertilizer supply
+├─ Tractor/implements rental peak
+└─ Kharif crop loans facilitation
+
+JULY
+─────────────────────────────────────────────────────────────────────
+Crops: Kharif transplanting | Sugarcane growing
+Dairy: Improving production (green fodder)
+Services: Input supply continues
+Key Tasks:
+├─ Paddy transplanting support
+├─ Fertilizer 2nd dose supply
+├─ Pest monitoring
+└─ Mid-year accounts review
+
+AUGUST
+─────────────────────────────────────────────────────────────────────
+Crops: Kharif growing | Sugarcane growing
+Dairy: Good production (monsoon)
+Services: Crop monitoring
+Key Tasks:
+├─ Crop health monitoring
+├─ Pesticide supply if needed
+├─ Milk collection stable
+└─ Bank loan review
+
+SEPTEMBER
+─────────────────────────────────────────────────────────────────────
+Crops: Kharif maturing | Turmeric sowing
+Dairy: Good production
+Services: Harvest planning
+Key Tasks:
+├─ Harvest planning
+├─ Buyer agreements renewal
+├─ Storage preparation
+└─ Quarterly compliance
+
+OCTOBER
+─────────────────────────────────────────────────────────────────────
+Crops: Kharif harvest starts | Rabi preparation
+Dairy: Peak production returns
+Services: Peak custom hiring
+Key Tasks:
+├─ Paddy harvesting
+├─ Harvester/thresher rental peak
+├─ MSP procurement preparation
+└─ Diwali bonus planning
+
+NOVEMBER
+─────────────────────────────────────────────────────────────────────
+Crops: Kharif harvest | Coffee harvest starts | Rabi sowing
+Dairy: Peak production
+Services: Harvest services + Rabi inputs
+Key Tasks:
+├─ Paddy MSP sales
+├─ Coffee collection starts
+├─ Sugarcane harvest starts
+└─ Rabi seed distribution
+
+DECEMBER
+─────────────────────────────────────────────────────────────────────
+Crops: Rabi sowing | Coffee harvest | Sugarcane harvest
+Dairy: Peak production
+Services: All activities active
+Key Tasks:
+├─ Year-end accounts
+├─ Audit preparation
+├─ Member dividend calculation
+└─ Next year planning
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="revenue-projection-calculator">Revenue Projection Calculator</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+MULTI-COMMODITY FPO: REVENUE PROJECTION TEMPLATE
+═══════════════════════════════════════════════════════════════════════
+
+FPO Name: ________________________________
+Year: ____________
+Member Count: _____________________________
+
+ACTIVITY 1: DAIRY
+─────────────────────────────────────────────────────────────────────
+Number of milk-supplying members:    ________ (A)
+Average milk per member/day:         ________ liters (B)
+Total daily collection:              ________ liters (A × B = C)
+Collection days per year:            ________ (D) (Usually 300-330)
+Total annual collection:             ________ liters (C × D = E)
+Average margin per liter:            ₹________ (F) (Usually ₹8-15)
+
+DAIRY ANNUAL REVENUE:                ₹________ (E × F)
+
+ACTIVITY 2: PADDY
+─────────────────────────────────────────────────────────────────────
+Number of paddy-growing members:     ________ (G)
+Average area per member:             ________ acres (H)
+Total area:                          ________ acres (G × H = I)
+Average yield per acre:              ________ quintals (J) (Usually 18-25)
+Total production:                    ________ quintals (I × J = K)
+FPO aggregation %:                   ________ % (L) (Usually 50-80%)
+FPO volume:                          ________ quintals (K × L = M)
+Margin per quintal:                  ₹________ (N) (Usually ₹100-200)
+
+PADDY ANNUAL REVENUE:                ₹________ (M × N)
+
+ACTIVITY 3: SUGARCANE
+─────────────────────────────────────────────────────────────────────
+Number of sugarcane members:         ________ (O)
+Average area per member:             ________ acres (P)
+Total area:                          ________ acres (O × P = Q)
+Average yield per acre:              ________ tonnes (R) (Usually 30-40)
+Total production:                    ________ tonnes (Q × R = S)
+Margin per tonne:                    ₹________ (T) (Usually ₹20-50)
+
+SUGARCANE ANNUAL REVENUE:            ₹________ (S × T)
+
+ACTIVITY 4: INPUT SUPPLY
+─────────────────────────────────────────────────────────────────────
+Total member purchases expected:     ₹________ (U)
+Average margin %:                    ________ % (V) (Usually 8-15%)
+
+INPUT SUPPLY ANNUAL REVENUE:         ₹________ (U × V)
+
+ACTIVITY 5: CUSTOM HIRING
+─────────────────────────────────────────────────────────────────────
+Tractor hours per year:              ________ hours (W)
+Rate per hour:                       ₹________ (X)
+Tractor revenue:                     ₹________ (W × X = Y)
+
+Harvester acres per year:            ________ acres (Z)
+Rate per acre:                       ₹________ (AA)
+Harvester revenue:                   ₹________ (Z × AA = AB)
+
+Operating cost %:                    ________ % (AC) (Usually 50-60%)
+
+CUSTOM HIRING NET REVENUE:           ₹________ ((Y + AB) × (100% - AC))
+
+═══════════════════════════════════════════════════════════════════════
+
+TOTAL ANNUAL REVENUE PROJECTION:
+├─ Dairy:          ₹________
+├─ Paddy:          ₹________
+├─ Sugarcane:      ₹________
+├─ Input Supply:   ₹________
+├─ Custom Hiring:  ₹________
+├─ Other:          ₹________
+└─ TOTAL:          ₹________
+
+OPERATING EXPENSES (Estimate):       ₹________ (Usually 60-70% of revenue)
+GROSS PROFIT:                        ₹________
+NET PROFIT (After all expenses):     ₹________
+
+MEMBER DIVIDEND POTENTIAL:
+├─ Dividend Fund (30% of Net Profit): ₹________
+├─ Per Member Dividend:               ₹________
+└─ ROI on Share Capital:              ________ %
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
 
 <hr>
 
@@ -6451,6 +8858,947 @@ Witness 2: A A Sambasiva Rao (MPDO K Kotapadu) Signature: [A A Sambasiva Rao]
 
 <h2 id="10-government-subsidies-benefits-andhra-pradesh-focus">10. GOVERNMENT SUBSIDIES & BENEFITS - ANDHRA PRADESH FOCUS ✨</h2>
 
+<hr>
+
+<h3 id="diagram-62-complete-government-subsidy-ecosystem-for-ap-fpos">📊 <strong>DIAGRAM 62: Complete Government Subsidy Ecosystem for AP FPOs</strong></h3>
+
+<div class="mermaid">
+flowchart TD
+    A[FPO Registration Complete] --> B{Identify Primary Activity}
+    
+    B -->|Dairy| C[DAIRY SUBSIDIES]
+    B -->|Crop Aggregation| D[CROP SUBSIDIES]
+    B -->|Processing| E[PROCESSING SUBSIDIES]
+    B -->|Custom Hiring| F[MECHANIZATION SUBSIDIES]
+    B -->|Input Supply| G[TRADING SUBSIDIES]
+    
+    C --> C1[NABARD Dairy: 50%<br/>Up to ₹8 lakh]
+    C --> C2[SFAC Grant: ₹10 lakh<br/>Equity Support]
+    C --> C3[AP State Dairy<br/>₹2-3 lakh]
+    
+    D --> D1[SFAC Grant: ₹10 lakh]
+    D --> D2[NABARD Storage: 40%]
+    D --> D3[e-NAM Integration]
+    
+    E --> E1[SFAC Grant: ₹10 lakh]
+    E --> E2[NABARD Processing: 40%]
+    E --> E3[PMEGP: 25-35%]
+    
+    F --> F1[AP Karshak: 40-80%<br/>Up to ₹20 lakh]
+    F --> F2[SMAM: 40-80%]
+    F --> F3[RKVY: 50%]
+    
+    G --> G1[SFAC Grant: ₹10 lakh]
+    G --> G2[Working Capital Loans<br/>KCC/NABARD]
+    
+    C1 --> H[COMBINE MULTIPLE SCHEMES]
+    C2 --> H
+    C3 --> H
+    D1 --> H
+    D2 --> H
+    E1 --> H
+    E2 --> H
+    F1 --> H
+    F2 --> H
+    G1 --> H
+    
+    H --> I[Maximum Subsidy:<br/>₹25-40 lakh possible]
+    
+    style A fill:#e1f5ff
+    style H fill:#fff9c4
+    style I fill:#4caf50
+</div>
+
+<hr>
+
+<h3 id="2025-subsidy-updates-for-andhra-pradesh-fpos">🆕 2025 SUBSIDY UPDATES FOR ANDHRA PRADESH FPOs</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+GOVERNMENT SUBSIDY UPDATES - 2025 EDITION
+═══════════════════════════════════════════════════════════════════════
+
+NEW &amp; ENHANCED SCHEMES IN 2025:
+─────────────────────────────────────────────────────────────────────
+
+1. SFAC EQUITY GRANT (ENHANCED)
+   Previous: ₹10 lakh per FPO
+   Current: ₹15 lakh per FPO (for new FPOs in 2025)
+   ✅ Eligibility relaxed for tribal area FPOs
+   ✅ Processing time reduced to 45 days
+   ✅ Online tracking available
+   
+2. 10,000 FPO SCHEME (CENTRAL - EXTENDED)
+   Launched: 2020
+   Extended to: 2027-28
+   Total Support: ₹33 lakh per FPO over 5 years
+   Breakdown:
+   ├─ Year 1: ₹6 lakh (formation + handholding)
+   ├─ Year 2: ₹5 lakh (business development)
+   ├─ Year 3: ₹6 lakh (infrastructure)
+   ├─ Year 4: ₹8 lakh (market linkage)
+   └─ Year 5: ₹8 lakh (scaling)
+   
+3. AP RYTHU BHAROSA (STATE - 2025 UPDATE)
+   Previous: ₹7,500/farmer/year
+   Current: ₹7,500/farmer/year (continues)
+   NEW: FPO members get priority for other schemes
+   NEW: Automatic enrollment verification
+   
+4. DAIRY SUBSIDY (NABARD - 2025)
+   Subsidy Rate: 50% (increased from 40%)
+   Maximum: ₹10 lakh (increased from ₹6 lakh)
+   NEW: Fast-track processing for FPOs
+   NEW: Combined milk testing + chilling subsidy
+   
+5. CUSTOM HIRING CENTER (AP KARSHAK 2025)
+   Subsidy Rate: 40-80% based on equipment
+   Maximum: ₹25 lakh (increased from ₹20 lakh)
+   NEW: Drone subsidy added (60%)
+   NEW: Solar-powered equipment (80%)
+   
+6. COLD CHAIN SUBSIDY (ENHANCED 2025)
+   Previous: 35%
+   Current: 50% for FPOs
+   Maximum: ₹15 lakh
+   NEW: Includes transportation vehicles
+   
+7. ORGANIC CERTIFICATION SUPPORT (NEW 2025)
+   Subsidy: 100% of certification cost
+   Maximum: ₹5 lakh per FPO
+   Covers: PGS-India, third-party certification
+   Duration: 3-year support
+   
+8. DIGITAL INFRASTRUCTURE GRANT (NEW 2025)
+   Purpose: ERP, accounting software, IoT
+   Subsidy: 75%
+   Maximum: ₹3 lakh per FPO
+   Covers: Software, hardware, training
+
+APPLICATION DEADLINES 2025:
+─────────────────────────────────────────────────────────────────────
+├─ SFAC Equity Grant: Rolling (no deadline)
+├─ 10,000 FPO Scheme: Apply through CBBO by March 31, 2026
+├─ AP Karshak Mechanization: July 31, 2025 (Kharif)
+├─ NABARD Dairy: Rolling (no deadline)
+├─ Organic Certification: December 31, 2025
+└─ Digital Infrastructure: September 30, 2025
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="master-subsidy-overview-table-ap-fpos-2025">Master Subsidy Overview Table - AP FPOs 2025</h3>
+
+<table>
+<thead><tr>
+<th>Scheme Name</th>
+<th>Type</th>
+<th>Subsidy %</th>
+<th>Max Amount</th>
+<th>Who Can Apply</th>
+<th>Application Mode</th>
+<th>Timeline</th>
+<th>Key Document</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>SFAC Equity Grant</strong></td>
+<td>Central</td>
+<td>100%</td>
+<td>₹15 lakh</td>
+<td>New FPOs <3 years</td>
+<td>Through RI</td>
+<td>45-60 days</td>
+<td>Project Report</td>
+</tr>
+<tr>
+<td><strong>10,000 FPO Scheme</strong></td>
+<td>Central</td>
+<td>100%</td>
+<td>₹33 lakh (5 yrs)</td>
+<td>Selected FPOs</td>
+<td>Through CBBO</td>
+<td>Varies</td>
+<td>CBBO Agreement</td>
+</tr>
+<tr>
+<td><strong>NABARD Dairy</strong></td>
+<td>Central</td>
+<td>50%</td>
+<td>₹10 lakh</td>
+<td>Dairy FPOs</td>
+<td>Through Bank</td>
+<td>60-90 days</td>
+<td>DPR</td>
+</tr>
+<tr>
+<td><strong>NABARD Warehouse</strong></td>
+<td>Central</td>
+<td>40%</td>
+<td>₹12 lakh</td>
+<td>Any FPO</td>
+<td>Through Bank</td>
+<td>60-90 days</td>
+<td>DPR</td>
+</tr>
+<tr>
+<td><strong>NABARD Cold Chain</strong></td>
+<td>Central</td>
+<td>50%</td>
+<td>₹15 lakh</td>
+<td>Perishable FPOs</td>
+<td>Through Bank</td>
+<td>60-90 days</td>
+<td>DPR</td>
+</tr>
+<tr>
+<td><strong>AP Karshak Mech.</strong></td>
+<td>State</td>
+<td>40-80%</td>
+<td>₹25 lakh</td>
+<td>AP FPOs</td>
+<td>Online Portal</td>
+<td>30-45 days</td>
+<td>Equipment Quote</td>
+</tr>
+<tr>
+<td><strong>SMAM</strong></td>
+<td>Central</td>
+<td>40-80%</td>
+<td>₹10 lakh</td>
+<td>Any FPO</td>
+<td>State Portal</td>
+<td>45-60 days</td>
+<td>Equipment Quote</td>
+</tr>
+<tr>
+<td><strong>RKVY</strong></td>
+<td>Central</td>
+<td>50%</td>
+<td>₹15 lakh</td>
+<td>Any FPO</td>
+<td>State Dept</td>
+<td>60-90 days</td>
+<td>Project Report</td>
+</tr>
+<tr>
+<td><strong>PMEGP</strong></td>
+<td>Central</td>
+<td>25-35%</td>
+<td>₹10 lakh</td>
+<td>Processing FPOs</td>
+<td>DIC/KVIC</td>
+<td>45-60 days</td>
+<td>Project Report</td>
+</tr>
+<tr>
+<td><strong>PM-KISAN</strong></td>
+<td>Central</td>
+<td>Fixed</td>
+<td>₹6,000/year</td>
+<td>All Farmers</td>
+<td>Online</td>
+<td>Ongoing</td>
+<td>Land Records</td>
+</tr>
+<tr>
+<td><strong>Rythu Bharosa</strong></td>
+<td>State</td>
+<td>Fixed</td>
+<td>₹7,500/year</td>
+<td>AP Farmers</td>
+<td>Auto-enrolled</td>
+<td>Ongoing</td>
+<td>e-KYC</td>
+</tr>
+<tr>
+<td><strong>Organic Cert.</strong></td>
+<td>Central</td>
+<td>100%</td>
+<td>₹5 lakh</td>
+<td>Organic FPOs</td>
+<td>Online</td>
+<td>30-45 days</td>
+<td>Farm Details</td>
+</tr>
+<tr>
+<td><strong>Digital Grant</strong></td>
+<td>Central</td>
+<td>75%</td>
+<td>₹3 lakh</td>
+<td>Any FPO</td>
+<td>Online</td>
+<td>30-45 days</td>
+<td>IT Plan</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h3 id="diagram-63-subsidy-calculation-example-dairy-fpo">📊 <strong>DIAGRAM 63: Subsidy Calculation Example - Dairy FPO</strong></h3>
+
+<div class="mermaid">
+flowchart TD
+    A[DAIRY FPO PROJECT<br/>Total Cost: ₹30 Lakh] --> B[BREAKDOWN OF FUNDING]
+    
+    B --> C[SFAC Equity Grant<br/>₹10 Lakh<br/>33% of Project]
+    B --> D[NABARD Dairy Subsidy<br/>₹6 Lakh<br/>20% of Project]
+    B --> E[AP State Support<br/>₹3 Lakh<br/>10% of Project]
+    B --> F[Bank Loan<br/>₹8 Lakh<br/>27% of Project]
+    B --> G[FPO Own Contribution<br/>₹3 Lakh<br/>10% of Project]
+    
+    C --> H[Total Subsidy: ₹19 Lakh]
+    D --> H
+    E --> H
+    
+    F --> I[Total Investment Required: ₹11 Lakh]
+    G --> I
+    
+    H --> J[SUBSIDY RATIO: 63%]
+    I --> K[FPO INVESTMENT: 37%]
+    
+    J --> L[✅ HIGHLY BENEFICIAL<br/>Subsidy > Investment]
+    
+    style A fill:#e1f5ff
+    style H fill:#c8e6c9
+    style J fill:#4caf50
+    style L fill:#4caf50
+</div>
+
+<hr>
+
+<h3 id="step-by-step-subsidy-application-guides">Step-by-Step Subsidy Application Guides</h3>
+
+<h4 id="guide-1-sfac-equity-grant-complete-process">GUIDE 1: SFAC EQUITY GRANT - COMPLETE PROCESS</h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+SFAC EQUITY GRANT APPLICATION - STEP-BY-STEP GUIDE
+═══════════════════════════════════════════════════════════════════════
+
+PRE-REQUISITES:
+☐ FPO Registration Certificate (COI) from ROC/MCA
+☐ Minimum 10 genuine farmer members
+☐ Bank account opened in FPO name
+☐ FPO less than 3 years old (for new FPO scheme)
+
+STEP 1: IDENTIFY RESOURCE INSTITUTION (RI) [Day 1-3]
+─────────────────────────────────────────────────────────────────────
+Action: Find SFAC-empanelled RI in your area
+How:
+├─ Visit: https://sfacindia.com
+├─ Download: Empanelled RI List for AP
+├─ For K Kotapadu/Anakapalli: WASSAN (9440621866)
+├─ For Visakhapatnam: NICE (contact through SFAC)
+└─ Contact RI, explain FPO details
+
+What to Tell RI:
+├─ FPO name and registration number
+├─ Number of members (10+)
+├─ Primary activity (Dairy/Paddy/Multi-commodity)
+├─ Location (Village, Mandal, District)
+└─ Contact person details
+
+RI Response: Consultation meeting scheduled (usually within 3-5 days)
+
+STEP 2: RI CONSULTATION MEETING [Day 4-7]
+─────────────────────────────────────────────────────────────────────
+Action: Meet RI team, discuss project
+What to Bring:
+├─ FPO Registration Certificate (original + copy)
+├─ Member list (all 10+ members)
+├─ Land/farmer proof for each member
+├─ Bank account details
+└─ Basic business plan (handwritten OK)
+
+Discussion Points:
+├─ FPO objectives and activities
+├─ Investment requirements
+├─ Revenue projections
+├─ Market linkages
+└─ Subsidy eligibility confirmation
+
+Outcome: RI agrees to support, quotes fee (₹15,000-30,000)
+Payment: Usually 50% advance, 50% on approval
+
+STEP 3: DOCUMENT PREPARATION [Day 8-20]
+─────────────────────────────────────────────────────────────────────
+Action: Prepare comprehensive application
+Documents RI Will Prepare:
+├─ Project Report (15-20 pages)
+├─ Financial Projections (3-5 years)
+├─ Feasibility Study
+├─ Market Analysis
+└─ Implementation Timeline
+
+Documents FPO Must Provide:
+├─ Member Documents (each member):
+│   ├─ Aadhaar Card Copy
+│   ├─ Farmer Proof (ROR-1B/Lease/Livestock)
+│   ├─ Bank Account Details
+│   └─ Passport Photo
+├─ FPO Documents:
+│   ├─ Registration Certificate
+│   ├─ MOA &amp; AOA
+│   ├─ Board Resolution for applying
+│   ├─ Bank Statement (last 3 months)
+│   └─ PAN Card (FPO)
+├─ Supporting Documents:
+│   ├─ Office Photo
+│   ├─ Member Farm Photos
+│   └─ Market Linkage Letters (if available)
+
+STEP 4: APPLICATION SUBMISSION [Day 21-25]
+─────────────────────────────────────────────────────────────────────
+Action: RI submits application online
+Portal: https://sfacindia.com/EquityGrant.aspx
+Process:
+├─ RI logs in with credentials
+├─ Fills online application form
+├─ Uploads all documents (PDF format)
+├─ Submits application
+└─ Receives Application ID
+
+Important: Save Application ID for tracking
+
+STEP 5: SFAC TECHNICAL REVIEW [Day 26-50]
+─────────────────────────────────────────────────────────────────────
+Action: SFAC reviews application
+What SFAC Checks:
+├─ FPO genuineness
+├─ Member verification
+├─ Project viability
+├─ Financial projections
+└─ Document completeness
+
+Possible Actions:
+├─ Approved (proceed to field visit)
+├─ Clarification Requested (respond within 7 days)
+└─ Rejected (reasons provided)
+
+Track Status: Online at SFAC portal OR through RI
+
+STEP 6: FIELD VISIT [Day 51-60]
+─────────────────────────────────────────────────────────────────────
+Action: SFAC/RI team visits FPO
+What They Verify:
+├─ FPO office exists
+├─ Member farmers are genuine
+├─ Land/livestock as declared
+├─ Bank account operational
+└─ FPO has capacity to implement
+
+Preparation:
+├─ Inform all members about visit
+├─ Keep all original documents ready
+├─ FPO office should be presentable
+├─ CEO/Chairman must be present
+└─ 3-5 members should be available
+
+STEP 7: APPROVAL &amp; GRANT RELEASE [Day 61-75]
+─────────────────────────────────────────────────────────────────────
+Action: SFAC approves and releases grant
+Approval Process:
+├─ Technical Committee approves
+├─ Sanction letter issued
+├─ Bank details verified
+└─ Grant released
+
+Grant Deposit:
+├─ Amount: Up to ₹15 lakh (based on project)
+├─ Mode: Direct bank transfer to FPO account
+├─ Time: 7-10 days after approval
+
+STEP 8: POST-GRANT COMPLIANCE [Ongoing]
+─────────────────────────────────────────────────────────────────────
+Requirements:
+├─ Utilization Certificate (quarterly)
+├─ Progress Reports (quarterly)
+├─ Audit Report (annually)
+└─ SFAC inspections (as needed)
+
+Grant Utilization:
+├─ Must be used as per approved project
+├─ Maintain separate account/records
+├─ Keep all invoices/receipts
+└─ Report progress regularly
+
+═══════════════════════════════════════════════════════════════════════
+TOTAL TIMELINE: 60-75 Days
+TOTAL COST: ₹15,000-30,000 (RI fee)
+SUCCESS RATE: 70-80% (with complete documents)
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h4 id="guide-2-nabard-dairy-subsidy-complete-process">GUIDE 2: NABARD DAIRY SUBSIDY - COMPLETE PROCESS</h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+NABARD DAIRY SUBSIDY APPLICATION - STEP-BY-STEP GUIDE
+═══════════════════════════════════════════════════════════════════════
+
+PRE-REQUISITES:
+☐ FPO Registration Certificate
+☐ Minimum 20 dairy farmer members
+☐ Average milk collection: 300+ liters/day
+☐ Buyer identified (dairy/processor)
+
+STEP 1: APPROACH YOUR BANK [Day 1-5]
+─────────────────────────────────────────────────────────────────────
+Action: Visit nearest commercial bank branch
+Recommended Banks:
+├─ State Bank of India (SBI) - Most experienced
+├─ Bank of Baroda (BoB)
+├─ Canara Bank
+├─ Union Bank
+└─ Indian Bank
+
+What to Carry:
+├─ FPO Registration Certificate
+├─ Member List (dairy farmers)
+├─ Milk collection records (if existing)
+├─ Buyer agreement/letter (Heritage Foods, Visakha Dairy, etc.)
+└─ Basic project proposal
+
+Meeting Outcome:
+├─ Bank acknowledges dairy FPO
+├─ Assigns relationship manager
+├─ Guides on NABARD subsidy process
+└─ Provides document checklist
+
+STEP 2: DETAILED PROJECT REPORT (DPR) [Day 6-20]
+─────────────────────────────────────────────────────────────────────
+Action: Bank/NABARD prepares DPR (free of cost)
+DPR Contents:
+├─ Project Background
+├─ FPO Profile &amp; Member Details
+├─ Technical Specifications (equipment, capacity)
+├─ Financial Analysis
+│   ├─ Capital Cost
+│   ├─ Operating Cost
+│   ├─ Revenue Projections
+│   └─ Profitability Analysis
+├─ Implementation Schedule
+├─ Subsidy Calculation
+└─ Loan Requirement
+
+FPO Input Required:
+├─ Daily milk collection target
+├─ Equipment specifications (chilling, testing)
+├─ Infrastructure details (building, electrical)
+├─ Member details (milk production capacity)
+└─ Buyer details (agreement/letter)
+
+STEP 3: BANK LOAN APPLICATION [Day 21-30]
+─────────────────────────────────────────────────────────────────────
+Action: Submit loan application with DPR
+Loan Structure:
+├─ Total Project Cost: ₹20 lakh (example)
+├─ NABARD Subsidy: ₹10 lakh (50%)
+├─ Bank Loan: ₹8 lakh (40%)
+├─ FPO Contribution: ₹2 lakh (10%)
+└─ Interest Rate: 8-10% per annum
+
+Documents Required:
+├─ FPO Documents:
+│   ├─ Registration Certificate
+│   ├─ MOA &amp; AOA
+│   ├─ Board Resolution
+│   ├─ PAN Card
+│   ├─ Bank Statements (6 months)
+│   └─ Audited Accounts (if available)
+├─ Member Documents:
+│   ├─ List of dairy members
+│   ├─ Aadhaar copies (all members)
+│   └─ Land/livestock proof
+├─ Project Documents:
+│   ├─ DPR
+│   ├─ Equipment Quotations
+│   ├─ Building Estimate
+│   └─ Buyer Agreement
+
+STEP 4: BANK SANCTION [Day 31-45]
+─────────────────────────────────────────────────────────────────────
+Action: Bank approves loan
+Bank Checks:
+├─ FPO creditworthiness
+├─ Project viability
+├─ Repayment capacity
+├─ Collateral (if required)
+└─ Member guarantees
+
+Sanction Letter Contains:
+├─ Loan Amount
+├─ Interest Rate
+├─ Tenure
+├─ EMI
+├─ Disbursement Schedule
+└─ Subsidy Amount
+
+STEP 5: NABARD SUBSIDY RECOMMENDATION [Day 46-60]
+─────────────────────────────────────────────────────────────────────
+Action: Bank recommends to NABARD
+Process:
+├─ Bank submits DPR to NABARD
+├─ NABARD technical review
+├─ NABARD inspection (if required)
+├─ NABARD approves subsidy
+└─ Subsidy amount committed
+
+NABARD Contact:
+├─ Visakhapatnam DDM Office
+├─ Email: vijayawada@nabard.org
+├─ Role: Regional coordination
+└─ Action: Follow up through bank
+
+STEP 6: IMPLEMENTATION &amp; DISBURSEMENT [Day 61-90]
+─────────────────────────────────────────────────────────────────────
+Action: Implement project, receive funds
+Disbursement Schedule:
+├─ Phase 1: 40% (on equipment order/construction start)
+├─ Phase 2: 40% (on installation/50% completion)
+├─ Phase 3: 20% (on commissioning/completion)
+
+Subsidy Release:
+├─ Subsidy released along with loan disbursement
+├─ Deposited to FPO bank account
+├─ NABARD + Bank combined transfer
+└─ Usually within 15 days of each phase completion
+
+STEP 7: PROJECT COMPLETION &amp; SUBSIDY CLOSURE [Day 91-120]
+─────────────────────────────────────────────────────────────────────
+Action: Complete project, obtain certifications
+Requirements:
+├─ Completion Certificate
+├─ Equipment Installation Certificate
+├─ Trial Run Report
+├─ Final Invoice &amp; Payment Proof
+└─ Utilization Certificate
+
+Subsidy Closure:
+├─ Final subsidy tranche released
+├─ NABARD inspection (if required)
+├─ Subsidy account closed
+└─ Loan repayment begins
+
+═══════════════════════════════════════════════════════════════════════
+SUBSIDY CALCULATION EXAMPLE:
+─────────────────────────────────────────────────────────────────────
+Project: Dairy Collection Center with Chilling
+Total Cost: ₹20,00,000
+
+Item-wise Breakdown:
+├─ Bulk Milk Cooler (BMC) 1000L: ₹8,00,000
+├─ Milk Testing Equipment: ₹2,00,000
+├─ Building/Civil Work: ₹4,00,000
+├─ Electrical &amp; Plumbing: ₹2,00,000
+├─ Generator Backup: ₹2,00,000
+└─ Working Capital: ₹2,00,000
+
+Funding Pattern:
+├─ NABARD Subsidy (50%): ₹10,00,000
+├─ Bank Loan (40%): ₹8,00,000
+├─ FPO Contribution (10%): ₹2,00,000
+└─ TOTAL: ₹20,00,000
+
+EMI Calculation (Bank Loan ₹8 lakh @ 9% for 5 years):
+├─ Monthly EMI: ₹16,607
+├─ Annual EMI: ₹1,99,284
+├─ FPO Must Generate: ₹25,000/month minimum
+└─ Break-even: Within 2-3 years
+
+═══════════════════════════════════════════════════════════════════════
+TOTAL TIMELINE: 90-120 Days
+TOTAL COST: ₹0 (Bank handles all processing)
+SUCCESS RATE: 80-85% (with buyer agreement)
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h4 id="guide-3-ap-karshak-mechanization-complete-process">GUIDE 3: AP KARSHAK MECHANIZATION - COMPLETE PROCESS</h4>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+AP KARSHAK CUSTOM HIRING CENTER - STEP-BY-STEP GUIDE
+═══════════════════════════════════════════════════════════════════════
+
+PRE-REQUISITES:
+☐ FPO Registration Certificate
+☐ Bank Account (FPO)
+☐ Minimum 50 farmer members (recommended)
+☐ Identified equipment requirement
+
+STEP 1: PORTAL REGISTRATION [Day 1-2]
+─────────────────────────────────────────────────────────────────────
+Action: Register FPO on AP Karshak Portal
+Portal: https://karshakapp.ap.gov.in
+
+Registration Process:
+├─ Click &quot;New Registration&quot;
+├─ Select &quot;FPO/FPC&quot;
+├─ Enter FPO details:
+│   ├─ FPO Name
+│   ├─ Registration Number
+│   ├─ Address
+│   ├─ CEO/Chairman Details
+│   └─ Bank Account Details
+├─ Upload Documents:
+│   ├─ FPO Registration Certificate
+│   ├─ MOA/AOA
+│   └─ Bank Details
+├─ Submit &amp; Verify OTP
+└─ Registration ID generated
+
+STEP 2: EQUIPMENT SELECTION [Day 3-7]
+─────────────────────────────────────────────────────────────────────
+Action: Identify equipment and subsidy rates
+
+2025 Subsidy Rates for FPOs:
+┌────────────────────────────┬──────────┬───────────────────────────┐
+│ Equipment                  │ Subsidy  │ Max Amount               │
+├────────────────────────────┼──────────┼───────────────────────────┤
+│ Tractor (up to 50 HP)      │ 40%      │ ₹4,00,000                │
+│ Tractor (above 50 HP)      │ 35%      │ ₹5,00,000                │
+│ Power Tiller               │ 50%      │ ₹1,25,000                │
+│ Rotavator                  │ 50%      │ ₹75,000                  │
+│ Cultivator                 │ 50%      │ ₹40,000                  │
+│ Paddy Transplanter (4 row) │ 50%      │ ₹1,50,000                │
+│ Paddy Transplanter (8 row) │ 50%      │ ₹3,00,000                │
+│ Combined Harvester         │ 40%      │ ₹12,00,000               │
+│ Reaper                     │ 50%      │ ₹1,50,000                │
+│ Thresher                   │ 50%      │ ₹1,00,000                │
+│ Sprayer (Power)            │ 50%      │ ₹20,000                  │
+│ Drone Sprayer              │ 60%      │ ₹3,00,000                │
+│ Solar Pump (5 HP)          │ 80%      │ ₹2,40,000                │
+│ Drip Irrigation System     │ 75%      │ ₹80,000/hectare          │
+└────────────────────────────┴──────────┴───────────────────────────┘
+
+STEP 3: GET EQUIPMENT QUOTATIONS [Day 8-15]
+─────────────────────────────────────────────────────────────────────
+Action: Obtain quotations from authorized dealers
+
+Requirements:
+├─ Minimum 3 quotations (different dealers)
+├─ Dealers must be registered/authorized
+├─ Quotation must include:
+│   ├─ Equipment specifications
+│   ├─ Model and make
+│   ├─ Price (inclusive of taxes)
+│   ├─ Warranty details
+│   └─ Dealer registration number
+
+Authorized Dealers List:
+├─ Available on AP Karshak portal
+├─ Or from District Agriculture Office
+└─ Ensure dealer is in approved list
+
+STEP 4: ONLINE APPLICATION [Day 16-20]
+─────────────────────────────────────────────────────────────────────
+Action: Submit application online
+
+Application Form:
+├─ Login to AP Karshak Portal
+├─ Select &quot;Apply for Subsidy&quot;
+├─ Choose &quot;Custom Hiring Center&quot;
+├─ Fill Equipment Details:
+│   ├─ Equipment Type
+│   ├─ Make and Model
+│   ├─ Dealer Name
+│   └─ Quotation Amount
+├─ Upload Documents:
+│   ├─ FPO Registration Certificate
+│   ├─ Board Resolution
+│   ├─ Equipment Quotations (all 3)
+│   ├─ Bank Statement (last 3 months)
+│   └─ Land Document (for CHC location)
+├─ Submit Application
+└─ Application Number Generated
+
+Save Application Number for tracking!
+
+STEP 5: TAO VERIFICATION [Day 21-30]
+─────────────────────────────────────────────────────────────────────
+Action: Taluk Agriculture Officer verifies application
+
+TAO Verification Includes:
+├─ Document verification (online submitted)
+├─ Physical inspection (FPO office/location)
+├─ Member verification (sample check)
+├─ Equipment requirement validation
+└─ Recommendation to District Officer
+
+FPO Action:
+├─ Be available when TAO visits
+├─ Keep all original documents ready
+├─ Show FPO operational status
+├─ Explain equipment requirement
+└─ Get TAO contact for follow-up
+
+STEP 6: DISTRICT APPROVAL [Day 31-40]
+─────────────────────────────────────────────────────────────────────
+Action: District Agriculture Officer approves
+
+Approval Process:
+├─ TAO submits recommendation
+├─ District committee reviews
+├─ Budget availability checked
+├─ Final approval issued
+└─ Sanction letter generated
+
+Sanction Letter Contains:
+├─ Approved equipment list
+├─ Subsidy amount
+├─ Dealer from whom to purchase
+├─ Timeline for purchase
+└─ Conditions
+
+STEP 7: EQUIPMENT PURCHASE [Day 41-55]
+─────────────────────────────────────────────────────────────────────
+Action: Purchase equipment from approved dealer
+
+Purchase Process:
+├─ Contact approved dealer
+├─ Show sanction letter
+├─ Pay FPO share (remaining after subsidy)
+├─ Get invoice and delivery challan
+├─ Equipment delivered
+└─ Installation completed
+
+Important:
+├─ Purchase ONLY from approved dealer in sanction letter
+├─ Pay through FPO bank account (check/RTGS)
+├─ Keep all original invoices
+├─ Get delivery confirmation signed
+└─ Take photos of equipment with FPO board
+
+STEP 8: SUBSIDY RELEASE [Day 56-70]
+─────────────────────────────────────────────────────────────────────
+Action: Claim subsidy after purchase
+
+Documents for Subsidy Release:
+├─ Original Invoice
+├─ Bank Payment Proof
+├─ Delivery Challan
+├─ Equipment Photos
+├─ Installation Certificate
+└─ Utilization Certificate
+
+Submission:
+├─ Submit to TAO office
+├─ TAO verifies equipment physically
+├─ TAO recommends subsidy release
+├─ District approves
+├─ Subsidy transferred to FPO bank account
+└─ Usually within 15-20 days
+
+═══════════════════════════════════════════════════════════════════════
+SUBSIDY CALCULATION EXAMPLE:
+─────────────────────────────────────────────────────────────────────
+Equipment: Tractor 50 HP + Rotavator + Cultivator
+
+Cost Breakdown:
+├─ Tractor 50 HP: ₹8,00,000
+├─ Rotavator: ₹1,50,000
+├─ Cultivator: ₹80,000
+└─ TOTAL: ₹10,30,000
+
+Subsidy Calculation:
+├─ Tractor (40% of ₹8,00,000): ₹3,20,000 (max ₹4,00,000)
+├─ Rotavator (50% of ₹1,50,000): ₹75,000
+├─ Cultivator (50% of ₹80,000): ₹40,000
+└─ TOTAL SUBSIDY: ₹4,35,000
+
+FPO Payment:
+├─ Total Cost: ₹10,30,000
+├─ Subsidy: ₹4,35,000
+├─ FPO Payment: ₹5,95,000
+└─ Effective Cost: 58% of market price
+
+═══════════════════════════════════════════════════════════════════════
+TOTAL TIMELINE: 60-70 Days
+TOTAL COST: ₹0 (Government portal)
+SUCCESS RATE: 85%+ (if documents complete)
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="maximum-subsidy-combination-calculator">Maximum Subsidy Combination Calculator</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+MAXIMUM SUBSIDY COMBINATION - EXAMPLE CALCULATION
+═══════════════════════════════════════════════════════════════════════
+
+FPO TYPE: MULTI-COMMODITY (DAIRY + PADDY + CUSTOM HIRING)
+TOTAL PROJECT COST: ₹50,00,000 (₹50 Lakh)
+
+SCHEME COMBINATION:
+─────────────────────────────────────────────────────────────────────
+
+1. SFAC EQUITY GRANT
+   Purpose: Working capital, basic infrastructure
+   Amount: ₹15,00,000 (₹15 Lakh)
+   Eligibility: New FPO &lt;3 years
+   Application: Through Resource Institution
+   Status: Available ✅
+
+2. NABARD DAIRY SUBSIDY
+   Purpose: Milk collection center, BMC, testing
+   Project Component: ₹15,00,000
+   Subsidy (50%): ₹7,50,000 (₹7.5 Lakh)
+   Bank Loan (40%): ₹6,00,000
+   FPO Share (10%): ₹1,50,000
+   Status: Available ✅
+
+3. AP KARSHAK MECHANIZATION
+   Purpose: Custom hiring equipment
+   Project Component: ₹12,00,000
+   Subsidy (40%): ₹4,80,000 (₹4.8 Lakh)
+   FPO Share (60%): ₹7,20,000
+   Status: Available ✅
+
+4. NABARD WAREHOUSE SUBSIDY
+   Purpose: Paddy storage warehouse
+   Project Component: ₹8,00,000
+   Subsidy (40%): ₹3,20,000 (₹3.2 Lakh)
+   Bank Loan (50%): ₹4,00,000
+   FPO Share (10%): ₹80,000
+   Status: Available ✅
+
+═══════════════════════════════════════════════════════════════════════
+
+TOTAL SUBSIDY SUMMARY:
+─────────────────────────────────────────────────────────────────────
+┌────────────────────────────┬───────────────────────┐
+│ Scheme                     │ Subsidy Amount       │
+├────────────────────────────┼───────────────────────┤
+│ SFAC Equity Grant          │ ₹15,00,000           │
+│ NABARD Dairy               │ ₹7,50,000            │
+│ AP Karshak Mechanization   │ ₹4,80,000            │
+│ NABARD Warehouse           │ ₹3,20,000            │
+├────────────────────────────┼───────────────────────┤
+│ TOTAL SUBSIDY              │ ₹30,50,000           │
+└────────────────────────────┴───────────────────────┘
+
+FUNDING PATTERN:
+┌────────────────────────────┬───────────────┬──────────┐
+│ Source                     │ Amount       │ %         │
+├────────────────────────────┼───────────────┼──────────┤
+│ Government Subsidies       │ ₹30,50,000   │ 61%      │
+│ Bank Loans                 │ ₹10,00,000   │ 20%      │
+│ FPO Own Contribution       │ ₹9,50,000    │ 19%      │
+├────────────────────────────┼───────────────┼──────────┤
+│ TOTAL PROJECT              │ ₹50,00,000   │ 100%     │
+└────────────────────────────┴───────────────┴──────────┘
+
+KEY INSIGHT:
+├─ FPO invests only ₹9.5 lakh of own money
+├─ Gets ₹50 lakh worth infrastructure
+├─ Bank loan of ₹10 lakh (manageable EMI)
+├─ Subsidy covers 61% of project cost
+└─ HIGHLY BENEFICIAL STRUCTURE!
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
 <h3 id="overview-central-vs-ap-state-subsidies">OVERVIEW: Central vs AP State Subsidies</h3>
 
 <p>Andhra Pradesh offers both <strong>central government schemes</strong> (SFAC, NABARD, RKVY) and <strong>state government schemes</strong> (AP Karshak, AP AGROS, state-specific mechanisation). This section maps which scheme to apply through which portal.</p>
@@ -8802,6 +12150,706 @@ INTERPRETATION:
 <hr>
 
 <h2 id="12-role-responsibilities-for-each-position">12. ROLE & RESPONSIBILITIES FOR EACH POSITION</h2>
+
+<hr>
+
+<h3 id="diagram-64-fpo-position-hierarchy-kpi-framework">📊 <strong>DIAGRAM 64: FPO Position Hierarchy & KPI Framework</strong></h3>
+
+<div class="mermaid">
+flowchart TD
+    A[GENERAL BODY<br/>All Members<br/>Supreme Authority] --> B[BOARD OF DIRECTORS<br/>5-15 Elected Members<br/>Strategic Governance]
+    
+    B --> C[CHAIRMAN<br/>KPIs: Meeting attendance, Member satisfaction, Strategic goals]
+    B --> D[VICE-CHAIRMAN<br/>KPIs: Activity oversight, Member grievance resolution]
+    B --> E[TREASURER<br/>KPIs: Financial accuracy, Timely payments, Audit compliance]
+    B --> F[SECRETARY<br/>KPIs: Documentation, Compliance filings, Communication]
+    
+    C --> G[CEO/MANAGER<br/>KPIs: Revenue growth, Member base, Operational efficiency]
+    D --> G
+    E --> G
+    F --> G
+    
+    G --> H[ACCOUNTANT<br/>KPIs: Daily reconciliation, Report accuracy, GST compliance]
+    G --> I[FIELD STAFF<br/>KPIs: Collection efficiency, Member visits, Data accuracy]
+    G --> J[ACTIVITY MANAGERS<br/>KPIs: Activity revenue, Quality standards, Buyer satisfaction]
+    
+    H --> K[MEMBERS<br/>500+ Farmers<br/>Owners & Beneficiaries]
+    I --> K
+    J --> K
+    
+    style A fill:#e1f5ff
+    style B fill:#fff9c4
+    style C fill:#ffcdd2
+    style G fill:#c8e6c9
+    style K fill:#4caf50
+</div>
+
+<hr>
+
+<h3 id="comprehensive-kpi-framework-for-all-positions">Comprehensive KPI Framework for All Positions</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+FPO KEY PERFORMANCE INDICATORS (KPI) FRAMEWORK - 2025
+═══════════════════════════════════════════════════════════════════════
+
+POSITION: CHAIRMAN
+─────────────────────────────────────────────────────────────────────
+
+GOVERNANCE KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Board Meetings Conducted           │ ≥4/year        │ Meeting minutes│
+│ Board Meeting Attendance           │ ≥80%           │ Attendance log │
+│ AGM Conducted on Time              │ Within 6 months│ AGM records    │
+│ Board Resolutions Implemented      │ ≥90%           │ Action tracker │
+│ Quorum Achievement                 │ 100%           │ Meeting records│
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+STRATEGIC KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Annual Business Plan Approved      │ By April 1     │ Board minutes  │
+│ Strategic Goals Achievement        │ ≥70%           │ Progress report│
+│ New Activity Launch                │ ≥1/year        │ Activity log   │
+│ Government Scheme Access           │ ≥2/year        │ Subsidy records│
+│ External Partnerships              │ ≥2/year        │ MoU register   │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+MEMBER SATISFACTION KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Member Satisfaction Score          │ ≥75%           │ Annual survey  │
+│ Grievances Resolved within 30 days │ ≥90%           │ Grievance log  │
+│ Member Meetings Attended           │ ≥2/year        │ Attendance     │
+│ Village Visits Conducted           │ ≥12/year       │ Visit log      │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+
+POSITION: CEO/MANAGER
+─────────────────────────────────────────────────────────────────────
+
+BUSINESS GROWTH KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target Year 1  │ Target Year 3  │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Annual Revenue                     │ ₹30 lakh       │ ₹1 crore       │
+│ Revenue Growth Rate                │ N/A            │ ≥25% YoY       │
+│ Active Members                     │ 50             │ 200            │
+│ Member Growth Rate                 │ N/A            │ ≥30% YoY       │
+│ Activities Operational             │ 2              │ 4              │
+│ New Buyer Agreements               │ 2/year         │ 5/year         │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+OPERATIONAL KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Member Payment Cycle               │ ≤15 days       │ Payment records│
+│ Collection Efficiency (Dairy)      │ ≥95%           │ Collection log │
+│ Product Quality Rejection Rate     │ ≤5%            │ Quality reports│
+│ Equipment Utilization              │ ≥70%           │ Usage log      │
+│ Staff Productivity                 │ Revenue/staff  │ HR records     │
+│ Operational Cost Ratio             │ ≤65%           │ Accounts       │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+FINANCIAL KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target Year 1  │ Target Year 3  │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Gross Profit Margin                │ ≥15%           │ ≥25%           │
+│ Net Profit Margin                  │ ≥5%            │ ≥15%           │
+│ Cash Flow Positive Months          │ ≥8/12          │ 12/12          │
+│ Bank Loan EMI Default              │ 0              │ 0              │
+│ Working Capital Days               │ ≤30 days       │ ≤20 days       │
+│ Subsidy Utilization                │ 100%           │ 100%           │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+COMPLIANCE KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ ROC Annual Return Filed            │ By Due Date    │ Filing receipt │
+│ GST Returns Filed                  │ Monthly by 20th│ GST portal     │
+│ Audit Completed                    │ By AGM date    │ Audit report   │
+│ Board Reports Submitted            │ ≥12/year       │ Report log     │
+│ SFAC Reports Submitted             │ As per schedule│ SFAC portal    │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+
+POSITION: TREASURER
+─────────────────────────────────────────────────────────────────────
+
+ACCURACY KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Transaction Recording Accuracy     │ 100%           │ Audit finding  │
+│ Bank Reconciliation Completed      │ Monthly by 5th │ Reconciliation │
+│ Voucher Documentation              │ 100%           │ Document audit │
+│ Audit Observations                 │ ≤3 minor       │ Audit report   │
+│ Financial Statement Accuracy       │ 100%           │ CA certification│
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+PAYMENT KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Member Payments on Time            │ ≥95%           │ Payment log    │
+│ Vendor Payments on Time            │ ≥90%           │ Payment log    │
+│ Payment Delay Complaints           │ ≤5/year        │ Grievance log  │
+│ Advance Recovery Rate              │ 100%           │ Recovery report│
+│ Cash Shortage Incidents            │ 0              │ Cash audit     │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+
+POSITION: SECRETARY
+─────────────────────────────────────────────────────────────────────
+
+DOCUMENTATION KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Meeting Minutes Recorded           │ 100%           │ Minute book    │
+│ Minutes Distributed within 7 days  │ 100%           │ Distribution log│
+│ Member Register Updated            │ Within 3 days  │ Register check │
+│ Document Retrieval Time            │ ≤15 minutes    │ Spot check     │
+│ Digital Backup Completed           │ Weekly         │ Backup log     │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+COMPLIANCE KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Statutory Filings on Time          │ 100%           │ Filing records │
+│ Meeting Notice Sent                │ ≥7 days before │ Notice records │
+│ Compliance Checklist Maintained    │ Monthly        │ Checklist      │
+│ ROC Queries Responded              │ Within 15 days │ Query log      │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+
+POSITION: ACCOUNTANT
+─────────────────────────────────────────────────────────────────────
+
+DAILY OPERATIONS KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Daily Transactions Entered         │ Same day       │ Entry timestamp│
+│ Daily Cash Statement Prepared      │ By 6 PM        │ Cash statement │
+│ Receipt Vouchers Created           │ 100%           │ Voucher audit  │
+│ Invoice Processing Time            │ ≤24 hours      │ Process log    │
+│ Data Entry Errors                  │ ≤2/month       │ Error log      │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+REPORTING KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Monthly Report Submitted           │ By 5th         │ Report log     │
+│ GST Return Prepared                │ By 15th        │ GST records    │
+│ Trial Balance Prepared             │ Monthly by 10th│ TB document    │
+│ Audit Support Provided             │ Full compliance│ Auditor feedback│
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+
+POSITION: FIELD STAFF
+─────────────────────────────────────────────────────────────────────
+
+COLLECTION KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Daily Collection Target Achievement│ ≥95%           │ Collection log │
+│ Collection Points Visited          │ 100%           │ Visit register │
+│ Quality Rejection Rate             │ ≤3%            │ Quality log    │
+│ Collection Data Accuracy           │ 100%           │ Data audit     │
+│ Member Complaints Received         │ ≤2/month       │ Complaint log  │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+MEMBER SERVICE KPIs:
+┌────────────────────────────────────┬────────────────┬────────────────┐
+│ KPI                                │ Target         │ Measurement    │
+├────────────────────────────────────┼────────────────┼────────────────┤
+│ Member Visits per Month            │ ≥30            │ Visit log      │
+│ New Member Registrations           │ ≥5/month       │ Member register│
+│ Member Query Resolution            │ ≤2 days        │ Query log      │
+│ Document Collection from Members   │ 100%           │ Document file  │
+│ Farmer Training Attendance         │ ≥80% members   │ Training log   │
+└────────────────────────────────────┴────────────────┴────────────────┘
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="performance-evaluation-system">Performance Evaluation System</h3>
+
+<h4 id="diagram-65-annual-performance-review-cycle">📊 <strong>DIAGRAM 65: Annual Performance Review Cycle</strong></h4>
+
+<div class="mermaid">
+flowchart TD
+    A[April: Set Annual Goals<br/>Board + CEO] --> B[May-June: Q1 Review<br/>Progress Assessment]
+    B --> C[July-Sept: Q2 Review<br/>Mid-Year Assessment]
+    C --> D[Oct-Dec: Q3 Review<br/>Course Correction]
+    D --> E[January: Q4 Review<br/>Year-End Assessment]
+    E --> F[February: Performance Scoring<br/>KPI Achievement]
+    F --> G[March: Annual Appraisal<br/>Bonus/Increment Decision]
+    G --> H[March: Succession Planning<br/>Development Plans]
+    H --> A
+    
+    B --> I[Monthly Board Reports]
+    C --> I
+    D --> I
+    E --> I
+    
+    style A fill:#e1f5ff
+    style F fill:#fff9c4
+    style G fill:#c8e6c9
+    style H fill:#ffcdd2
+</div>
+
+<hr>
+
+<h3 id="performance-evaluation-template">Performance Evaluation Template</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+FPO ANNUAL PERFORMANCE EVALUATION FORM
+═══════════════════════════════════════════════════════════════════════
+
+EMPLOYEE/POSITION DETAILS:
+─────────────────────────────────────────────────────────────────────
+Name: ________________________________
+Position: ____________________________
+Evaluation Period: ___________________
+Evaluator: ___________________________
+
+PART A: KPI ACHIEVEMENT (70% Weight)
+─────────────────────────────────────────────────────────────────────
+┌────────────────────────────┬────────┬────────┬───────┬────────────┐
+│ KPI                        │ Target │ Actual │ Score │ Weighted   │
+├────────────────────────────┼────────┼────────┼───────┼────────────┤
+│ KPI 1: ________________    │        │        │  /10  │            │
+│ KPI 2: ________________    │        │        │  /10  │            │
+│ KPI 3: ________________    │        │        │  /10  │            │
+│ KPI 4: ________________    │        │        │  /10  │            │
+│ KPI 5: ________________    │        │        │  /10  │            │
+├────────────────────────────┴────────┴────────┴───────┴────────────┤
+│ TOTAL KPI SCORE:                                        /50 × 0.7 │
+└───────────────────────────────────────────────────────────────────┘
+
+PART B: BEHAVIORAL COMPETENCIES (30% Weight)
+─────────────────────────────────────────────────────────────────────
+Rate 1-5 (1=Poor, 5=Excellent)
+
+☐ Integrity &amp; Ethics:           [ ]/5
+☐ Team Collaboration:           [ ]/5
+☐ Communication Skills:         [ ]/5
+☐ Problem Solving:              [ ]/5
+☐ Member/Customer Focus:        [ ]/5
+☐ Initiative &amp; Leadership:      [ ]/5
+
+TOTAL BEHAVIORAL SCORE:         [ ]/30 × 0.3
+
+PART C: OVERALL SCORE
+─────────────────────────────────────────────────────────────────────
+KPI Score (Part A):             [ ]
+Behavioral Score (Part B):      [ ]
+TOTAL SCORE:                    [ ]/100
+
+RATING:
+☐ Outstanding (90-100)
+☐ Excellent (80-89)
+☐ Good (70-79)
+☐ Satisfactory (60-69)
+☐ Needs Improvement (&lt;60)
+
+PART D: DEVELOPMENT PLAN
+─────────────────────────────────────────────────────────────────────
+Strengths:
+1. _________________________________________________
+2. _________________________________________________
+
+Areas for Improvement:
+1. _________________________________________________
+2. _________________________________________________
+
+Training Needs:
+1. _________________________________________________
+2. _________________________________________________
+
+Goals for Next Year:
+1. _________________________________________________
+2. _________________________________________________
+
+PART E: COMPENSATION DECISION
+─────────────────────────────────────────────────────────────────────
+Current Salary/Honorarium: ₹____________
+Recommended Increment: _____% (₹____________)
+Bonus Recommendation: ₹____________
+
+Evaluator Signature: _____________________ Date: ___________
+Employee Signature: ______________________ Date: ___________
+Chairman Approval: _______________________ Date: ___________
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="training-capacity-building-framework">Training & Capacity Building Framework</h3>
+
+<h4 id="diagram-66-training-requirements-by-position">📊 <strong>DIAGRAM 66: Training Requirements by Position</strong></h4>
+
+<div class="mermaid">
+flowchart LR
+    A[FPO Training<br/>Framework] --> B[BOARD MEMBERS]
+    A --> C[CEO/MANAGER]
+    A --> D[STAFF]
+    A --> E[MEMBERS]
+    
+    B --> B1[Governance Training<br/>2 days/year]
+    B --> B2[Financial Literacy<br/>1 day/year]
+    B --> B3[Leadership Skills<br/>1 day/year]
+    
+    C --> C1[Business Management<br/>5 days/year]
+    C --> C2[Financial Management<br/>3 days/year]
+    C --> C3[Market Linkage<br/>2 days/year]
+    C --> C4[Compliance Training<br/>2 days/year]
+    
+    D --> D1[Technical Skills<br/>3 days/year]
+    D --> D2[Software Training<br/>2 days/year]
+    D --> D3[Member Service<br/>1 day/year]
+    
+    E --> E1[FPO Awareness<br/>1 day/year]
+    E --> E2[Best Practices<br/>2 days/year]
+    E --> E3[Quality Standards<br/>1 day/year]
+    
+    style A fill:#e1f5ff
+    style B fill:#ffcdd2
+    style C fill:#c8e6c9
+    style D fill:#fff9c4
+    style E fill:#81c784
+</div>
+
+<hr>
+
+<h3 id="comprehensive-training-calendar">Comprehensive Training Calendar</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+FPO ANNUAL TRAINING CALENDAR - 2025
+═══════════════════════════════════════════════════════════════════════
+
+QUARTER 1 (APRIL - JUNE): FOUNDATION TRAINING
+─────────────────────────────────────────────────────────────────────
+
+APRIL:
+├─ Board Training: Governance &amp; Compliance (2 days)
+│   Topics: Bylaws, Companies Act, ROC compliance
+│   Trainer: CA/CS professional
+│   Cost: ₹10,000-15,000
+│
+├─ CEO Training: Business Planning (3 days)
+│   Topics: Annual planning, budgeting, target setting
+│   Trainer: NABARD/SFAC resource person
+│   Cost: ₹15,000-20,000
+│
+└─ Member Orientation: New Member Induction (1 day)
+    Topics: FPO benefits, rights, responsibilities
+    Trainer: CEO/Board members
+    Cost: ₹2,000-3,000
+
+MAY:
+├─ Accountant Training: Accounting Software (2 days)
+│   Topics: Tally/software training, GST compliance
+│   Trainer: Software vendor/CA
+│   Cost: ₹8,000-12,000
+│
+└─ Field Staff: Collection &amp; Quality (1 day)
+    Topics: Collection procedures, quality testing
+    Trainer: Activity manager/External expert
+    Cost: ₹3,000-5,000
+
+JUNE:
+└─ All Staff: Team Building &amp; Communication (1 day)
+    Topics: Team work, communication, conflict resolution
+    Trainer: HR professional
+    Cost: ₹5,000-8,000
+
+QUARTER 2 (JULY - SEPTEMBER): OPERATIONAL TRAINING
+─────────────────────────────────────────────────────────────────────
+
+JULY:
+├─ CEO/Treasurer: Financial Management (2 days)
+│   Topics: Cash flow, costing, profitability analysis
+│   Trainer: CA professional
+│   Cost: ₹12,000-15,000
+│
+└─ Member Training: Best Agricultural Practices (1 day)
+    Topics: Crop/dairy best practices, quality improvement
+    Trainer: Agriculture extension officer
+    Cost: ₹5,000-8,000
+
+AUGUST:
+├─ Board Training: Strategic Planning (1 day)
+│   Topics: Long-term vision, growth strategy
+│   Trainer: Management consultant
+│   Cost: ₹8,000-10,000
+│
+└─ Field Staff: Digital Tools Training (1 day)
+    Topics: Mobile apps, data collection, reporting
+    Trainer: IT professional
+    Cost: ₹3,000-5,000
+
+SEPTEMBER:
+└─ CEO: Market Linkage &amp; Negotiation (2 days)
+    Topics: Buyer relations, contract negotiation, pricing
+    Trainer: Marketing professional
+    Cost: ₹15,000-20,000
+
+QUARTER 3 (OCTOBER - DECEMBER): SKILL ENHANCEMENT
+─────────────────────────────────────────────────────────────────────
+
+OCTOBER:
+├─ Treasurer/Accountant: Audit Preparation (1 day)
+│   Topics: Audit readiness, document organization
+│   Trainer: Auditor/CA
+│   Cost: ₹5,000-8,000
+│
+└─ Member Training: Quality Standards (1 day)
+    Topics: Quality requirements, grading, rejection reasons
+    Trainer: Quality expert
+    Cost: ₹5,000-8,000
+
+NOVEMBER:
+└─ All Staff: Safety &amp; Compliance (1 day)
+    Topics: Workplace safety, legal compliance, DPDP
+    Trainer: Legal/HR professional
+    Cost: ₹5,000-8,000
+
+DECEMBER:
+└─ Board &amp; CEO: Annual Review &amp; Planning (1 day)
+    Topics: Year review, next year planning
+    Trainer: Internal/External facilitator
+    Cost: ₹5,000-8,000
+
+QUARTER 4 (JANUARY - MARCH): ADVANCED TRAINING
+─────────────────────────────────────────────────────────────────────
+
+JANUARY:
+├─ CEO: Government Scheme Navigation (1 day)
+│   Topics: New schemes, subsidy applications
+│   Trainer: Government official/RI
+│   Cost: ₹5,000-8,000
+│
+└─ Member Training: FPO Benefits Awareness (1 day)
+    Topics: Scheme updates, dividend distribution
+    Trainer: CEO/Board members
+    Cost: ₹3,000-5,000
+
+FEBRUARY:
+└─ Board Training: Leadership Development (1 day)
+    Topics: Decision making, conflict resolution
+    Trainer: Leadership coach
+    Cost: ₹8,000-12,000
+
+MARCH:
+├─ All Staff: Performance Review Training (1 day)
+│   Topics: Self-assessment, goal setting
+│   Trainer: HR professional
+│   Cost: ₹5,000-8,000
+│
+└─ Succession Planning Workshop (Board + Key Staff, 1 day)
+    Topics: Identifying successors, knowledge transfer
+    Trainer: Management consultant
+    Cost: ₹10,000-15,000
+
+═══════════════════════════════════════════════════════════════════════
+
+ANNUAL TRAINING BUDGET SUMMARY:
+─────────────────────────────────────────────────────────────────────
+Board Training:                    ₹35,000 - 50,000
+CEO/Management Training:           ₹50,000 - 70,000
+Staff Training:                    ₹25,000 - 35,000
+Member Training:                   ₹15,000 - 25,000
+─────────────────────────────────────────────────────────────────────
+TOTAL ANNUAL TRAINING BUDGET:      ₹1,25,000 - 1,80,000 (~1.5% of revenue)
+
+TRAINING FUNDING SOURCES:
+├─ FPO Budget: 50%
+├─ SFAC/NABARD Training Support: 30%
+└─ Government Schemes: 20%
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
+
+<h3 id="succession-planning-framework">Succession Planning Framework</h3>
+
+<h4 id="diagram-67-succession-planning-matrix">📊 <strong>DIAGRAM 67: Succession Planning Matrix</strong></h4>
+
+<div class="mermaid">
+flowchart TD
+    A[SUCCESSION PLANNING<br/>Ensure FPO Continuity] --> B[Identify Critical Positions]
+    
+    B --> C[Chairman]
+    B --> D[CEO]
+    B --> E[Treasurer]
+    B --> F[Key Staff]
+    
+    C --> C1[Potential Successor 1]
+    C --> C2[Potential Successor 2]
+    
+    D --> D1[Internal Candidate]
+    D --> D2[External Hire Plan]
+    
+    E --> E1[Board Member<br/>with Finance Background]
+    E --> E2[Accountant<br/>Promotion Track]
+    
+    F --> F1[Cross-Training<br/>Program]
+    F --> F2[Knowledge<br/>Documentation]
+    
+    C1 --> G[Development Plan]
+    C2 --> G
+    D1 --> G
+    D2 --> G
+    E1 --> G
+    E2 --> G
+    F1 --> G
+    F2 --> G
+    
+    G --> H[Ready Pool<br/>For Transition]
+    
+    style A fill:#e1f5ff
+    style G fill:#fff9c4
+    style H fill:#4caf50
+</div>
+
+<hr>
+
+<h3 id="succession-planning-template">Succession Planning Template</h3>
+
+<pre><code>═══════════════════════════════════════════════════════════════════════
+FPO SUCCESSION PLANNING DOCUMENT
+═══════════════════════════════════════════════════════════════════════
+
+PART 1: CRITICAL POSITION IDENTIFICATION
+─────────────────────────────────────────────────────────────────────
+
+Position: CHAIRMAN
+Current Incumbent: _________________________________
+Tenure End Date: _________________________________
+Succession Risk: ☐ Low  ☐ Medium  ☐ High
+
+Potential Successors:
+1. Name: _________________ Readiness: ☐ Ready Now  ☐ 1-2 Years  ☐ 3+ Years
+   Strengths: _______________________________________________
+   Development Needs: ________________________________________
+   
+2. Name: _________________ Readiness: ☐ Ready Now  ☐ 1-2 Years  ☐ 3+ Years
+   Strengths: _______________________________________________
+   Development Needs: ________________________________________
+
+─────────────────────────────────────────────────────────────────────
+
+Position: CEO/MANAGER
+Current Incumbent: _________________________________
+Employment End/Retirement: _________________________________
+Succession Risk: ☐ Low  ☐ Medium  ☐ High
+
+Internal Successor:
+Name: _________________ Readiness: ☐ Ready Now  ☐ 1-2 Years  ☐ 3+ Years
+Current Position: _________________________________
+Development Plan: __________________________________________
+
+External Hiring Plan (if needed):
+Timeline: _________________________________________________
+Budget: __________________________________________________
+Recruitment Channel: ______________________________________
+
+─────────────────────────────────────────────────────────────────────
+
+Position: TREASURER
+Current Incumbent: _________________________________
+Tenure End Date: _________________________________
+Succession Risk: ☐ Low  ☐ Medium  ☐ High
+
+Potential Successor:
+Name: _________________ Readiness: ☐ Ready Now  ☐ 1-2 Years  ☐ 3+ Years
+Current Position: _________________________________
+Development Plan: __________________________________________
+
+─────────────────────────────────────────────────────────────────────
+
+Position: ACCOUNTANT
+Current Incumbent: _________________________________
+Retention Risk: ☐ Low  ☐ Medium  ☐ High
+
+Backup Plan:
+☐ Cross-trained staff member: _________________________________
+☐ Outsourced accountant arrangement: __________________________
+☐ CA firm backup: ____________________________________________
+
+PART 2: KNOWLEDGE TRANSFER PLAN
+─────────────────────────────────────────────────────────────────────
+
+Critical Knowledge Areas to Document:
+☐ Bank account operations &amp; signatories
+☐ Government scheme contacts &amp; processes
+☐ Buyer relationships &amp; contracts
+☐ Member database &amp; communication
+☐ Compliance filing procedures
+☐ Software/system passwords
+☐ Insurance &amp; legal documents
+☐ Key contact list
+
+Documentation Responsibility:
+Preparer: _________________________ Deadline: ______________
+Reviewer: _________________________ Storage: ______________
+
+PART 3: EMERGENCY SUCCESSION
+─────────────────────────────────────────────────────────────────────
+
+In case of sudden vacancy/incapacity:
+
+CHAIRMAN Incapacity:
+├─ Vice-Chairman assumes duties immediately
+├─ Board meeting within 7 days
+├─ Election within 30 days (if permanent)
+└─ Contact: _________________________ (Vice-Chairman)
+
+CEO Incapacity:
+├─ Chairman assumes operational oversight
+├─ Senior staff continues operations
+├─ Board meeting within 3 days
+├─ Interim appointment within 15 days
+└─ Contact: _________________________ (Chairman)
+
+TREASURER Incapacity:
+├─ Chairman/CEO handles urgent payments
+├─ Accountant continues daily operations
+├─ Board appoints interim within 7 days
+└─ Contact: _________________________ (Accountant)
+
+PART 4: ANNUAL REVIEW
+─────────────────────────────────────────────────────────────────────
+
+Review Date: _______________
+Reviewed by: _______________
+Changes Made: _______________________________________________
+Next Review: _______________
+
+Board Resolution Number: _______________
+Date Approved: _______________
+
+═══════════════════════════════════════════════════════════════════════</code></pre>
+
+<hr>
 
 <h4 id="diagram-34-fpo-organizational-structure-chart">📊 <strong>DIAGRAM 34: FPO Organizational Structure Chart</strong></h4>
 

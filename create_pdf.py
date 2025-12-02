@@ -67,16 +67,13 @@ async def generate_pdf():
         except Exception as e:
             print(f"WARNING: Page load timeout, continuing anyway: {e}")
         
-        # Wait for Mermaid to render - reduced to 30 seconds for faster generation
-        wait_time = 30  # seconds
+        # Wait for Mermaid to render - reduced to 15 seconds for faster generation
+        wait_time = 15  # seconds
         print(f"\nWaiting {wait_time} seconds for Mermaid.js to render all diagrams...")
-        print("(This ensures all 49 Mermaid diagrams are fully rendered)")
+        print("(This ensures all 67 Mermaid diagrams are fully rendered)")
         
-        # Progress indicator - check every 5 seconds
-        for i in range(0, wait_time, 5):
-            print(f"  {i} seconds elapsed...")
-            await asyncio.sleep(5)
-        
+        # Single wait instead of loop to prevent interruption issues
+        await asyncio.sleep(wait_time)
         print(f"  {wait_time} seconds elapsed - wait complete.")
         
         # Check for rendered Mermaid diagrams
@@ -91,10 +88,10 @@ async def generate_pdf():
             rendered_svgs = await page.locator('.mermaid svg').count()
             print(f"  Found {rendered_svgs} rendered SVG diagrams")
             
-            if rendered_svgs < 49:
-                print(f"\n⚠️ WARNING: Only {rendered_svgs} of 49 diagrams appear to be rendered.")
-                print("    Waiting an additional 30 seconds...")
-                await asyncio.sleep(30)
+            if rendered_svgs < 67:
+                print(f"\n⚠️ WARNING: Only {rendered_svgs} of 67 diagrams appear to be rendered.")
+                print("    Waiting an additional 10 seconds...")
+                await asyncio.sleep(10)
                 
                 # Recheck
                 rendered_svgs = await page.locator('.mermaid svg').count()
